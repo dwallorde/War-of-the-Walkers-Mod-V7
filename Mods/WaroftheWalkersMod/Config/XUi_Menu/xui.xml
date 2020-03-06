@@ -1,0 +1,18 @@
+<configs>
+
+	<!-- WOTW Menu Background -->
+	<remove xpath="/xui/ruleset[@name='default']/window_group[@name='menuBackground']/window[@name='menuBackground']" />
+	
+	<append xpath="/xui/ruleset[@name='default']/window_group[@name='menuBackground']">
+		<window name="WOTWmenuBackground" />
+	</append>
+	
+	<!-- WOTW Menu Main Menu -->
+	<remove xpath="/xui/ruleset[@name='default']/window_group[@name='mainMenu']/window[@name='mainMenu']" />
+	
+	<append xpath="/xui/ruleset[@name='default']/window_group[@name='mainMenu']">
+		<window name="WOTWmainMenu" anchor="LeftCenter" />
+		<window name="WOTWhudLogo" anchor="RightTop" />
+	</append>
+	
+</configs>

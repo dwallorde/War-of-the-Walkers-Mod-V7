@@ -1,0 +1,24 @@
+<configs>
+
+<!--	// SMX // Global Colors -->
+
+		<append xpath="/styles/global">
+			<style_entry name="menuElementsMenuBG"					value="0,0,0" />
+			<style_entry name="menuElementsMenuLine"				value="128,128,128" />
+			<style_entry name="menuElementsMenuBTN"					value="175,30,25" />
+			<style_entry name="menuElementsLBLPri"					value="255,255,255" />
+			<style_entry name="menuElementsLBLSec"					value="128,128,128" />
+		</append>
+
+
+<!--	// SMX // Menu Button -->
+
+		<append xpath="/styles">
+			<style name="smx_menu_button">
+				<style_entry name="width" 							value="230" />				
+				<style_entry name="height" 							value="60" />				
+				<style_entry name="pivot" 							value="center" />				
+			</style>
+		</append>
+
+</configs>

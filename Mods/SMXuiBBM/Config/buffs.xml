@@ -1,0 +1,12 @@
+<configs>
+
+<!--	// SMX // God Mode Buff Change -->
+
+		<set xpath="/buffs/buff[@name='god']/effect_group/passive_effect[@name='CarryCapacity']/@value">63</set>
+
+
+<!--	// SMX // Steroid Buff Change -->
+
+		<set xpath="/buffs/buff[@name='buffDrugSteroids']/effect_group/passive_effect[@name='CarryCapacity']/@value">63</set>
+
+</configs>

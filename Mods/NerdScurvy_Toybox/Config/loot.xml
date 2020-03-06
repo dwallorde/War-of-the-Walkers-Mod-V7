@@ -1,0 +1,50 @@
+<configs>
+	<!-- Adding Lockpicks to loot lists so they can be found in the world -->
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='empty']"> 
+		<lootgroup name="toybox">
+			<item name="toyCrocodileBlue" prob="1"/>
+			<item name="toyCrocodileGreen" prob="1"/>
+			<item name="toyCrocodilePink" prob="1"/>
+			<item name="toyDogBlack" prob="1"/>
+			<item name="toyDogPink" prob="1"/>
+			<item name="toyDogYellow" prob="1"/>
+			<item name="toyDolphinBlack" prob="1"/>
+			<item name="toyDolphinBlue" prob="1"/>
+			<item name="toyDolphinPink" prob="1"/>
+			<item name="toyElephantBlack" prob="1"/>
+			<item name="toyElephantBlue" prob="1"/>
+			<item name="toyElephantPink" prob="1"/>
+			<item name="toyFoxBlack" prob="1"/>
+			<item name="toyFoxOrange" prob="1"/>
+			<item name="toyFoxPink" prob="1"/>
+			<item name="toyFrogBlue" prob="1"/>
+			<item name="toyFrogGreen" prob="1"/>
+			<item name="toyFrogPink" prob="1"/>
+			<item name="toyGiraffeBlue" prob="1"/>
+			<item name="toyGiraffeBrown" prob="1"/>
+			<item name="toyGiraffePink" prob="1"/>
+			<item name="toyLionBlue" prob="1"/>
+			<item name="toyLionBrown" prob="1"/>
+			<item name="toyLionPink" prob="1"/>
+			<item name="toyMouseBlack" prob="1"/>
+			<item name="toyMouseGrey" prob="1"/>
+			<item name="toyMousePink" prob="1"/>
+			<item name="toySealBlue" prob="1"/>
+			<item name="toySealBrown" prob="1"/>
+			<item name="toySealPink" prob="1"/>			
+		</lootgroup>	
+	</insertAfter>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='6']"> <!-- Nightstands -->
+		<item group="toybox" count="1,2" prob="0.5"/>
+	</append>	
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='43']"> <!-- Lockers -->
+		<item group="toybox" count="1" prob="0.5"/>
+	</append>	
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='15']"><!-- misc storage, cardboard boxes-->
+		<item group="toybox" count="1,2" prob="0.5"/>
+	</append>	
+	
+</configs>

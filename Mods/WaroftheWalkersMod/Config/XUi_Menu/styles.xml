@@ -1,0 +1,44 @@
+<configs>
+
+	<!-- WOTW Version Info -->
+	<append xpath="/styles">
+		<style name="WOTW.edition.info" type="label">
+			<style_entry name="depth" value="9" />
+			<style_entry name="size" value="250,33" />
+			<style_entry name="text" value="Current Version" />
+			<style_entry name="font_size" value="16" />
+			<style_entry name="color" value="[white]" />
+			<style_entry name="effect" value="outline" />
+			<style_entry name="upper_case" value="true" />
+			<style_entry name="justify" value="center" />
+			<style_entry name="pivot" value="center" />
+		</style>
+
+		<style name="WOTW.version.info" type="label">
+			<style_entry name="depth" value="9" />
+			<style_entry name="size" value="250,33" />
+			<style_entry name="text" value="WOTW V7.0.0 Beta" />
+			<style_entry name="font_size" value="16" />
+			<style_entry name="color" value="[white]" />
+			<style_entry name="effect" value="outline" />
+			<style_entry name="upper_case" value="false" />
+			<style_entry name="justify" value="center" />
+			<style_entry name="pivot" value="center" />
+		</style>
+	</append>
+
+	<!-- WOTW HUD Logo -->
+	<append xpath="/styles">
+		<style name="WOTW.hudLogo.window" type="window">
+			<style_entry name="pos" value="0,2" />
+			<style_entry name="size" value="250,40" />
+		</style>
+
+		<style name="WOTW.hudLogo.texture" type="texture">
+			<style_entry name="depth" value="1" />
+			<style_entry name="size" value="250,40" />
+			<style_entry name="texture" value="@file:Mods\WaroftheWalkersMod\Textures\Menu\wwhudlogo.png" />
+		</style>
+	</append>
+
+</configs>

@@ -1,0 +1,70 @@
+<configs>
+	<append xpath="/blockplaceholders/placeholder[@name='cntHouseRandomLootHelper']">	
+	    <block name="toyCrocodileBlue" prob="0.1"/>
+	    <block name="toyCrocodileGreen" prob="0.1"/>
+	    <block name="toyCrocodilePink" prob="0.1"/>
+	    <block name="toyDogBlack" prob="0.1"/>
+	    <block name="toyDogPink" prob="0.1"/>
+	    <block name="toyDogYellow" prob="0.1"/>
+	    <block name="toyDolphinBlack" prob="0.1"/>
+	    <block name="toyDolphinBlue" prob="0.1"/>
+	    <block name="toyDolphinPink" prob="0.1"/>
+	    <block name="toyElephantBlack" prob="0.1"/>
+	    <block name="toyElephantBlue" prob="0.1"/>
+	    <block name="toyElephantPink" prob="0.1"/>
+	    <block name="toyFoxBlack" prob="0.1"/>
+	    <block name="toyFoxOrange" prob="0.1"/>
+	    <block name="toyFoxPink" prob="0.1"/>
+	    <block name="toyFrogBlue" prob="0.1"/>
+	    <block name="toyFrogGreen" prob="0.1"/>
+	    <block name="toyFrogPink" prob="0.1"/>
+	    <block name="toyGiraffeBlue" prob="0.1"/>
+	    <block name="toyGiraffeBrown" prob="0.1"/>
+	    <block name="toyGiraffePink" prob="0.1"/>
+	    <block name="toyLionBlue" prob="0.1"/>
+	    <block name="toyLionBrown" prob="0.1"/>
+	    <block name="toyLionPink" prob="0.1"/>
+	    <block name="toyMouseBlack" prob="0.1"/>
+	    <block name="toyMouseGrey" prob="0.1"/>
+	    <block name="toyMousePink" prob="0.1"/>
+	    <block name="toySealBlue" prob="0.1"/>
+	    <block name="toySealBrown" prob="0.1"/>
+	    <block name="toySealPink" prob="0.1"/>
+	</append>
+	
+	<append xpath="/blockplaceholders/placeholder[@name='cntYardRandomLootHelper']">	
+	    <block name="toyCrocodileBlue" prob="0.005"/>
+	    <block name="toyCrocodileGreen" prob="0.005"/>
+	    <block name="toyCrocodilePink" prob="0.005"/>
+	    <block name="toyDogBlack" prob="0.005"/>
+	    <block name="toyDogPink" prob="0.005"/>
+	    <block name="toyDogYellow" prob="0.005"/>
+	    <block name="toyDolphinBlack" prob="0.005"/>
+	    <block name="toyDolphinBlue" prob="0.005"/>
+	    <block name="toyDolphinPink" prob="0.005"/>
+	    <block name="toyElephantBlack" prob="0.005"/>
+	    <block name="toyElephantBlue" prob="0.005"/>
+	    <block name="toyElephantPink" prob="0.005"/>
+	    <block name="toyFoxBlack" prob="0.005"/>
+	    <block name="toyFoxOrange" prob="0.005"/>
+	    <block name="toyFoxPink" prob="0.005"/>
+	    <block name="toyFrogBlue" prob="0.005"/>
+	    <block name="toyFrogGreen" prob="0.005"/>
+	    <block name="toyFrogPink" prob="0.005"/>
+	    <block name="toyGiraffeBlue" prob="0.005"/>
+	    <block name="toyGiraffeBrown" prob="0.005"/>
+	    <block name="toyGiraffePink" prob="0.005"/>
+	    <block name="toyLionBlue" prob="0.005"/>
+	    <block name="toyLionBrown" prob="0.005"/>
+	    <block name="toyLionPink" prob="0.005"/>
+	    <block name="toyMouseBlack" prob="0.005"/>
+	    <block name="toyMouseGrey" prob="0.005"/>
+	    <block name="toyMousePink" prob="0.005"/>
+	    <block name="toySealBlue" prob="0.005"/>
+	    <block name="toySealBrown" prob="0.005"/>
+	    <block name="toySealPink" prob="0.005"/>
+	</append>
+	
+	
+	
+</configs>

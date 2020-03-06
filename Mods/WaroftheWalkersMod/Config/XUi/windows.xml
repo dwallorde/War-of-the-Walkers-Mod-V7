@@ -1,0 +1,543 @@
+<configs>
+
+	<!-- WOTW HUD Stat Bars, Wellness and Buffs -->
+	<append xpath="/windows">
+	<window name="WOTWHUDLeftStatBars" pos="9,15" size="240,175">
+		<rect name="SMXstatBars" pos="9,147" size="240,35" rows="2" cols="1" side="right">
+			<rect name="SMXstealthBar" pos="0,-3" size="240,35" controller="HUDStatBar" stat_type="Stealth" visible="{statvisible}">
+				<sprite name="background" depth="3" pos="-10,-1" size="250,18" atlas="hudElements" sprite="smx_stats_stealth_background" type="filled" fill="1" globalopacitymod="1.5" />
+				<sprite name="BarContent" depth="4" pos="8,-6" size="220,8" atlas="hudElements" sprite="smx_stats_stealth_bar" type="filled" fill="0" />
+				<sprite name="Icon" depth="5" pos="242,5" size="30,30" atlas="hudIcons" sprite="smx_stats_stealth_icon" color="[hudElementsIcon]" foregroundlayer="true" />
+				<label name="TextContent" depth="6" pos="0,-5" text="{statcurrent}" font_size="14" color="[hudElementsLBLPri]" font_face="ReferenceFont" crispness="Never" effect="outline" justify="center" pivot="topleft" />
+			</rect>
+			<rect name="SMXhealthBar" pos="0,-35" size="240,55" controller="HUDStatBar" stat_type="Health" visible="{statvisible}">
+				<sprite name="SMXhealthBG" depth="2" pos="0,8" size="242,70" atlas="hudElements" sprite="smx_stats_health_background" type="sliced" globalopacitymod="1.5" />
+				<sprite name="background" depth="2" pos="8,-10" size="220,28" atlas="hudElements" sprite="smx_stats_health_bar_empty" type="sliced" globalopacitymod="0.6" />
+				<sprite name="background" depth="3" pos="8,-10" size="220,28" atlas="hudElements" sprite="smx_stats_health_bar_empty" type="filled" fill="{statmodifiedmax}" globalopacitymod="1.3" />
+				<sprite name="BarContent" depth="5" pos="8,-10" size="220,28" atlas="hudElements" sprite="wotwufahealth" type="filled" fill="0" />
+				<sprite name="Icon" depth="6" pos="240,-4" size="36,36" atlas="hudIcons" sprite="smx_stats_health_icon" color="[hudElementsIcon]" foregroundlayer="true" />
+				<label name="TextContent" depth="7" pos="0,-10" text="{statcurrentwithmax}" font_size="26" color="[red]" font_face="ReferenceFont" crispness="Never" effect="outline" justify="center" pivot="topleft" />
+			</rect>
+			<rect name="SMXstaminaBar" pos="0,-74" size="240,55" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}">
+				<sprite name="SMXstaminaBG" depth="2" pos="0,0" size="240,65" atlas="hudElements" sprite="smx_stats_stamina_background" type="sliced" globalopacitymod="1.5" />
+				<sprite name="background" depth="2" pos="8,-12" size="220,28" atlas="hudElements" sprite="smx_stats_stamina_bar_empty" type="sliced" globalopacitymod="0.6" />
+				<sprite name="background" depth="3" pos="8,-12" size="220,28" atlas="hudElements" sprite="smx_stats_stamina_bar_empty" type="filled" fill="{statmodifiedmax}" globalopacitymod="1.3" />
+				<sprite name="BarContent" depth="5" pos="8,-12" size="220,28" atlas="hudElements" sprite="wotwuf5staminabar" type="filled" fill="0" />
+				<sprite name="Icon" depth="6" pos="240,-10" size="36,36" atlas="hudIcons" sprite="smx_stats_stamina_icon" color="[hudElementsIcon]" foregroundlayer="true" />
+				<label name="TextContent" depth="7" pos="0,-12" text="{statcurrentwithmax}" font_size="26" color="0,128,0" font_face="ReferenceFont" crispness="Never" effect="outline" justify="center" pivot="topleft" />
+			</rect>
+		</rect>
+		<!-- [hudElementsLBLPri] -->
+
+		<rect name="SMXwellnessBars" pos="9,80" size="240,35" rows="1" cols="2" side="right">
+			<rect name="SMXhungerBar" pos="0,0" size="118,35" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}">
+				<sprite name="SMXhungerBG" depth="3" pos="0,-54" size="120,30" atlas="hudElements" sprite="smx_stats_wellness_background" type="sliced"  color="[hudElementsBG]" globalopacitymod="1.5" />
+				<sprite name="background" depth="3" pos="8,-63" size="103,14" atlas="hudElements" sprite="smx_stats_hunger_bar_empty" type="sliced" globalopacitymod="1.5" />
+				<sprite name="background" depth="4" pos="10,-65" size="100,10" atlas="hudElements" sprite="wotwuf5hungerbar"  type="filled" fill="{statmodifiedmax}" />
+				<sprite name="Icon" depth="6" pos="0,-60" size="20,20" atlas="hudIcons" sprite="smx_stats_hunger_icon" color="[hudElementsIcon]" foregroundlayer="true" />
+				<label name="TextContent" depth="6" pos="0,-65" text="{playerfood}" font_size="14" color="[hudElementsLBLPri]" font_face="ReferenceFont" crispness="Never" effect="outline" justify="center" pivot="topleft" controller="PlayerStatsWindow" />
+			</rect>
+			<rect name="SMXthirstBar" pos="118,0" size="118,35" controller="HUDStatBar" stat_type="Water" visible="{statvisible}">
+				<sprite name="SMXthirstBG" depth="3" pos="0,-54" size="120,30" atlas="hudElements" sprite="smx_stats_wellness_background" type="sliced" color="[hudElementsBG]" globalopacitymod="1.5" />
+				<sprite name="background" depth="3" pos="8,-63" size="103,14" atlas="hudElements" sprite="smx_stats_thirst_background" type="sliced" globalopacitymod="1.5" />
+				<sprite name="BarContent" depth="4" pos="10,-65" size="100,10" atlas="hudElements" sprite="wotwuf5thirstbar" type="filled" fill="2" />
+				<sprite name="Icon" depth="6" pos="0,-60" size="20,20" atlas="hudIcons" sprite="smx_stats_thirst_icon" color="[hudElementsIcon]" foregroundlayer="true" />
+				<label name="TextContent" depth="6" pos="0,-65" text="{playerwater}" font_size="14" color="[hudElementsLBLPri]" font_face="ReferenceFont" crispness="Never" effect="outline" justify="center" pivot="topleft" controller="PlayerStatsWindow" />
+			</rect>
+		</rect>
+
+		<rect name="SMXbuffs" pos="90,136" controller="BuffPopoutList" pivot="BottomLeft" side="left">
+			<panel name="item" pos="70,0" size="168,43" pivot="right" disableautobackground="true" visible="false">
+				<sprite name="Background" depth="3" pos="99999,99999" size="60,60" atlas="hudElements" sprite="smx_icon_background" color="[hudElementsBG]" pivot="center" globalopacitymod="0.8" /> <!-- HIDDEN ELEMENT -->
+				<sprite name="SMXbuffBG" depth="3" pos="-58,0" size="60,60" atlas="hudElements" sprite="smx_icon_background" color="[hudElementsBG]" pivot="center" globalopacitymod="0.8" />
+				<sprite name="Icon" depth="4" pos="-58,0" size="36,32" pivot="center" color="[transparent]" />
+				<label name="TextContent" depth="6" pos="0,0" height="30" font_size="28" color="[hudElementsLBLPri]" font_face="ReferenceFont" crispness="Never" effect="outline" justify="center" pivot="center" />
+			</panel>
+		</rect>
+	</window>
+	</append>
+	
+	<!-- WOTW Compass -->
+	<append xpath="/windows">
+		<window name="WOTWwindowCompass" pos="-190,-9" size="400,45" controller="CompassWindow">
+			<sprite name="SMXcompassBG" depth="0" pos="20,0" size="380,50" atlas="uiAtlas" sprite="WOTWCompassBG" globalopacitymod="1.2" />
+			<!-- <sprite name="SMXcompassIndicator" depth="9" pos="170,10" size="42,58" atlas="uiAtlas" sprite="smx_hud_compass_indicator" color="[hudElementsCPSInd]" /> -->
+			<texture name="compassTexture" depth="8" pos="40,-7" size="340,33" texture="Textures/UI/ui_game_compass" color="[iconColor]" tooltip="CHARACTER" rect_size="0.25,1" rect_offset=".8,0" />
+		</window>
+	<!-- <window name="WOTWwindowCompass" style="compass.window" controller="CompassWindow">
+		<sprite style="compass.window.background.border"/>
+		<sprite style="WOTWcompass.window.background"/>
+		<sprite style="compass.window.compass.background">
+		</sprite>
+		<texture style="compass.window.compass.texture" name="compassTexture" rect_size="0.25,1" rect_offset=".8,0" >
+		</texture>
+		<sprite pos="240,-60" sprite="" color="255,255,255,255" globalopacitymod="1.8">
+			<label depth="2" width="300" height="30" text="{daytitle}: [{daycolor|always}]{day|always}[-] {timetitle}: {time|always}" font_size="28" pivot="center" effect="outline" upper_case="true" justify="center"/>
+		</sprite>
+	</window> -->
+	
+	<!-- <window name="WOTWwindowCompass" style="compass.window" controller="CompassWindow">
+		<sprite style="compass.window.background.border"/>
+		<sprite style="compass.window.background"/>
+		<sprite style="compass.window.compass.background">
+		</sprite>
+		<texture style="compass.window.compass.texture" name="compassTexture" rect_size="0.25,1" rect_offset=".8,0" >
+		</texture>
+	</window> -->
+	</append>
+	
+	<!-- WOTW HUD Logo -->
+	<append xpath="/windows">
+	<window name="WOTWhudLogo" style="WOTW.hudLogo.window">
+		<texture name="WOTWhudLogo" style="WOTW.hudLogo.texture" />
+	</window>
+	</append>
+	
+	<!-- WOTW Tungsten Forge -->
+	<append xpath="/windows">
+	<window name="windowTungstenForgeInput" width="228" height="233" panel="Right"
+		controller="WorkstationMaterialInputWindow" materials_accepted="iron,brass,lead,glass,stone,clay,tungsten" valid_materials_color="[green]" invalid_materials_color="[red]" cursor_area="true" >
+		<panel style="header.panel">
+			<sprite style="header.icon" atlas="ItemIconAtlas" sprite="ui_game_symbol_forge"/>
+			<label style="header.name" text="INPUT" text_key="xuiSmelting" />
+		</panel>
+
+		<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="0,-46" height="184" color="[black]" type="sliced" fillcenter="false" on_press="true" /> <!-- SIRILLION: dwallorde, I increased the height here to make the background fill the entire window | Original Value = "180" -->
+		<rect name="content" depth="1" pos="0,-46" height="168">
+
+			<grid depth="7" rows="3" cols="1" pos="3,-3" cell_width="60" cell_height="60" controller="WorkstationMaterialInputGrid" repeat_content="true">
+				<SMX_60_item_stack name="0" />
+			</grid>
+
+		</rect>
+
+		<rect name="content2" depth="0" pos="63, -49" width="165" height="179"> <!-- SIRILLION: dwallorde, I increased the height here to make the background fill the entire window | Original Value = "175" -->
+			<sprite depth="1" color="[mediumGrey]" type="sliced" on_press="true" />
+			<grid rows="7" cols="1" pos="3,-3" cell_width="150" cell_height="25"  repeat_content="true">
+				<forge_material name="0" />
+			</grid>
+		</rect>
+	</window>
+	</append>
+	
+	<!-- WOTW Builders Workbench -->
+	<append xpath="/windows">
+	<window name="windowToolsBuildersWorkbench" width="228" height="121" panel="Right" cursor_area="true" >
+		<panel style="header.panel">
+			<sprite style="header.icon" atlas="ItemIconAtlas" sprite="ui_game_symbol_wrench"/>
+			<label style="header.name" text="TOOLS" text_key="xuiTools" />
+		</panel>
+
+		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true" on_press="true">
+			<grid name="inventory" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false"
+			required_tools="rivetGun,rebarBender,weldingTool" required_tools_only="true">
+				<required_item_stack name="0"/>
+			</grid>
+		</rect>
+	</window>
+	</append>
+	
+	<!-- WOTW Tool Workbench (Check Name) -->
+	<append xpath="/windows">
+	<window name="windowToolsToolWorkbench" width="228" height="121" panel="Right" cursor_area="true" >
+		<panel style="header.panel">
+			<sprite style="header.icon" atlas="ItemIconAtlas" sprite="ui_game_symbol_wrench"/>
+			<label style="header.name" text="TOOLS" text_key="xuiTools" />
+		</panel>
+
+		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true" on_press="true">
+			<grid name="inventory" rows="1" cols="1" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false"
+			required_tools="hammerRounding" required_tools_only="true">
+				<required_item_stack name="0"/>
+			</grid>
+		</rect>
+	</window>
+	</append>
+	
+	<!-- WOTW Large Output Window -->
+	<append xpath="/windows">
+	<window name="windowOutputLarge" width="228" height="275" anchor="Center" panel="Right" cursor_area="true" >
+		<panel style="header.panel">
+			<sprite style="header.icon" atlas="ItemIconAtlas" sprite="ui_game_symbol_loot_sack"/>
+			<label style="header.name" text="OUTPUT" text_key="xuiOutput" />
+		</panel>
+
+		<rect name="content" depth="0" pos="0,-46" height="150" disablefallthrough="true" on_press="true">
+			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" height="150" color="[black]" type="sliced" fillcenter="false" on_press="true" />
+				<grid name="inventory" rows="3" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationOutputGrid" repeat_content="true">
+					<item_stack name="0"/>
+				</grid>
+		</rect>
+	</window>
+	</append>
+	
+	<!-- WOTW Gunsmithing Workstation -->
+	<append xpath="/windows">
+	<window name="windowToolsWeaponSmith" width="228" height="121" panel="Right" cursor_area="true" >
+		<panel style="header.panel">			
+			<sprite style="header.icon" atlas="ItemIconAtlas" sprite="ui_game_symbol_tool"/>
+			<label style="header.name" text="TOOLS" text_key="xuiTools" />
+		</panel>
+		
+		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true" on_press="true">
+			<grid name="inventory" rows="1" cols="2" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false"
+			required_tools="calipers,toolAndDieSet" required_tools_only="true">
+				<required_item_stack name="0"/>
+			</grid>
+		</rect>
+	</window>
+	
+	<window name="windowWeaponSmithInput1" width="228" height="204" panel="Right"
+		controller="WorkstationMaterialInputWindow" materials_accepted="iron,brass,lead,clay" valid_materials_color="[green]" invalid_materials_color="[red]" cursor_area="true" >
+		<panel style="header.panel">
+			<sprite style="header.icon" atlas="ItemIconAtlas" sprite="ui_game_symbol_forge"/>
+			<label style="header.name" text="INPUT" text_key="xuiSmelting" />
+		</panel>
+
+		<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="0,-46" height="180" color="[black]" type="sliced" fillcenter="false" on_press="true" />
+		<rect name="content" depth="1" pos="0,-46" height="168">
+			<grid depth="7" rows="2" cols="1" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationMaterialInputGrid" repeat_content="true">
+				<item_stack name="0"/>
+			</grid>
+		</rect>
+		<rect name="content2" depth="0" pos="78, -49" width="150" height="175">
+			<sprite depth="1" color="[mediumGrey]" type="sliced" on_press="true"/>
+			<grid rows="4" cols="1" pos="3,-3" cell_width="150" cell_height="25"  repeat_content="true">
+				<forge_material name="0"/>
+			</grid>
+		</rect>
+	</window>
+	
+	<window name="windowWeaponSmithOutput" width="228" height="152" anchor="CenterTop" panel="Right" cursor_area="true">
+		<panel style="header.panel">			
+			<sprite style="header.icon" atlas="ItemIconAtlas" sprite="ui_game_symbol_output"/>
+			<label style="header.name" text="OUTPUT" text_key="xuiOutput" />
+		</panel>
+		<rect name="content" depth="0" pos="0,-46" height="150" disablefallthrough="true" on_press="true">
+			<sprite depth="2" name="backgroundMain" atlas="ItemIconAtlas" sprite="menu_empty3px" height="150" color="[black]" type="sliced" fillcenter="false" on_press="true" />	
+				<grid name="inventory" rows="2" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationOutputGrid" repeat_content="true">
+					<item_stack name="0"/>
+				</grid>
+		</rect>
+	</window>
+	</append>
+	
+	<!-- WOTW Tungsten Forge -->
+	<append xpath="/windows">
+	<window name="windowToolsTungstenForge" width="228" height="121" panel="Right" cursor_area="true" >
+		<panel style="header.panel">
+			<sprite style="header.icon" atlas="ItemIconAtlas" sprite="ui_game_symbol_wrench"/>
+			<label style="header.name" text="TOOLS" text_key="xuiTools" />
+		</panel>
+		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true" on_press="true">
+			<grid name="inventory" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false"
+			required_tools="toolAnvil,toolForgeCrucible,toolAndDieSet" required_tools_only="true">
+				<required_item_stack name="0"/>
+			</grid>
+		</rect>
+	</window>
+	</append>
+	
+	<!-- WOTW Ammo Workbench -->
+	<append xpath="/windows">
+	<window name="windowToolsAmmoStation" width="228" height="121" panel="Right" cursor_area="true" >
+		<panel style="header.panel">
+			<sprite style="header.icon" atlas="ItemIconAtlas" sprite="ui_game_symbol_wrench"/>
+			<label style="header.name" text="TOOLS" text_key="xuiTools" />
+		</panel>
+		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true" on_press="true">
+			<grid name="inventory" rows="1" cols="2" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false"
+			required_tools="calipers,toolAndDieSet" required_tools_only="true">
+				<required_item_stack name="0"/>
+			</grid>
+		</rect>
+	</window>
+	</append>
+	
+	<!-- WOTW Mechanic Workbench -->
+	<append xpath="/windows">
+	<window name="windowToolsMechanicBench" width="228" height="121" panel="Right" cursor_area="true" >
+		<panel style="header.panel">
+			<sprite style="header.icon" atlas="ItemIconAtlas" sprite="ui_game_symbol_wrench"/>
+			<label style="header.name" text="TOOLS" text_key="xuiTools" />
+		</panel>
+		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true" on_press="true">
+			<grid name="inventory" rows="1" cols="2" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false"
+			required_tools="calipers,toolAndDieSet" required_tools_only="true">
+				<required_item_stack name="0"/>
+			</grid>
+		</rect>
+	</window>
+	</append>
+	
+	<!-- WOTW Mortar and Pestle -->
+	<append xpath="/windows">
+	<window name="windowToolsMortarandPestle" width="105" height="121" panel="Right" cursor_area="true"> <!-- Width="78" -->
+		<panel style="header.panel">			
+			<sprite style="header.icon" atlas="ItemIconAtlas" sprite="ui_game_symbol_mortarandpestle2"/>
+			<label style="header.name" text="TOOLS" text_key="xuiTools" />
+		</panel>
+		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true" on_press="true">
+			<grid name="inventory" rows="1" cols="1" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false" required_tools="toolBeaker" required_tools_only="true">
+				<required_item_stack name="0"/>
+			</grid>
+		</rect>
+	</window>
+	</append>
+	
+	<!-- WOTW Player Oven Tools -->
+	<append xpath="/windows">
+	<window name="windowToolsPlayerOven" width="228" height="200" panel="Right" cursor_area="true" > <!-- Height= 121 -->
+		<panel style="header.panel">
+			<sprite style="header.icon" atlas="ItemIconAtlas" sprite="ui_game_symbol_cookware"/>
+			<label style="header.name" text="TOOLS" text_key="xuiTools" />
+		</panel>
+		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true" on_press="true">
+			<grid name="inventory" rows="2" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false" required_tools="fryingPan,roastingPan,loafPan,toolCookingPot,toolCookingGrill,toolBeaker" required_tools_only="true">
+				<required_item_stack name="0"/>
+			</grid>
+		</rect>
+	</window>
+	</append>
+	
+	<!-- WOTW Food Processing Table Tools -->
+	<append xpath="/windows">
+	<window name="windowToolsFoodProcessingTable" width="228" height="121" panel="Right" cursor_area="true" >
+		<panel style="header.panel">
+			<sprite style="header.icon" atlas="ItemIconAtlas" sprite="ui_game_symbol_cookware"/>
+			<label style="header.name" text="TOOLS" text_key="xuiTools" />
+		</panel>
+		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true" on_press="true">
+			<grid name="inventory" rows="1" cols="1" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false" required_tools="cuttingBoard" required_tools_only="true">
+				<required_item_stack name="0"/>
+			</grid>
+		</rect>
+	</window>
+	</append>
+	
+	<!-- WOTW Mortar and Pestle Crafting List (Remove?) -->
+	<append xpath="/windows">
+	<window name="windowMortarCraftingList" width="397" height="688" controller="CraftingListInfo" panel="Left" cursor_area="true" >
+	
+		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
+			<sprite pos="4,-5" depth="2" name="windowIcon" style="icon32px" atlas="ItemIconAtlas" sprite="Craft_Icon_Basics"/>
+			<label style="header.name" text="basics" text_key="xuiBasics" />
+			<label pos="387, -6" depth="2" name="unlockedCount" width="64" height="32" text="0/65" font_size="32" color="[lightGrey]" justify="right" pivot="topright"/>
+			<sprite pos="328, -5" depth="2" name="unlockedIcon" style="icon32px" atlas="ItemIconAtlas" sprite="ui_game_symbol_book" color="[lightGrey]" pivot="topright"/>
+		</panel>
+		<panel name="content" width="100%" height="650" depth="1" pos="0,-43" on_scroll="true" disableautobackground="true">
+			<rect depth="2" name="categorySelector" width="390" height="44" pos="3,-6">
+				<sprite name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="396" height="49" color="[black]" type="sliced" fillcenter="false" />
+				<sprite color="[mediumGrey]" type="sliced" />
+				<grid name="categories" pos="2,-7" rows="1" cols="9" width="390" height="43" cell_width="43" cell_height="43" repeat_content="true" controller="CategoryList">
+					<category_icon />
+				</grid>
+			</rect>
+			<rect depth="3" name="searchControls" width="390" height="44" pos="3,-52">
+				<sprite name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="396" height="49" color="[black]" type="sliced" fillcenter="false" />
+				<sprite color="[darkGrey]" type="sliced" />
+				<button depth="4" name="favorites" style="icon30px, press" pos="18,-22" atlas="ItemIconAtlas" sprite="ui_game_symbol_favorite" pivot="center" sound="[paging_click]" tooltip="Favorites" tooltip_key="lblFavorites" collider_scale="1.5" />
+				<panel pos="104,0" width="200" disableautobackground="true">
+					<sprite depth="4" name="searchIcon" style="icon30px" pos="0,-22" atlas="ItemIconAtlas" sprite="ui_game_symbol_search" pivot="center"/>
+					<recipe_search depth="5" name="searchInput"/>
+				</panel>
+				<panel pos="286,0" width="104" height="43" disableautobackground="true">
+					<button depth="4" name="pageDown" style="icon30px, press" pos="20,-22" atlas="ItemIconAtlas" sprite="ui_game_symbol_arrow_left" pivot="center" sound="[paging_click]" />
+					<rect depth="4" pos="37,-7" >
+						<sprite name="background" style="icon30px" color="[black]" type="sliced" />
+						<label depth="5" name="pageNumber" pos="0, -3" width="30" height="28" text="1" font_size="26" justify="center"/>
+					</rect>
+					<button depth="4" name="pageUp" style="icon30px, press" pos="84,-22" atlas="ItemIconAtlas" sprite="ui_game_symbol_arrow_right" pivot="center" sound="[paging_click]" />
+				</panel>
+			</rect>
+			<grid name="recipes" rows="12" cols="1" pos="3,-98" width="390" height="552" cell_width="390" cell_height="46" controller="RecipeList" repeat_content="true" arrangement="vertical" >
+				<recipe_entry name="0"/>
+			</grid>
+		</panel>
+	</window>
+	</append>
+	
+	<!-- WOTW Builders Forge (Remove?) -->
+	<append xpath="/windows">
+	<window name="windowBuildersForgeInput" width="228" height="233" panel="Right" 
+		controller="WorkstationMaterialInputWindow" materials_accepted="iron,tungsten,glass,stone,clay" valid_materials_color="[green]" invalid_materials_color="[red]" cursor_area="true" > <!-- SIRILLION: dwallorde, I increased the height here to increase the window size to make it equal to the other forge windows | Original Value = "232" -->
+		<panel style="header.panel">			
+			<sprite style="header.icon" atlas="ItemIconAtlas" sprite="ui_game_symbol_smelting"/>
+			<label style="header.name" text="INPUT" text_key="xuiSmelting" />
+		</panel>
+		<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="0,-46" height="184" color="[black]" type="sliced" fillcenter="false" on_press="true" />	<!-- SIRILLION: dwallorde, I removed the " atlas="ItemIconAtlas" " code as it had no use here, I also increased the window height to make it equal to the other forge windows | Original Value ="152" -->
+		<rect name="content" depth="1" pos="0,-46" height="168">	
+			
+			<grid depth="7" rows="3" cols="1" pos="3,-3" cell_width="60" cell_height="60" controller="WorkstationMaterialInputGrid" repeat_content="true"> <!-- SIRILLION: dwallorde, I increased the grid row number to implement the extra smelting slot | Original Value = "2" I also reduced the grid slot size to 60 | Original Value = "75" -->
+				<SMX_60_item_stack name="0"/> <!-- SIRILLION : dwallorde, I changed the controls.xml reference | Original Value = "item_stack" -->
+			</grid>
+		</rect>
+		<rect name="content2" depth="0" pos="63, -49" width="165" height="179"> <!-- SIRILLION: dwallorde, I changed the pos value to position the window correctly | Original Value = "78, -49". I also changed the width and height to make the background fill the window correctly. | Original Value = W"150" and H"148" -->
+			<sprite depth="1" color="[mediumGrey]" type="sliced" on_press="true"/>
+			<grid rows="7" cols="1" pos="3,-3" cell_width="150" cell_height="37"  repeat_content="true"> <!-- SIRILLION: dwallorde, I changed the grid rows and increased the cell height to spread the materials and utilize the space better | Original Value = R"5" and H"25" -->
+				<forge_material name="0"/>
+			</grid>
+		</rect>
+	</window>
+	</append>
+	
+	<!-- WOTW Blueprint Workstation Tools -->
+	<append xpath="/windows">
+	<window name="windowToolsBlueprintStation" width="228" height="121" panel="Right" cursor_area="true" >
+		<panel style="header.panel">			
+			<sprite style="header.icon" atlas="ItemIconAtlas" sprite="ui_game_symbol_tool"/>
+			<label style="header.name" text="TOOLS" text_key="xuiTools" />
+		</panel>
+		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true" on_press="true">
+			<grid name="inventory" rows="1" cols="1" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false" required_tools="calipers" required_tools_only="true">
+				<required_item_stack name="0"/>
+			</grid>
+		</rect>
+	</window>
+	</append>
+	
+	<!-- WOTW Toolbelt -->
+	<append xpath="/windows">
+	<window name="WOTWwindowToolbelt" depth="0" pos="0,85" size="760,226" controller="ToolbeltWindow" visible="{toolbeltvisible}" cursor_area="true">
+		<rect>
+			<sprite name="WOTWtoolbeltBG" depth="0" pos="-480,57" size="878,145" atlas="uiAtlas" sprite="wotwtoolbeltbg" globalopacitymod="1.2" />
+			<!-- <sprite name="WOTWtoolbeltBG" depth="0" pos="-380,30" size="878,145" atlas="uiAtlas" sprite="wotwtoolbeltbg" color="[hudElementsBG]" globalopacitymod="1.2" /> -->
+			<grid name="WOTWtoolbelt" depth="1" pos="-338,20" rows="1" cols="8" cell_width="85" cell_height="85" controller="Toolbelt" repeat_content="true">
+				<smx_toolbelt_itemstack_85 name="0" />
+			</grid>
+			<grid name="WOTWtoolbeltNumbers" depth="1" pos="-305,-62" rows="1" cols="8" cell_width="85" cell_height="85" repeat_content="false">
+				<label name="WOTWtbNumber1" depth="10" size="12,22" text="1" font_size="20" color="[hudElementsTBSlot]" crispness="Never" effect="outline" effect_distance="1,1" justify="center" />
+				<label name="WOTWtbNumber2" depth="10" size="12,22" text="2" font_size="20" color="[hudElementsTBSlot]" crispness="Never" effect="outline" effect_distance="1,1" justify="center" />
+				<label name="WOTWtbNumber3" depth="10" size="12,22" text="3" font_size="20" color="[hudElementsTBSlot]" crispness="Never" effect="outline" effect_distance="1,1" justify="center" />
+				<label name="WOTWtbNumber4" depth="10" size="12,22" text="4" font_size="20" color="[hudElementsTBSlot]" crispness="Never" effect="outline" effect_distance="1,1" justify="center" />
+				<label name="WOTWtbNumber5" depth="10" size="12,22" text="5" font_size="20" color="[hudElementsTBSlot]" crispness="Never" effect="outline" effect_distance="1,1" justify="center" />
+				<label name="WOTWtbNumber6" depth="10" size="12,22" text="6" font_size="20" color="[hudElementsTBSlot]" crispness="Never" effect="outline" effect_distance="1,1" justify="center" />
+				<label name="WOTWtbNumber7" depth="10" size="12,22" text="7" font_size="20" color="[hudElementsTBSlot]" crispness="Never" effect="outline" effect_distance="1,1" justify="center" />
+				<label name="WOTWtbNumber8" depth="10" size="12,22" text="8" font_size="20" color="[hudElementsTBSlot]" crispness="Never" effect="outline" effect_distance="1,1" justify="center" />
+			</grid>
+		</rect>
+	</window>
+			
+	<!-- <window name="WOTWwindowToolbelt" style="WOTW.toolbelt.window" controller="ToolbeltWindow" visible="{toolbeltvisible}" cursor_area="true">
+		<rect>
+			<texture name="SMXtoolbeltBG" style="WOTW.toolbelt.background" />
+			<grid name="SMXtoolbelt" depth="1" pos="-338,20" rows="1" cols="8" cell_width="85" cell_height="85" controller="Toolbelt" repeat_content="true">
+				<smx_toolbelt_itemstack_65 name="0" />
+			</grid>
+			<grid name="SMXtoolbeltNumbers" depth="1" pos="-305,-65" rows="1" cols="8" cell_width="85" cell_height="85" repeat_content="false">
+				<label name="SMXtbNumber1" depth="10" size="12,22" text="1" font_size="20" color="[tbslotnumber]" font_face="ReferenceFont" crispness="Never" effect="outline" justify="center" />
+				<label name="SMXtbNumber2" depth="10" size="12,22" text="2" font_size="20" color="[tbslotnumber]" font_face="ReferenceFont" crispness="Never" effect="outline" justify="center" />
+				<label name="SMXtbNumber3" depth="10" size="12,22" text="3" font_size="20" color="[tbslotnumber]" font_face="ReferenceFont" crispness="Never" effect="outline" justify="center" />
+				<label name="SMXtbNumber4" depth="10" size="12,22" text="4" font_size="20" color="[tbslotnumber]" font_face="ReferenceFont" crispness="Never" effect="outline" justify="center" />
+				<label name="SMXtbNumber5" depth="10" size="12,22" text="5" font_size="20" color="[tbslotnumber]" font_face="ReferenceFont" crispness="Never" effect="outline" justify="center" />
+				<label name="SMXtbNumber6" depth="10" size="12,22" text="6" font_size="20" color="[tbslotnumber]" font_face="ReferenceFont" crispness="Never" effect="outline" justify="center" />
+				<label name="SMXtbNumber7" depth="10" size="12,22" text="7" font_size="20" color="[tbslotnumber]" font_face="ReferenceFont" crispness="Never" effect="outline" justify="center" />
+				<label name="SMXtbNumber8" depth="10" size="12,22" text="8" font_size="20" color="[tbslotnumber]" font_face="ReferenceFont" crispness="Never" effect="outline" justify="center" />
+			</grid>
+		</rect>
+	</window> -->
+	</append>
+	
+	<!-- WOTW XP Bar -->
+	<append xpath="/windows">
+	<window name="WOTWlevelXP" pos="-30,-15" size="140,96">
+		<rect pos="0,0">
+			<sprite name="WOTWlevelxpBG" depth="0" pos="30,10" size="105,102" atlas="uiAtlas" sprite="uf2xpbg" color="[hudElementsBG]" globalopacitymod="1.5" />
+			<sprite name="WOTWlevelxpFG" depth="1" pos="30,10" size="103,100" atlas="uiAtlas" sprite="wotwxp1fg" color="[hudElementsACNTClr1]" globalopacitymod="1.3" />
+			<sprite name="WOTWlevelxpBAR" depth="2" pos="50,-5" size="65,65" atlas="uiAtlas" sprite="smx_hud_levelxp_bar" type="filled" fill="{xp}" filldirection="radial360" color="{xpcolor}" globalopacitymod="1.5" controller="ToolbeltWindow" standard_xp_color="[white]" updating_xp_color="[green]" deficit_xp_color="[hudElementsACNTClr1]" xp_fill_speed="2.5" />
+			<label name="WOTWlevelxpLVL" depth="3" pos="45,-18" size="75,75" text="{playerlevel}[-]" font_size="36" color="[hudElementsLBLPri]" crispness="Never" effect="outline" effect_distance="1,1" justify="center" upper_case="true" controller="PlayerStatsWindow" />
+		</rect>
+	</window>
+			
+	<!-- <window name="WOTWlevelXP" style="WOTW.levelXP.window" xp_fill_speed="2.5">
+		<rect pos="0,0" controller="ToolbeltWindow">
+			<texture name="WOTWlevelxpBG" style="WOTW.levelxp.background" />
+			<texture name="WOTWlevelxpFG" style="WOTW.levelxp.foreground" />
+			<sprite name="WOTWlevelxpBAR" style="WOTW.levelxp.bar" type="filled" fill="{xp}" filldirection="radial360" globalopacitymod="1.5" />
+			<label name="WOTWlevelxpLVL" style="WOTW.levelxp.level" controller="PlayerStatsWindow" />
+		</rect>
+	</window> -->
+	</append>
+	
+	<!-- WOTW Quest Tracker -->
+	<append xpath="/windows">
+	<window name="WOTWwindowQuestTracker" depth="-20" pos="-255,-90" size="300,100" controller="QuestTrackerWindow" visible="{showquest}">
+		<sprite name="WOTWquestTrackerBG" depth="0" pos="-90,14" size="360,182" atlas="uiAtlas" sprite="WOTW_quests_bg" globalopacitymod="1.5" />
+		<!-- <sprite name="WOTWquestTrackerBG" depth="0" pos="-90,14" size="360,182" atlas="uiAtlas" sprite="WOTW_quests_bg" color="[hudElementsBG]" globalopacitymod="1.5" /> -->
+		<label name="WOTWquestTitle" depth="1" pos="105,-15" width="280" height="28" text="{questtitle}" font_size="26" color="[hudElementsLBLPri]" crispness="Never" effect="outline" effect_distance="1,1" upper_case="true" justify="center" pivot="center" overflow="ShrinkContent" />
+		<sprite name="windowIcon" depth="1" pos="-75,1" style="icon32px" sprite="{questicon}" color="[hudElementsIcon]" justify="left" effect="outline" />
+		<grid name="objectiveList" pos="-60,-50" rows="12" cols="1" cell_width="300" cell_height="26" repeat_content="true" arrangement="vertical" controller="QuestTrackerObjectiveList" complete_icon="smx_hud_general_checkmark_icon" incomplete_icon="smx_hud_general_cancel_icon" complete_color="[green]" incomplete_color="[red]">
+			<smx_quest_objective_tracker_entry />
+		</grid>
+	</window>
+			
+	<!-- <window name="WOTWwindowQuestTracker" depth="-20" pos="-255,-90" size="300,100" controller="QuestTrackerWindow" visible="{showquest}">
+		<sprite name="SMXquestTrackerBG" depth="0" pos="-90,14" size="360,182" atlas="hudElements" sprite="smx_qt_title_background" color="[hudElementsBG]" globalopacitymod="1.5" />
+		<label name="SMXquestTitle" depth="1" pos="-60,-5" height="28" text="{questtitle}" font_size="26" color="[hudElementsLBLPri]" font_face="ReferenceFont" crispness="Never" effect="outline" upper_case="true" justify="center" />
+		<sprite name="windowIcon" depth="1" pos="-75,1" style="icon32px" sprite="{questicon}" color="[hudElementsIcon]" justify="left" effect="outline" />
+		<grid name="objectiveList" pos="-60,-50" rows="12" cols="1" cell_width="300" cell_height="26" repeat_content="true" arrangement="vertical" controller="QuestTrackerObjectiveList" complete_icon="smx_general_checkmark_icon" incomplete_icon="smx_general_cancel_icon" complete_color="[green]" incomplete_color="[red]">
+			<smx_quest_objective_tracker_entry />
+		</grid>
+	</window> -->
+	</append>
+	
+	<!-- WOTW In Game Menu -->
+	<append xpath="/windows">
+	<window name="WOTWingameMenu" pos="360,0" size="408,1080" controller="InGameMenuWindow" cursor_area="true">
+		<sprite name="SMXingameMenuBG" depth="2" pos="60,0" size="408,1080" atlas="menuElements" sprite="smx_menu_background" color="[menuElementsMenuBG]" pivot="center" globalopacitymod="1.5" />
+		<sprite name="SMXingameMenuLogo" depth="3" pos="60,140" size="588,588" atlas="menuElements" sprite="wwmenulogo" pivot="center" globalopacitymod="1.5" />
+		<grid name="SMXingameMenuGrid" depth="3" pos="50,-120" cols="1" cell_width="230" cell_height="70" repeat_content="false" arrangement="vertical">
+			<smx_mainmenubutton_1 name="btnExportPrefab" style="smx_menu_button" caption_key="xuiMenuExportPrefab" />
+			<smx_mainmenubutton_2 name="btnInvite" style="smx_menu_button" caption_key="xuiMenuInvite" />
+			<smx_mainmenubutton_3 name="btnOptions" style="smx_menu_button" caption_key="xuiMenuOptions" />
+			<smx_mainmenubutton_2 name="btnHelp" style="smx_menu_button" caption_key="xuiMenuHelp" />
+			<smx_mainmenubutton_1 name="btnSave" style="smx_menu_button" caption_key="xuiMenuSave" />
+			<rect><sprite name="SMXseparatorRed" depth="1" pos="-140,-24" size="301,4" atlas="menuElements" sprite="smx_menu_separator" color="[menuElementsMenuLine]" /></rect>
+			<smx_mainmenubutton_1 name="btnExit" style="smx_menu_button" caption_key="xuiMenuExit" />
+		</grid>
+		<label name="WOTWeditionInfo" depth="9" pos="60,-470" size="250,33" text="Beta Release Version" font_size="16" color="[menuElementsLBLPri]" font_face="ReferenceFont" crispness="Never" effect="outline" upper_case="true" justify="center" pivot="center" />
+		<label name="WOTWversionInfo" depth="9" pos="60,-490" size="250,33" text="WOTW V7.0.0 Beta" font_size="16" color="[menuElementsLBLSec]" font_face="ReferenceFont" crispness="Never" effect="outline" upper_case="false" justify="center" pivot="center" />
+	</window>
+
+	<!-- This section needs fixing before being Implented or removed -->
+	<!-- <window name="WOTWingameMenu" style="SMX.menu.window" controller="InGameMenuWindow" cursor_area="true">
+		<texture name="SMXingameMenuBG" depth="2" style="SMX.menu.texture" />
+		<texture name="WOTWingameMenuLogo" depth="3" style="WOTW.menu.logo" />
+		-->
+		<!-- <grid name="SMXingameMenuGrid" depth="3" style="SMX.menu.grid" repeat_content="false" arrangement="vertical">
+			<SMX_menu_button_N_1 name="btnExportPrefab" width="230" height="50" caption_key="xuiMenuExportPrefab" pivot="center" />
+			<SMX_menu_button_N_2 name="btnInvite" width="230" height="50" caption_key="xuiMenuInvite" pivot="center" />
+			<SMX_menu_button_N_1 name="btnOptions" width="230" height="50" caption_key="xuiMenuOptions" pivot="center" />
+			<SMX_menu_button_N_2 name="btnHelp" width="230" height="50" caption_key="xuiMenuHelp" pivot="center" />
+			<SMX_menu_button_N_1 name="btnSave" width="230" height="50" caption_key="xuiMenuSave" pivot="center" />
+			<rect><texture name="SMXhredSep" depth="1" style="SMX.menu.redsep" /></rect>
+			<SMX_menu_button_N_3 name="btnExit" width="230" height="50" caption_key="xuiMenuExit" pivot="center" />
+		</grid> -->
+		<!--<grid name="SMXingameMenuGrid" depth="3" pos="50,-120" cols="1" cell_width="230" cell_height="70" repeat_content="false" arrangement="vertical">
+			<smx_mainmenubutton_1 name="btnExportPrefab" style="smx_menu_button" caption_key="xuiMenuExportPrefab" />
+			<smx_mainmenubutton_2 name="btnInvite" style="smx_menu_button" caption_key="xuiMenuInvite" />
+			<smx_mainmenubutton_3 name="btnOptions" style="smx_menu_button" caption_key="xuiMenuOptions" />
+			<smx_mainmenubutton_2 name="btnHelp" style="smx_menu_button" caption_key="xuiMenuHelp" />
+			<smx_mainmenubutton_1 name="btnSave" style="smx_menu_button" caption_key="xuiMenuSave" />
+			<rect><sprite name="SMXseparatorRed" depth="1" pos="-140,-24" size="301,4" atlas="menuElements" sprite="smx_menu_separator" color="[menuElementsRed]" /></rect>
+			<smx_mainmenubutton_1 name="btnExit" style="smx_menu_button" caption_key="xuiMenuExit" />
+		</grid>
+		<label name="WOTWeditionInfo" depth="99" style="WOTW.edition.info" font_face="ReferenceFont" crispness="Never" />
+		<label name="WOTWversionInfo" depth="99" style="WOTW.version.info" font_face="ReferenceFont" crispness="Never" />
+		-->
+		<!--texture name="SMXchangeLogHeader" depth="2" style="SMX.changelog.texture" pivot="center" />
+		<label name="SMXchangeLogHeader" depth="3" style="SMX.changelog.label" pivot="center" />
+				
+		<grid name="SMXchangeLogGrid" depth="2" style="SMX.changelog.grid" arrangement="vertical">
+			<label name="SMXchanges" depth="5" font_size="24" color="[white]" effect="outline" justify="left" upper_case="false" text_key="" />
+		</grid-->
+
+		<!--texture name="SMXchangeLog" depth="3" pos="800,60" size="700,500" texture="@modfolder:Textures/menu/smx_menu_info.png" pivot="center" /-->
+
+		<!--texture name="SMXserverInfoHeader" depth="2" pos="800,-320" size="750,200" texture="@modfolder:Textures/menu/smx_menu_info.png" pivot="center" />
+		<label name="SMXserverInfoHeader" depth="3" pos="800,-260" size="500,50" text="SERVER INFORMATION" font_size="40" color="[white]" effect="outline" justify="center" pivot="center" />
+		<texture name="SMXserverInfo" depth="3" pos="800,-400" size="700,180" texture="@modfolder:Textures/menu/smx_server_info.png" pivot="center" /-->
+	<!-- </window> -->
+	</append>
+
+</configs>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="Nerd's toybox" />
+        <Description value="This modlet adds cute toys" />
+        <Author value="NerdScurvy" />
+        <Version value="1.1.0" />
+    </ModInfo>
+</xml>

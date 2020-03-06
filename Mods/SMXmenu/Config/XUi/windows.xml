@@ -1,0 +1,36 @@
+<configs>
+
+<!-- 	// SMX // In-game Menu -->
+
+		<!-- <remove xpath="/windows/window[@name='ingameMenu']" />
+
+		<append xpath="/windows">
+			<window name="ingameMenu" pos="360,0" size="408,1080" controller="InGameMenuWindow" cursor_area="true">
+
+				<sprite name="SMXingameMenuBG" depth="2" pos="60,0" size="408,1080" atlas="uiAtlas" sprite="smx_menu_background" color="[menuElementsMenuBG]" pivot="center" globalopacitymod="1.5" />
+				<sprite name="SMXingameMenuLogo" depth="3" pos="60,140" size="588,588" atlas="uiAtlas" sprite="smx_menu_ingame_logo_v2" pivot="center" globalopacitymod="1.5" />
+
+				<grid name="SMXingameMenuGrid" depth="3" pos="50,-120" rows="13" cell_width="230" cell_height="70" repeat_content="false" arrangement="vertical">
+					<smx_mainmenubutton_1 name="btnExportPrefab" style="smx_menu_button" caption_key="xuiMenuExportPrefab" />
+					<smx_mainmenubutton_2 name="btnInvite" style="smx_menu_button" caption_key="xuiMenuInvite" />
+					<smx_mainmenubutton_3 name="btnOptions" style="smx_menu_button" caption_key="xuiMenuOptions" />
+					<smx_mainmenubutton_2 name="btnHelp" style="smx_menu_button" caption_key="xuiMenuHelp" />
+					<smx_mainmenubutton_1 name="btnSave" style="smx_menu_button" caption_key="xuiMenuSave" />
+					<rect><sprite name="SMXmenuSep" depth="1" pos="-140,-24" size="301,5" atlas="uiAtlas" sprite="smx_menu_separator" color="[menuElementsMenuLine]" /></rect>
+					<smx_mainmenubutton_1 name="btnExit" style="smx_menu_button" caption_key="xuiMenuExit" />
+				</grid>
+
+				<label name="SMXeditionInfo" depth="9" pos="60,-470" size="250,33" text="Stable Release Version" font_size="16" color="[menuElementsLBLPri]" crispness="Never" effect="outline" effect_distance="1,1" upper_case="true" justify="center" pivot="center" />
+				<label name="SMXversionInfo" depth="9" pos="60,-490" size="250,33" text="SMX-18.3.r1" font_size="16" color="[menuElementsLBLSec]" crispness="Never" effect="outline" effect_distance="1,1" upper_case="false" justify="center" pivot="center" />
+
+			</window>
+		</append> -->
+
+
+<!-- 	// SMX // Clean Background -->
+
+		<append xpath="/windows">
+			<window name="SMXcleanBG" style="nonpaging.window" controller="WindowNonPagingHeader" />
+		</append>
+
+</configs>

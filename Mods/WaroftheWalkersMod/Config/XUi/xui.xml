@@ -1,0 +1,303 @@
+<configs>
+
+	<!-- WOTW Builders Forge (To be Removed?) -->
+	<append xpath="/xui/ruleset[@name='default']">
+		<!-- <window_group name="workstation_BuildersForge" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowToolsForge" />
+			<window name="windowFuel" />
+			<window name="windowBuildersForgeInput" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group> -->
+	</append>
+	
+	<!-- WOTW Mortar and Pestle -->
+	<append xpath="/xui/ruleset[@name='default']">
+		<window_group name="workstation_MortarandPestle" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowMortarCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowToolsMortarandPestle"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<window name="SMXtimeFrame" anchor="LeftTop" />
+		</window_group>
+	</append>
+	
+	<!-- WOTW Armor Smithing Workstation -->
+	<append xpath="/xui/ruleset[@name='default']">
+		<window_group name="workstation_ArmorSmithingWorkstation" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<window name="SMXtimeFrame" anchor="LeftTop" />
+		</window_group>
+	</append>
+	
+	<!-- WOTW Tool Workbench -->
+	<append xpath="/xui/ruleset[@name='default']">
+		<window_group name="workstation_ToolWorkbench" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowToolsToolWorkbench" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<window name="SMXtimeFrame" anchor="LeftTop" />
+		</window_group>
+	</append>
+	
+	<!-- WOTW Builders Workbench -->
+	<append xpath="/xui/ruleset[@name='default']">
+		<window_group name="workstation_buildersWorkbench" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowToolsBuildersWorkbench" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<window name="SMXtimeFrame" anchor="LeftTop" />
+		</window_group>
+	</append>
+	
+	<!-- WOTW Blueprint Workstation -->
+	<append xpath="/xui/ruleset[@name='default']">
+		<window_group name="workstation_BlueprintWorkStation" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowToolsBlueprintStation" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<window name="SMXtimeFrame" anchor="LeftTop" />
+		</window_group>
+	</append>
+	
+	<!-- WOTW Gunsmithing Workstation -->
+	<append xpath="/xui/ruleset[@name='default']">
+		<window_group name="workstation_gunSmithingWorkstation" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowToolsWeaponSmith" />
+			<window name="windowFuel" />
+			<!-- <window name="windowWeaponSmithInput1" /> -->
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<window name="SMXtimeFrame" anchor="LeftTop" />
+		</window_group>
+	</append>
+	
+	<!-- WOTW Clothing Workstation (To be Removed?) -->
+	<append xpath="/xui/ruleset[@name='default']">
+		<!-- <window_group name="workstation_ClothingWorkStation" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group> -->
+	</append>
+	
+	<!-- WOTW Oil Pump -->
+	<append xpath="/xui/ruleset[@name='default']">
+		<window_group name="workstation_oilPump" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<window name="SMXtimeFrame" anchor="LeftTop" />
+		</window_group>
+	</append>
+	
+	<!-- WOTW Wall Torch Workstation (Remove?) -->
+	<append xpath="/xui/ruleset[@name='default']">
+		<window_group name="workstation_wallTorchStation" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowFuel" />
+			<window name="windowNonPagingHeader" />
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingList"/>
+			<window name="SMXtimeFrame" anchor="LeftTop" />
+		</window_group>
+	</append>
+	
+	<!-- WOTW Screamer Block -->
+	<append xpath="/xui/ruleset[@name='default']">
+		<window_group name="workstation_screamerBlock" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowMortarCraftingList"/>
+<!--		<window name="windowCraftingList" /> -->
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowFuel" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<window name="SMXtimeFrame" anchor="LeftTop" />
+		</window_group>
+	</append>
+	
+	<!-- WOTW Coffee Maker -->
+	<append xpath="/xui/ruleset[@name='default']">
+		<window_group name="workstation_coffeemaker" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowMortarCraftingList"/>
+<!--		<window name="windowCraftingList" /> -->
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<window name="SMXtimeFrame" anchor="LeftTop" />
+		</window_group>
+	</append>
+	
+	<!-- WOTW Microwave -->
+	<append xpath="/xui/ruleset[@name='default']">
+		<window_group name="workstation_microwave" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList" />
+			<window name="craftingInfoPanel" />
+			<window name="windowCraftingQueue" />
+			<window name="windowFuel" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<window name="SMXtimeFrame" anchor="LeftTop" />
+		</window_group>
+	</append>
+	
+	<!-- WOTW Player Oven -->
+	<append xpath="/xui/ruleset[@name='default']">
+		<window_group name="workstation_playerOven" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList" />
+			<window name="craftingInfoPanel" />
+			<window name="windowCraftingQueue" />
+			<window name="windowToolsPlayerOven" />
+			<window name="windowFuel" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<window name="SMXtimeFrame" anchor="LeftTop" />
+		</window_group>
+	</append>
+	
+	<!-- WOTW Convection Oven -->
+	<append xpath="/xui/ruleset[@name='default']">
+		<window_group name="workstation_convectionOven" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList" />
+			<window name="craftingInfoPanel" />
+			<window name="windowCraftingQueue" />
+			<window name="windowFuel" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<window name="SMXtimeFrame" anchor="LeftTop" />
+		</window_group>
+	</append>
+	
+	<!-- WOTW Food Processing Table -->
+	<append xpath="/xui/ruleset[@name='default']">
+		<window_group name="workstation_foodProcessingTable" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList" />
+			<window name="craftingInfoPanel" />
+			<window name="windowCraftingQueue" />
+			<window name="windowToolsFoodProcessingTable" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<window name="SMXtimeFrame" anchor="LeftTop" />
+		</window_group>
+	</append>
+	
+	<!-- WOTW Brewery Workstation -->
+	<append xpath="/xui/ruleset[@name='default']">
+		<window_group name="workstation_breweryStation" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList" />
+			<window name="craftingInfoPanel" />
+			<window name="windowCraftingQueue"/>
+			<window name="windowFuel" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<window name="SMXtimeFrame" anchor="LeftTop" />
+		</window_group>
+	</append>
+	
+	<!-- WOTW Tungsten Forge -->
+	<append xpath="/xui/ruleset[@name='default']">
+		<window_group name="workstation_tungstenForge" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowToolsTungstenForge" />
+			<window name="windowFuel" />
+			<window name="windowTungstenForgeInput" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<window name="SMXtimeFrame" anchor="LeftTop" />
+		</window_group>
+	</append>
+	
+	<!-- WOTW Fabrication Workstation -->
+	<append xpath="/xui/ruleset[@name='default']">
+		<window_group name="workstation_fabricationStation" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList" />
+			<window name="craftingInfoPanel" />
+			<window name="windowCraftingQueue" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<window name="SMXtimeFrame" anchor="LeftTop" />
+		</window_group>
+	</append>
+	
+	<!-- WOTW Ammo Workstation -->
+	<append xpath="/xui/ruleset[@name='default']">
+		<window_group name="workstation_ammoWorkstation" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList" />
+			<window name="craftingInfoPanel" />
+			<window name="windowCraftingQueue" />
+			<window name="windowToolsAmmoStation" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<window name="SMXtimeFrame" anchor="LeftTop" />
+		</window_group>
+	</append>
+	
+	<!-- WOTW Mechanic Workbench -->
+	<append xpath="/xui/ruleset[@name='default']">
+		<window_group name="workstation_mechanicBench" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList" />
+			<window name="craftingInfoPanel" />
+			<window name="windowCraftingQueue" />
+			<window name="windowToolsMechanicBench" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<window name="SMXtimeFrame" anchor="LeftTop" />
+		</window_group>
+	</append>
+	
+	<!-- WOTW Compass -->
+	<remove xpath="/xui/ruleset[@name='default']/window_group[@name='compass']/window[@name='windowCompass']" />
+	
+	<append xpath="/xui/ruleset[@name='default']/window_group[@name='compass']">
+		<window name="WOTWwindowCompass" anchor="CenterTop" />
+	</append>
+	
+	<!-- WOTW Toolbelt -->
+	<remove xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']/window[@name='windowToolbelt']" />
+	<remove xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']/window[@name='HUDLeftStatBars']" />
+	<remove xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']/window[@name='windowQuestTracker']" />
+	
+	<append xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']">
+		<window name="WOTWwindowToolbelt" anchor="CenterBottom" />
+		<window name="WOTWlevelXP" anchor="LeftTop" />
+		<window name="WOTWHUDLeftStatBars" anchor="LeftBottom" />
+		<window name="WOTWwindowQuestTracker" anchor="RightTop" />
+		<window name="WOTWhudLogo" anchor="RightTop" />
+	</append>
+	
+	<!-- WOTW In Game Menu -->
+	<remove xpath="/xui/ruleset[@name='default']/window_group[@name='ingameMenu']/window[@name='ingameMenu']" />
+	
+	<append xpath="/xui/ruleset[@name='default']/window_group[@name='ingameMenu']">
+		<window name="WOTWingameMenu" anchor="LeftCenter" />
+	</append>
+	
+</configs>

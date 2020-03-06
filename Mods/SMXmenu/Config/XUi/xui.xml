@@ -1,0 +1,14 @@
+<configs>
+
+<!--	// SMX // In-game Menu -->
+
+		<!-- <setattribute xpath="/xui/ruleset[@name='default']/window_group[@name='ingameMenu']/window[@name='ingameMenu']" name="anchor">LeftCenter</setattribute> -->
+
+
+<!--	// SMX // Clean Background -->
+
+		<!-- <append xpath="/xui/ruleset[@name='default']/window_group[@name='ingameMenu']">
+			<window name="SMXcleanBG" />
+		</append> -->
+
+</configs>

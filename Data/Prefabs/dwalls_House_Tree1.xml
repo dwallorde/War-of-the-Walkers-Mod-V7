@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+    <property name="CopyAirBlocks" value="True" />
+    <property name="AllowTopSoilDecorations" value="False" />
+    <property name="TraderArea" value="False" />
+    <property name="ExcludeDistantPOIMesh" value="False" />
+    <property name="Zoning" value="any" />
+    <property name="YOffset" value="-1" />
+    <property name="DistantPOIYOffset" value="0" />
+    <property name="AllowedBiomes" value="pine_forest,forest" />
+    <property name="SleeperVolumeStart" value="-1, 1, -1" />
+    <property name="SleeperVolumeSize" value="17, 3, 20" />
+    <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,3,4" />
+    <property name="SleeperVolumeGameStageAdjust" value="" />
+    <property name="SleeperIsLootVolume" value="False" />
+    <property name="ExcludePOICulling" value="False" />
+    <property name="DifficultyTier" value="1" />
+	<property name="QuestTags" value="clear" />
+    <property name="SleeperIsBossVolume" value="False" />
+</prefab>

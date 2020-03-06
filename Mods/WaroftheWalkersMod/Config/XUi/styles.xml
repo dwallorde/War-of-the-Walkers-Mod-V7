@@ -1,0 +1,206 @@
+<configs>
+
+	<!-- WOTW Button for something? -->
+	<append xpath="/styles">
+		<style type="button" name="icon25px">
+			<style_entry name="width" value="25"/>
+			<style_entry name="height" value="25"/>
+			<style_entry name="foregroundlayer" value="true" />
+		</style>
+	</append>
+	
+	<!-- Forge Stack -->
+	<append xpath="/styles">
+		<style name="SMXForgeItemStack">
+			<style_entry name="select_color" value="[beige]" /> 
+			<style_entry name="press_color" value="[limeGreen]" /> 
+			<style_entry name="final_pressed_color" value="[lightGrey]" /> 
+			<style_entry name="background_color" value="[mediumGrey]" /> 
+			<style_entry name="highlight_color" value="[hoverColor]" /> 
+			<style_entry name="holding_color" value="[white]" />
+			<style_entry name="width" value="59" />
+			<style_entry name="height" value="59" />
+			<style_entry name="hover_icon_grow" value="1.5" />
+			<style_entry name="on_press" value="true" />
+			<style_entry name="sound_volume" value="0.75" />
+			<style_entry name="pickup_sound" value="[pickup_click]" />
+			<style_entry name="place_sound" value="[place_click]" />
+		</style>
+	</append>
+	
+	<!-- WOTW Compass Background Remove? -->
+	<append xpath="/styles">
+		<style name="WOTWcompass.window.background" type="texture">
+			<style_entry name="depth" value="1" />
+			<style_entry name="texture" value="@file:Mods\WaroftheWalkersMod\Textures\Compass\WOTWCompassBG.png" />
+			<style_entry name="type" value="sliced" />
+			<style_entry name="size" value="300,37" />
+			<style_entry name="pos" value="50,-3" />
+		</style>
+	</append>
+	
+	<!-- WOTW -->
+	<append xpath="/styles">
+		<style name="WOTW.hudLogo.window" type="window">
+			<style_entry name="pos" value="0,2" />
+			<style_entry name="size" value="250,40" />
+		</style>
+
+		<style name="WOTW.hudLogo.texture" type="texture">
+			<style_entry name="depth" value="1" />
+			<style_entry name="pos" value="-350,0" />
+			<style_entry name="size" value="250,40" />
+			<style_entry name="texture" value="@file:Mods\WaroftheWalkersMod\Textures\Menu\wwhudlogo.png" />
+		</style>
+	
+	<!-- To Do Remove -->
+		<style name="WOTW.toolbelt.window" type="window">
+			<style_entry name="depth" value="0" />
+			<style_entry name="pos" value="0,85" />
+			<style_entry name="size" value="760,226" />
+		</style>
+
+	<!-- To Do Remove -->
+		<style name="WOTW.toolbelt.background" type="texture">
+			<style_entry name="depth" value="0" />
+			<style_entry name="pos" value="-580,57" />
+			<style_entry name="size" value="950,160" />
+			<!-- <style_entry name="size" value="760,120" /> -->
+			<!-- <style_entry name="size" value="854,145" /> -->
+			<style_entry name="texture" value="@file:Mods\WaroftheWalkersMod\Textures\Toolbelt\wotwtoolbeltbg.png" />
+		</style>
+	
+	<!-- To Do Remove? -->
+		<style name="WOTW.levelXP.window" type="window">
+			<style_entry name="pos" value="-30,-15" />
+			<style_entry name="size" value="140,96" />
+		</style>
+
+	<!-- To Do Remove? -->
+		<style name="WOTW.levelxp.background" type="texture">
+			<style_entry name="depth" value="0" />
+			<style_entry name="pos" value="30,10" />
+			<style_entry name="size" value="105,102" />
+			<style_entry name="texture" value="@file:Mods\WaroftheWalkersMod\Textures\Levelxp\uf2xpbg.png" />
+		</style>
+
+	<!-- To Do Remove? -->
+		<style name="WOTW.levelxp.foreground" type="texture">
+			<style_entry name="depth" value="1" />
+			<style_entry name="pos" value="20,15" />
+			<style_entry name="size" value="120,112" />
+			<!-- <style_entry name="size" value="60,52" /> -->
+			<style_entry name="texture" value="@file:Mods\WaroftheWalkersMod\Textures\Levelxp\wotwxp1fg.png" />
+		</style>
+
+	<!-- To Do Remove? -->
+		<style name="WOTW.levelxp.bar" type="sprite">
+			<style_entry name="depth" value="2" />
+			<style_entry name="pos" value="45,0" />
+			<style_entry name="size" value="75,75" />
+			<style_entry name="atlas" value="itemiconatlas" />
+			<style_entry name="sprite" value="smx_levelxp_bar" />
+			<!-- <style_entry name="texture" value="@file:Mods\WaroftheWalkersMod\Textures\Levelxp\uf2xpbar.png" /> -->
+			<style_entry name="color" value="255,255,255" />
+		</style>
+
+		<style name="WOTW.levelxp.level" type="label">
+			<style_entry name="depth" value="3" />
+			<style_entry name="pos" value="45,-25" />
+			<style_entry name="size" value="75,75" />
+			<style_entry name="text" value="{playerlevel}[-]" />
+			<style_entry name="font_face" value="ReferenceFont" />
+			<style_entry name="font_size" value="40" />
+			<style_entry name="color" value="[white]" />
+			<style_entry name="justify" value="center" />
+			<style_entry name="crispness" value="Never" />
+			<style_entry name="effect" value="outline" />
+			<style_entry name="upper_case" value="true" />
+		</style>
+	
+		<style name="WOTW.edition.info" type="label">
+			<style_entry name="pos" value="60,-470" />
+			<style_entry name="size" value="250,33" />
+			<style_entry name="text" value="Current Version" />
+			<style_entry name="font_size" value="16" />
+			<style_entry name="color" value="[white]" />
+			<style_entry name="effect" value="outline" />
+			<style_entry name="upper_case" value="true" />
+			<style_entry name="justify" value="center" />
+			<style_entry name="pivot" value="center" />
+		</style>
+
+		<style name="WOTW.version.info" type="label">
+			<style_entry name="pos" value="60,-490" />
+			<style_entry name="size" value="250,33" />
+			<style_entry name="text" value="WOTW V7.0.0 Beta" />
+			<style_entry name="font_size" value="16" />
+			<style_entry name="color" value="[white]" />
+			<style_entry name="effect" value="outline" />
+			<style_entry name="upper_case" value="false" />
+			<style_entry name="justify" value="center" />
+			<style_entry name="pivot" value="center" />
+		</style>
+	
+		<style name="WOTW.menu.logo" type="texture">
+			<style_entry name="pos" value="60,140" />
+			<style_entry name="size" value="588,588" />
+			<style_entry name="texture" value="@file:Mods\WaroftheWalkersMod\Textures\Menu\wwmenulogo.png" />
+			<style_entry name="pivot" value="center" />
+		</style>
+	
+		<style name="SMX.itemStack.85">
+			<style_entry name="select_color" value="[beige]" />
+			<style_entry name="press_color" value="[limeGreen]" />
+			<style_entry name="final_pressed_color" value="[lightGrey]" />
+			<style_entry name="background_color" value="[mediumGrey]" />
+			<style_entry name="highlight_color" value="[hoverColor]" />
+			<style_entry name="holding_color" value="[white]" />
+			<style_entry name="width" value="82" />
+			<style_entry name="height" value="82" />
+			<style_entry name="hover_icon_grow" value="1.5" />
+			<style_entry name="on_press" value="true" />
+			<style_entry name="sound_volume" value="0.75" />
+			<style_entry name="pickup_sound" value="[pickup_click]" />
+			<style_entry name="place_sound" value="[place_click]" />
+		</style>
+	
+		<style name="SMXicon15px" type="sprite">
+			<style_entry name="color" value="[iconColor]" />
+			<style_entry name="width" value="15" />
+			<style_entry name="height" value="15" />
+			<style_entry name="foregroundlayer" value="true" />
+		</style>
+	
+		<style name="SMX.menu.window" type="window">
+			<style_entry name="pos" value="360,0" />
+			<style_entry name="size" value="408,1080" />
+		</style>
+	
+		<style name="SMX.menu.texture" type="texture">
+			<style_entry name="pos" value="60,0" />
+			<style_entry name="size" value="408,1080" />
+			<style_entry name="texture" value="@modfolder:Textures/menu/smx_menu_bg.png" />
+			<style_entry name="pivot" value="center" />
+		</style>
+	
+		<style name="SMX.menu.grid">
+			<style_entry name="pos" value="50,-120" />
+			<style_entry name="cols" value="1" />
+			<style_entry name="cell_width" value="230" />
+			<style_entry name="cell_height" value="70" />
+		</style>
+	
+		<style name="SMX.menu.redsep" type="texture">
+			<style_entry name="pos" value="-140,-24" />
+			<style_entry name="size" value="301,4" />
+			<style_entry name="texture" value="@modfolder:Textures/menu/smx_hsep_red.png" />
+		</style>
+	
+		<style name="SMX.unitFrame.window" type="window">
+			<style_entry name="pos" value="9,15" />
+			<style_entry name="size" value="240,175" />
+		</style>
+	</append>
+	
+</configs>

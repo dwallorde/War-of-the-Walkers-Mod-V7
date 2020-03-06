@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="SMXmenu" />
+		<Description value="SMXmenu is a menu UI conversion modlet for 7 Days To Die." />
+		<Author value="Sirillion" />
+		<Version value="18.3.r1" />
+		<Website value="http://www.nexusmods.com/7daystodie/mods/22/?" />
+	</ModInfo>
+</xml>

@@ -1,0 +1,306 @@
+<configs>
+
+<!--	// SMX // Continue Savegame List -->
+	
+		<set xpath="/controls/savegames_list_entry/rect/sprite[@name='backgroundMain']/@width">${width-83|250}</set>
+		<set xpath="/controls/savegames_list_entry/rect/sprite[@name='background']/@width">${width-83|250}</set>
+		<set xpath="/controls/savegames_list_entry/rect/label[@name='Version']/@pos">${width-90},-2</set>
+		<set xpath="/controls/savegames_list_entry/rect/label[@name='LastPlayed']/@pos">${width-90},${-height+2}</set>
+
+
+<!--	// SMX // Main Menu Buttons -->
+
+		<append xpath="/controls">
+			<smx_mainmenubutton_1>
+				<rect name="${name}" depth="${depth|3}" pos="${pos|0,0}" width="${width|200}" height="${height|60}" enabled_font_color="${enabled_font_color|[labelColor]}" disabled_font_color="${disabled_font_color|[disabledLabelColor]}" controller="SimpleButton" visible="${visible|true}" font_size_default="${height-28|16}" font_size_hover="${height-26|24}">
+					<button name="clickable" pos="10,${Round(-height/2,0)|-16}" atlas="uiAtlas" sprite="smx_menu_button_1" defaultcolor="[menuElementsMenuBTN]" hovercolor="[lightGrey]" type="sliced" hoverscale="1.0" pivot="${pivot|left}" tooltip_key="${tooltip_key|}" sound_play_on_hover="[default_hover]" sound="${sound|[default_click]}" />
+					<label name="btnLabel" depth="2" pos="10,${Round(1-height/2,0)|-16}" width="${width-20|196}" text="${caption|}" text_key="${caption_key|}" font_size="${height-28|16}" crispness="Never" effect="outline" effect_distance="1,1" upper_case="true" pivot="${pivot|center}" justify="center" />
+				</rect>
+			</smx_mainmenubutton_1>
+		</append>
+
+		<append xpath="/controls">
+			<smx_mainmenubutton_2>
+				<rect name="${name}" depth="${depth|3}" pos="${pos|0,0}" width="${width|200}" height="${height|60}" enabled_font_color="${enabled_font_color|[labelColor]}" disabled_font_color="${disabled_font_color|[disabledLabelColor]}" controller="SimpleButton" visible="${visible|true}" font_size_default="${height-28|16}" font_size_hover="${height-26|24}">
+					<button name="clickable" pos="10,${Round(-height/2,0)|-16}" atlas="uiAtlas" sprite="smx_menu_button_1" flip="horizontally" defaultcolor="[menuElementsMenuBTN]" hovercolor="[lightGrey]" type="sliced" hoverscale="1.0" pivot="${pivot|left}" tooltip_key="${tooltip_key|}" sound_play_on_hover="[default_hover]" sound="${sound|[default_click]}" />
+					<label name="btnLabel" depth="2" pos="10,${Round(1-height/2,0)|-16}" width="${width-20|196}" text="${caption|}" text_key="${caption_key|}" font_size="${height-28|16}" crispness="Never" effect="outline" effect_distance="1,1" upper_case="true" pivot="${pivot|center}" justify="center" />
+				</rect>
+			</smx_mainmenubutton_2>
+		</append>
+
+		<append xpath="/controls">
+			<smx_mainmenubutton_3>
+				<rect name="${name}" depth="${depth|3}" pos="${pos|0,0}" width="${width|200}" height="${height|60}" enabled_font_color="${enabled_font_color|[labelColor]}" disabled_font_color="${disabled_font_color|[disabledLabelColor]}" controller="SimpleButton" visible="${visible|true}" font_size_default="${height-28|16}" font_size_hover="${height-26|24}">
+					<button name="clickable" pos="10,${Round(-height/2,0)|-16}" atlas="uiAtlas" sprite="smx_menu_button_1" flip="vertically" defaultcolor="[menuElementsMenuBTN]" hovercolor="[lightGrey]" type="sliced" hoverscale="1.0" pivot="${pivot|left}" tooltip_key="${tooltip_key|}" sound_play_on_hover="[default_hover]" sound="${sound|[default_click]}" />
+					<label name="btnLabel" depth="2" pos="10,${Round(1-height/2,0)|-16}" width="${width-20|196}" text="${caption|}" text_key="${caption_key|}" font_size="${height-28|16}" crispness="Never" effect="outline" effect_distance="1,1" upper_case="true" pivot="${pivot|center}" justify="center" />
+				</rect>
+			</smx_mainmenubutton_3>
+		</append>
+
+
+<!--	// SMX // Simple Buttons -->
+
+		<append xpath="/controls">
+			<smx_simplebutton_1>
+				<rect name="${name}" depth="${depth|3}" pos="${pos|0,0}" width="${width|200}" height="${height|32}" enabled_font_color="${enabled_font_color|[labelColor]}" disabled_font_color="${disabled_font_color|[disabledLabelColor]}" controller="SimpleButton" visible="${visible|true}" font_size_default="${height-32|16}" font_size_hover="${height-30|24}">
+					<button name="clickable" pos="0,${Round(-height/2,0)|-16}" atlas="uiAtlas" sprite="smx_menu_button_1" defaultcolor="${defaultcolor|[menuElementsMenuBTN]}" disabledcolor="[darkGrey]" hovercolor="${hovercolor|[lightGrey]}" foregroundlayer="${foregroundlayer|true}" type="sliced" hoverscale="1.0" pivot="${pivot|left}" tooltip_key="${tooltip_key|}" sound_play_on_hover="[default_hover]" sound="${sound|[default_click]}" /> 
+					<label name="btnLabel" depth="2" pos="0,${Round(1-height/2,0)|-16}" width="${width|200}" height="${height-2|30}" text="${caption|}" text_key="${caption_key|}" font_size="${font_size|28}" crispness="Never" effect="outline" effect_distance="1,1" upper_case="true" pivot="${pivot|left}" justify="${justify|center}" />
+				</rect>
+			</smx_simplebutton_1>
+		</append>
+
+		<append xpath="/controls">
+			<smx_simplebutton_2>
+				<rect name="${name}" depth="${depth|3}" pos="${pos|0,0}" width="${width|200}" height="${height|32}" enabled_font_color="${enabled_font_color|[labelColor]}" disabled_font_color="${disabled_font_color|[disabledLabelColor]}" controller="SimpleButton" visible="${visible|true}" font_size_default="${height-32|16}" font_size_hover="${height-30|24}">
+					<button name="clickable" pos="0,${Round(-height/2,0)|-16}" atlas="uiAtlas" sprite="smx_menu_button_1" flip="vertically" defaultcolor="${defaultcolor|[menuElementsMenuBTN]}" disabledcolor="[darkGrey]" hovercolor="${hovercolor|[lightGrey]}" foregroundlayer="${foregroundlayer|true}" type="sliced" hoverscale="1.0" pivot="${pivot|left}" tooltip_key="${tooltip_key|}" sound_play_on_hover="[default_hover]" sound="${sound|[default_click]}" /> 
+					<label name="btnLabel" depth="2" pos="0,${Round(1-height/2,0)|-16}" width="${width|200}" height="${height-2|30}" text="${caption|}" text_key="${caption_key|}" font_size="${font_size|28}" crispness="Never" effect="outline" effect_distance="1,1" upper_case="true" pivot="${pivot|left}" justify="${justify|center}" />
+				</rect>
+			</smx_simplebutton_2>
+		</append>
+
+
+<!--	// SMX // Tab Buttons -->
+
+		<append xpath="/controls">
+			<smx_simplebutton_tabs_1>
+				<rect name="${name}" depth="${depth|3}" pos="${pos|0,0}" width="${width|200}" height="${height|32}" enabled_font_color="${enabled_font_color|[labelColor]}" disabled_font_color="${disabled_font_color|[disabledLabelColor]}" controller="SimpleButton" visible="${visible|true}" font_size_default="${height-26|16}" font_size_hover="${height-24|24}">
+					<button name="clickable" pos="0,${Round(-height/2,0)|-16}" atlas="uiAtlas" sprite="smx_menu_tabs_button_1" defaultcolor="${defaultcolor|[menuElementsMenuBTN]}" disabledcolor="[darkGrey]" hoversprite="smx_menu_tabs_button_1" hovercolor="${hovercolor|[lightGrey]}" selectedsprite="smx_menu_tabs_button_2" selectedcolor="${selectedcolor|[darkGrey]}" foregroundlayer="${foregroundlayer|true}" type="sliced" hoverscale="1.0" pivot="${pivot|left}" tooltip_key="${tooltip_key|}" sound_play_on_hover="[default_hover]" sound="${sound|[default_click]}" /> 
+					<label name="btnLabel" depth="2" pos="0,${Round(2-height/2,0)|-16}" width="${width|200}" height="${height-2|30}" text="${caption|}" text_key="${caption_key|}" font_size="${font_size|28}" crispness="Never" effect="outline" effect_distance="1,1" upper_case="true" pivot="${pivot|left}" justify="${justify|center}" />
+				</rect>
+			</smx_simplebutton_tabs_1>
+		</append>
+
+
+<!--	// SMX // Widget Button -->
+
+		<append xpath="/controls">
+			<smx_widgetbutton_1>
+				<rect name="${name}" depth="${depth|3}" pos="${pos|0,0}" width="${width|200}" height="${height|60}" enabled_font_color="${enabled_font_color|[labelColor]}" disabled_font_color="${disabled_font_color|[disabledLabelColor]}" controller="SimpleButton" visible="${visible|true}" font_size_default="${height-26|16}" font_size_hover="${height-24|24}">
+					<button name="clickable" pos="0,${Round(-height/2,0)|-16}" atlas="uiAtlas" sprite="smx_menu_button_1" flip="vertically" defaultcolor="[menuElementsMenuBTN]" hovercolor="[lightGrey]" type="sliced" hoverscale="1.0" pivot="${pivot|left}" tooltip_key="${tooltip_key|}" sound_play_on_hover="[default_hover]" sound="${sound|[default_click]}" />
+					<label name="btnLabel" depth="2" pos="10,${Round(1-height/2,0)|-16}" width="${width-20|196}" text="${caption|}" text_key="${caption_key|}" font_size="${height-26|16}" crispness="Never" effect="outline" effect_distance="1,1" upper_case="true" pivot="${pivot|center}" justify="center" />
+				</rect>
+			</smx_widgetbutton_1>
+		</append>
+
+
+<!--	// SMX // Credits Button -->
+
+		<append xpath="/controls">
+			<smx_tfpcreditsbutton_1>
+				<rect name="${name}" depth="${depth|3}" pos="${pos|0,0}" width="${width|200}" height="${height|60}" enabled_font_color="${enabled_font_color|[labelColor]}" disabled_font_color="${disabled_font_color|[disabledLabelColor]}" controller="SimpleButton" visible="${visible|true}" font_size_default="${height-26|16}" font_size_hover="${height-24|24}">
+					<button name="clickable" pos="10,${Round(-height/2,0)|-16}" atlas="uiAtlas" sprite="smx_menu_tfp_logo" hovercolor="[lightGrey]" type="sliced" hoverscale="1.0" pivot="${pivot|left}" tooltip_key="${tooltip_key|}" sound_play_on_hover="[default_hover]" sound="${sound|[default_click]}" />
+					<label name="btnLabel" depth="2" pos="10,${Round(-height/2,0)|-16}" width="${width-20|196}" text="${caption|}" text_key="" font_size="${height-26|16}" crispness="Never" effect="outline" effect_distance="1,1" upper_case="true" pivot="${pivot|center}" justify="center" />
+				</rect>
+			</smx_tfpcreditsbutton_1>
+		</append>
+
+
+<!--	// SMX // Audio Options -->
+
+		<append xpath="/controls">
+			<smx_audiooption_1>
+				<rect pos="${pos|0,0}" width="560" height="32">
+					<label depth="4" pos="0,-2" width="250" height="30" style="hover" tooltip_key="xuiOptionsAudio${name}Tooltip" text_key="xuiOptionsAudio${name}" color="[menuElementsLBLPri]" font_size="22" crispness="Never" effect="outline" effect_distance="1,1" upper_case="false" justify="right" pivot="topleft" visible="${visible|true}" />
+					<smx_gameoption_combobox_1 name="${name}" type="${type}" value_min="${value_min|@DEF}" value_max="${value_max|@DEF}" value_wrap="${value_wrap|@DEF}" value_increment="${value_increment|@DEF}" values="${values|@DEF}" reverse_list="${reverse_list|@DEF}" localization_prefix="${localization_prefix|}" format_string="${format_string|}" pos="255,0" width="300" height="32" visible="${visible|true}" />
+				</rect>
+			</smx_audiooption_1>
+		</append>
+
+
+<!--	// SMX // Video Options -->
+
+		<append xpath="/controls">
+			<smx_videooption_1>
+				<rect pos="${pos|0,0}" width="560" height="32">
+					<label depth="4" pos="0,-2" width="250" height="30" style="hover" tooltip_key="xuiOptionsVideo${name}Tooltip" text_key="xuiOptionsVideo${name}" color="[menuElementsLBLPri]" font_size="22" crispness="Never" effect="outline" effect_distance="1,1" upper_case="false" justify="right" pivot="topleft" visible="${visible|true}" />
+					<smx_gameoption_combobox_1 name="${name}" type="${type}" value_min="${value_min|@DEF}" value_max="${value_max|@DEF}" value_wrap="${value_wrap|@DEF}" value_increment="${value_increment|@DEF}" values="${values|@DEF}" reverse_list="${reverse_list|@DEF}" localization_prefix="${localization_prefix|}" format_string="${format_string|}" pos="255,0" width="300" height="32" visible="${visible|true}" />
+				</rect>
+			</smx_videooption_1>
+		</append>
+
+
+<!--	// SMX // Control Options -->
+
+		<append xpath="/controls">
+			<smx_controloption_1>
+				<rect pos="${pos|0,0}" width="560" height="32">
+					<label depth="4" pos="0,-2" width="250" height="30" style="hover" tooltip_key="xuiOptionsControls${name}Tooltip" text_key="xuiOptionsControls${name}" color="[menuElementsLBLPri]" font_size="22" crispness="Never" effect="outline" effect_distance="1,1" upper_case="false" justify="right" pivot="topleft" />
+					<smx_gameoption_combobox_1 name="${name}" type="${type}" value_min="${value_min|@DEF}" value_max="${value_max|@DEF}" value_wrap="${value_wrap|@DEF}" value_increment="${value_increment|@DEF}" values="${values|@DEF}" reverse_list="${reverse_list|@DEF}" localization_prefix="${localization_prefix|}" format_string="${format_string|}" pos="255,0" width="300" height="32" />
+				</rect>
+			</smx_controloption_1>
+		</append>
+
+
+<!--	// SMX // Game Option Controls -->
+
+		<append xpath="/controls">
+			<smx_gameoption_1>
+				<rect	name="${name}"
+						pos="${pos|0,0}"
+						width="570"
+						height="32"
+						is_textinput="${is_textinput|false}"
+						value_type="${value_type}"
+						controller="GamePrefSelector"
+						values="${values|}"
+						display_names="${display_names|}"
+						value_localization_prefix="${value_localization_prefix|}">
+					<label name="ControlLabel" depth="4" pos="0,-2" width="262" height="30" style="hover" text_key="${title}" color="[menuElementsLBLPri]" font_size="22" crispness="Never" effect="outline" effect_distance="1,1" upper_case="false" justify="right" pivot="topleft" tooltip_key="${title}Desc" />
+					<smx_gameoption_combobox_1 name="ControlCombo" type="ComboBoxList&lt;XUiC_GamePrefSelector.GameOptionValue&gt;" value_min="${value_min|@DEF}" value_max="${value_max|@DEF}" value_wrap="${value_wrap|@DEF}" value_increment="${value_increment|@DEF}" values="${values|@DEF}" reverse_list="${reverse_list|@DEF}" localization_prefix="${localization_prefix|}" format_string="${format_string|}" pos="269,0" width="300" height="32" />
+					<smx_gameoption_textfield_1 name="ControlText" depth="5" pos="303,0" width="${Defined(password_field) and password_field ? 232+32+10 : 232|232}" height="32" pivot="topLeft" password_field="${password_field|false}" />
+				</rect>
+			</smx_gameoption_1>
+		</append>
+
+
+<!--	// SMX // Game Option Combobox -->
+
+		<append xpath="/controls">
+			<smx_gameoption_combobox_1>
+				<rect name="${name}" controller="${type}" depth="${depth|3}" pos="${pos|0,0}" width="${width|200}" height="${height|30}" value_min="${value_min|@DEF}" value_max="${value_max|@DEF}" value_wrap="${value_wrap|@DEF}" value_increment="${value_increment|@DEF}" values="${values|@DEF}" reverse_list="${reverse_list|@DEF}" localization_prefix="${localization_prefix|}" format_string="${format_string|}" enabled_color="${enabled_color|[white]}" disabled_color="${disabled_color|[lightGrey]}" pivot="left" visible="${visible|true}">
+					<button name="back" depth="${1+depth|4}" style="press, hover, smx_menu_icon_colors" pos="${height/2|15},${-height/2|-15}" size="14,26" pivot="center" atlas="itemiconatlas" sprite="smx_menu_general_arrow_icon" disabledcolor="[disabledColor]" sound="[paging_click]" tooltip_key="${tooltip_key|}" />
+					<!--sprite name="frame" depth="9" pos="32,0" size="240,32" atlas="uiAtlas" sprite="smx_menu_searchinput_frame" color="[white]" type="sliced" /-->
+					<sprite name="background" depth="${1+depth|4}" style="icon30px" pos="${2+height|32},0" width="${width-height*2-4|136}" height="${height|30}" pivot="topleft" color="[black]" type="sliced" foregroundlayer="${foregroundlayer|false}" />
+					<sprite name="fillBG" depth="${2+depth|5}" pos="${2+height|32},-28" width="${width-height*2-4|136}" height="4" atlas="uiAtlas" sprite="smx_menu_combobox_bar" pivot="topleft" color="[darkGrey]" type="sliced" visible="{isnumber}" foregroundlayer="true" />
+					<sprite name="fill" depth="${3+depth|5}" pos="${2+height|32},-28" width="${width-height*2-4|136}" height="4" atlas="uiAtlas" sprite="smx_menu_combobox_bar" pivot="topleft" color="[white]" fill="{fillvalue}" filldirection="horizontal" type="filled" visible="{isnumber}" foregroundlayer="true" />
+					<label name="currentValue" depth="${3+depth|6}" pos="${2+height|32},${1-height/2|-15}" width="${width-height*2-4|136}" height="${height-2|28}" pivot="left" text="{val|always}" font_size="22" justify="center" color="[menuElementsLBLPri]" crispness="Never" effect="outline" effect_distance="1,1" upper_case="true" effect_color="[black]" />
+					<button name="forward" depth="${1+depth|4}" style="press, hover, smx_menu_icon_colors" pos="${width-height/2|185},${-height/2|-15}" size="14,26" pivot="center" atlas="itemiconatlas" sprite="smx_menu_general_arrow_icon" disabledcolor="[disabledColor]" sound="[paging_click]" tooltip_key="${tooltip_key|}" flip="Horizontally" />
+					<panel name="directvalue" style="press, scroll, hover, drag" pos="${2+height|32},0" width="${width-height*2-4|136}" height="${height|30}" pivot="topleft" disableautobackground="true" sound="[paging_click]" tooltip_key="${tooltip_key|}" />
+				</rect>
+			</smx_gameoption_combobox_1>
+		</append>
+
+
+<!--	// SMX // Game Option Textfield -->
+
+		<append xpath="/controls">
+			<smx_gameoption_textfield_1>
+				<panel	name="${name}"
+						depth="${depth|3}"
+						controller="TextInput"
+						pos="${pos|0,0}"
+						width="${width|200}"
+						height="${height|32}"
+						value="${value|}"
+						active_text_color="${active_text_color|[white]}"
+						caret_color="${caret_color|[white]}"
+						selection_color="${selection_color|[mediumGrey_half_alpha]}"
+						character_limit="${character_limit|0}"
+						validation="${validation|none}"
+						backgroundcolor="${backgroundcolor|[black]}"
+						style="press, select"
+						on_hover="${on_hover|false}"
+						snapCursor="true"
+						virtual_keyboard_prompt="${virtual_keyboard_prompt|}"
+						disableautobackground="true"
+						search_field="${search_field|false}"
+						password_field="${password_field|false}"
+						pivot="${pivot|topleft}"
+						visible="${visible|true}"
+						on_return="${on_return|submit}">
+					<sprite name="frame" depth="9" pos="-2,0" size="240,32" atlas="uiAtlas" sprite="smx_menu_searchinput_frame" color="[white]" type="sliced" />
+					<sprite name="background" depth="0" width="${Defined(password_field) and password_field ? width-height-10 : width|200}" color="${backgroundcolor|[black]}" type="sliced" pivot="${pivot|topleft}" foregroundlayer="${foregroundlayer|false}" />
+					<label name="text" depth="1" pos="0,-4" width="${Defined(password_field) and password_field ? width-height-10 : width|200}" justify="${justify|center}" font_size="22" max_line_count="${max_line_count|0}" crispness="Never" effect="outline" effect_distance="1,1" upper_case="false" pivot="${pivot|topleft}" overflow="${overflow|ShrinkContent}" />
+					<button name="btnShowPassword" pos="${width-height/2-5|180},-${height/2|-16}" width="${height-2}" height="${height-2}" style="smx_menu_icon_colors" sprite="ui_game_symbol_stealth" defaultcolor="180,180,180" foregroundlayer="true" type="simple" hoverscale="1.1" pivot="center" tooltip_key="xuiShowPassword" selected="{showpassword}" visible="{passwordfield}" />
+				</panel>
+			</smx_gameoption_textfield_1>
+		</append>
+
+
+<!--	// SMX // Create Profile Textfield -->
+
+		<append xpath="/controls">
+			<smx_createprofile_textfield_1>
+				<panel	name="${name}"
+						depth="${depth|3}"
+						controller="TextInput"
+						pos="${pos|0,0}"
+						width="${width|200}"
+						height="${height|32}"
+						value="${value|}"
+						active_text_color="${active_text_color|[white]}"
+						caret_color="${caret_color|[white]}"
+						selection_color="${selection_color|[mediumGrey_half_alpha]}"
+						character_limit="${character_limit|0}"
+						validation="${validation|none}"
+						backgroundcolor="${backgroundcolor|[black]}"
+						style="press, select"
+						on_hover="${on_hover|false}"
+						snapCursor="true"
+						virtual_keyboard_prompt="${virtual_keyboard_prompt|}"
+						disableautobackground="true"
+						search_field="${search_field|false}"
+						password_field="${password_field|false}"
+						pivot="${pivot|topleft}"
+						visible="${visible|true}"
+						on_return="${on_return|submit}">
+					<sprite name="frame" depth="9" pos="-2,0" size="362,32" atlas="uiAtlas" sprite="smx_menu_searchinput_frame" color="[white]" type="sliced" pivot="${pivot|topleft}" foregroundlayer="${foregroundlayer|false}" />
+					<sprite name="background" depth="0" width="${Defined(password_field) and password_field ? width-height-10 : width|200}" color="${backgroundcolor|[black]}" type="sliced" pivot="${pivot|topleft}" foregroundlayer="${foregroundlayer|false}" />
+					<label name="text" depth="1" pos="0,0" width="${Defined(password_field) and password_field ? width-height-10 : width|200}" justify="${justify|center}" font_size="22" max_line_count="${max_line_count|0}" crispness="Never" effect="outline" effect_distance="1,1" upper_case="false" pivot="${pivot|topleft}" overflow="${overflow|ShrinkContent}" />
+					<button name="btnShowPassword" pos="${width-height/2-5|180},-${height/2|-16}" width="${height-2}" height="${height-2}" style="smx_menu_icon_colors" sprite="ui_game_symbol_stealth" defaultcolor="180,180,180" foregroundlayer="true" type="simple" hoverscale="1.1" pivot="center" tooltip_key="xuiShowPassword" selected="{showpassword}" visible="{passwordfield}" />
+				</panel>
+			</smx_createprofile_textfield_1>
+		</append>
+
+
+<!--	// SMX // Search Controls -->
+
+		<append xpath="/controls">
+			<smx_savegame_search>
+				<panel	depth="1"
+						controller="TextInput"
+						pos="122,-7"
+						width="240"
+						height="30"
+						value="SEARCH"
+						active_text_color="[white]"
+						caret_color="[white]"
+						selection_color="[mediumGrey_half_alpha]"
+						character_limit="30"
+						validation="none"
+						backgroundcolor="[black]"
+						on_press="true"
+						style="select"
+						snapCursor="true"
+						virtual_keyboard_prompt="vkPromptSearchTerm"
+						search_field="true">
+					<sprite name="searchIcon" depth="1" pos="-30,-15" size="26,26" atlas="itemiconatlas" sprite="smx_menu_general_search_icon" pivot="center" />
+					<sprite name="background" depth="0" size="240,30" atlas="uiAtlas" sprite="smx_menu_searchinput_background" color="[black]" type="sliced" />
+					<sprite name="frame" depth="1" size="240,30" atlas="uiAtlas" sprite="smx_menu_searchinput_frame" color="[white]" type="sliced" />
+					<label name="text" depth="1" pos="0,-2" font_size="22" crispness="Never" effect="outline" effect_distance="1,1" upper_case="false" justify="center" pivot="topleft" />
+				</panel>
+			</smx_savegame_search>
+		</append>
+
+
+<!--	// SMX // Savegame List -->
+
+		<append xpath="/controls">
+			<smx_savegames_list_entry>
+				<rect height="${height}" style="press, doubleclick, hover, scroll" background_sprite_unselected="smx_menu_panel_background" background_sprite_selected="smx_menu_panel_background" background_color_unselected="[darkGrey]" background_color_hovered="[lightGrey]" background_color_selected="[white]" disabled_font_color="[disabledLabelColor]" enabled_font_color="[labelColor]" sound="[recipe_click]" controller="ListEntry&lt;XUiC_SavegamesList.ListEntry&gt;">
+					<sprite name="backgroundMain" depth="3" pos="2,0" size="100,100" atlas="uiAtlas" sprite="smx_menu_slot_frame" color="{versioncolor}" type="sliced" fillcenter="false" visible="{hasentry}" />
+					<sprite name="nameBackground" depth="3" pos="122,-16" size="348,45" atlas="uiAtlas" sprite="smx_menu_tabs_background" color="[black]" type="sliced" flip="vertically" globalopacitymod="1.5" visible="{hasentry}" />
+					<sprite name="background" depth="2" pos="102,0" size="388,100" atlas="uiAtlas" sprite="smx_menu_panel_background" type="sliced" flip="vertically" globalopacitymod="0.5" visible="{hasentry}" />
+					<label name="Name" depth="4" pos="102,-17" size="388,40" text="{savename}" font_size="40" crispness="Never" effect="outline" effect_distance="1,1" upper_case="false" justify="center" pivot="topleft" />
+					<label name="Version" depth="4" pos="2,-27" size="100,100" style="press, doubleclick, hover, scroll" text="{version}" color="[darkGrey]" font_size="40" crispness="Never" effect="outline" effect_distance="1,1" upper_case="false" justify="center" pivot="topleft" tooltip="{versiontooltip}" />
+					<label name="World" depth="4" pos="125,${-height+6}" size="200,32" style="press, doubleclick, hover, scroll" text="{worldname} - {mode}" color="{worldcolor}" font_size="18" crispness="Never" effect="outline" effect_distance="1,1" upper_case="false" justify="left" pivot="bottomleft" visible="{hasentry}" tooltip="{worldtooltip}" />
+					<label name="LastPlayed" depth="4" pos="${width-25},${-height+6}" size="180,32" text="{lastplayed}" color="255,255,255,128" font_size="18" crispness="Never" effect="outline" effect_distance="1,1" upper_case="false" justify="right" pivot="bottomright" />
+				</rect>
+			</smx_savegames_list_entry>
+		</append>
+
+
+<!--	// SMX // Profiles List -->
+
+		<append xpath="/controls">
+			<smx_profiles_list_entry>
+				<rect height="${height|30}" width="${width}" style="press, scroll" on_doubleclick="true" font_size_default="${height-16|16}" font_size_hover="${height-8|24}" disabled_font_color="[disabledLabelColor]" enabled_font_color="[labelColor]" sound="[recipe_click]" controller="ListEntry`1[XUiC_ProfilesList+ListEntry]">
+					<sprite name="backgroundMain" depth="3" sprite="menu_empty2px" height="${1+height|100}" pos="9990,9990" width="${width|250}" color="[black]" type="sliced" fillcenter="false" visible="false" />
+					<sprite name="background" depth="2" color="[darkGrey]" pos="9990,9990" width="${width|250}" type="sliced" visible="false" />
+					<!--texture name="SMXselectBG" depth="3" pos="2,0" size="200,65" texture="@modfolder:Textures/menu/smxselectbg.png" material="Materials/Transparent Colored" type="sliced" /-->
+					<label name="Name" depth="4" pos="8,${Round(-height/2,0)|-25}" width="${width-8|242}" height="${height-4|26}" text="{name}" font_size="${height-4|26}" effect="outline" effect_distance="1,1" justify="left" />
+				</rect>
+			</smx_profiles_list_entry>
+		</append>
+
+</configs>

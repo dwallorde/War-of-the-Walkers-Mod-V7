@@ -1,0 +1,12 @@
+<configs>
+
+<!--	// SMX // playerMale BagSize Change -->
+
+		<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='BagSize']/@value">63</set>
+
+
+<!--	// SMX // playerMale CarryCapacity Change -->
+
+		<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='CarryCapacity']/@value">45</set>
+
+</configs>

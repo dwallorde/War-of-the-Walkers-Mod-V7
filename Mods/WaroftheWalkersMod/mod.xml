@@ -1,0 +1,12 @@
+<mod>
+	<info>
+		<author>Dwallorde</author>
+		<name>War of the Walkers</name>
+		<description>WOTW is a game overhaul mod/modlet for 7 Days To Die.</description>
+		<mod_version>V7.0.0 Beta</mod_version>
+		<game_version>18.2</game_version>
+		<launcher_version>0.0.0</launcher_version>
+	</info>
+	<dependencies>
+	</dependencies>
+</mod>

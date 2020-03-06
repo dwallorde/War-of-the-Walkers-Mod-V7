@@ -1,0 +1,2203 @@
+<configs>
+	<append xpath="/blocks">	
+		<block name="toySealBlue">
+			<property name="Material" value="Mcloth"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="OnlySimpleRotations" value="false"/> 
+			<property name="CanPickup" value="true" /> 
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="EconomicValue" value="1000"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToySealBlue" />
+			<property name="CustomIcon" value="toySealBlue" />
+			
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealBlue1"/>
+				<property name="Item" value="meleeToolHoeIron"/>
+				<property name="ItemCount" value="0"/>
+				<property name="UpgradeHitCount" value="4"/>
+			</property>			
+			
+		</block>
+		
+		<block name="toySealPink">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToySealPink" />
+			<property name="CustomIcon" value="toySealPink" />
+			
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealPink1"/>
+			</property>				
+			
+		</block>		
+		
+		<block name="toySealBrown">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToySealBrown" />
+			<property name="CustomIcon" value="toySealBrown" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealBrown1"/>
+			</property>					
+		</block>		
+	
+		
+		<block name="toyElephantBlack">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyElephantBlack" />
+			<property name="CustomIcon" value="toyElephantBlack" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantBlack1"/>
+			</property>					
+		</block>
+		<block name="toyElephantBlue">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyElephantBlue" />
+			<property name="CustomIcon" value="toyElephantBlue" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantBlue1"/>
+			</property>					
+		</block>
+		<block name="toyElephantPink">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyElephantPink" />
+			<property name="CustomIcon" value="toyElephantPink" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantPink1"/>
+			</property>					
+		</block>
+
+		
+		<block name="toyFoxOrange">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyFoxOrange" />
+			<property name="CustomIcon" value="toyFoxOrange" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxOrange1"/>
+			</property>					
+		</block>
+		<block name="toyFoxPink">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyFoxPink" />
+			<property name="CustomIcon" value="toyFoxPink" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxPink1"/>
+			</property>					
+		</block>
+		<block name="toyFoxBlack">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyFoxBlack" />
+			<property name="CustomIcon" value="toyFoxBlack" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxBlack1"/>
+			</property>					
+		</block>
+		
+		
+		<block name="toyGiraffeBrown">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyGiraffeBrown" />
+			<property name="CustomIcon" value="toyGiraffeBrown" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffeBrown1"/>
+			</property>					
+		</block>
+		<block name="toyGiraffeBlue">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyGiraffeBlue" />
+			<property name="CustomIcon" value="toyGiraffeBlue" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffeBlue1"/>
+			</property>					
+		</block>
+		<block name="toyGiraffePink">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyGiraffePink" />
+			<property name="CustomIcon" value="toyGiraffePink" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffePink1"/>
+			</property>					
+		</block>
+		
+		
+		<block name="toyCrocodilePink">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyCrocodilePink" />
+			<property name="CustomIcon" value="toyCrocodilePink" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodilePink1"/>
+			</property>					
+		</block>
+		<block name="toyCrocodileGreen">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyCrocodileGreen" />
+			<property name="CustomIcon" value="toyCrocodileGreen" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodileGreen1"/>
+			</property>					
+		</block>
+		<block name="toyCrocodileBlue">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyCrocodileBlue" />
+			<property name="CustomIcon" value="toyCrocodileBlue" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodileBlue1"/>
+			</property>					
+		</block>		
+
+		
+		<block name="toyDogPink">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyDogPink" />
+			<property name="CustomIcon" value="toyDogPink" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogPink1"/>
+			</property>					
+		</block>		
+		<block name="toyDogYellow">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyDogYellow" />
+			<property name="CustomIcon" value="toyDogYellow" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogYellow1"/>
+			</property>					
+		</block>	
+		<block name="toyDogBlack">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyDogBlack" />
+			<property name="CustomIcon" value="toyDogBlack" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogBlack1"/>
+			</property>					
+		</block>	
+
+		
+		<block name="toyDolphinBlack">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyDolphinBlack" />
+			<property name="CustomIcon" value="toyDolphinBlack" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinBlack1"/>
+			</property>					
+		</block>		
+		<block name="toyDolphinBlue">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyDolphinBlue" />
+			<property name="CustomIcon" value="toyDolphinBlue" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinBlue1"/>
+			</property>					
+		</block>		
+		<block name="toyDolphinPink">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyDolphinPink" />
+			<property name="CustomIcon" value="toyDolphinPink" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinPink1"/>
+			</property>					
+		</block>		
+
+		
+		<block name="toyLionPink">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyLionPink" />
+			<property name="CustomIcon" value="toyLionPink" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionPink1"/>
+			</property>					
+		</block>		
+		<block name="toyLionBrown">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyLionBrown" />
+			<property name="CustomIcon" value="toyLionBrown" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionBrown1"/>
+			</property>					
+		</block>
+		<block name="toyLionBlue">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyLionBlue" />
+			<property name="CustomIcon" value="toyLionBlue" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionBlue1"/>
+			</property>					
+		</block>		
+		
+		
+		<block name="toyFrogBlue">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyFrogBlue" />
+			<property name="CustomIcon" value="toyFrogBlue" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogBlue1"/>
+			</property>					
+		</block>	
+		<block name="toyFrogGreen">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyFrogGreen" />
+			<property name="CustomIcon" value="toyFrogGreen" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogGreen1"/>
+			</property>					
+		</block>	
+		<block name="toyFrogPink">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyFrogPink" />
+			<property name="CustomIcon" value="toyFrogPink" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogPink1"/>
+			</property>					
+		</block>	
+		
+		
+		<block name="toyMousePink">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyMousePink" />
+			<property name="CustomIcon" value="toyMousePink" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMousePink1"/>
+			</property>					
+		</block>			
+		<block name="toyMouseGrey">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyMouseGrey" />
+			<property name="CustomIcon" value="toyMouseGrey" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMouseGrey1"/>
+			</property>					
+		</block>			
+		<block name="toyMouseBlack">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/ToyBox.unity3d?BlockToyMouseBlack" />
+			<property name="CustomIcon" value="toyMouseBlack" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMouseBlack1"/>
+			</property>					
+		</block>			
+
+
+		<block name="toySealBlue1">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealBlue2"/>
+			</property>				
+		</block>
+
+		<block name="toySealBlue2">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealBlue3"/>
+			</property>				
+		</block>			
+
+		<block name="toySealBlue3">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealBlue4"/>
+			</property>				
+		</block>			
+
+		<block name="toySealBlue4">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealBlue5"/>
+			</property>				
+		</block>		
+
+		<block name="toySealBlue5">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealBlue6"/>
+			</property>				
+		</block>			
+		
+		<block name="toySealBlue6">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealBlue7"/>
+			</property>				
+		</block>			
+		
+		<block name="toySealBlue7">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealBlue8"/>
+			</property>				
+		</block>			
+
+		<block name="toySealBlue8">
+		    <property name="Extends" value="toySealBlue"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealBlue"/>
+			</property>				
+		</block>
+		<block name="toySealPink1">
+		    <property name="Extends" value="toySealPink"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealPink2"/>
+			</property>				
+		</block>
+
+		<block name="toySealPink2">
+		    <property name="Extends" value="toySealPink"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealPink3"/>
+			</property>				
+		</block>			
+
+		<block name="toySealPink3">
+		    <property name="Extends" value="toySealPink"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealPink4"/>
+			</property>				
+		</block>			
+
+		<block name="toySealPink4">
+		    <property name="Extends" value="toySealPink"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealPink5"/>
+			</property>				
+		</block>		
+
+		<block name="toySealPink5">
+		    <property name="Extends" value="toySealPink"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealPink6"/>
+			</property>				
+		</block>			
+		
+		<block name="toySealPink6">
+		    <property name="Extends" value="toySealPink"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealPink7"/>
+			</property>				
+		</block>			
+		
+		<block name="toySealPink7">
+		    <property name="Extends" value="toySealPink"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealPink8"/>
+			</property>				
+		</block>			
+
+		<block name="toySealPink8">
+		    <property name="Extends" value="toySealPink"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealPink"/>
+			</property>				
+		</block>
+		<block name="toySealBrown1">
+		    <property name="Extends" value="toySealBrown"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealBrown2"/>
+			</property>				
+		</block>
+
+		<block name="toySealBrown2">
+		    <property name="Extends" value="toySealBrown"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealBrown3"/>
+			</property>				
+		</block>			
+
+		<block name="toySealBrown3">
+		    <property name="Extends" value="toySealBrown"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealBrown4"/>
+			</property>				
+		</block>			
+
+		<block name="toySealBrown4">
+		    <property name="Extends" value="toySealBrown"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealBrown5"/>
+			</property>				
+		</block>		
+
+		<block name="toySealBrown5">
+		    <property name="Extends" value="toySealBrown"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealBrown6"/>
+			</property>				
+		</block>			
+		
+		<block name="toySealBrown6">
+		    <property name="Extends" value="toySealBrown"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealBrown7"/>
+			</property>				
+		</block>			
+		
+		<block name="toySealBrown7">
+		    <property name="Extends" value="toySealBrown"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealBrown8"/>
+			</property>				
+		</block>			
+
+		<block name="toySealBrown8">
+		    <property name="Extends" value="toySealBrown"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toySealBrown"/>
+			</property>				
+		</block>
+		<block name="toyElephantBlack1">
+		    <property name="Extends" value="toyElephantBlack"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantBlack2"/>
+			</property>				
+		</block>
+
+		<block name="toyElephantBlack2">
+		    <property name="Extends" value="toyElephantBlack"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantBlack3"/>
+			</property>				
+		</block>			
+
+		<block name="toyElephantBlack3">
+		    <property name="Extends" value="toyElephantBlack"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantBlack4"/>
+			</property>				
+		</block>			
+
+		<block name="toyElephantBlack4">
+		    <property name="Extends" value="toyElephantBlack"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantBlack5"/>
+			</property>				
+		</block>		
+
+		<block name="toyElephantBlack5">
+		    <property name="Extends" value="toyElephantBlack"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantBlack6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyElephantBlack6">
+		    <property name="Extends" value="toyElephantBlack"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantBlack7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyElephantBlack7">
+		    <property name="Extends" value="toyElephantBlack"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantBlack8"/>
+			</property>				
+		</block>			
+
+		<block name="toyElephantBlack8">
+		    <property name="Extends" value="toyElephantBlack"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantBlack"/>
+			</property>				
+		</block>
+		<block name="toyElephantBlue1">
+		    <property name="Extends" value="toyElephantBlue"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantBlue2"/>
+			</property>				
+		</block>
+
+		<block name="toyElephantBlue2">
+		    <property name="Extends" value="toyElephantBlue"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantBlue3"/>
+			</property>				
+		</block>			
+
+		<block name="toyElephantBlue3">
+		    <property name="Extends" value="toyElephantBlue"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantBlue4"/>
+			</property>				
+		</block>			
+
+		<block name="toyElephantBlue4">
+		    <property name="Extends" value="toyElephantBlue"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantBlue5"/>
+			</property>				
+		</block>		
+
+		<block name="toyElephantBlue5">
+		    <property name="Extends" value="toyElephantBlue"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantBlue6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyElephantBlue6">
+		    <property name="Extends" value="toyElephantBlue"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantBlue7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyElephantBlue7">
+		    <property name="Extends" value="toyElephantBlue"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantBlue8"/>
+			</property>				
+		</block>			
+
+		<block name="toyElephantBlue8">
+		    <property name="Extends" value="toyElephantBlue"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantBlue"/>
+			</property>				
+		</block>
+		<block name="toyElephantPink1">
+		    <property name="Extends" value="toyElephantPink"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantPink2"/>
+			</property>				
+		</block>
+
+		<block name="toyElephantPink2">
+		    <property name="Extends" value="toyElephantPink"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantPink3"/>
+			</property>				
+		</block>			
+
+		<block name="toyElephantPink3">
+		    <property name="Extends" value="toyElephantPink"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantPink4"/>
+			</property>				
+		</block>			
+
+		<block name="toyElephantPink4">
+		    <property name="Extends" value="toyElephantPink"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantPink5"/>
+			</property>				
+		</block>		
+
+		<block name="toyElephantPink5">
+		    <property name="Extends" value="toyElephantPink"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantPink6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyElephantPink6">
+		    <property name="Extends" value="toyElephantPink"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantPink7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyElephantPink7">
+		    <property name="Extends" value="toyElephantPink"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantPink8"/>
+			</property>				
+		</block>			
+
+		<block name="toyElephantPink8">
+		    <property name="Extends" value="toyElephantPink"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyElephantPink"/>
+			</property>				
+		</block>
+		<block name="toyFoxOrange1">
+		    <property name="Extends" value="toyFoxOrange"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxOrange2"/>
+			</property>				
+		</block>
+
+		<block name="toyFoxOrange2">
+		    <property name="Extends" value="toyFoxOrange"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxOrange3"/>
+			</property>				
+		</block>			
+
+		<block name="toyFoxOrange3">
+		    <property name="Extends" value="toyFoxOrange"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxOrange4"/>
+			</property>				
+		</block>			
+
+		<block name="toyFoxOrange4">
+		    <property name="Extends" value="toyFoxOrange"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxOrange5"/>
+			</property>				
+		</block>		
+
+		<block name="toyFoxOrange5">
+		    <property name="Extends" value="toyFoxOrange"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxOrange6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyFoxOrange6">
+		    <property name="Extends" value="toyFoxOrange"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxOrange7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyFoxOrange7">
+		    <property name="Extends" value="toyFoxOrange"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxOrange8"/>
+			</property>				
+		</block>			
+
+		<block name="toyFoxOrange8">
+		    <property name="Extends" value="toyFoxOrange"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxOrange"/>
+			</property>				
+		</block>
+		<block name="toyFoxPink1">
+		    <property name="Extends" value="toyFoxPink"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxPink2"/>
+			</property>				
+		</block>
+
+		<block name="toyFoxPink2">
+		    <property name="Extends" value="toyFoxPink"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxPink3"/>
+			</property>				
+		</block>			
+
+		<block name="toyFoxPink3">
+		    <property name="Extends" value="toyFoxPink"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxPink4"/>
+			</property>				
+		</block>			
+
+		<block name="toyFoxPink4">
+		    <property name="Extends" value="toyFoxPink"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxPink5"/>
+			</property>				
+		</block>		
+
+		<block name="toyFoxPink5">
+		    <property name="Extends" value="toyFoxPink"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxPink6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyFoxPink6">
+		    <property name="Extends" value="toyFoxPink"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxPink7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyFoxPink7">
+		    <property name="Extends" value="toyFoxPink"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxPink8"/>
+			</property>				
+		</block>			
+
+		<block name="toyFoxPink8">
+		    <property name="Extends" value="toyFoxPink"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxPink"/>
+			</property>				
+		</block>
+		<block name="toyFoxBlack1">
+		    <property name="Extends" value="toyFoxBlack"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxBlack2"/>
+			</property>				
+		</block>
+
+		<block name="toyFoxBlack2">
+		    <property name="Extends" value="toyFoxBlack"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxBlack3"/>
+			</property>				
+		</block>			
+
+		<block name="toyFoxBlack3">
+		    <property name="Extends" value="toyFoxBlack"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxBlack4"/>
+			</property>				
+		</block>			
+
+		<block name="toyFoxBlack4">
+		    <property name="Extends" value="toyFoxBlack"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxBlack5"/>
+			</property>				
+		</block>		
+
+		<block name="toyFoxBlack5">
+		    <property name="Extends" value="toyFoxBlack"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxBlack6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyFoxBlack6">
+		    <property name="Extends" value="toyFoxBlack"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxBlack7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyFoxBlack7">
+		    <property name="Extends" value="toyFoxBlack"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxBlack8"/>
+			</property>				
+		</block>			
+
+		<block name="toyFoxBlack8">
+		    <property name="Extends" value="toyFoxBlack"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFoxBlack"/>
+			</property>				
+		</block>
+		<block name="toyGiraffeBrown1">
+		    <property name="Extends" value="toyGiraffeBrown"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffeBrown2"/>
+			</property>				
+		</block>
+
+		<block name="toyGiraffeBrown2">
+		    <property name="Extends" value="toyGiraffeBrown"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffeBrown3"/>
+			</property>				
+		</block>			
+
+		<block name="toyGiraffeBrown3">
+		    <property name="Extends" value="toyGiraffeBrown"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffeBrown4"/>
+			</property>				
+		</block>			
+
+		<block name="toyGiraffeBrown4">
+		    <property name="Extends" value="toyGiraffeBrown"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffeBrown5"/>
+			</property>				
+		</block>		
+
+		<block name="toyGiraffeBrown5">
+		    <property name="Extends" value="toyGiraffeBrown"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffeBrown6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyGiraffeBrown6">
+		    <property name="Extends" value="toyGiraffeBrown"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffeBrown7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyGiraffeBrown7">
+		    <property name="Extends" value="toyGiraffeBrown"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffeBrown8"/>
+			</property>				
+		</block>			
+
+		<block name="toyGiraffeBrown8">
+		    <property name="Extends" value="toyGiraffeBrown"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffeBrown"/>
+			</property>				
+		</block>
+		<block name="toyGiraffeBlue1">
+		    <property name="Extends" value="toyGiraffeBlue"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffeBlue2"/>
+			</property>				
+		</block>
+
+		<block name="toyGiraffeBlue2">
+		    <property name="Extends" value="toyGiraffeBlue"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffeBlue3"/>
+			</property>				
+		</block>			
+
+		<block name="toyGiraffeBlue3">
+		    <property name="Extends" value="toyGiraffeBlue"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffeBlue4"/>
+			</property>				
+		</block>			
+
+		<block name="toyGiraffeBlue4">
+		    <property name="Extends" value="toyGiraffeBlue"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffeBlue5"/>
+			</property>				
+		</block>		
+
+		<block name="toyGiraffeBlue5">
+		    <property name="Extends" value="toyGiraffeBlue"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffeBlue6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyGiraffeBlue6">
+		    <property name="Extends" value="toyGiraffeBlue"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffeBlue7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyGiraffeBlue7">
+		    <property name="Extends" value="toyGiraffeBlue"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffeBlue8"/>
+			</property>				
+		</block>			
+
+		<block name="toyGiraffeBlue8">
+		    <property name="Extends" value="toyGiraffeBlue"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffeBlue"/>
+			</property>				
+		</block>
+		<block name="toyGiraffePink1">
+		    <property name="Extends" value="toyGiraffePink"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffePink2"/>
+			</property>				
+		</block>
+
+		<block name="toyGiraffePink2">
+		    <property name="Extends" value="toyGiraffePink"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffePink3"/>
+			</property>				
+		</block>			
+
+		<block name="toyGiraffePink3">
+		    <property name="Extends" value="toyGiraffePink"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffePink4"/>
+			</property>				
+		</block>			
+
+		<block name="toyGiraffePink4">
+		    <property name="Extends" value="toyGiraffePink"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffePink5"/>
+			</property>				
+		</block>		
+
+		<block name="toyGiraffePink5">
+		    <property name="Extends" value="toyGiraffePink"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffePink6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyGiraffePink6">
+		    <property name="Extends" value="toyGiraffePink"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffePink7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyGiraffePink7">
+		    <property name="Extends" value="toyGiraffePink"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffePink8"/>
+			</property>				
+		</block>			
+
+		<block name="toyGiraffePink8">
+		    <property name="Extends" value="toyGiraffePink"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyGiraffePink"/>
+			</property>				
+		</block>
+		<block name="toyCrocodilePink1">
+		    <property name="Extends" value="toyCrocodilePink"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodilePink2"/>
+			</property>				
+		</block>
+
+		<block name="toyCrocodilePink2">
+		    <property name="Extends" value="toyCrocodilePink"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodilePink3"/>
+			</property>				
+		</block>			
+
+		<block name="toyCrocodilePink3">
+		    <property name="Extends" value="toyCrocodilePink"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodilePink4"/>
+			</property>				
+		</block>			
+
+		<block name="toyCrocodilePink4">
+		    <property name="Extends" value="toyCrocodilePink"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodilePink5"/>
+			</property>				
+		</block>		
+
+		<block name="toyCrocodilePink5">
+		    <property name="Extends" value="toyCrocodilePink"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodilePink6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyCrocodilePink6">
+		    <property name="Extends" value="toyCrocodilePink"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodilePink7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyCrocodilePink7">
+		    <property name="Extends" value="toyCrocodilePink"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodilePink8"/>
+			</property>				
+		</block>			
+
+		<block name="toyCrocodilePink8">
+		    <property name="Extends" value="toyCrocodilePink"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodilePink"/>
+			</property>				
+		</block>
+		<block name="toyCrocodileGreen1">
+		    <property name="Extends" value="toyCrocodileGreen"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodileGreen2"/>
+			</property>				
+		</block>
+
+		<block name="toyCrocodileGreen2">
+		    <property name="Extends" value="toyCrocodileGreen"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodileGreen3"/>
+			</property>				
+		</block>			
+
+		<block name="toyCrocodileGreen3">
+		    <property name="Extends" value="toyCrocodileGreen"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodileGreen4"/>
+			</property>				
+		</block>			
+
+		<block name="toyCrocodileGreen4">
+		    <property name="Extends" value="toyCrocodileGreen"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodileGreen5"/>
+			</property>				
+		</block>		
+
+		<block name="toyCrocodileGreen5">
+		    <property name="Extends" value="toyCrocodileGreen"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodileGreen6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyCrocodileGreen6">
+		    <property name="Extends" value="toyCrocodileGreen"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodileGreen7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyCrocodileGreen7">
+		    <property name="Extends" value="toyCrocodileGreen"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodileGreen8"/>
+			</property>				
+		</block>			
+
+		<block name="toyCrocodileGreen8">
+		    <property name="Extends" value="toyCrocodileGreen"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodileGreen"/>
+			</property>				
+		</block>
+		<block name="toyCrocodileBlue1">
+		    <property name="Extends" value="toyCrocodileBlue"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodileBlue2"/>
+			</property>				
+		</block>
+
+		<block name="toyCrocodileBlue2">
+		    <property name="Extends" value="toyCrocodileBlue"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodileBlue3"/>
+			</property>				
+		</block>			
+
+		<block name="toyCrocodileBlue3">
+		    <property name="Extends" value="toyCrocodileBlue"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodileBlue4"/>
+			</property>				
+		</block>			
+
+		<block name="toyCrocodileBlue4">
+		    <property name="Extends" value="toyCrocodileBlue"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodileBlue5"/>
+			</property>				
+		</block>		
+
+		<block name="toyCrocodileBlue5">
+		    <property name="Extends" value="toyCrocodileBlue"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodileBlue6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyCrocodileBlue6">
+		    <property name="Extends" value="toyCrocodileBlue"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodileBlue7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyCrocodileBlue7">
+		    <property name="Extends" value="toyCrocodileBlue"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodileBlue8"/>
+			</property>				
+		</block>			
+
+		<block name="toyCrocodileBlue8">
+		    <property name="Extends" value="toyCrocodileBlue"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyCrocodileBlue"/>
+			</property>				
+		</block>
+		<block name="toyDogPink1">
+		    <property name="Extends" value="toyDogPink"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogPink2"/>
+			</property>				
+		</block>
+
+		<block name="toyDogPink2">
+		    <property name="Extends" value="toyDogPink"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogPink3"/>
+			</property>				
+		</block>			
+
+		<block name="toyDogPink3">
+		    <property name="Extends" value="toyDogPink"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogPink4"/>
+			</property>				
+		</block>			
+
+		<block name="toyDogPink4">
+		    <property name="Extends" value="toyDogPink"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogPink5"/>
+			</property>				
+		</block>		
+
+		<block name="toyDogPink5">
+		    <property name="Extends" value="toyDogPink"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogPink6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyDogPink6">
+		    <property name="Extends" value="toyDogPink"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogPink7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyDogPink7">
+		    <property name="Extends" value="toyDogPink"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogPink8"/>
+			</property>				
+		</block>			
+
+		<block name="toyDogPink8">
+		    <property name="Extends" value="toyDogPink"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogPink"/>
+			</property>				
+		</block>
+		<block name="toyDogYellow1">
+		    <property name="Extends" value="toyDogYellow"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogYellow2"/>
+			</property>				
+		</block>
+
+		<block name="toyDogYellow2">
+		    <property name="Extends" value="toyDogYellow"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogYellow3"/>
+			</property>				
+		</block>			
+
+		<block name="toyDogYellow3">
+		    <property name="Extends" value="toyDogYellow"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogYellow4"/>
+			</property>				
+		</block>			
+
+		<block name="toyDogYellow4">
+		    <property name="Extends" value="toyDogYellow"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogYellow5"/>
+			</property>				
+		</block>		
+
+		<block name="toyDogYellow5">
+		    <property name="Extends" value="toyDogYellow"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogYellow6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyDogYellow6">
+		    <property name="Extends" value="toyDogYellow"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogYellow7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyDogYellow7">
+		    <property name="Extends" value="toyDogYellow"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogYellow8"/>
+			</property>				
+		</block>			
+
+		<block name="toyDogYellow8">
+		    <property name="Extends" value="toyDogYellow"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogYellow"/>
+			</property>				
+		</block>
+		<block name="toyDogBlack1">
+		    <property name="Extends" value="toyDogBlack"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogBlack2"/>
+			</property>				
+		</block>
+
+		<block name="toyDogBlack2">
+		    <property name="Extends" value="toyDogBlack"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogBlack3"/>
+			</property>				
+		</block>			
+
+		<block name="toyDogBlack3">
+		    <property name="Extends" value="toyDogBlack"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogBlack4"/>
+			</property>				
+		</block>			
+
+		<block name="toyDogBlack4">
+		    <property name="Extends" value="toyDogBlack"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogBlack5"/>
+			</property>				
+		</block>		
+
+		<block name="toyDogBlack5">
+		    <property name="Extends" value="toyDogBlack"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogBlack6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyDogBlack6">
+		    <property name="Extends" value="toyDogBlack"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogBlack7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyDogBlack7">
+		    <property name="Extends" value="toyDogBlack"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogBlack8"/>
+			</property>				
+		</block>			
+
+		<block name="toyDogBlack8">
+		    <property name="Extends" value="toyDogBlack"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDogBlack"/>
+			</property>				
+		</block>
+		<block name="toyDolphinBlack1">
+		    <property name="Extends" value="toyDolphinBlack"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinBlack2"/>
+			</property>				
+		</block>
+
+		<block name="toyDolphinBlack2">
+		    <property name="Extends" value="toyDolphinBlack"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinBlack3"/>
+			</property>				
+		</block>			
+
+		<block name="toyDolphinBlack3">
+		    <property name="Extends" value="toyDolphinBlack"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinBlack4"/>
+			</property>				
+		</block>			
+
+		<block name="toyDolphinBlack4">
+		    <property name="Extends" value="toyDolphinBlack"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinBlack5"/>
+			</property>				
+		</block>		
+
+		<block name="toyDolphinBlack5">
+		    <property name="Extends" value="toyDolphinBlack"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinBlack6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyDolphinBlack6">
+		    <property name="Extends" value="toyDolphinBlack"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinBlack7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyDolphinBlack7">
+		    <property name="Extends" value="toyDolphinBlack"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinBlack8"/>
+			</property>				
+		</block>			
+
+		<block name="toyDolphinBlack8">
+		    <property name="Extends" value="toyDolphinBlack"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinBlack"/>
+			</property>				
+		</block>
+		<block name="toyDolphinBlue1">
+		    <property name="Extends" value="toyDolphinBlue"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinBlue2"/>
+			</property>				
+		</block>
+
+		<block name="toyDolphinBlue2">
+		    <property name="Extends" value="toyDolphinBlue"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinBlue3"/>
+			</property>				
+		</block>			
+
+		<block name="toyDolphinBlue3">
+		    <property name="Extends" value="toyDolphinBlue"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinBlue4"/>
+			</property>				
+		</block>			
+
+		<block name="toyDolphinBlue4">
+		    <property name="Extends" value="toyDolphinBlue"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinBlue5"/>
+			</property>				
+		</block>		
+
+		<block name="toyDolphinBlue5">
+		    <property name="Extends" value="toyDolphinBlue"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinBlue6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyDolphinBlue6">
+		    <property name="Extends" value="toyDolphinBlue"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinBlue7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyDolphinBlue7">
+		    <property name="Extends" value="toyDolphinBlue"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinBlue8"/>
+			</property>				
+		</block>			
+
+		<block name="toyDolphinBlue8">
+		    <property name="Extends" value="toyDolphinBlue"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinBlue"/>
+			</property>				
+		</block>
+		<block name="toyDolphinPink1">
+		    <property name="Extends" value="toyDolphinPink"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinPink2"/>
+			</property>				
+		</block>
+
+		<block name="toyDolphinPink2">
+		    <property name="Extends" value="toyDolphinPink"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinPink3"/>
+			</property>				
+		</block>			
+
+		<block name="toyDolphinPink3">
+		    <property name="Extends" value="toyDolphinPink"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinPink4"/>
+			</property>				
+		</block>			
+
+		<block name="toyDolphinPink4">
+		    <property name="Extends" value="toyDolphinPink"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinPink5"/>
+			</property>				
+		</block>		
+
+		<block name="toyDolphinPink5">
+		    <property name="Extends" value="toyDolphinPink"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinPink6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyDolphinPink6">
+		    <property name="Extends" value="toyDolphinPink"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinPink7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyDolphinPink7">
+		    <property name="Extends" value="toyDolphinPink"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinPink8"/>
+			</property>				
+		</block>			
+
+		<block name="toyDolphinPink8">
+		    <property name="Extends" value="toyDolphinPink"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyDolphinPink"/>
+			</property>				
+		</block>
+		<block name="toyLionPink1">
+		    <property name="Extends" value="toyLionPink"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionPink2"/>
+			</property>				
+		</block>
+
+		<block name="toyLionPink2">
+		    <property name="Extends" value="toyLionPink"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionPink3"/>
+			</property>				
+		</block>			
+
+		<block name="toyLionPink3">
+		    <property name="Extends" value="toyLionPink"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionPink4"/>
+			</property>				
+		</block>			
+
+		<block name="toyLionPink4">
+		    <property name="Extends" value="toyLionPink"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionPink5"/>
+			</property>				
+		</block>		
+
+		<block name="toyLionPink5">
+		    <property name="Extends" value="toyLionPink"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionPink6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyLionPink6">
+		    <property name="Extends" value="toyLionPink"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionPink7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyLionPink7">
+		    <property name="Extends" value="toyLionPink"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionPink8"/>
+			</property>				
+		</block>			
+
+		<block name="toyLionPink8">
+		    <property name="Extends" value="toyLionPink"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionPink"/>
+			</property>				
+		</block>
+		<block name="toyLionBrown1">
+		    <property name="Extends" value="toyLionBrown"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionBrown2"/>
+			</property>				
+		</block>
+
+		<block name="toyLionBrown2">
+		    <property name="Extends" value="toyLionBrown"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionBrown3"/>
+			</property>				
+		</block>			
+
+		<block name="toyLionBrown3">
+		    <property name="Extends" value="toyLionBrown"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionBrown4"/>
+			</property>				
+		</block>			
+
+		<block name="toyLionBrown4">
+		    <property name="Extends" value="toyLionBrown"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionBrown5"/>
+			</property>				
+		</block>		
+
+		<block name="toyLionBrown5">
+		    <property name="Extends" value="toyLionBrown"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionBrown6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyLionBrown6">
+		    <property name="Extends" value="toyLionBrown"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionBrown7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyLionBrown7">
+		    <property name="Extends" value="toyLionBrown"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionBrown8"/>
+			</property>				
+		</block>			
+
+		<block name="toyLionBrown8">
+		    <property name="Extends" value="toyLionBrown"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionBrown"/>
+			</property>				
+		</block>
+		<block name="toyLionBlue1">
+		    <property name="Extends" value="toyLionBlue"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionBlue2"/>
+			</property>				
+		</block>
+
+		<block name="toyLionBlue2">
+		    <property name="Extends" value="toyLionBlue"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionBlue3"/>
+			</property>				
+		</block>			
+
+		<block name="toyLionBlue3">
+		    <property name="Extends" value="toyLionBlue"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionBlue4"/>
+			</property>				
+		</block>			
+
+		<block name="toyLionBlue4">
+		    <property name="Extends" value="toyLionBlue"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionBlue5"/>
+			</property>				
+		</block>		
+
+		<block name="toyLionBlue5">
+		    <property name="Extends" value="toyLionBlue"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionBlue6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyLionBlue6">
+		    <property name="Extends" value="toyLionBlue"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionBlue7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyLionBlue7">
+		    <property name="Extends" value="toyLionBlue"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionBlue8"/>
+			</property>				
+		</block>			
+
+		<block name="toyLionBlue8">
+		    <property name="Extends" value="toyLionBlue"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyLionBlue"/>
+			</property>				
+		</block>
+		<block name="toyFrogBlue1">
+		    <property name="Extends" value="toyFrogBlue"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogBlue2"/>
+			</property>				
+		</block>
+
+		<block name="toyFrogBlue2">
+		    <property name="Extends" value="toyFrogBlue"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogBlue3"/>
+			</property>				
+		</block>			
+
+		<block name="toyFrogBlue3">
+		    <property name="Extends" value="toyFrogBlue"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogBlue4"/>
+			</property>				
+		</block>			
+
+		<block name="toyFrogBlue4">
+		    <property name="Extends" value="toyFrogBlue"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogBlue5"/>
+			</property>				
+		</block>		
+
+		<block name="toyFrogBlue5">
+		    <property name="Extends" value="toyFrogBlue"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogBlue6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyFrogBlue6">
+		    <property name="Extends" value="toyFrogBlue"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogBlue7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyFrogBlue7">
+		    <property name="Extends" value="toyFrogBlue"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogBlue8"/>
+			</property>				
+		</block>			
+
+		<block name="toyFrogBlue8">
+		    <property name="Extends" value="toyFrogBlue"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogBlue"/>
+			</property>				
+		</block>
+		<block name="toyFrogGreen1">
+		    <property name="Extends" value="toyFrogGreen"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogGreen2"/>
+			</property>				
+		</block>
+
+		<block name="toyFrogGreen2">
+		    <property name="Extends" value="toyFrogGreen"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogGreen3"/>
+			</property>				
+		</block>			
+
+		<block name="toyFrogGreen3">
+		    <property name="Extends" value="toyFrogGreen"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogGreen4"/>
+			</property>				
+		</block>			
+
+		<block name="toyFrogGreen4">
+		    <property name="Extends" value="toyFrogGreen"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogGreen5"/>
+			</property>				
+		</block>		
+
+		<block name="toyFrogGreen5">
+		    <property name="Extends" value="toyFrogGreen"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogGreen6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyFrogGreen6">
+		    <property name="Extends" value="toyFrogGreen"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogGreen7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyFrogGreen7">
+		    <property name="Extends" value="toyFrogGreen"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogGreen8"/>
+			</property>				
+		</block>			
+
+		<block name="toyFrogGreen8">
+		    <property name="Extends" value="toyFrogGreen"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogGreen"/>
+			</property>				
+		</block>
+		<block name="toyFrogPink1">
+		    <property name="Extends" value="toyFrogPink"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogPink2"/>
+			</property>				
+		</block>
+
+		<block name="toyFrogPink2">
+		    <property name="Extends" value="toyFrogPink"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogPink3"/>
+			</property>				
+		</block>			
+
+		<block name="toyFrogPink3">
+		    <property name="Extends" value="toyFrogPink"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogPink4"/>
+			</property>				
+		</block>			
+
+		<block name="toyFrogPink4">
+		    <property name="Extends" value="toyFrogPink"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogPink5"/>
+			</property>				
+		</block>		
+
+		<block name="toyFrogPink5">
+		    <property name="Extends" value="toyFrogPink"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogPink6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyFrogPink6">
+		    <property name="Extends" value="toyFrogPink"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogPink7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyFrogPink7">
+		    <property name="Extends" value="toyFrogPink"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogPink8"/>
+			</property>				
+		</block>			
+
+		<block name="toyFrogPink8">
+		    <property name="Extends" value="toyFrogPink"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyFrogPink"/>
+			</property>				
+		</block>
+		<block name="toyMousePink1">
+		    <property name="Extends" value="toyMousePink"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMousePink2"/>
+			</property>				
+		</block>
+
+		<block name="toyMousePink2">
+		    <property name="Extends" value="toyMousePink"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMousePink3"/>
+			</property>				
+		</block>			
+
+		<block name="toyMousePink3">
+		    <property name="Extends" value="toyMousePink"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMousePink4"/>
+			</property>				
+		</block>			
+
+		<block name="toyMousePink4">
+		    <property name="Extends" value="toyMousePink"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMousePink5"/>
+			</property>				
+		</block>		
+
+		<block name="toyMousePink5">
+		    <property name="Extends" value="toyMousePink"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMousePink6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyMousePink6">
+		    <property name="Extends" value="toyMousePink"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMousePink7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyMousePink7">
+		    <property name="Extends" value="toyMousePink"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMousePink8"/>
+			</property>				
+		</block>			
+
+		<block name="toyMousePink8">
+		    <property name="Extends" value="toyMousePink"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMousePink"/>
+			</property>				
+		</block>
+		<block name="toyMouseGrey1">
+		    <property name="Extends" value="toyMouseGrey"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMouseGrey2"/>
+			</property>				
+		</block>
+
+		<block name="toyMouseGrey2">
+		    <property name="Extends" value="toyMouseGrey"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMouseGrey3"/>
+			</property>				
+		</block>			
+
+		<block name="toyMouseGrey3">
+		    <property name="Extends" value="toyMouseGrey"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMouseGrey4"/>
+			</property>				
+		</block>			
+
+		<block name="toyMouseGrey4">
+		    <property name="Extends" value="toyMouseGrey"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMouseGrey5"/>
+			</property>				
+		</block>		
+
+		<block name="toyMouseGrey5">
+		    <property name="Extends" value="toyMouseGrey"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMouseGrey6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyMouseGrey6">
+		    <property name="Extends" value="toyMouseGrey"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMouseGrey7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyMouseGrey7">
+		    <property name="Extends" value="toyMouseGrey"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMouseGrey8"/>
+			</property>				
+		</block>			
+
+		<block name="toyMouseGrey8">
+		    <property name="Extends" value="toyMouseGrey"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMouseGrey"/>
+			</property>				
+		</block>
+		<block name="toyMouseBlack1">
+		    <property name="Extends" value="toyMouseBlack"/>
+			<property name="ModelOffset" value="0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMouseBlack2"/>
+			</property>				
+		</block>
+
+		<block name="toyMouseBlack2">
+		    <property name="Extends" value="toyMouseBlack"/>
+			<property name="ModelOffset" value="0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMouseBlack3"/>
+			</property>				
+		</block>			
+
+		<block name="toyMouseBlack3">
+		    <property name="Extends" value="toyMouseBlack"/>
+			<property name="ModelOffset" value="0,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMouseBlack4"/>
+			</property>				
+		</block>			
+
+		<block name="toyMouseBlack4">
+		    <property name="Extends" value="toyMouseBlack"/>
+			<property name="ModelOffset" value="-0.25,0.5,0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMouseBlack5"/>
+			</property>				
+		</block>		
+
+		<block name="toyMouseBlack5">
+		    <property name="Extends" value="toyMouseBlack"/>
+			<property name="ModelOffset" value="-0.25,0.5,0"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMouseBlack6"/>
+			</property>				
+		</block>			
+		
+		<block name="toyMouseBlack6">
+		    <property name="Extends" value="toyMouseBlack"/>
+			<property name="ModelOffset" value="-0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMouseBlack7"/>
+			</property>				
+		</block>			
+		
+		<block name="toyMouseBlack7">
+		    <property name="Extends" value="toyMouseBlack"/>
+			<property name="ModelOffset" value="0,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMouseBlack8"/>
+			</property>				
+		</block>			
+
+		<block name="toyMouseBlack8">
+		    <property name="Extends" value="toyMouseBlack"/>
+			<property name="ModelOffset" value="0.25,0.5,-0.25"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="toyMouseBlack"/>
+			</property>				
+		</block>
+
+		
+	</append>
+</configs>

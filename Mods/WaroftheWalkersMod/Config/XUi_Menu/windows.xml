@@ -1,0 +1,35 @@
+<configs>
+
+	<!-- WOTW Menu Background -->
+	<append xpath="/windows">
+	<window name="WOTWmenuBackground" anchor="CenterCenter" pos="0,0" width="1050" height="780" depth="-3">
+		<texture depth="1" color="[white]" texture="@file:Mods\WaroftheWalkersMod\Textures\menu\wotw_menuscreen_bg.png" name="bgTexture" anchor_left="#cam,0,-5" anchor_bottom="#cam,0,-5" anchor_right="#cam,1,5" anchor_top="#cam,1,5" />
+	</window>
+	
+	<window name="WOTWhudLogo" style="WOTW.hudLogo.window">
+		<texture name="WOTWhudLogo" pos="-350,0" style="WOTW.hudLogo.texture" />
+	</window>
+	</append>
+	
+	<!-- WOTW Main Menu -->
+	<append xpath="/windows">
+	<window name="WOTWmainMenu" pos="360,0" size="408,1080" controller="MainMenu" cursor_area="true">
+				<sprite name="SMXmainMenuBG" depth="2" pos="60,0" size="408,1080" atlas="menuElements" sprite="smx_menu_background" color="[menuElementsBG]" pivot="center" globalopacitymod="1.5" />
+				<grid name="SMXmainMenuGrid" depth="3" pos="50,80" rows="13" cell_width="230" cell_height="70" repeat_content="false" arrangement="vertical">
+					<smx_mainmenubutton_1 name="btnNewGame" style="smx_menu_button" caption_key="xuiNewGame" />
+					<smx_mainmenubutton_2 name="btnContinueGame" style="smx_menu_button" caption_key="xuiContinueGame" />
+					<smx_mainmenubutton_3 name="btnConnectToServer" style="smx_menu_button" caption_key="xuiConnectToServer" />
+					<smx_mainmenubutton_2 name="btnEditingTools" style="smx_menu_button" caption_key="xuiEditingTools" />
+					<smx_mainmenubutton_1 name="btnOptions" style="smx_menu_button" caption_key="xuiOptions" />
+					<rect><sprite name="SMXmenuSep" depth="1" pos="-140,-24" size="301,5" atlas="uiAtlas" sprite="smx_menu_separator" color="[menuElementsMenuLine]" /></rect>
+					<smx_mainmenubutton_1 name="btnQuit" style="smx_menu_button" caption_key="xuiQuit" />
+				</grid>
+				<widget anchor_left="#cam,1,-170" anchor_bottom="#cam,0,80" anchor_right="#cam,1,-160" anchor_top="#cam,0,90" pivot="bottomright">
+					<smx_tfpcreditsbutton_1 name="btnCredits" pos="0,0" width="160" height="56" caption_key="xuiCredits" pivot="center" />
+				</widget>
+		<label name="SMXeditionInfo" pos="60,-470" style="WOTW.edition.info" font_face="ReferenceFont" crispness="Never" />
+		<label name="SMXversionInfo" pos="60,-490" style="WOTW.version.info" font_face="ReferenceFont" crispness="Never" />
+	</window>
+	</append>
+	
+</configs>
