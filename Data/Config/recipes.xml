@@ -547,25 +547,10 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="unit_clay" count="2"/>
 </recipe>
 
-<recipe name="ExplodingTungstenArrow" count="1" craft_area="ammoWorkstation" tags="learnable,workbenchCrafting">
-    <ingredient name="TungstenArrowHead" count="1"/>
-	<ingredient name="resourceGunPowder" count="25"/>
-	<ingredient name="resourceDuctTape" count="1"/>
-    <ingredient name="resourceWood" count="1"/>
-    <ingredient name="resourceFeather" count="1"/>
-</recipe>
-
 <recipe name="TungstenCrossbowBolt" count="1" craft_area="ammoWorkstation" tags="learnable,workbenchCrafting">
     <ingredient name="TungstenArrowHead" count="1"/>
     <ingredient name="resourceWood" count="1"/>
     <ingredient name="resourceFeather" count="1"/>
-</recipe>
-
-<recipe name="FlamingTungstenCrossbowBolt" count="1" craft_area="ammoWorkstation" tags="learnable,workbenchCrafting">
-    <ingredient name="TungstenCrossbowBolt" count="1"/>
-    <ingredient name="resourceGunPowder" count="2"/>
-	<ingredient name="resourceCloth" count="1"/>
-	<ingredient name="resourceAnimalFat" count="1"/>
 </recipe>
 
 <recipe name="tungstenDart" count="1" craft_area="tungstenForge" craft_tool="toolAndDieSet" material_based="true" tags="learnable">
@@ -2085,7 +2070,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="rawWhiteMeat" count="5"/>
 	<ingredient name="foodEgg" count="2"/>
 	<effect_group>
-		<passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+		<passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="rawWhiteMeat"/>
 	</effect_group>
 </recipe>
 
@@ -2151,7 +2136,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="rawRedMeat" count="5"/>
 	<ingredient name="foodCornBread" count="1"/>
 	<effect_group>
-		<passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+		<passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="rawRedMeat"/>
 	</effect_group>
 </recipe>
 
@@ -2226,7 +2211,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="foodCropMushrooms" count="2"/>
 	<ingredient name="resourceAnimalFat" count="1"/>
 	<effect_group>
-		<passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+		<passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="rawRedMeat"/>
 	</effect_group>
 </recipe>
 
@@ -3219,18 +3204,21 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 </recipe> -->
 
 <recipe name="SteelMachete" count="1" craft_area="ToolWorkbench" tags="learnable">
+	<ingredient name="meleeToolKnifeMacheteParts" count="10"/>
 	<ingredient name="resourceForgedSteel" count="20"/>
 	<ingredient name="handlemetal" count="1"/>
 	<ingredient name="resourceLeather" count="10"/>
 </recipe>
 
 <recipe name="TungstenMachete" count="1" craft_area="ToolWorkbench" tags="learnable">
+	<ingredient name="meleeToolKnifeMacheteParts" count="15"/>
 	<ingredient name="ForgedTungsten" count="20"/>
 	<ingredient name="handlefiberglass" count="1"/>
 	<ingredient name="Kevlar" count="10"/>
 </recipe>
 
 <recipe name="GoldTippedMachete" count="1" craft_area="ToolWorkbench" tags="learnable">
+	<ingredient name="meleeToolKnifeMacheteParts" count="20"/>
 	<ingredient name="ForgedTungsten" count="40"/>
 	<ingredient name="handlefiberglass" count="1"/>
 	<ingredient name="Kevlar" count="20"/>
@@ -3483,11 +3471,11 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceWood" count="5"/>
 </recipe>
 
-<recipe name="stoneHoe" count="1">
+<!-- <recipe name="stoneHoe" count="1">
 	<ingredient name="resourceRockSmall" count="5"/>
 	<ingredient name="resourceYuccaFibers" count="5"/>
 	<ingredient name="resourceWood" count="5"/>
-</recipe>
+</recipe> -->
 
 <recipe name="ScrapIronPickaxe" count="1" tags="learnable">
 	<ingredient name="resourceScrapIron" count="50"/>

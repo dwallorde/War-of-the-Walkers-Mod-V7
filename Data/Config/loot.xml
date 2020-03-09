@@ -1320,6 +1320,7 @@ The overall plan for loot distribution:
 </lootgroup>
 <lootgroup name="groupWeaponsT3_JavelinMaster">
 	<item name="meleeThrownSpearSteel"/>
+	<item name="spearTungsten" prob="0.1"/>
 </lootgroup>
 
 <lootgroup name="groupWeapons_JavelinMaster">
@@ -1374,6 +1375,7 @@ The overall plan for loot distribution:
 </lootgroup>
 <lootgroup name="groupWeaponsT3_PummelPete">
 	<item name="meleeClubBaseballBat"/>
+	<item name="batBaseballSteel" prob="0.2"/>
 </lootgroup>
 
 <lootgroup name="groupWeapons_PummelPete">
@@ -1543,10 +1545,12 @@ The overall plan for loot distribution:
 </lootgroup>
 <lootgroup name="groupWeaponsT2_DeepCuts">
 	<item name="meleeToolKnifeIron"/>
+	<item name="knifeCombat"/>
 	<!-- <item name="meleeToolKnifeCandy" prob=".3"/> -->
 </lootgroup>
 <lootgroup name="groupWeaponsT3_DeepCuts">
 	<item name="meleeToolKnifeMachete"/>
+	<item name="steelHuntingKnife"/>
 </lootgroup>
 
 <lootgroup name="groupWeapons_DeepCuts">
@@ -1842,6 +1846,7 @@ The overall plan for loot distribution:
 	<item name="foodRottingFlesh" count="1,2" prob="1"/>
 	<item name="resourceBone" count="5,15" prob=".5"/>
 	<item name="meleeToolKnifeIron" prob=".1"/>
+	<item name="steelHuntingKnife" prob="0.05"/>
 </lootgroup>
 
 <lootgroup name="perkBooks">
@@ -2065,6 +2070,7 @@ The overall plan for loot distribution:
 	<item name="cementMixerSchematic"/>
 	<item name="workbenchSchematic"/>
 	<item name="chemistryStationSchematic"/>
+	<item name="sledgehammerTungstenSchematic"/>
 </lootgroup>
 
 <lootgroup name="schematicsWeaponsCommon">
@@ -2241,6 +2247,7 @@ The overall plan for loot distribution:
 <lootgroup name="books">
 	<item group="booksNoFiller"/>
 	<item name="resourcePaper" count="10,25" prob="0.3"/>
+	<item name="BlueprintPaper" count="2,5" prob="0.1"/>
 </lootgroup>
 
 <lootgroup name="electricalDevices">
@@ -2437,6 +2444,7 @@ The overall plan for loot distribution:
 	<item name="resourceSpring" count="1,4"/>
 	<item name="resourceSewingKit"/>
 	<item name="resourceRepairKit"/>
+	<item name="Kevlar"/>
 </lootgroup>
 
 <lootgroup name="forgeLoot" count="1,2">
@@ -2548,6 +2556,8 @@ The overall plan for loot distribution:
 	<item name="resourceScrapPolymers" count="1,4"/>
 	<item name="resourceLockPick" count="1,4"/>
 	<item name="resourceSewingKit" count="1,2"/>
+	<item name="Twine" count="1,2"/>
+	<item name="Kevlar" count="1,4" prob="0.1"/>
 </lootgroup>
 
 <lootgroup name="brassResource">
@@ -2573,6 +2583,7 @@ The overall plan for loot distribution:
 	<item name="resourceGlue" count="1,3"/>
 	<item name="drugPainkillers" count="1,2"/>
 	<item name="drinkJarEmpty" count="1"/>
+	<item name="Twine" count="3,4"/>
 	<item group="groupTreasureMaps" count="1" prob="0.084"/>
 	<item group="groupQuestChallenge" count="1" prob="0.095"/>	<!-- 0.06 = .23 % -->
 	<item group="books" count="1" prob="0.1"/>
@@ -2648,6 +2659,7 @@ The overall plan for loot distribution:
 	<item name="meleeToolFireaxeSteel"/>
 	<item name="meleeToolShovelSteel"/>
 	<item name="meleeToolSledgehammerSteel" prob="0.3"/>
+	<item name="sledgehammerTungsten" prob="0.1"/>
 	<item name="steelClawHammer" prob="0.45"/>
 	<item name="HDWrench" prob="0.45"/>
 	<item name="HDNailgun" loot_prob_template="probTemplate0.5"/>
@@ -2725,6 +2737,8 @@ The overall plan for loot distribution:
 <lootgroup name="building_reinforcedConcrete" count="1,2">
 	<item name="rebar" count="50,100"/>
 	<item name="rebarFrameBlockVariantHelper" count="25,50"/>
+	<item name="portlandCement" count="50,150"/>
+	<item name="portlandConcreteMix" count="50,150"/>
 </lootgroup>
 
 <lootgroup name="building_iron" count="1,2">
@@ -2739,6 +2753,7 @@ The overall plan for loot distribution:
 <lootgroup name="building_tungsten" count="1,2">
 	<item name="ForgedTungsten" count="25,50"/>
 	<item name="tungstenFrameBlock" count="50,100"/>
+	<item name="tungstenPlating" count="20,100"/>
 </lootgroup>
 
 <lootgroup name="building_doors" count="1,2">
@@ -2802,6 +2817,7 @@ The overall plan for loot distribution:
 	<item name="resourceMechanicalParts" count="5,15"/>
 	<item name="resourceScrapPolymers" count="10,25"/>
 	<item name="resourcePaint" count="100,250" prob="0.4"/>
+	<item name="Twine" count="10,20"/>
 	<item name="gunToolNailgun" loot_prob_template="probTemplate1.0"/>
 	<item name="HDNailgun" loot_prob_template="probTemplate0.5"/>
 	<item name="meleeToolPaintTool" prob="0.4"/>
@@ -2889,6 +2905,8 @@ The overall plan for loot distribution:
 <lootgroup name="sportingGoods">
 	<item name="meleeToolFlashlight02"/>
 	<item name="meleeToolKnifeIron"/>
+	<item name="steelHuntingKnife" prob="0.1"/>
+	<item name="tungstenHuntingKnife" prob="0.05"/>
 	<item name="resourceGunPowder" count="20,50"/>
 	<item name="resourceBulletCasing" count="20,50"/>
 	<item name="resourceBulletTip" count="20,50"/>
@@ -2912,6 +2930,7 @@ The overall plan for loot distribution:
 	<item name="apparelBallCap" mods="dye" mod_chance="0"/>
 	<item name="armorFootballHelmet"/>
 	<item name="apparelWornBoots"/>
+	<item name="Kevlar" count="2,6" prob="0.1"/>
 </lootgroup>
 
 <lootgroup name="beverages">
@@ -3463,13 +3482,16 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 
 <lootgroup name="groupQuestMelee" loot_quality_template="questTierFlexibleTemplate">
 	<item name="meleeToolKnifeIron" loot_prob_template="GradeBLoot"/>
+	<item name="cleaver" loot_prob_template="GradeBLoot"/>
 	<item name="meleeToolKnifeMachete" loot_prob_template="GradeCLoot"/>
 	<item name="meleeClubIron" loot_prob_template="GradeBLoot"/>
 	<item name="meleeClubBaseballBat" loot_prob_template="GradeCLoot"/>
+	<item name="batBaseballSteel" loot_prob_template="GradeCLoot"/>
 	<item name="meleeToolSledgehammerIron" loot_prob_template="GradeBLoot"/>
 	<item name="meleeToolSledgehammerSteel" loot_prob_template="GradeCLoot"/>
 	<item name="meleeThrownSpearIron" loot_prob_template="GradeBLoot"/>
 	<item name="meleeThrownSpearSteel" loot_prob_template="GradeCLoot"/>
+	<item name="spearTungsten" loot_prob_template="GradeCLoot"/>
 	<item name="meleeKnucklesIron" loot_prob_template="GradeBLoot"/>
 	<item name="meleeKnucklesSteel" loot_prob_template="GradeCLoot"/>
 	<item name="meleeStunBaton" loot_prob_template="GradeBLoot"/>
@@ -3519,6 +3541,7 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 	<item name="thrownDynamite" count="10" loot_prob_template="GradeBLoot"/>
 	<item name="thrownAmmoMolotovCocktail" count="20" loot_prob_template="GradeALoot"/>
 	<item name="thrownGrenade" count="25"  loot_prob_template="GradeBLoot"/>
+	<item name="teddyBearGrenade" count="5" loot_prob_template="GradeBLoot"/>
 	<item name="thrownGrenadeContact" count="25" loot_prob_template="GradeCLoot"/>
 	<item name="thrownTimedCharge" count="10" loot_prob_template="GradeCLoot"/>
 </lootgroup>
@@ -3720,8 +3743,11 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 <lootgroup name="HousewifeMarianne" count="1,3">
 	<item name="meleeClubIron" count="1" prob="0.2"/>
 	<item name="meleeToolKnifeIron" count="1" prob="0.1"/>
+	<item name="tungstenHuntingKnife" count="1" prob="0.05"/>
 	<item name="knifeKitchen" count="1" prob="0.15"/>
+	<item name="knifeCombat" count="1" prob="0.05"/>
 	<item name="meleeToolKnifeMachete" count="1" prob="0.05"/>
+	<item name="cleaver" count="1" prob="0.05"/>
 	<item name="SteelMachete" count="1" prob="0.0075"/>
 	<item name="TungstenMachete" count="1" prob="0.0025"/>
 	<item group="groupWeaponsT3_Archery01" count="1" prob="0.2"/>
@@ -4004,7 +4030,7 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 	<item group="ClassFragmentsDrop" count="1" />
 </lootgroup>
 
-<!-- empty, storage containers the player crafts-->
+<!-- empty, storage containers the player crafts  Large Storage Container-->
 <lootcontainer id="1" count="0" size="8,9" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate">
 	<item name="cobweb" count="1,2"/>
 </lootcontainer>
@@ -4441,6 +4467,7 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 <lootcontainer id="65" count="0,2" size="6,1" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet" loot_quality_template="qualQ1Template">
 	<item name="gunPistol" prob="0.025"/>
 	<item name="meleeToolKnifeIron" prob="0.025"/>
+	<item name="tungstenHuntingKnife" prob="0.01"/>
 	<item name="drinkJarRiverWater" count="1,3"/>
 </lootcontainer>
 

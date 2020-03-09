@@ -945,7 +945,7 @@
 			<passive_effect name="CraftingTime" operation="perc_add" level="1,5" value=".06,.3" tags="perkChefBoiledWater"/>
 
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1"
-				tags="foodBaconAndEggs,foodBoiledMeat,foodGrilledMeat,foodBakedPotato,foodCornBread,foodCornOnTheCob,drinkJarRedTea,drinkJarCoffee,drinkJarGoldenRodTea"/>
+				tags="foodBaconAndEggs,sausageAndEggs,foodBoiledMeat,foodGrilledMeat,foodBakedPotato,foodCornBread,foodCornOnTheCob,drinkJarRedTea,drinkJarCoffee,drinkJarGoldenRodTea"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1"
 				tags="foodSteakAndPotato,foodBlueberryPie,foodMeatStew,foodVegetableStew,foodPumpkinPie,foodPumpkinCheesecake,foodPumpkinBread"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1"

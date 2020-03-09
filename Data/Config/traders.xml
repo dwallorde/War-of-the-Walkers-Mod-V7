@@ -447,18 +447,22 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="meleeToolKnifeIron" prob="0.5" quality="1,5"/>
 			<item name="batBaseballSteel" prob="0.55" quality="1,4"/>
 			<item name="meleeToolKnifeMachete" prob="0.2" quality="1,4"/>
-			<item name="SteelMachete" prob="0.4"/>
+			<item name="SteelMachete" prob="0.4" quality="1,5"/>
 			<item name="pipeIron" prob="0.9" quality="1,4"/>
+			<item name="cleaver" prob="0.2" quality="1,5"/>
 			<item name="meleeClubIron" prob="0.5" quality="1,5"/>
 			<!-- <item name="meleeCandyCaneShiv" prob="0.85" quality="1,4"/> -->
 			<item name="meleeClubBaseballBat" prob="0.2" quality="1,4"/>
 			<item name="meleeThrownSpearIron" prob="0.5" quality="1,5"/>
-			<item name="TungstenMachete" prob="0.2"/>
+			<item name="spearTungsten" prob="0.1" quality="1,5"/>
+			<item name="TungstenMachete" prob="0.2" quality="1,5"/>
+			<item name="ClubTungsten" prob="0.2" quality="1,5"/>
 			<item name="meleeThrownSpearSteel" prob="0.2" quality="1,4"/>
 			<item name="meleeToolSledgehammerIron" prob="0.3" quality="1,5"/>
 			<item name="meleeToolSledgehammerSteel" prob="0.1" quality="1,4"/>
-			<item name="GoldTippedKnife" prob="0.1"/>
-			<item name="GoldTippedMachete" prob="0.05"/>
+			<item name="sledgehammerTungsten" prob="0.1" quality="1,4"/>
+			<item name="GoldTippedKnife" prob="0.1" quality="1,5"/>
+			<item name="GoldTippedMachete" prob="0.05" quality="1,5"/>
 			<item name="meleeKnucklesIron" prob="0.5" quality="1,5"/>
 			<item name="meleeKnucklesSteel" prob="0.2" quality="1,4"/>
 			<item name="meleeStunBaton" prob="0.2" quality="1,5"/>
@@ -984,11 +988,9 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="ammoArrowSteelAP" count="20,60"/>
 			<item name="ammoCrossbowBoltIron" count="20,60"/>
 			<item name="ammoCrossbowBoltSteelAP" count="20,60"/>
-			<item name="ExplodingTungstenArrow" count="10,30" prob="0.1"/>
 			<item name="IncendiaryShotgunSlug" count="10,30" prob="0.1"/>
 			<item name="TungstenArrow" count="10,40" prob="0.15"/>
 			<item name="TungstenCrossbowBolt" count="10,40" prob="0.15"/>
-			<item name="FlamingTungstenCrossbowBolt" count="10,30" prob="0.1"/>
 		</trader_item_group>
 
 		<trader_item_group name="ammoSupplies">
@@ -1171,6 +1173,8 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="resourceCobblestones" count="50,500"/> <!-- 70 -->
 			<item name="resourceConcreteMix" count="100,500"/> <!-- 20 -->
 			<item name="resourceNail" count="10,100"/> <!-- 10 -->
+			<item name="Twine" count="5,10"/>
+			<item name="portlandCement" count="50,150" prob="0.25"/>
 			<item group="building_doorswindows" count="5,10"/>
 			<item group="building_RebarFrames" count="20,75"/>
 			<item group="building_TungstenFrames" count="20,75" prob="0.1"/>
@@ -1211,7 +1215,8 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="resourceElectricParts" count="10,30" prob="0.6"/>
 			<item name="resourceInsulator" count="20,60" prob="0.6"/>
 			<item name="resourceLockPick" count="1,10"/>
-			<item name="HouseholdChemicals" count="2,6" prob="0.55"/>	
+			<item name="HouseholdChemicals" count="2,6" prob="0.55"/>
+			<item name="Twine" count="10,20"/>
 		</trader_item_group>
 
 		<trader_item_group name="rareTools" count="1">
@@ -1791,6 +1796,7 @@ workstations
 			<item name="ForgedTungsten" count="20,50" prob="0.15"/>
 			<item name="resourceConcreteMix" count="100,500"/>
 			<item name="portlandConcreteMix" count="100,300"/>
+			<item name="tungstenPlating" count="100,300"/>
 			<item name="resourceCobblestones" count="250,1000"/>
 			<item name="resourceScrapPolymers" count="20,60"/>
 			<item name="resourceElectricParts" count="20,60"/>
@@ -1827,7 +1833,6 @@ workstations
 			<item name="ammoArrowIron" count="150,250"/>
 			<item name="ammoArrowSteelAP" count="150,250" prob="0.3"/>
 			<item name="TungstenArrow" count="150,250" prob="0.2"/>
-			<item name="ExplodingTungstenArrow" count="50,75" prob="0.1"/>
 			<!-- <item name="TraumaFirstAidBandageSchematic" count="1" prob="0.1"/>
 			<item name="TraumaFirstAidKitSchematic" count="1" prob="0.1"/>
 			<item name="LongbowSchematic" count="1" prob="0.1"/>
@@ -2111,7 +2116,6 @@ workstations
 			<item name="ammoArrowIron" count="150,250"/>
 			<item name="ammoArrowSteelAP" count="150,250" prob="0.3"/>
 			<item name="TungstenArrow" count="150,250" prob="0.2"/>
-			<item name="ExplodingTungstenArrow" count="50,75" prob="0.1"/>
 			<!-- <item name="TraumaFirstAidBandageSchematic" count="1" prob="0.1"/>
 			<item name="TraumaFirstAidKitSchematic" count="1" prob="0.1"/>
 			<item name="LongbowSchematic" count="1" prob="0.1"/>

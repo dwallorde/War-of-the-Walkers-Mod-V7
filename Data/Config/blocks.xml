@@ -21829,6 +21829,7 @@ NOT the TextureNumber.
 	<property name="DisplayInfo" value="Name"/>
 </block>
 
+<!-- WOTW Modded -->
 <block name="cntCar03SedanDamage0Master">
 	<property name="CreativeMode" value="None"/>
 	<property name="Material" value="Mmetal"/>
@@ -21848,13 +21849,13 @@ NOT the TextureNumber.
 	<property name="PassThroughDamage" value="true"/>
 	<!-- <drop event="Harvest" name="resourceLeather" count="1,3" prob="0.5" tag="allHarvest"/>
 	<drop event="Harvest" name="resourceScrapIron" count="10,20" tag="allHarvest"/>
-	<drop event="Harvest" name="cntCar03SedanDamage0Master" count="0" tool_category="Disassemble"/>
 	<drop event="Harvest" name="resourceHeadlight" count="1" prob="0.2" tag="salvageHarvest"/>
-	<drop event="Destroy" count="0"/>
 	<drop event="Harvest" name="resourceMechanicalParts" count="0,2" prob="0.1" tag="salvageHarvest"/>
 	<drop event="Harvest" name="resourceElectricParts" count="0,2" prob="0.1" tag="salvageHarvest"/>
-	<drop event="Harvest" name="resourceElectricParts" count="0,2" prob="0.1" tag="salvageHarvest"/>
-	<drop event="Fall" name="cntCar03SedanDamage1Master" count="1" prob="1.0" stick_chance="1"/> -->
+	<drop event="Harvest" name="resourceElectricParts" count="0,2" prob="0.1" tag="salvageHarvest"/> -->
+	<drop event="Harvest" name="cntCar03SedanDamage0Master" count="0" tool_category="Disassemble"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="cntCar03SedanDamage1Master" count="1" prob="1.0" stick_chance="1"/>
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
 	<drop event="Harvest" name="resourceLeather" count="2,7" prob="0.5" tag="allHarvest"/>
 	<drop event="Harvest" name="resourceScrapIron" count="25,50" tag="allHarvest"/>
