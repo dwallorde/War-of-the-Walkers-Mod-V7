@@ -1786,7 +1786,7 @@ workstations
 	<!-- Class Vending Machines -->
 	
 	<!-- Class Vending Machine (Builder) -->
-	<trader_info id="6" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
+	<trader_info id="6" full_reset="false" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="10">
 			<item name="resourceWood" count="2500,5000"/>
 			<item name="resourceIronFragment" count="500,1500"/>
@@ -1803,11 +1803,11 @@ workstations
 			<item name="resourceElectronicParts" count="10,30"/>
 			<item name="resourceMechanicalParts" count="20,60"/>
 			<item group="constructionSupplies" count="1,3" prob="0.35"/>
-			<!-- <item name="MagazineConstruction" count="1" prob="0.3"/>
-			<item name="nailgunSchematic" count="1" prob="0.25"/>
+			<!-- <item name="MagazineConstruction" count="1" prob="0.3"/> -->
+			<item name="gunToolNailgunSchematic" count="1" prob="0.25"/>
 			<item name="HDNailgunSchematic" count="1" prob="0.1"/>
 			<item name="crowbarSteelSchematic" count="1" prob="0.4" />
-			<item name="crowbarTungstenSchematic" count="1" prob="0.2" /> -->
+			<item name="crowbarTungstenSchematic" count="1" prob="0.2" />
 			<item name="classChallenge_woodframes" count="1" prob="0.25"/>
 			<item name="classChallenge_scrapframes" count="1" prob="0.25"/>
 			<item name="classChallenge_rebarframes" count="1" prob="0.25"/>
@@ -1816,7 +1816,7 @@ workstations
 	</trader_info>
 	
 	<!-- Class Vending Machine (Survivalist) -->
-	<trader_info id="7" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
+	<trader_info id="7" full_reset="false" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="10">
 			<item name="medicalAloeCream" count="50,100"/>
 			<item name="resourceCloth" count="50,150"/>
@@ -1833,10 +1833,9 @@ workstations
 			<item name="ammoArrowIron" count="150,250"/>
 			<item name="ammoArrowSteelAP" count="150,250" prob="0.3"/>
 			<item name="TungstenArrow" count="150,250" prob="0.2"/>
-			<!-- <item name="TraumaFirstAidBandageSchematic" count="1" prob="0.1"/>
+			<item name="TraumaFirstAidBandageSchematic" count="1" prob="0.1"/>
 			<item name="TraumaFirstAidKitSchematic" count="1" prob="0.1"/>
-			<item name="LongbowSchematic" count="1" prob="0.1"/>
-			<item name="MagazineBowWeaponsCrafting" count="1" prob="0.2"/> -->
+			<!-- <item name="MagazineBowWeaponsCrafting" count="1" prob="0.2"/> -->
 			<item name="classChallenge_TraumaFirstAidBandage" count="1" prob="0.25"/>
 			<item name="classChallenge_TraumaFirstAidKit" count="1" prob="0.25"/>
 			<item name="classChallenge_SpeedTraps" count="1" prob="0.25"/>
@@ -1845,7 +1844,7 @@ workstations
 	</trader_info>
 	
 	<!-- Class Vending Machine (Scholar) -->
-	<trader_info id="8" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
+	<trader_info id="8" full_reset="false" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="10">
 			<item name="plantedCotton1" count="20,50"/>
 			<item name="plantedGoldenrod1" count="20,50"/>
@@ -1877,7 +1876,7 @@ workstations
 	</trader_info>
 	
 	<!-- Class Vending Machine (Marksman) -->
-	<trader_info id="9" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
+	<trader_info id="9" full_reset="false" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="10">
 			<item name="ammo9mmBulletBall" count="25,75"/>
 			<item name="9mmHollowPointBullet" count="25,75" prob="0.25"/>
@@ -1898,12 +1897,12 @@ workstations
 			<item name="resourceRepairKit" count="10,25"/>
 			<!-- <item name="MagazinePistolGunSmithing" count="1" prob="0.25"/>
 			<item name="MagazineShotgunGunSmithing" count="1" prob="0.2"/>
-			<item name="MagazineRifleGunSmithing" count="1" prob="0.15"/>
+			<item name="MagazineRifleGunSmithing" count="1" prob="0.15"/> -->
 			<item name="BarettaShotgunSchematic" count="1" prob="0.125"/>
 			<item name="DesertEagleSchematic" count="1" prob="0.125"/>
 			<item name="FAMASSchematics" count="1" prob="0.125"/>
 			<item name="Remington8Schematic" count="1" prob="0.125"/>
-			<item name="M25SniperRifleSchematic" count="1" prob="0.125"/> -->
+			<item name="M25SniperRifleSchematic" count="1" prob="0.125"/>
 			<item name="classChallenge_deserteagleassemble" count="1" prob="0.25"/>
 			<item name="classChallenge_barettashotgunassemble" count="1" prob="0.25"/>
 			<item name="classChallenge_m25sniperassemble" count="1" prob="0.25"/>
@@ -1912,7 +1911,7 @@ workstations
 	</trader_info>
 	
 	<!-- Class Vending Machine (Tradesman) -->
-	<trader_info id="10" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
+	<trader_info id="10" full_reset="false" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="10">
 			<item name="resourceForgedIron" count="50,100"/>
 			<item name="resourceForgedSteel" count="40,90"/>
@@ -1924,16 +1923,16 @@ workstations
 			<item name="resourceSpring" count="5,10"/>
 			<item group="tools" count="1,3" prob="0.4"/>
 			<item group="rareTools" count="1" prob="0.2"/>
-			<!-- <item name="sledgehammerSchematic" count="1" prob="0.15"/>
-			<item name="sledgehammerSteelSchematic" count="1" prob="0.1"/>
+			<item name="meleeToolSledgehammerIronSchematic" count="1" prob="0.15"/>
+			<item name="meleeToolSledgehammerSteelSchematic" count="1" prob="0.1"/>
 			<item name="sledgehammerTungstenSchematic" count="1" prob="0.05"/>
-			<item name="MagazineIronToolSmithing" count="1" prob="0.2"/>
+			<!-- <item name="MagazineIronToolSmithing" count="1" prob="0.2"/>
 			<item name="MagazineSteelToolSmithing" count="1" prob="0.15"/>
-			<item name="MagazineTungstenToolSmithing" count="1" prob="0.1"/>
+			<item name="MagazineTungstenToolSmithing" count="1" prob="0.1"/> -->
 			<item name="diamondTippedPickaxeSchematic" count="1" prob="0.1"/>
 			<item name="diamondTippedFireaxeSchematic" count="1" prob="0.1"/>
 			<item name="diamondTippedShovelSchematic" count="1" prob="0.1"/>
-			<item name="screwdriverSchematic" count="1" prob="0.3" /> -->
+			<item name="screwdriverSchematic" count="1" prob="0.3" />
 			<item name="classChallenge_sledgehammer" count="1" prob="0.25"/>
 			<item name="classChallenge_diamondtools" count="1" prob="0.25"/>
 			<item name="classTreasure_tradesmansupplies" count="1" prob="0.225"/>
@@ -1941,23 +1940,22 @@ workstations
 	</trader_info>
 	
 	<!-- Class Vending Machine (Fighter) -->
-	<trader_info id="11" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
+	<trader_info id="11" full_reset="false" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="10">
 			<item name="resourceForgedIron" count="10,20"/>
 			<item name="resourceForgedSteel" count="5,10"/>
 			<item group="weaponsMelee" count="1,2" prob="0.3"/>
 			<item name="ForgedTungsten" count="2,4" prob="0.1"/>
-			<!-- <item name="huntingKnifeBook" count="1" prob="0.25"/>
+			<item name="meleeToolKnifeIronSchematic" count="1" prob="0.25"/>
 			<item name="steelHuntingKnifeSchematic" count="1" prob="0.1"/>
 			<item name="tungstenHuntingKnifeSchematic" count="1" prob="0.05"/>
 			<item name="swordSchematic" count="1" prob="0.1"/>
-			<item name="clubSpikedSchematic" count="1" prob="0.1"/>
 			<item name="GoldTippedKnifeBook" count="1" prob="0.1"/>
 			<item name="ClubTungstenSchematic" count="1" prob="0.1"/>
 			<item name="TungstenMacheteSchematic" count="1" prob="0.1"/>
-			<item name="MagazineBluntWeaponsCrafting" count="1" prob="0.2"/>
-			<item name="MagazineBladeWeaponsCrafting" count="1" prob="0.2"/>
-			<item name="GoldTippedMacheteSchematic" count="1" prob="0.1"/> -->
+			<!-- <item name="MagazineBluntWeaponsCrafting" count="1" prob="0.2"/>
+			<item name="MagazineBladeWeaponsCrafting" count="1" prob="0.2"/> -->
+			<item name="GoldTippedMacheteSchematic" count="1" prob="0.1"/>
 			<item name="classChallenge_goldtippedknife" count="1" prob="0.25"/>
 			<item name="classChallenge_goldtippedmachete" count="1" prob="0.25"/>
 			<item name="classChallenge_meleezombies" count="1" prob="0.25"/>
@@ -1966,7 +1964,7 @@ workstations
 	</trader_info>
 	
 	<!-- Class Vending Machine (Protection) -->
-	<trader_info id="12" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
+	<trader_info id="12" full_reset="false" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="8">
 			<item name="resourceCloth" count="50,300" />
 			<item name="resourceLeather" count="50,300" />
@@ -1979,8 +1977,8 @@ workstations
 			<item group="hazmatGear" count="1" prob="0.1" />
 			<item group="ironArmor" count="1" prob="0.1" />
 			<!-- <item name="MagazineFabricArmorSmithing" count="1" prob="0.2" />
-			<item name="MagazineMetalArmorSmithing" count="1" prob="0.15" />
-			<item name="KevlarSchematic" count="1" prob="0.1"/> -->
+			<item name="MagazineMetalArmorSmithing" count="1" prob="0.15" /> -->
+			<item name="KevlarSchematic" count="1" prob="0.1"/>
 			<item name="classChallenge_kevlararmor" count="1" prob="0.25"/>
 			<item name="classChallenge_steelarmor" count="1" prob="0.25"/>
 			<item name="classChallenge_tungstenarmor" count="1" prob="0.25"/>
@@ -1989,7 +1987,7 @@ workstations
 	</trader_info>
 	
 	<!-- Class Vending Machine (Electrician) -->
-	<trader_info id="13" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
+	<trader_info id="13" full_reset="false" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="10">
 			<item name="resourceForgedIron" count="25"/>
 			<item name="resourceForgedSteel" count="20"/>
@@ -2032,9 +2030,9 @@ workstations
 			<item name="batterybank" count="1"/>
 			<item name="ecoBatterybank" count="1"/>
 			<item name="hdBatterybank" count="1"/>
-			<!-- <item name="powerpoletopRecipe" count="1" prob="0.2"/>
+			<item name="powerpoletopRecipe" count="1" prob="0.2"/>
 			<item name="ecoBatterybankSchematic" count="1" prob="0.1"/>
-			<item name="hdBatterybankSchematic" count="1" prob="0.1"/> -->
+			<item name="hdBatterybankSchematic" count="1" prob="0.1"/>
 			<item name="classChallenge_Lighting" count="1" prob="0.25"/>
 			<item name="classChallenge_BaseTraps" count="1" prob="0.25"/>
 			<item name="classChallenge_BaseTraps2" count="1" prob="0.25"/>
@@ -2043,7 +2041,7 @@ workstations
 	</trader_info>
 	
 	<!-- Class Vending Machine (Covert) -->
-	<trader_info id="14" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
+	<trader_info id="14" full_reset="false" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="8">
 			<item name="apparelNightvisionGoggles" count="1" />
 			<item name="armorMilitaryBoots" count="1" />
@@ -2058,14 +2056,12 @@ workstations
 			<item name="silverGloves" count="1" />
 			<item name="resourceMilitaryFiber" count="50,100" />
 			<item name="resourceLockPick" count="2,10" prob="0.2" />
-			<!-- <item name="nightvisionGogglesSchematic" count="1" prob="0.1"/>
+			<item name="nightvisionGogglesSchematic" count="1" prob="0.1"/>
 			<item name="silverBootsSchematic" count="1" prob="0.1"/>
 			<item name="silverPantsSchematic" count="1" prob="0.1"/>
 			<item name="silverJacketSchematic" count="1" prob="0.1"/>
 			<item name="silverHatSchematic" count="1" prob="0.1"/>
 			<item name="silverGlovesSchematic" count="1" prob="0.1"/>
-			<item name="lockpickDoorSchematic" count="1" prob="0.1"/>
-			<item name="lockpickSafeSchematic" count="1" prob="0.075"/> -->
 			<item name="classChallenge_SilverArmorCraft" count="1" prob="0.25"/>
 			<item name="classChallenge_SilverArmored" count="1" prob="0.25"/>
 			<item name="classChallenge_Lockpicking" count="1" prob="0.25"/>
@@ -2074,7 +2070,7 @@ workstations
 	</trader_info>
 	
 	<!-- Class Vending Machine (Builder) POI -->
-	<trader_info id="15" reset_interval="7" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
+	<trader_info id="15" full_reset="false" reset_interval="7" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="6">
 			<item name="resourceWood" count="2500,5000"/>
 			<item name="resourceIronFragment" count="500,1500"/>
@@ -2090,16 +2086,16 @@ workstations
 			<item name="resourceElectronicParts" count="10,30"/>
 			<item name="resourceMechanicalParts" count="20,60"/>
 			<item group="constructionSupplies" count="1,3" prob="0.35"/>
-			<!-- <item name="MagazineConstruction" count="1" prob="0.3"/>
-			<item name="nailgunSchematic" count="1" prob="0.25"/>
+			<!-- <item name="MagazineConstruction" count="1" prob="0.3"/> -->
+			<item name="gunToolNailgunSchematic" count="1" prob="0.25"/>
 			<item name="HDNailgunSchematic" count="1" prob="0.1"/>
 			<item name="crowbarSteelSchematic" count="1" prob="0.4" />
-			<item name="crowbarTungstenSchematic" count="1" prob="0.2" /> -->
+			<item name="crowbarTungstenSchematic" count="1" prob="0.2" />
 		</trader_items>
 	</trader_info>
 	
 	<!-- Class Vending Machine (Survivalist) POI -->
-	<trader_info id="16" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
+	<trader_info id="16" full_reset="false" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="6">
 			<item name="medicalAloeCream" count="50,100"/>
 			<item name="resourceCloth" count="50,150"/>
@@ -2116,15 +2112,14 @@ workstations
 			<item name="ammoArrowIron" count="150,250"/>
 			<item name="ammoArrowSteelAP" count="150,250" prob="0.3"/>
 			<item name="TungstenArrow" count="150,250" prob="0.2"/>
-			<!-- <item name="TraumaFirstAidBandageSchematic" count="1" prob="0.1"/>
+			<item name="TraumaFirstAidBandageSchematic" count="1" prob="0.1"/>
 			<item name="TraumaFirstAidKitSchematic" count="1" prob="0.1"/>
-			<item name="LongbowSchematic" count="1" prob="0.1"/>
-			<item name="MagazineBowWeaponsCrafting" count="1" prob="0.2"/> -->
+			<!-- <item name="MagazineBowWeaponsCrafting" count="1" prob="0.2"/> -->
 		</trader_items>
 	</trader_info>
 	
 	<!-- Class Vending Machine (Scholar) POI -->
-	<trader_info id="17" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
+	<trader_info id="17" full_reset="false" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="6">
 			<item name="plantedCotton1" count="20,50"/>
 			<item name="plantedGoldenrod1" count="20,50"/>
@@ -2152,7 +2147,7 @@ workstations
 	</trader_info>
 	
 	<!-- Class Vending Machine (Marksman) POI -->
-	<trader_info id="18" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
+	<trader_info id="18" full_reset="false" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="6">
 			<item name="ammo9mmBulletBall" count="25,75"/>
 			<item name="9mmHollowPointBullet" count="25,75" prob="0.25"/>
@@ -2173,17 +2168,17 @@ workstations
 			<item name="resourceRepairKit" count="10,25"/>
 			<!-- <item name="MagazinePistolGunSmithing" count="1" prob="0.25"/>
 			<item name="MagazineShotgunGunSmithing" count="1" prob="0.2"/>
-			<item name="MagazineRifleGunSmithing" count="1" prob="0.15"/>
+			<item name="MagazineRifleGunSmithing" count="1" prob="0.15"/> -->
 			<item name="BarettaShotgunSchematic" count="1" prob="0.125"/>
 			<item name="DesertEagleSchematic" count="1" prob="0.125"/>
 			<item name="FAMASSchematics" count="1" prob="0.125"/>
 			<item name="Remington8Schematic" count="1" prob="0.125"/>
-			<item name="M25SniperRifleSchematic" count="1" prob="0.125"/> -->
+			<item name="M25SniperRifleSchematic" count="1" prob="0.125"/>
 		</trader_items>
 	</trader_info>
 	
 	<!-- Class Vending Machine (Tradesman) POI -->
-	<trader_info id="19" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
+	<trader_info id="19" full_reset="false" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="6">
 			<item name="resourceForgedIron" count="50,100"/>
 			<item name="resourceForgedSteel" count="40,90"/>
@@ -2195,42 +2190,42 @@ workstations
 			<item name="resourceSpring" count="5,10"/>
 			<item group="tools" count="1,3" prob="0.4"/>
 			<item group="rareTools" count="1" prob="0.2"/>
-			<!-- <item name="sledgehammerSchematic" count="1" prob="0.15"/>
-			<item name="sledgehammerSteelSchematic" count="1" prob="0.1"/>
+			<item name="meleeToolSledgehammerIronSchematic" count="1" prob="0.15"/>
+			<item name="meleeToolSledgehammerSteelSchematic" count="1" prob="0.1"/>
 			<item name="sledgehammerTungstenSchematic" count="1" prob="0.05"/>
-			<item name="MagazineIronToolSmithing" count="1" prob="0.2"/>
+			<!-- <item name="MagazineIronToolSmithing" count="1" prob="0.2"/>
 			<item name="MagazineSteelToolSmithing" count="1" prob="0.15"/>
-			<item name="MagazineTungstenToolSmithing" count="1" prob="0.1"/>
+			<item name="MagazineTungstenToolSmithing" count="1" prob="0.1"/> -->
 			<item name="diamondTippedPickaxeSchematic" count="1" prob="0.1"/>
 			<item name="diamondTippedFireaxeSchematic" count="1" prob="0.1"/>
 			<item name="diamondTippedShovelSchematic" count="1" prob="0.1"/>
-			<item name="screwdriverSchematic" count="1" prob="0.3" /> -->
+			<item name="screwdriverSchematic" count="1" prob="0.3" />
 		</trader_items>
 	</trader_info>
 	
 	<!-- Class Vending Machine (Fighter) POI -->
-	<trader_info id="20" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
+	<trader_info id="20" full_reset="false" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="6">
 			<item name="resourceForgedIron" count="10,20"/>
 			<item name="resourceForgedSteel" count="5,10"/>
+			<item name="resourceGoldNugget" count="5,10" prob="0.2"/>
 			<item group="weaponsMelee" count="1,2" prob="0.3"/>
 			<item name="ForgedTungsten" count="2,4" prob="0.1"/>
-			<!-- <item name="huntingKnifeBook" count="1" prob="0.25"/>
+			<item name="meleeToolKnifeIronSchematic" count="1" prob="0.25"/>
 			<item name="steelHuntingKnifeSchematic" count="1" prob="0.1"/>
 			<item name="tungstenHuntingKnifeSchematic" count="1" prob="0.05"/>
 			<item name="swordSchematic" count="1" prob="0.1"/>
-			<item name="clubSpikedSchematic" count="1" prob="0.1"/>
 			<item name="GoldTippedKnifeBook" count="1" prob="0.1"/>
 			<item name="ClubTungstenSchematic" count="1" prob="0.1"/>
 			<item name="TungstenMacheteSchematic" count="1" prob="0.1"/>
-			<item name="MagazineBluntWeaponsCrafting" count="1" prob="0.2"/>
-			<item name="MagazineBladeWeaponsCrafting" count="1" prob="0.2"/>
-			<item name="GoldTippedMacheteSchematic" count="1" prob="0.1"/> -->
+			<!-- <item name="MagazineBluntWeaponsCrafting" count="1" prob="0.2"/>
+			<item name="MagazineBladeWeaponsCrafting" count="1" prob="0.2"/> -->
+			<item name="GoldTippedMacheteSchematic" count="1" prob="0.1"/>
 		</trader_items>
 	</trader_info>
 	
 	<!-- Class Vending Machine (Protection) POI -->
-	<trader_info id="21" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
+	<trader_info id="21" full_reset="false" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="4">
 			<item name="resourceCloth" count="50,300" />
 			<item name="resourceLeather" count="50,300" />
@@ -2243,13 +2238,13 @@ workstations
 			<item group="hazmatGear" count="1" prob="0.1" />
 			<item group="ironArmor" count="1" prob="0.1" />
 			<!-- <item name="MagazineFabricArmorSmithing" count="1" prob="0.2" />
-			<item name="MagazineMetalArmorSmithing" count="1" prob="0.15" />
-			<item name="KevlarSchematic" count="1" prob="0.1"/> -->
+			<item name="MagazineMetalArmorSmithing" count="1" prob="0.15" /> -->
+			<item name="KevlarSchematic" count="1" prob="0.1"/>
 		</trader_items>
 	</trader_info>
 	
 	<!-- Class Vending Machine (Electrician) POI -->
-	<trader_info id="22" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
+	<trader_info id="22" full_reset="false" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="8">
 			<item name="resourceForgedIron" count="25"/>
 			<item name="resourceForgedSteel" count="20"/>
@@ -2292,14 +2287,14 @@ workstations
 			<item name="batterybank" count="1"/>
 			<item name="ecoBatterybank" count="1"/>
 			<item name="hdBatterybank" count="1"/>
-			<!-- <item name="powerpoletopRecipe" count="1" prob="0.2"/>
+			<item name="powerpoletopRecipe" count="1" prob="0.2"/>
 			<item name="ecoBatterybankSchematic" count="1" prob="0.1"/>
-			<item name="hdBatterybankSchematic" count="1" prob="0.1"/> -->
+			<item name="hdBatterybankSchematic" count="1" prob="0.1"/>
 		</trader_items>
 	</trader_info>
 	
 	<!-- Class Vending Machine (Covert) POI -->
-	<trader_info id="23" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
+	<trader_info id="23" full_reset="false" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="7" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="4">
 			<item name="apparelNightvisionGoggles" count="1" />
 			<item name="armorMilitaryBoots" count="1" />
@@ -2314,19 +2309,17 @@ workstations
 			<item name="silverGloves" count="1" />
 			<item name="resourceMilitaryFiber" count="50,100" />
 			<item name="resourceLockPick" count="2,10" prob="0.2" />
-			<!-- <item name="nightvisionGogglesSchematic" count="1" prob="0.1"/>
+			<item name="nightvisionGogglesSchematic" count="1" prob="0.1"/>
 			<item name="silverBootsSchematic" count="1" prob="0.1"/>
 			<item name="silverPantsSchematic" count="1" prob="0.1"/>
 			<item name="silverJacketSchematic" count="1" prob="0.1"/>
 			<item name="silverHatSchematic" count="1" prob="0.1"/>
 			<item name="silverGlovesSchematic" count="1" prob="0.1"/>
-			<item name="lockpickDoorSchematic" count="1" prob="0.1"/>
-			<item name="lockpickSafeSchematic" count="1" prob="0.075"/> -->
 		</trader_items>
 	</trader_info>
 	
 	<!-- Class Vending Machine (Cook) -->
-	<trader_info id="24" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="8" max_inventory="15" min_items_swapped="5" max_items_swapped="10">
+	<trader_info id="24" full_reset="false" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="10" max_inventory="20" min_items_swapped="5" max_items_swapped="6">
 		<trader_items count="8">
 			<item name="foodCropPotato" count="2,4" />
 			<item name="foodCropCorn" count="2,4" />
@@ -2345,12 +2338,12 @@ workstations
 			<item name="melon" count="2,4" />
 			<item name="onion" count="2,4" />
 			<item name="pepper" count="2,4" />
-			<item name="pumpkin" count="2,4" />
+			<item name="foodCropPumpkin" count="2,4" />
 			<item name="Dough" count="2,4" />
 			<item name="Flour" count="2,4" />
 			<item name="Bread" count="2,4" />
 			<item name="Yeast" count="2,4" />
-			<!-- <item name="pieRecipePartI" count="1" prob="0.1"/>
+			<item name="pieRecipePartI" count="1" prob="0.1"/>
 			<item name="pieRecipePartII" count="1" prob="0.1"/>
 			<item name="bakedPumpkinRecipe" count="1" prob="0.1"/>
 			<item name="meatPiesRecipe" count="1" prob="0.1"/>
@@ -2361,7 +2354,7 @@ workstations
 			<item name="chocolateCakeRecipe" count="1" prob="0.1"/>
 			<item name="soupNaziPartI" count="1" prob="0.1"/>
 			<item name="soupNaziPartII" count="1" prob="0.1"/>
-			<item name="AppleJuiceRecipe" count="1" prob="0.1"/> -->
+			<item name="AppleJuiceRecipe" count="1" prob="0.1"/>
 			<item name="classChallenge_pieCrafting" count="1" prob="0.25"/>
 			<item name="classChallenge_soupBasics" count="1" prob="0.25"/>
 			<item name="classChallenge_chickenSoupMaster" count="1" prob="0.25"/>
@@ -2371,7 +2364,7 @@ workstations
 	</trader_info>
 	
 	<!-- Class Vending Machine (Cook) POI -->
-	<trader_info id="25" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="5" max_inventory="9" min_items_swapped="5" max_items_swapped="10">
+	<trader_info id="25" full_reset="false" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="10" max_inventory="20" min_items_swapped="2" max_items_swapped="5">
 		<trader_items count="6">
 			<item name="foodCropPotato" count="2,4" />
 			<item name="foodCropCorn" count="2,4" />
@@ -2390,12 +2383,12 @@ workstations
 			<item name="melon" count="2,4" />
 			<item name="onion" count="2,4" />
 			<item name="pepper" count="2,4" />
-			<item name="pumpkin" count="2,4" />
+			<item name="foodCropPumpkin" count="2,4" />
 			<item name="Dough" count="2,4" />
 			<item name="Flour" count="2,4" />
 			<item name="Bread" count="2,4" />
 			<item name="Yeast" count="2,4" />
-			<!-- <item name="pieRecipePartI" count="1" prob="0.1"/>
+			<item name="pieRecipePartI" count="1" prob="0.1"/>
 			<item name="pieRecipePartII" count="1" prob="0.1"/>
 			<item name="bakedPumpkinRecipe" count="1" prob="0.1"/>
 			<item name="meatPiesRecipe" count="1" prob="0.1"/>
@@ -2406,13 +2399,13 @@ workstations
 			<item name="chocolateCakeRecipe" count="1" prob="0.1"/>
 			<item name="soupNaziPartI" count="1" prob="0.1"/>
 			<item name="soupNaziPartII" count="1" prob="0.1"/>
-			<item name="AppleJuiceRecipe" count="1" prob="0.1"/> -->
+			<item name="AppleJuiceRecipe" count="1" prob="0.1"/>
 		</trader_items>
 	</trader_info>
 	
 	<!-- To Do Loot -->
 	<!-- Class Vending Machine (Mechanic) -->
-	<trader_info id="26" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="8" max_inventory="15" min_items_swapped="2" max_items_swapped="4">
+	<trader_info id="26" full_reset="false" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="8" max_inventory="15" min_items_swapped="2" max_items_swapped="4">
 		<trader_items count="8">
 			<item name="resourceForgedIron" count="50,75"/>
 			<item name="resourceForgedSteel" count="40,45"/>
@@ -2433,14 +2426,14 @@ workstations
 			<item name="resourceAcid" count="2,6" prob="0.6"/>
 			<!-- <item name="MagazineMechanic" count="1" prob="0.2"/> -->
 			<item group="vehicleParts" count="1,3" prob="0.4"/>
-			<!-- <item name="hdWrenchSchematic" count="1" prob="0.1"/>
-			<item name="tungstenWrenchSchematic" count="1" prob="0.05"/> -->
+			<item name="hdWrenchSchematic" count="1" prob="0.1"/>
+			<item name="tungstenWrenchSchematic" count="1" prob="0.05"/>
 			<item name="classChallenge_minibikeparts" count="1" prob="0.25"/>
 		</trader_items>
 	</trader_info>
 	
 	<!-- Class Vending Machine (Mechanic) POI -->
-	<trader_info id="27" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="5" max_inventory="9" min_items_swapped="1" max_items_swapped="3">
+	<trader_info id="27" full_reset="false" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="5" max_inventory="9" min_items_swapped="1" max_items_swapped="3">
 		<trader_items count="6">
 			<item name="resourceForgedIron" count="50,75"/>
 			<item name="resourceForgedSteel" count="40,45"/>
@@ -2461,8 +2454,8 @@ workstations
 			<item name="resourceAcid" count="2,6" prob="0.6"/>
 			<!-- <item name="MagazineMechanic" count="1" prob="0.2"/> -->
 			<item group="vehicleParts" count="1,2" prob="0.4"/>
-			<!-- <item name="hdWrenchSchematic" count="1" prob="0.1"/>
-			<item name="tungstenWrenchSchematic" count="1" prob="0.05"/> -->
+			<item name="hdWrenchSchematic" count="1" prob="0.1"/>
+			<item name="tungstenWrenchSchematic" count="1" prob="0.05"/>
 		</trader_items>
 	</trader_info>			  
 </traders>

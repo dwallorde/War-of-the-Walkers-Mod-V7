@@ -2088,6 +2088,7 @@ The overall plan for loot distribution:
 	<item name="meleeStunBatonSchematic"/>
 	<item name="meleeThrownSpearIronSchematic"/>
 	<item name="meleeKnucklesIronSchematic"/>
+	<item name="blunderbussDoubleBarrelSchematic"/>
 </lootgroup>
 
 <lootgroup name="schematicsWeaponsRare">

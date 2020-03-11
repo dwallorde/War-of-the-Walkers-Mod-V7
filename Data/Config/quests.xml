@@ -4847,12 +4847,11 @@
 		
 		<objective type="AnimalKill" id="animalBoar" value="5" />
 		<requirement type="Group" id="requirementGroupBow" value="OR">
-			<requirement type="Holding" id="gunWoodenBow" />
-			<requirement type="Holding" id="Longbow" />
-			<requirement type="Holding" id="gunCompoundBow" />
-			<requirement type="Holding" id="gunCrossbow" />
-			<requirement type="Holding" id="SteelCrossbow" />
-			<requirement type="Holding" id="crossbowRainbow" />
+			<requirement type="Holding" id="gunBowWooden" />
+            <requirement type="Holding" id="gunBowPrimitive" />
+            <requirement type="Holding" id="gunBowCompound" />
+            <requirement type="Holding" id="gunCrossbowIron" />
+            <requirement type="Holding" id="gunCrossbowCompound" />
 		</requirement>
 		
 		<reward type="Exp" value="10000" />

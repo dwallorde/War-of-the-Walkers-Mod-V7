@@ -336,7 +336,7 @@
 
 			<item name="ApplePie">
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookPies"/>
+				<property name="UnlockedBy" value="perkCookPies,pieRecipePartII"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="ApplePie" />
 				<property name="Meshfile" value="Items/Food/blueberry_pie" />
@@ -453,7 +453,7 @@
 			<item name="ChickenPotPie">
 				<property name="Extends" value="foodMeatStew" />
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookMeals"/>
+				<property name="UnlockedBy" value="perkCookMeals,meatPiesRecipe"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="ChickenPotPie" />
 				<property name="EconomicValue" value="50" />
@@ -497,7 +497,7 @@
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="CucumberSalad">
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookSalads"/>
+				<property name="UnlockedBy" value="perkCookSalads,saladsRecipe"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="CucumberSalad"/>
 				<property name="Meshfile" value="Items/Food/blueberry_piePrefab"/>
@@ -570,7 +570,7 @@
 				<property name="ActionExp" value="2" /> </item>
 			<item name="redMeatPie">
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookMeals"/>
+				<property name="UnlockedBy" value="perkCookMeals,meatPiesRecipe"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="redMeatPie" />
 				<property name="Meshfile" value="Items/Food/blueberry_pie" />
@@ -697,7 +697,7 @@
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="whiteMeatPie">
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookMeals"/>
+				<property name="UnlockedBy" value="perkCookMeals,meatPiesRecipe"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="whiteMeatPie" />
 				<property name="Meshfile" value="Items/Food/venison_stew" />
@@ -798,7 +798,7 @@
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="summersalad">
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookSalads"/>
+				<property name="UnlockedBy" value="perkCookSalads,saladsRecipe"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="summersalad"/>
 				<property name="Meshfile" value="Items/Food/blueberry_piePrefab"/>
@@ -910,7 +910,7 @@
 
 			<item name="AppleJuice">
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookDrinks"/>
+				<property name="UnlockedBy" value="perkCookDrinks,AppleJuiceRecipe"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="AppleJuice" />
 				<property name="Meshfile" value="Items/Food/yucca_juicePrefab" />
@@ -1104,7 +1104,7 @@
 
 			<item name="chickenstock">
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookSoups"/>
+				<property name="UnlockedBy" value="perkCookSoups,soupNaziPartI"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="chickenstock"/>
 				<property name="Meshfile" value="Items/Food/goldenrod_teaPrefab"/>
@@ -1130,7 +1130,7 @@
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="beefstock">
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookSoups"/>
+				<property name="UnlockedBy" value="perkCookSoups,soupNaziPartI"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="beefstock" />
 				<property name="Meshfile" value="Items/Food/goldenrod_teaPrefab"/>
@@ -1156,7 +1156,7 @@
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="potatosoup">
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookSoups"/>
+				<property name="UnlockedBy" value="perkCookSoups,soupNaziPartI"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="potatosoup" />
 				<property name="Meshfile" value="Items/Food/venison_stew" />
@@ -1182,7 +1182,7 @@
 			<item name="Leeksoup">
 				<property name="Extends" value="potatosoup" />
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookSoups"/>
+				<property name="UnlockedBy" value="perkCookSoups,soupNaziPartI"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="Leeksoup" />
 				<property name="Meshfile" value="Items/Food/venison_stew" />
@@ -1194,7 +1194,7 @@
 			<item name="onionsoup">
 				<property name="Extends" value="potatosoup" />
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookSoups"/>
+				<property name="UnlockedBy" value="perkCookSoups,soupNaziPartII"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="onionsoup" />
 				<property name="Meshfile" value="Items/Food/venison_stew" />
@@ -1215,7 +1215,7 @@
 				<property name="ActionExp" value="3" /> </item>
 			<item name="chickensoup">
 				<property name="Extends" value="potatosoup" />
-				<property name="UnlockedBy" value="perkCookSoups"/>
+				<property name="UnlockedBy" value="perkCookSoups,soupNaziPartII"/>
 				<property name="Tags" value="csCooking"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="chickensoup" />
@@ -1228,7 +1228,7 @@
 			<item name="bearsoup">
 				<property name="Tags" value="csCooking"/>
 				<property name="CustomIcon" value="bearsoup" />
-				<property name="UnlockedBy" value="perkCookSoups"/>
+				<property name="UnlockedBy" value="perkCookSoups,soupNaziPartII"/>
 				<property name="DisplayType" value="food"/>
 				<property name="Meshfile" value="Items/Food/venison_stew" />
 				<property name="Material" value="Morganic" />
@@ -1252,7 +1252,7 @@
 				<property name="EconomicValue" value="200" /> </item>
 			<item name="eggdropsoup">
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookSoups"/>
+				<property name="UnlockedBy" value="perkCookSoups,soupNaziPartII"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="eggdropsoup" />
 				<property name="Meshfile" value="Items/Food/venison_stew" />
@@ -1361,7 +1361,7 @@
 
 			<item name="PumpkinPie"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookPies"/>
+				<property name="UnlockedBy" value="perkCookPies,pieRecipePartI"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="PumpkinPie"/>
 				<property name="Meshfile" value="Items/Food/blueberry_piePrefab"/>
@@ -1385,7 +1385,7 @@
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="FruitPie"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookPies"/>
+				<property name="UnlockedBy" value="perkCookPies,pieRecipePartI"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="FruitPie"/>
 				<property name="Meshfile" value="Items/Food/blueberry_piePrefab"/>
@@ -1409,7 +1409,7 @@
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="StrawberryPie"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookPies"/>
+				<property name="UnlockedBy" value="perkCookPies,pieRecipePartI"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="StrawberryPie"/>
 				<property name="Meshfile" value="Items/Food/blueberry_pie" />
@@ -1434,7 +1434,7 @@
 				<property name="EconomicValue" value="150" /> </item>
 			<item name="blackberryPie"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookPies"/>
+				<property name="UnlockedBy" value="perkCookPies,pieRecipePartI"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="blackberryPie"/>
 				<property name="Meshfile" value="Items/Food/blueberry_pie" />
@@ -1459,7 +1459,7 @@
 				<property name="EconomicValue" value="150" /> </item>
 			<item name="ChocolatePumpkinPie"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookPies"/>
+				<property name="UnlockedBy" value="perkCookPies,pieRecipePartII"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="ChocolatePumpkinPie"/>
 				<property name="Meshfile" value="Items/Food/blueberry_piePrefab"/>
@@ -1483,7 +1483,7 @@
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="ChocolatePie"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookPies"/>
+				<property name="UnlockedBy" value="perkCookPies,pieRecipePartII"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="ChocolatePie"/>
 				<property name="Meshfile" value="Items/Food/blueberry_piePrefab"/>
@@ -1507,7 +1507,7 @@
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="bakedPumpkin"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookBaking"/>
+				<property name="UnlockedBy" value="perkCookBaking,bakedPumpkinRecipe"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="bakedPumpkin"/>
 				<property name="Meshfile" value="Items/Food/vegetable_potato_bakedPrefab"/>
@@ -1640,7 +1640,7 @@
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="Smallmeatpie"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookMeals"/>
+				<property name="UnlockedBy" value="perkCookMeals,meatPiesRecipe"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="Smallmeatpie"/>
 				<property name="Meshfile" value="Items/Food/blueberry_piePrefab"/>
@@ -1664,7 +1664,7 @@
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="Turkeydinner"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookMeals"/>
+				<property name="UnlockedBy" value="perkCookMeals,turkeyDinnerRecipe"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="Turkeydinner"/>
 				<property name="Meshfile" value="Items/Food/blueberry_piePrefab"/>
@@ -1688,7 +1688,7 @@
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="Roastbeef"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookMeals"/>
+				<property name="UnlockedBy" value="perkCookMeals,roastBeefRecipe"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="Roastbeef"/>
 				<property name="Meshfile" value="Items/Food/blueberry_piePrefab"/>
@@ -1712,7 +1712,7 @@
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="wedgesalad"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookSalads"/>
+				<property name="UnlockedBy" value="perkCookSalads,saladsRecipe"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="wedgesalad"/>
 				<property name="Meshfile" value="Items/Food/blueberry_piePrefab"/>
@@ -1736,7 +1736,7 @@
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="largesalad"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookSalads"/>
+				<property name="UnlockedBy" value="perkCookSalads,saladsRecipe"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="largesalad"/>
 				<property name="Meshfile" value="Items/Food/blueberry_piePrefab"/>
@@ -1760,7 +1760,7 @@
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="clubsalad"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookSalads"/>
+				<property name="UnlockedBy" value="perkCookSalads,saladsRecipe"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="clubsalad"/>
 				<property name="Meshfile" value="Items/Food/blueberry_piePrefab"/>
@@ -1892,7 +1892,7 @@
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="chocolatecookies"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookBaking"/>
+				<property name="UnlockedBy" value="perkCookBaking,chocolateCookiesRecipe"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="chocolatecookies"/>
 				<property name="Meshfile" value="Items/Food/blueberriesPrefab"/>
@@ -1919,7 +1919,7 @@
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="chocolatecake"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookBaking"/>
+				<property name="UnlockedBy" value="perkCookBaking,chocolateCakeRecipe"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="chocolatecake"/>
 				<property name="Meshfile" value="Items/Food/blueberriesPrefab"/>
@@ -2834,15 +2834,17 @@
 			    </property>
 			</item> -->
 
-			<!-- To Do Add/Remove? -->
-			<!-- Class Only
+			<!-- Class Only -->
 			<item name="AppleJuiceRecipe">
 			    <property name="CustomIcon" value="AppleJuiceRecipe" />
 				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-					<property name="Skills_to_gain" value="Apple Juice Recipe" />
-			    </property>
-			</item> -->
+			    <property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="AppleJuice"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AppleJuice" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
+			</item>
 
 			<!-- To Do Add/Remove? -->
 			<!-- <item name="RoastedMeatPieRecipe">
@@ -2951,7 +2953,7 @@
 					<passive_effect name="ModSlots" operation="base_set" value="0"/>
 				</effect_group> </item>
 			<item name="VitaminA">
-				<property name="Tags" value="csScience"/>
+				<property name="Tags" value="csScience,medical"/>
 				<property name="UnlockedBy" value="perkSurvivalistHealing"/>
 				<property name="CustomIcon" value="VitaminA" />
 				<property name="DisplayType" value="medicalVitamins"/>
@@ -2967,22 +2969,17 @@
 					<property name="Use_time" value="..."/>
 					<property name="Sound_start" value="player_painkillers"/>
 				</property>
-				<property name="ActionSkillGroup" value="Medicine"/>
-				<property name="CraftingSkillGroup" value="craftSkillScience"/>
-				<property name="Group" value="Medicine" />
+				<property name="Group" value="Science,CFChemicals,Medical"/>
 				<property name="DescriptionKey" value="vitaminsDesc" />
 				
 				<effect_group tiered="false">
-					<display_value name="dStrength" value="1"/>
-					<display_value name="dFortitude" value="1"/>
-					<display_value name="dAgility" value="1"/>
-
-					<display_value name="dHealthChangeOT" value=".25"/>
-					<display_value name="dStaminaChangeOT" value="2"/>
-					<display_value name="waterAmount" value="-20"/>
-
-					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Vitamins"/>
-					<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" target="self" buff="dysentery,foodPoisoning"/>
+					<display_value name="dDiseaseResist" value="1"/>
+					<display_value name="dDuration" value="723"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugVitaminsDuration" operation="add" value="723"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugVitaminsDuration" operation="set" value="2163">
+						<requirement name="CVarCompare" cvar="$buffDrugVitaminsDuration" operation="GT" value="2163"/></triggered_effect>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Vitamins"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="dysentery,foodPoisoning"/>
 				</effect_group> </item>
 			<item name="VitaminB">
 				<property name="Tags" value="csScience"/>
@@ -3007,16 +3004,13 @@
 				<property name="DescriptionKey" value="vitaminsDesc" />
 				
 				<effect_group tiered="false">
-					<display_value name="dStrength" value="1"/>
-					<display_value name="dFortitude" value="1"/>
-					<display_value name="dAgility" value="1"/>
-
-					<display_value name="dHealthChangeOT" value=".50"/>
-					<display_value name="dStaminaChangeOT" value="2.5"/>
-					<display_value name="waterAmount" value="-20"/>
-
-					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Vitamins"/>
-					<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" target="self" buff="dysentery,foodPoisoning"/>
+					<display_value name="dDiseaseResist" value="1"/>
+					<display_value name="dDuration" value="723"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugVitaminsDuration" operation="add" value="723"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugVitaminsDuration" operation="set" value="2163">
+						<requirement name="CVarCompare" cvar="$buffDrugVitaminsDuration" operation="GT" value="2163"/></triggered_effect>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Vitamins"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="dysentery,foodPoisoning"/>
 				</effect_group> </item>
 			<item name="VitaminC">
 				<property name="Tags" value="csScience"/>
@@ -3041,16 +3035,13 @@
 				<property name="DescriptionKey" value="vitaminsDesc" />
 				
 				<effect_group tiered="false">
-					<display_value name="dStrength" value="1"/>
-					<display_value name="dFortitude" value="1"/>
-					<display_value name="dAgility" value="1"/>
-
-					<display_value name="dHealthChangeOT" value=".75"/>
-					<display_value name="dStaminaChangeOT" value="3"/>
-					<display_value name="waterAmount" value="-20"/>
-
-					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Vitamins"/>
-					<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" target="self" buff="dysentery,foodPoisoning"/>
+					<display_value name="dDiseaseResist" value="1"/>
+					<display_value name="dDuration" value="723"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugVitaminsDuration" operation="add" value="723"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugVitaminsDuration" operation="set" value="2163">
+						<requirement name="CVarCompare" cvar="$buffDrugVitaminsDuration" operation="GT" value="2163"/></triggered_effect>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Vitamins"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="dysentery,foodPoisoning"/>
 				</effect_group> </item>
 			<item name="VitaminD">	
 				<property name="Tags" value="csScience"/>
@@ -3075,16 +3066,13 @@
 				<property name="DescriptionKey" value="vitaminsDesc" />
 				
 				<effect_group tiered="false">
-					<display_value name="dStrength" value="1"/>
-					<display_value name="dFortitude" value="1"/>
-					<display_value name="dAgility" value="1"/>
-
-					<display_value name="dHealthChangeOT" value="1.0"/>
-					<display_value name="dStaminaChangeOT" value="4"/>
-					<display_value name="waterAmount" value="-20"/>
-
-					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Vitamins"/>
-					<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" target="self" buff="dysentery,foodPoisoning"/>
+					<display_value name="dDiseaseResist" value="1"/>
+					<display_value name="dDuration" value="723"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugVitaminsDuration" operation="add" value="723"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugVitaminsDuration" operation="set" value="2163">
+						<requirement name="CVarCompare" cvar="$buffDrugVitaminsDuration" operation="GT" value="2163"/></triggered_effect>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="Vitamins"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="dysentery,foodPoisoning"/>
 				</effect_group> </item>
 			<item name="LegBoosterShot">
 				<property name="Tags" value="csScience"/>
@@ -3172,7 +3160,7 @@
 				</effect_group> </item>
 			<item name="TraumaFirstAidBandage">
 				<property name="Tags" value="csScience"/>
-				<property name="UnlockedBy" value="perkSurvivalistHealing"/>
+				<property name="UnlockedBy" value="perkSurvivalistHealing,TraumaFirstAidBandageSchematic"/>
 				<property name="Extends" value="medicalBandage" />
 				<property name="CustomIcon" value="TraumaFirstAidBandage" />
 				<property name="EconomicValue" value="200" />
@@ -3217,7 +3205,7 @@
 				<property name="CustomIcon" value="TraumaFirstAidKit" />
 				<property name="Extends" value="medicalBandage" param1="DescriptionKey"/>
 				<property name="Tags" value="csScience"/>
-				<property name="UnlockedBy" value="perkSurvivalistHealing"/>
+				<property name="UnlockedBy" value="perkSurvivalistHealing,TraumaFirstAidKitSchematic"/>
 				<property name="Group" value="Science"/>
 				<property name="EconomicValue" value="500" />
 				<property name="Stacknumber" value="25"/>
@@ -3399,7 +3387,7 @@
 				<property name="CraftingSkillGroup" value="craftSkillScience" /> </item>
 			<item name="Kevlar">
 				<property name="CustomIcon" value="Kevlar" />
-				<property name="UnlockedBy" value="perkProtectionKevlar"/>
+				<property name="UnlockedBy" value="perkProtectionKevlar,KevlarSchematic"/>
 				<property name="HoldType" value="45"/>
 				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
@@ -4186,6 +4174,9 @@
 				<property name="Group" value="Ammo/Weapons"/>
 				<property name="RepairExpMultiplier" value="10.8"/>
 				<property name="EconomicValue" value="560"/>
+				<property name="UnlockedBy" value="blunderbussDoubleBarrelSchematic"/>
+				<property name="ShowQuality" value="true"/>
+				
 				<property class="Action0">
 					<property name="Class" value="Ranged"/>
 					<property name="Delay" value="0.8"/> <!-- obsolete if rounds per minute exists -->
@@ -4195,16 +4186,19 @@
 					<property name="Sound_start" value="blunderbuss_fire"/>
 					<property name="Sound_repeat" value=""/>
 					<property name="Sound_end" value=""/>
-					<property name="Sound_empty" value="weapon_empty"/>
+					<property name="Sound_empty" value="dryfire"/>
 					<property name="Sound_reload" value="blunderbuss_reload"/>
-					<property name="Particles_muzzle_fire" value="nozzleflash_shotgun"/>
-					<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>
+					<property name="Particles_muzzle_fire" value="gunfire_doublebarrel"/>
+					<property name="Particles_muzzle_fire_fpv" value="gunfire_doublebarrel_fpv"/>
+					<property name="Particles_muzzle_smoke" value="gunfire_smoke"/>
+					<property name="Particles_muzzle_smoke_fpv" value="gunfire_smoke_fpv"/>
 					<!-- <property name="DamageBonus.head" value="3"/>
 					<property name="DamageBonus.wood" value="2.5"/>
 					<property name="DamageBonus.earth" value="0.2"/> -->
 					<property name="ScopeOffset" value="-0.00062,0.088,0.065"/>
 					<property name="SideOffset" value="0,0,0"/>
 					<property name="BarrelOffset" value="0,0,0"/>
+					<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
 				</property>
 				<property class="Action1">
 					<property name="Class" value="Zoom"/>
@@ -4250,9 +4244,14 @@
 					<display_value name="dStatStunEffect" value="4"/>
 				</effect_group> </item>
 			<item name="blunderbussDoubleBarrelSchematic">
-				<property name="Extends" value="schematicMaster"/>
+				<property name="Extends" value="schematicNoQualityMaster"/>
 				<property name="CustomIcon" value="blunderbussDoubleBarrelSchematic" />
-				<property name="EconomicValue" value="500"/> </item>
+				<property name="EconomicValue" value="500"/>
+				<property name="Unlocks" value="blunderbussDoubleBarrel"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="blunderbussDoubleBarrel" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>  </item>
 			<item name="Remington8"> <!-- gunRemington8 -->
 			    <property name="CustomIcon" value="Remington8" />
 				<property name="Tags" value="csRifleGuns,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic,craftSkillRifleGuns"/>
@@ -4275,7 +4274,7 @@
 				<property name="RepairExpMultiplier" value="10.8"/>
 				<property name="LightValue" value="0.45"/>
 				<property name="EconomicValue" value="1000"/>
-				<property name="UnlockedBy" value="perkMarksmanRemington8Recipe"/>
+				<property name="UnlockedBy" value="perkMarksmanRemington8Recipe,Remington8Schematic"/>
 				<property name="ShowQuality" value="true"/>
 				
 				<property class="Action0">
@@ -4356,14 +4355,17 @@
 					<passive_effect name="BlockDamage" operation="base_set" value="4"/>
 				</effect_group> </item>
 
-			<!-- To Do Add/Remove? || Class Only
+			<!-- Class Only -->
 			<item name="Remington8Schematic">
 			    <property name="CustomIcon" value="Remington8Schematic" />
-				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-					<property name="Skills_to_gain" value="Remington8 Recipe" />
-			    </property> </item>
-			<item name="32mmBulletSchematic">
+				<property name="Extends" value="schematicNoQualityMaster"/>
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="Remington8"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Remington8" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item>
+			<!-- <item name="32mmBulletSchematic">
 			    <property name="CustomIcon" value="32mmBulletSchematic" />
 				<property name="Extends" value="schematicMaster" />
 			    <property class="Action0">
@@ -4393,7 +4395,7 @@
 				<property name="RepairExpMultiplier" value="10.8"/>
 				<property name="LightValue" value="0.45"/>
 				<property name="EconomicValue" value="1000"/>
-				<property name="UnlockedBy" value="perkMarksmanDesertEagleRecipe"/>
+				<property name="UnlockedBy" value="perkMarksmanDesertEagleRecipe,DesertEagleSchematic"/>
 				<property name="ShowQuality" value="true"/>
 				
 				<property class="Action0">
@@ -4460,13 +4462,16 @@
 					<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkGunslinger"/>
 
 				</effect_group> </item>
-			<!-- To Do Add/Remove? || Class Only
+			<!-- To Do Add/Remove? || Class Only -->
 			<item name="DesertEagleSchematic">
 			    <property name="CustomIcon" value="DesertEagleSchematic" />
-				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-					<property name="Skills_to_gain" value="Desert Eagle Recipe" />
-			    </property> </item> -->
+				<property name="Extends" value="schematicNoQualityMaster" />
+			    <property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="DesertEagle"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="DesertEagle" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item>
 
 			<item name="44HollowPointMagBullet"> <!-- ammo44HollowPointMagBullet -->
 				<property name="Tags" value="Ammo"/>
@@ -4525,7 +4530,7 @@
 				<property name="RepairExpMultiplier" value="10.8"/>
 				<property name="LightValue" value=".45"/>
 				<property name="EconomicValue" value="1500"/>
-				<property name="UnlockedBy" value="perkMarksmanFAMASRecipe"/>
+				<property name="UnlockedBy" value="perkMarksmanFAMASRecipe,FAMASSchematics"/>
 				<property name="ShowQuality" value="true"/>
 				
 				<property class="Action0">
@@ -4594,13 +4599,16 @@
 					<passive_effect name="DegradationMax" operation="base_set" value="700,1400" tier="1,6" tags="perkGunslinger"/>
 					<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkGunslinger"/>
 				</effect_group> </item>
-			<!-- To Do Add/Remove? || Class Only
+			<!-- To Do Add/Remove? || Class Only -->
 			<item name="FAMASSchematics">
 			    <property name="CustomIcon" value="FAMASSchematic" />
-				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-					<property name="Skills_to_gain" value="FAMAS Recipe" />
-			    </property> </item> -->
+				<property name="Extends" value="schematicNoQualityMaster" />
+			    <property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="FAMAS"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FAMAS" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item>
 
 			<item name="556mmNATOBullet"> <!-- ammo556mmNATOBullet -->
 			    <property name="CustomIcon" value="556mmNATOBullet" />
@@ -4665,7 +4673,7 @@
 				<property name="RepairExpMultiplier" value="10.8"/>
 				<property name="LightValue" value=".45"/>
 				<property name="EconomicValue" value="2000"/>
-				<property name="UnlockedBy" value="perkMarksmanM25SniperRifleRecipe"/>
+				<property name="UnlockedBy" value="perkMarksmanM25SniperRifleRecipe,M25SniperRifleSchematic"/>
 				<property name="ShowQuality" value="true"/>
 				
 				<property class="Action0">
@@ -4729,13 +4737,16 @@
 					<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeadEye"/>
 				</effect_group> </item>
 
-			<!-- To Do Add/Remove? || Class Only
+			<!-- Class Only -->
 			<item name="M25SniperRifleSchematic">
 			    <property name="CustomIcon" value="M25SniperRifleSchematic" />
-				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-					<property name="Skills_to_gain" value="M25 Sniper Rifle Recipe" />
-			    </property> </item> -->
+				<property name="Extends" value="schematicNoQualityMaster"/>
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="M25SniperRifle"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="M25SniperRifle" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item>
 
 			<item name="762mmHollowPointBullet"> <!-- ammo762mmHollowPointBullet -->
 			    <property name="CustomIcon" value="762mmHollowPointBullet" />
@@ -4841,7 +4852,7 @@
 				<property name="PickupJournalEntry" value="alternateAmmoTip"/>
 				<property name="LightValue" value=".45"/>
 				<property name="EconomicValue" value="1500"/>
-				<property name="UnlockedBy" value="perkMarksmanBarettaShotgunRecipe"/>
+				<property name="UnlockedBy" value="perkMarksmanBarettaShotgunRecipe,BarettaShotgunSchematic"/>
 				<property name="ShowQuality" value="true"/>
 				
 				<property class="Action0">
@@ -4911,13 +4922,16 @@
 					<display_value name="dStatStunEffect" value="4"/>
 				</effect_group> </item>
 
-			<!-- To Do Add/Remove? || Class Only
+			<!-- To Do Add/Remove? || Class Only -->
 			<item name="BarettaShotgunSchematic">
 				<property name="CustomIcon" value="BarettaShotgunSchematic" />
 				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-					<property name="Skills_to_gain" value="Baretta Shotgun Recipe" />
-			    </property> </item> -->
+			    <property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="BarettaShotgun"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="BarettaShotgun" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item>
 
 			<!-- To Do Remove Mod Slots -->
 			<!-- <item name="Longbow">
@@ -5643,7 +5657,7 @@
 				<property name="SoundDestroy" value="wooddestroy1" />
 				<property name="Group" value="Ammo/Weapons" />
 				<property name="RepairExpMultiplier" value="5.5"/>
-				<property name="UnlockedBy" value="perkFighterBladeRecipes"/>
+				<property name="UnlockedBy" value="perkFighterBladeRecipes,TungstenMacheteSchematic"/>
 				<property name="ShowQuality" value="true"/>
 				
 				<property class="Action0">
@@ -5736,7 +5750,7 @@
 				<property name="Weight" value="0" />
 				<property name="FuelValue" value="500"/>
 				<property name="DescriptionKey" value="ClubTungstenDesc" />
-				<property name="UnlockedBy" value="perkFighterClubTungsten"/>
+				<property name="UnlockedBy" value="perkFighterClubTungsten,ClubTungstenSchematic"/>
 				<property name="ShowQuality" value="true"/>
 				
 				<property class="Action0">
@@ -5825,7 +5839,7 @@
 				<property name="SoundDestroy" value="wooddestroy1" />
 				<property name="Group" value="Ammo/Weapons" />
 				<property name="RepairExpMultiplier" value="5.5"/>
-				<property name="UnlockedBy" value="perkFighterBladeRecipes"/>
+				<property name="UnlockedBy" value="perkFighterBladeRecipes,GoldTippedMacheteSchematic"/>
 				<property name="ShowQuality" value="true"/>
 				
 				<property class="Action0">
@@ -5915,7 +5929,7 @@
 				<property name="EconomicValue" value="600"/>
 				<property name="SoundJammed" value="ItemNeedsRepair"/>
 				<property name="SoundDestroy" value="wooddestroy1"/>
-				<property name="UnlockedBy" value="perkRecipeHuntingKnives"/>
+				<property name="UnlockedBy" value="perkRecipeHuntingKnives,steelHuntingKnifeSchematic"/>
 				<property name="ShowQuality" value="true"/>
 				
 				<property class="Action0">
@@ -6010,7 +6024,7 @@
 				<property name="Weight" value="0" />
 				<property name="SoundJammed" value="ItemNeedsRepair"/>
 				<property name="SoundDestroy" value="wooddestroy1"/>
-				<property name="UnlockedBy" value="perkRecipeHuntingKnives"/>
+				<property name="UnlockedBy" value="perkRecipeHuntingKnives,tungstenHuntingKnifeSchematic"/>
 				<property name="ShowQuality" value="true"/>
 				
 				<property class="Action0">
@@ -6092,19 +6106,24 @@
 				<property name="Group" value="Ammo/Weapons"/>
 				<property name="RepairExpMultiplier" value="5.5"/> </item>
 
-			<!-- To Do Add/Remove? 
 			<item name="steelHuntingKnifeSchematic">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="steelHuntingKnifeSchematic"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="steelHuntingKnifeSchematicPerk"/>
-				</property> </item>
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="steelHuntingKnife"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="steelHuntingKnife" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item>
 			<item name="tungstenHuntingKnifeSchematic">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="tungstenHuntingKnifeSchematic"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="tungstenHuntingKnifeSchematicPerk"/>
-				</property> </item> -->
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="tungstenHuntingKnife"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="tungstenHuntingKnife" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item>
 
 			<item name="GoldTippedKnife">  <!-- meleeToolGoldTippedKnife -->
 				<property name="Extends" value="meleeToolKnifeIron" />
@@ -6121,7 +6140,7 @@
 				<property name="SoundJammed" value="ItemNeedsRepair"/>
 				<property name="SoundDestroy" value="wooddestroy1"/>
 				<property name="Weight" value="0" />
-				<property name="UnlockedBy" value="perkFighterKnifeRecipes"/>
+				<property name="UnlockedBy" value="perkFighterKnifeRecipes,GoldTippedKnifeBook"/>
 				<property name="ShowQuality" value="true"/>
 				
 				<property class="Action0">
@@ -6504,6 +6523,7 @@
 				<property name="EconomicValue" value="2000"/>
 				<property name="CritChance" value="0.6"/>
 				<property name="Group" value="Ammo/Weapons"/>
+				<property name="UnlockedBy" value="sledgehammerTungstenSchematic"/>
 				<property name="ShowQuality" value="true"/>
 				
 				<property class="Action0">
@@ -6580,7 +6600,12 @@
 			<item name="sledgehammerTungstenSchematic">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="sledgehammerTungstenSchematic" />
-				<property name="EconomicValue" value="500"/> </item>
+				<property name="EconomicValue" value="500"/>
+				<property name="Unlocks" value="sledgehammerTungsten"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="sledgehammerTungsten" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item>
 			<!-- <item name="batBaseballWooden">
 				<property name="CustomIcon" value="batBaseballWooden" />
 				<property name="Tags" value="csBluntWeapons,blunt,club,melee,light,weapon,meleeWeapon,perkStayDown"/>
@@ -7024,7 +7049,7 @@
 				<property name="Weight" value="400"/>
 				<property name="Group" value="Ammo/Weapons"/>
 				<property name="RepairExpMultiplier" value="5.5"/>
-				<property name="UnlockedBy" value="perkFighterKnifeRecipes"/>
+				<property name="UnlockedBy" value="perkFighterKnifeRecipes,swordSchematic"/>
 				<property name="ShowQuality" value="true"/>
 				
 				<property class="Action0">
@@ -7603,7 +7628,7 @@
 				<property name="SoundDestroy" value="wooddestroy1"/>
 				<property name="RepairExpMultiplier" value="5.5"/>
 				<property name="EconomicValue" value="1000" />
-				<property name="UnlockedBy" value="perkBuilderTools"/>
+				<property name="UnlockedBy" value="perkBuilderTools,crowbarSteelSchematic"/>
 				<property name="ShowQuality" value="true"/>
 				<property class="Action0">
 					<property name="Class" value="DynamicMelee"/>
@@ -7677,7 +7702,7 @@
 				<property name="DescriptionKey" value="crowbarSteelDesc"/>
 				<property name="EconomicValue" value="2000" />
 				<property name="Weight" value="0" />
-				<property name="UnlockedBy" value="perkBuilderTools"/>
+				<property name="UnlockedBy" value="perkBuilderTools,crowbarTungstenSchematic"/>
 				<property name="ShowQuality" value="true"/>
 				<property class="Action0">
 					<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
@@ -7808,35 +7833,47 @@
 				<property name="Group" value="Ammo/Weapons"/>
 				<property name="RepairExpMultiplier" value="5.5"/> </item>
 
-			<!-- To Do Add/Remove? || Class Only
+			<!-- Class Only -->
 			<item name="GoldTippedKnifeBook">
 				<property name="Extends" value="schematicMaster" />
 				<property name="CustomIcon" value="GoldTippedKnifeBook" />
-				<property class="Action0">
-					<property name="Skills_to_gain" value="GoldTippedKnifeBookPerk" />
-				</property>
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="GoldTippedKnife"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="GoldTippedKnife" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
 				<property name="EconomicValue" value="1025" /> </item>
 			<item name="GoldTippedMacheteSchematic">
 				<property name="CustomIcon" value="GoldTippedMacheteSchematic" />
 				<property name="Extends" value="schematicMaster" />
-				<property class="Action0">
-					<property name="Skills_to_gain" value="GoldTippedMacheteSchematicPerk" />
-				</property>
-				<property name="EconomicValue" value="1275" /> </item> 
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="GoldTippedMachete"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="GoldTippedMachete" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
+				<property name="EconomicValue" value="1275" /> </item>
 			<item name="ClubTungstenSchematic">
 				<property name="CustomIcon" value="ClubTungstenSchematic" />
 				<property name="Extends" value="schematicMaster" />
-				<property class="Action0">
-					<property name="Skills_to_gain" value="ClubTungstenSchematicPerk" />
-				</property>
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="ClubTungsten"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="ClubTungsten" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
 				<property name="EconomicValue" value="600" /> </item> 
 			<item name="TungstenMacheteSchematic">
 				<property name="CustomIcon" value="TungstenMacheteSchematic" />
 				<property name="Extends" value="schematicMaster" />
-				<property class="Action0">
-					<property name="Skills_to_gain" value="TungstenMacheteSchematicPerk" />
-				</property>
-				<property name="EconomicValue" value="750" /> </item> -->
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="TungstenMachete"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="TungstenMachete" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
+				<property name="EconomicValue" value="750" /> </item>
 
 			<!-- To Do Remove -->
 			<!-- <item name="SteelMacheteSchematic">
@@ -7956,6 +7993,7 @@
 				<property name="SoundJammed" value="ItemNeedsRepair"/>
 				<property name="SoundDestroy" value="wooddestroy1"/>
 				<property name="FuelValue" value="50"/>
+				<property name="ShowQuality" value="true"/>
 				<property class="Action0">
 					<property name="Class" value="DynamicMelee"/>
 					<property name="Sphere" value=".15"/>
@@ -8499,7 +8537,7 @@
 				<property name="SoundDestroy" value="metaldestroy1"/>
 				<property name="FuelValue" value="300"/>
 				<property name="EconomicValue" value="2500"/>
-				<property name="UnlockedBy" value="perkTradesmanDiamondTippedTools"/>
+				<property name="UnlockedBy" value="perkTradesmanDiamondTippedTools,diamondTippedPickaxeSchematic"/>
 				<property name="ShowQuality" value="true"/>
 				<property class="Action0">
 					<property name="Class" value="DynamicMelee"/>
@@ -8574,7 +8612,7 @@
 				<property name="FuelValue" value="300"/>
 				<property name="EconomicValue" value="2500"/>
 				<property name="SoundDestroy" value="wooddestroy1"/>
-				<property name="UnlockedBy" value="perkTradesmanDiamondTippedTools"/>
+				<property name="UnlockedBy" value="perkTradesmanDiamondTippedTools,diamondTippedFireaxeSchematic"/>
 				<property name="ShowQuality" value="true"/>
 				<property class="Action0">
 					<property name="Class" value="DynamicMelee"/>
@@ -8652,7 +8690,7 @@
 				<property name="SoundDestroy" value="wooddestroy1"/>
 				<property name="FuelValue" value="300"/>
 				<property name="EconomicValue" value="2500"/>
-				<property name="UnlockedBy" value="perkTradesmanDiamondTippedTools"/>
+				<property name="UnlockedBy" value="perkTradesmanDiamondTippedTools,diamondTippedShovelSchematic"/>
 				<property class="Action0">
 					<property name="Class" value="DynamicMelee"/>
 					<property name="Sphere" value=".15"/>   <!-- limit to 0.15, else the sphere cast can overlap the target already -->
@@ -9223,7 +9261,7 @@
 				<property name="SoundJammed" value="ItemNeedsRepair"/>
 				<property name="SoundDestroy" value="metaldestroy1"/>
 				<property name="EconomicValue" value="612" />
-				<property name="UnlockedBy" value="perkMechanicWrenches"/>
+				<property name="UnlockedBy" value="perkMechanicWrenches,hdWrenchSchematic"/>
 				<property name="ShowQuality" value="true"/>
 				<property class="Action0">
 					<property name="Class" value="DynamicMelee"/>
@@ -9301,7 +9339,7 @@
 				<property name="SoundJammed" value="ItemNeedsRepair"/>
 				<property name="SoundDestroy" value="metaldestroy1"/>
 				<property name="EconomicValue" value="1224" />
-				<property name="UnlockedBy" value="perkMechanicWrenches"/>
+				<property name="UnlockedBy" value="perkMechanicWrenches,tungstenWrenchSchematic"/>
 				<property name="ShowQuality" value="true"/>
 				<property class="Action0">
 					<property name="Class" value="DynamicMelee"/>
@@ -9381,7 +9419,7 @@
 				<property name="SoundJammed" value="ItemNeedsRepair"/>
 				<property name="SoundDestroy" value="metaldestroy1"/>
 				<property name="EconomicValue" value="675"/>
-				<property name="UnlockedBy" value="perkTradesmanScrewdriver"/>
+				<property name="UnlockedBy" value="perkTradesmanScrewdriver,screwdriverSchematic"/>
 				<property name="ShowQuality" value="true"/>
 				<property class="Action0">
 					<property name="Class" value="DynamicMelee"/>
@@ -9451,7 +9489,7 @@
 				<property name="DegradationBreaksAfter" value="false" />
 				<property name="SoundJammed" value="weapon_jam" />
 				<property name="CrosshairUpAfterShot" value="true"/>
-				<property name="UnlockedBy" value="perkBuilderTools"/>
+				<property name="UnlockedBy" value="perkBuilderTools,HDNailgunSchematic"/>
 				<property name="ShowQuality" value="true"/>
 				<property class="Action0">
 					<property name="Class" value="Launcher"/>
@@ -9858,14 +9896,16 @@
 				<property name="CustomIcon" value="ECOAugerSchematic" />
 				<property class="Action0">
 				</property> </item> -->
-			<!-- To Do Add/Remove? || Class Only
+			<!-- To Do Add/Remove? || Class Only -->
 			<item name="HDNailgunSchematic">
 				<property name="CustomIcon" value="HDNailgunSchematic" />
-				<property name="Extends" value="schematicMaster" />
-				<property class="Action0">
-					<property name="Skills_to_gain" value="HDNailgunSchematicPerk" />
-				</property>
-				<property name="SellableToTrader" value="true" /> </item> -->
+				<property name="Extends" value="schematicNoQualityMaster" />
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="HDNailgun"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDNailgun" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item>
 
 		<!-- Clothing/Armor -->
 			<!-- LightCoat, FaceMask, OrangeHDMiningHelmet, FlannelPants, BlackBoots, PrisonerShirt, PrisonerPants, snuggie, ballCapBGG, ***TailoringPoncho, TailoringLetherDuster, TailoringPufferCoat, TailoringLightCoat***, armorKevlarMaster, KevlarBoots, KevlarGloves, KevlarLegArmor, KevlarVest, KevlarHelmet, armourTungstenMaster, TungstenBoots, TungstenLegArmor, TungstenChestArmor, TungstenHelment, TungstenGloves, armorSilverMaster, silverBoots, silverPants, silverJacket, silverHat, silverGloves -->
@@ -10416,7 +10456,6 @@
 			<!-- To Do Material Change -->
 			<item name="armorSilverMaster">
 				<property name="CreativeMode" value="None"/>
-				<property name="UnlockedBy" value="perkCovertSilverArmor"/>
 				<property name="CustomIcon" value="silverBoots"/>
 				<property name="DisplayType" value="armor"/>
 				<property name="Material" value="Mcloth"/>
@@ -10435,6 +10474,7 @@
 				<property name="Extends" value="armorSilverMaster" param1="CustomIcon"/>
 				<property name="CustomIcon" value="armorClothBoots"/>
 				<property name="CustomIconTint" value="192,192,192"/>
+				<property name="UnlockedBy" value="perkCovertSilverArmor,silverBootsSchematic"/>
 				<property name="Tags" value="lowerbody,feet,armor,armorFeet,lightarmor,heavyarmor,craftSkillMetalArmor"/>
 				<property name="EquipSlot" value="Feet"/>
 				<effect_group>
@@ -10462,6 +10502,7 @@
 				<property name="Extends" value="armorSilverMaster" param1="CustomIcon"/>
 				<property name="CustomIcon" value="armorClothPants"/>
 				<property name="CustomIconTint" value="192,192,192"/>
+				<property name="UnlockedBy" value="perkCovertSilverArmor,silverPantsSchematic"/>
 				<property name="Tags" value="lowerbody,legs,armor,armorLegs,lightarmor,heavyarmor,craftSkillMetalArmor"/>
 				<property name="EquipSlot" value="Legs"/>
 				<effect_group>
@@ -10489,6 +10530,7 @@
 				<property name="Extends" value="armorSilverMaster" param1="CustomIcon"/>
 				<property name="CustomIcon" value="armorClothJacket"/>
 				<property name="CustomIconTint" value="192,192,192"/>
+				<property name="UnlockedBy" value="perkCovertSilverArmor,silverJacketSchematic"/>
 				<property name="Tags" value="upperbody,chest,armor,armorChest,lightarmor,heavyarmor,craftSkillMetalArmor"/>
 				<property name="EquipSlot" value="Chest"/>
 				<effect_group>
@@ -10516,6 +10558,7 @@
 				<property name="Extends" value="armorSilverMaster" param1="CustomIcon"/>
 				<property name="CustomIcon" value="armorClothHat"/>
 				<property name="CustomIconTint" value="192,192,192"/>
+				<property name="UnlockedBy" value="perkCovertSilverArmor,silverHatSchematic"/>
 				<property name="Tags" value="head,armor,armorHead,lightarmor,heavyarmor,craftSkillMetalArmor"/>
 				<property name="EquipSlot" value="Head"/>
 				<effect_group>
@@ -10545,6 +10588,7 @@
 				<property name="Extends" value="armorSilverMaster" param1="CustomIcon"/>
 				<property name="CustomIcon" value="armorClothGloves"/>
 				<property name="CustomIconTint" value="192,192,192"/>
+				<property name="UnlockedBy" value="perkCovertSilverArmor,silverGlovesSchematic"/>
 				<property name="Tags" value="upperbody,hands,armor,armorHands,lightarmor,heavyarmor,craftSkillMetalArmor"/>
 				<property name="EquipSlot" value="Hands"/>
 				<effect_group>
@@ -11506,41 +11550,55 @@
 		<!-- Class Only Schematics -->
 			<!-- diamondTippedPickaxeSchematic, diamondTippedFireaxeSchematic, diamondTippedShovelSchematic, tungstenWrenchSchematic, hdWrenchSchematic, advancedToolSmithingWorkstationSchematic, buildersWorkbenchSchematic, TraumaFirstAidBandageSchematic, TraumaFirstAidKitSchematic, AdvancedSplintSchematic, KevlarSchematic, ecoBatterybankSchematic, hdBatterybankSchematic, powerpoletopRecipe, nightvisionGogglesSchematic, silverBootsSchematic, silverPantsSchematic, silverJacketSchematic, silverHatSchematic, silverGlovesSchematic, crowbarSteelSchematic, crowbarTungstenSchematic, screwdriverSchematic, swordSchematic, pieRecipePartII, meatPiesRecipe, bakedPumpkinRecipe, turkeyDinnerRecipe, roastBeefRecipe, saladsRecipe, chocolateCookiesRecipe, chocolateCakeRecipe, soupNaziPartI, soupNaziPartII, classKey, MagazineQuickerCrafting, ClassPaper -->
 
-			<!-- To Do Add/Remove? 
 			<item name="diamondTippedPickaxeSchematic">
 			    <property name="CustomIcon" value="diamondTippedPickaxeSchematic" />
 				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-					<property name="Skills_to_gain" value="diamondTippedPickaxeSchematicPerk"/>
-			    </property>
+			    <property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="PickaxeDiamondTipped"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="PickaxeDiamondTipped" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
 				<property name="EconomicValue" value="850" /> </item> 
 			<item name="diamondTippedFireaxeSchematic">
 			    <property name="CustomIcon" value="diamondTippedFireaxeSchematic" />
 				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-					<property name="Skills_to_gain" value="diamondTippedFireaxeSchematicPerk"/>
-			    </property>
+			    <property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="FireaxeDiamondTipped"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FireaxeDiamondTipped" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
 				<property name="EconomicValue" value="850" /> </item> 
 			<item name="diamondTippedShovelSchematic">
 			    <property name="CustomIcon" value="DiamondTippedShovelSchematic" />
 				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-					<property name="Skills_to_gain" value="diamondTippedShovelSchematicPerk"/>
-			    </property>
+			    <property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="shovelDiamondTipped"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="shovelDiamondTipped" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
 				<property name="EconomicValue" value="850" /> </item> 
 			<item name="tungstenWrenchSchematic">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="tungstenWrenchSchematic"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="tungstenWrenchSchematicPerk"/>
-				</property> </item>
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="tungstenWrench"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="tungstenWrench" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item>
 			<item name="hdWrenchSchematic">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="steelWrenchSchematic"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="hdWrenchSchematicPerk"/>
-				</property> </item> 
-			<item name="advancedToolSmithingWorkstationSchematic">
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="HDWrench"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDWrench" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item> 
+			<!-- <item name="advancedToolSmithingWorkstationSchematic">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="advancedToolSmithingWorkstationSchematic"/>
 				<property class="Action0">
@@ -11549,196 +11607,295 @@
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="buildersWorkbenchSchematic"/>
 				<property class="Action0">
-				</property> </item> 
+				</property> </item> -->
 			<item name="TraumaFirstAidBandageSchematic">
-				<property name="Extends" value="schematicMaster"/>
+				<property name="Extends" value="schematicNoQualityMaster"/>
 				<property name="CustomIcon" value="TraumaFirstAidBandageSchematic"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="TraumaFirstAidBandageSchematicPerk"/>
-				</property> </item> 
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="TraumaFirstAidBandage"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="TraumaFirstAidBandage" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item> 
 			<item name="TraumaFirstAidKitSchematic">
-				<property name="Extends" value="schematicMaster"/>
+				<property name="Extends" value="schematicNoQualityMaster"/>
 				<property name="CustomIcon" value="TraumaFirstAidKitSchematic"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="TraumaFirstAidKitSchematicPerk"/>
-				</property></item> 
-			<item name="AdvancedSplintSchematic">
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="TraumaFirstAidKit"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="TraumaFirstAidKit" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item> 
+			<!-- <item name="AdvancedSplintSchematic">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="AdvancedSplintSchematic"/>
 				<property class="Action0">
 					<property name="Skills_to_gain" value="AdvancedSplintSchematicPerk"/>
-				</property> </item> 
+				</property> </item> -->
 			<item name="KevlarSchematic">
 			    <property name="CustomIcon" value="KevlarSchematic" />
 				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-					<property name="Skills_to_gain" value="KevlarSchematicPerk" />
-			    </property>
-				<property name="DescriptionKey" value="KevlarArmorSchematicDesc" />
+			   <property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="Kevlar"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Kevlar" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
 				<property name="EconomicValue" value="250" /> </item> 
 			<item name="ecoBatterybankSchematic">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="ecoBatterybankSchematic"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="ecoBatterybankSchematicPerk"/>
-				</property>
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="ecoBatterybank"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="ecoBatterybank" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
 				<property name="EconomicValue" value="4000"/> </item> 
 			<item name="hdBatterybankSchematic">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="hdBatterybankSchematic"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="hdBatterybankSchematicPerk"/>
-				</property>
-				<property name="EconomicValue" value="4000"/> </item> 
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="hdBatterybank"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="hdBatterybank" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
+				<property name="EconomicValue" value="4000"/> </item>
 			<item name="powerpoletopRecipe">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="powerpoletopRecipe"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="powerpoletopRecipePerk"/>
-				</property>
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="poleTop01"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="poleTop01" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
 				<property name="EconomicValue" value="250"/> </item> 
 			<item name="nightvisionGogglesSchematic">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="nightvisionGogglesSchematic"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="nightvisionGogglesSchematicPerk"/>
-				</property>
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="apparelNightvisionGoggles"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelNightvisionGoggles" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
 				<property name="EconomicValue" value="950"/> </item> 
 			<item name="silverBootsSchematic">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="silverBootsSchematic"/>
 				<property name="CustomIconTint" value="192,192,192"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="silverBootsSchematicPerk"/>
-				</property>
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="silverBoots"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="silverBoots" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
 				<property name="EconomicValue" value="750"/>
 				<property name="DescriptionKey" value="silverArmorSchematicDesc"/> </item> 
 			<item name="silverPantsSchematic">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="silverPantsSchematic"/>
 				<property name="CustomIconTint" value="192,192,192"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="silverPantsSchematicPerk"/>
-				</property>
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="silverPants"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="silverPants" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
 				<property name="EconomicValue" value="750"/>
 				<property name="DescriptionKey" value="silverArmorSchematicDesc"/> </item> 
 			<item name="silverJacketSchematic">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="silverJacketSchematic"/>
 				<property name="CustomIconTint" value="192,192,192"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="silverJacketSchematicPerk"/>
-				</property>
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="silverJacket"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="silverJacket" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
 				<property name="EconomicValue" value="750"/>
 				<property name="DescriptionKey" value="silverArmorSchematicDesc"/> </item> 
 			<item name="silverHatSchematic">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="silverHatSchematic"/>
 				<property name="CustomIconTint" value="192,192,192"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="silverHatSchematicPerk"/>
-				</property>
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="silverHat"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="silverHat" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
 				<property name="EconomicValue" value="750"/>
 				<property name="DescriptionKey" value="silverArmorSchematicDesc"/> </item> 
 			<item name="silverGlovesSchematic">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="silverGlovesSchematic"/>
 				<property name="CustomIconTint" value="192,192,192"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="silverGlovesSchematicPerk"/>
-				</property>
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="silverGloves"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="silverGloves" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
 				<property name="EconomicValue" value="750"/>
-				<property name="DescriptionKey" value="silverArmorSchematicDesc"/> </item> 
+				<property name="DescriptionKey" value="silverArmorSchematicDesc"/> </item>
 			<item name="crowbarSteelSchematic">
-				<property name="Extends" value="schematicMaster"/>
+				<property name="Extends" value="schematicNoQualityMaster"/>
 				<property name="CustomIcon" value="crowbarSteelSchematic"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="crowbarSteelSchematicPerk"/>
-				</property> </item> 
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="crowbarSteel"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="crowbarSteel" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item> 
 			<item name="crowbarTungstenSchematic">
-				<property name="Extends" value="schematicMaster"/>
+				<property name="Extends" value="schematicNoQualityMaster"/>
 				<property name="CustomIcon" value="crowbarTungstenSchematic"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="crowbarTungstenSchematicPerk"/>
-				</property> </item> 
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="crowbarTungsten"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="crowbarTungsten" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item> 
 			<item name="screwdriverSchematic">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="screwdriverSchematic"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="screwdriverSchematicPerk"/>
-				</property> </item> 
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="screwdriver"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="screwdriver" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item> 
 			<item name="swordSchematic">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="swordSchematic"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="swordSchematicPerk"/>
-				</property> </item> 
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="sword"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="sword" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item> 
 			<item name="pieRecipePartI">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="pieRecipePartI"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="pieRecipePartIPerk"/>
-				</property> </item> 
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="PumpkinPie"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="PumpkinPie" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FruitPie" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="StrawberryPie" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="blackberryPie" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item> 
 			<item name="pieRecipePartII">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="pieRecipePartII"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="pieRecipePartIIPerk"/>
-				</property> </item> 
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="ChocolatePumpkinPie"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="ChocolatePumpkinPie" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="ChocolatePie" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="ApplePie" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodBlueberryPie" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item> 
 			<item name="bakedPumpkinRecipe">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="bakedPumpkinRecipe"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="bakedPumpkinRecipePerk"/>
-				</property> </item> 
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="bakedPumpkin"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="bakedPumpkin" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item> 
 			<item name="meatPiesRecipe">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="meatPiesRecipe"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="meatPiesRecipePerk"/>
-				</property> </item> 
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="Smallmeatpie"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Smallmeatpie" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="ChickenPotPie" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="redMeatPie" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="whiteMeatPie" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item> 
 			<item name="turkeyDinnerRecipe">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="turkeyDinnerRecipe"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="turkeyDinnerRecipePerk"/>
-				</property> </item> 
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="Turkeydinner"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Turkeydinner" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item> 
 			<item name="roastBeefRecipe">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="roastBeefRecipe"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="roastBeefRecipePerk"/>
-				</property> </item> 
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="Roastbeef"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Roastbeef" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item> 
 			<item name="saladsRecipe">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="saladsRecipe"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="saladsRecipePerk"/>
-				</property> </item> 
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="wedgesalad"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="wedgesalad" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="largesalad" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="clubsalad" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="CucumberSalad" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="summersalad" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item> 
 			<item name="chocolateCookiesRecipe">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="chocolateCookiesRecipe"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="chocolateCookiesRecipePerk"/>
-				</property> </item> 
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="chocolatecookies"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="chocolatecookies" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item> 
 			<item name="chocolateCakeRecipe">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="chocolateCookiesRecipe"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="chocolateCakeRecipePerk"/>
-				</property> </item> 
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="chocolatecake"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="chocolatecake" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item> 
 			<item name="soupNaziPartI">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="soupNaziPartI"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="soupNaziPartIPerk"/>
-				</property> </item> 
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="chickenstock"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="chickenstock" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="beefstock" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="potatosoup" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Leeksoup" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item> 
 			<item name="soupNaziPartII">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="soupNaziPartII"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="soupNaziPartIIPerk"/>
-				</property> </item> -->
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="onionsoup"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="onionsoup" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="chickensoup" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="bearsoup" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="eggdropsoup" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item>
 
 			<!-- To Do Remove -->
 			<!-- <item name="classKey">
@@ -11796,6 +11953,7 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_woodframes" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
@@ -11803,6 +11961,7 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_scrapframes" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
@@ -11810,12 +11969,14 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_rebarframes" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
 			<item name="classTreasure_buildingsupplies">
 				<property name="Extends" value="treasureQuestMaster" />
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classTreasure_buildingsupplies" />
 				</property>
 				<property name="DescriptionKey" value="ClassTreasureQuestNoteDesc" /> </item>
@@ -11823,6 +11984,7 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_TraumaFirstAidBandage" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
@@ -11830,6 +11992,7 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_TraumaFirstAidKit" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
@@ -11837,12 +12000,14 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_SpeedTraps" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
 			<item name="classTreasure_survivalistsupplies">
 				<property name="Extends" value="treasureQuestMaster" />
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classTreasure_survivalistsupplies" />
 				</property>
 				<property name="DescriptionKey" value="ClassTreasureQuestNoteDesc" /> </item>
@@ -11850,6 +12015,7 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_seedcrafting" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
@@ -11857,6 +12023,7 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_seedcrafting2" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
@@ -11864,6 +12031,7 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_seedplacing" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
@@ -11871,6 +12039,7 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_seedplacing2" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
@@ -11878,6 +12047,7 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_deserteagleassemble" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
@@ -11885,6 +12055,7 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_barettashotgunassemble" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
@@ -11892,12 +12063,14 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_m25sniperassemble" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
 			<item name="classTreasure_guncrate">
 				<property name="Extends" value="treasureQuestMaster" />
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classTreasure_guncrate" />
 				</property>
 				<property name="DescriptionKey" value="ClassTreasureQuestNoteDesc" /> </item>
@@ -11905,6 +12078,7 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_goldtippedknife" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
@@ -11912,6 +12086,7 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_goldtippedmachete" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
@@ -11919,12 +12094,14 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_meleezombies" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
 			<item name="classTreasure_weaponcrate">
 				<property name="Extends" value="treasureQuestMaster" />
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classTreasure_weaponcrate" />
 				</property>
 				<property name="DescriptionKey" value="ClassTreasureQuestNoteDesc" /> </item>
@@ -11932,6 +12109,7 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_sledgehammer" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
@@ -11939,6 +12117,7 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_minibikeparts" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
@@ -11946,12 +12125,14 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_diamondtools" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
 			<item name="classTreasure_tradesmansupplies">
 				<property name="Extends" value="treasureQuestMaster" />
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classTreasure_tradesmansupplies" />
 				</property>
 				<property name="DescriptionKey" value="ClassTreasureQuestNoteDesc" /> </item>
@@ -11959,6 +12140,7 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_kevlararmor" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
@@ -11966,6 +12148,7 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_steelarmor" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
@@ -11973,12 +12156,14 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_tungstenarmor" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
 			<item name="classTreasure_armorcrate">
 				<property name="Extends" value="treasureQuestMaster" />
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classTreasure_armorcrate" />
 				</property>
 				<property name="DescriptionKey" value="ClassTreasureQuestNoteDesc" /> </item>
@@ -11986,6 +12171,7 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_Lighting" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
@@ -11993,6 +12179,7 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_BaseTraps" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
@@ -12000,12 +12187,14 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_BaseTraps2" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
 			<item name="classTreasure_BaseTraps2">
 				<property name="Extends" value="treasureQuestMaster" />
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classTreasure_BaseTraps2" />
 				</property>
 				<property name="DescriptionKey" value="ClassTreasureQuestNoteDesc" /> </item>
@@ -12013,6 +12202,7 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_SilverArmorCraft" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
@@ -12020,6 +12210,7 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_SilverArmored" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
@@ -12027,12 +12218,14 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_Lockpicking" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
 			<item name="classTreasure_covertarmor">
 				<property name="Extends" value="treasureQuestMaster" />
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classTreasure_covertarmor" />
 				</property>
 				<property name="DescriptionKey" value="ClassTreasureQuestNoteDesc" /> </item>
@@ -12040,6 +12233,7 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_pieCrafting" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
@@ -12047,6 +12241,7 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_Soupbasics" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
@@ -12054,6 +12249,7 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_chickenSoupmaster" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
@@ -12061,6 +12257,7 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_beefSoupmaster" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
@@ -12068,6 +12265,7 @@
 				<property name="Extends" value="challengeQuestMaster" />
 				<property name="CustomIcon" value="questMaster"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classChallenge_dinnermaster" />
 				</property>
 				<property name="DescriptionKey" value="ClassQuestNoteDesc" /> </item>
@@ -12379,391 +12577,446 @@
 			<!-- adminQuestBuilderClass1, adminQuestBuilderClass2, adminQuestBuilderClass3, adminQuestBuilderClass4, adminQuestBuilderClass5, adminQuestSurvivalistClass1, adminQuestSurvivalistClass2, adminQuestSurvivalistClass3, adminQuestSurvivalistClass4, adminQuestSurvivalistClass5, adminQuestScholarClass1, adminQuestScholarClass2, adminQuestScholarClass3, adminQuestScholarClass4, adminQuestScholarClass5, adminQuestMarksmanClass1, adminQuestMarksmanClass2, adminQuestMarksmanClass3, adminQuestMarksmanClass4, adminQuestMarksmanClass5, adminQuestFighterClass1, adminQuestFighterClass2, adminQuestFighterClass3, adminQuestFighterClass4, adminQuestFighterClass5, adminQuestTradesmanClass1, adminQuestTradesmanClass2, adminQuestTradesmanClass3, adminQuestTradesmanClass4, adminQuestTradesmanClass5, adminQuestProtectionClass1, adminQuestProtectionClass2, adminQuestProtectionClass3, adminQuestProtectionClass4, adminQuestProtectionClass5, adminQuestElectricianClass1, adminQuestElectricianClass2, adminQuestElectricianClass3, adminQuestElectricianClass4, adminQuestElectricianClass5, adminQuestCovertClass1, adminQuestCovertClass2, adminQuestCovertClass3, adminQuestCovertClass4, adminQuestCovertClass5, adminQuestCookClass1, adminQuestCookClass2, adminQuestCookClass3, adminQuestCookClass4, adminQuestCookClass5, adminQuestMechanicClass1, adminQuestMechanicClass2, adminQuestMechanicClass3, adminQuestMechanicClass4, adminQuestMechanicClass5, adminPaintTool, adminQuestExperience5000, adminQuestExperience10000, adminQuestExperience20000, adminQuestPlayer1, adminQuestPlayer5, adminQuestPlayer10, adminQuestPlayer25, adminQuestSkillPoints2, adminQuestSkillPoints5, adminQuestSkillPoints10, adminQuestSkillPoints20 -->
 
 			<item name="adminQuestBuilderClass1">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingbuilder1"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestBuilderClass2">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingbuilder2"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestBuilderClass3">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingbuilder3"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestBuilderClass4">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingbuilder4"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestBuilderClass5">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingbuilder5"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestSurvivalistClass1">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingsurvivalist1"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestSurvivalistClass2">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingsurvivalist2"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestSurvivalistClass3">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingsurvivalist3"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestSurvivalistClass4">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingsurvivalist4"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestSurvivalistClass5">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingsurvivalist5"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestScholarClass1">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingscholar1"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestScholarClass2">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingscholar2"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestScholarClass3">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingscholar3"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestScholarClass4">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingscholar4"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestScholarClass5">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingscholar5"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestMarksmanClass1">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingmarksman1"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestMarksmanClass2">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingmarksman2"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestMarksmanClass3">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingmarksman3"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestMarksmanClass4">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingmarksman4"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestMarksmanClass5">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingmarksman5"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestFighterClass1">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingfighter1"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestFighterClass2">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingfighter2"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestFighterClass3">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingfighter3"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestFighterClass4">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingfighter4"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestFighterClass5">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingfighter5"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestTradesmanClass1">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingtradesman1"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestTradesmanClass2">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingtradesman2"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestTradesmanClass3">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingtradesman3"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestTradesmanClass4">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingtradesman4"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestTradesmanClass5">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingtradesman5"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestProtectionClass1">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingprotection1"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestProtectionClass2">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingprotection2"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestProtectionClass3">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingprotection3"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestProtectionClass4">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingprotection4"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestProtectionClass5">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingprotection5"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestElectricianClass1">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingelectrician1"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestElectricianClass2">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingelectrician2"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestElectricianClass3">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingelectrician3"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestElectricianClass4">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingelectrician4"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestElectricianClass5">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingelectrician5"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestCovertClass1">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingcovert1"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestCovertClass2">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingcovert2"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestCovertClass3">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingcovert3"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestCovertClass4">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingcovert4"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestCovertClass5">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingcovert5"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestCookClass1">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingcook1"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestCookClass2">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingcook2"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestCookClass3">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingcook3"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestCookClass4">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingcook4"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestCookClass5">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingcook5"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestMechanicClass1">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingmechanic1"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestMechanicClass2">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingmechanic2"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestMechanicClass3">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingmechanic3"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestMechanicClass4">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingmechanic4"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
 			<item name="adminQuestMechanicClass5">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="classtrainingmechanic5"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestPaperDesc"/> </item>
-			<item name="adminPaintTool">  <!-- meleeToolAdminPaintTool -->
+			<!-- <item name="adminPaintTool">
 				<property name="CustomIcon" value="meleeToolPaintTool" />
 				<property name="CustomIconTint" value="ffa0a0"/>
 				<Property name="TintColor" value="255,160,160"/>
@@ -12786,7 +13039,7 @@
 					<property name="Infinite_ammo" value="true"/>
 					<property name="Magazine_items" value="resourcePaint"/>
 					<property name="Range" value="30"/>
-					<property name="Delay" value="0.2"/> <!-- obsolete if rounds per minute exists -->
+					<property name="Delay" value="0.2"/>
 					<property name="RemoveTexture" value="true"/>
 					<property name="DefaultTextureID" value="156"/>
 				</property>
@@ -12796,7 +13049,7 @@
 					<property name="Sound_start" value="resourcePaint"/>
 					<property name="Magazine_items" value="resourcePaint"/>
 					<property name="Range" value="30"/>
-					<property name="Delay" value="0.2"/> <!-- obsolete if rounds per minute exists -->
+					<property name="Delay" value="0.2"/>
 					<property name="Particles_muzzle_fire" value="paint_splash2"/>
 				</property>
 				<effect_group name="Base Effects" tiered="false">
@@ -12807,103 +13060,113 @@
 					<passive_effect name="HarvestCount" operation="base_set" value="0" tags="allToolsHarvest"/>
 				</effect_group>
 				<property name="Group" value="Tools/Traps"/>
-				<property name="ActionSkillGroup" value="Construction Tools"/>
-				<property name="CraftingSkillGroup" value="craftSkillIronTools"/>
 				<property name="RepairExpMultiplier" value="5.5"/>
-				<property name="PickupJournalEntry" value="paintingTip"/> </item>
+				<property name="PickupJournalEntry" value="paintingTip"/> </item> -->
 			<item name="adminQuestExperience5000">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CustomIconTint" value="ffa0a0"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="adminQuestXP5000"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestExperienceDesc"/> </item>
 			<item name="adminQuestExperience10000">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CustomIconTint" value="ffa0a0"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="adminQuestXP10000"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestExperienceDesc"/> </item>
 			<item name="adminQuestExperience20000">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CustomIconTint" value="ffa0a0"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="adminQuestXP20000"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestExperienceDesc"/> </item>
 			<item name="adminQuestPlayer1">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CustomIconTint" value="ffa0a0"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="adminQuestPlayer1"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestExperienceDesc"/> </item>
 			<item name="adminQuestPlayer5">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CustomIconTint" value="ffa0a0"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="adminQuestPlayer5"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestExperienceDesc"/> </item>
 			<item name="adminQuestPlayer10">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CustomIconTint" value="ffa0a0"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="adminQuestPlayer10"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestExperienceDesc"/> </item>
 			<item name="adminQuestPlayer25">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CustomIconTint" value="ffa0a0"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="adminQuestPlayer25"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestExperienceDesc"/> </item>
 			<item name="adminQuestSkillPoints1">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CustomIconTint" value="ffa0a0"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="adminQuestSkillPoints1"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestExperienceDesc"/> </item>
 			<item name="adminQuestSkillPoints2">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CustomIconTint" value="ffa0a0"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="adminQuestSkillPoints2"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestExperienceDesc"/> </item>
 			<item name="adminQuestSkillPoints5">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CustomIconTint" value="ffa0a0"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="adminQuestSkillPoints5"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestExperienceDesc"/> </item>
 			<item name="adminQuestSkillPoints10">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CustomIconTint" value="ffa0a0"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="adminQuestSkillPoints10"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestExperienceDesc"/> </item>
 			<item name="adminQuestSkillPoints20">
-				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="Extends" value="questMaster"/>
 				<property name="CustomIconTint" value="ffa0a0"/>
 				<property name="CreativeMode" value="Dev"/>
 				<property class="Action0">
+					<property name="UseAnimation" value="false"/>
 					<property name="QuestGiven" value="adminQuestSkillPoints20"/>
 				</property>
 				<property name="DescriptionKey" value="adminQuestExperienceDesc"/> </item>
@@ -13517,5 +13780,25 @@
 			</item>
 	</insertAfter>
 	<set xpath="/items/item[@name='gunToolNailgun']/property[@class='Action1']/property[@name='Delay']/@value">.4</set>
-
+	<append xpath="/items/item[@name='gunPistol']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun1</append>
+	<append xpath="/items/item[@name='gun44Magnum']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun1</append>
+	<append xpath="/items/item[@name='gunSMG5']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun1</append>
+	<append xpath="/items/item[@name='gunBlunderbuss']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun1</append>
+	<append xpath="/items/item[@name='gunDoubleBarrelShotgun']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun1</append>
+	<append xpath="/items/item[@name='gunPumpShotgun']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun1</append>
+	<append xpath="/items/item[@name='gunHuntingRifle']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun1</append>
+	<append xpath="/items/item[@name='gunMR10']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun1</append>
+	<append xpath="/items/item[@name='gunAK47']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun1</append>
+	<append xpath="/items/item[@name='gunTacticalAR']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun1</append>
+	<append xpath="/items/item[@name='gunM60']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun1</append>
+	<append xpath="/items/item[@name='gunRocketLauncher']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun2</append>
+	<append xpath="/items/item[@name='gunBowPrimitive']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun3</append>
+	<append xpath="/items/item[@name='gunBowWooden']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun3</append>
+	<append xpath="/items/item[@name='gunBowCompound']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun3</append>
+	<append xpath="/items/item[@name='gunCrossbowIron']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun3</append>
+	<append xpath="/items/item[@name='gunCrossbowCompound']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun3</append>
+	<append xpath="/items/item[@name='gunJunkTurret']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun1</append>
+	<setattribute xpath="/items/item[@name='apparelNightvisionGoggles']" name="UnlockedBy">nightvisionGogglesSchematic</setattribute>
+	<append xpath="/items/item[@name='foodBlueberryPie']/property[@name='UnlockedBy']/@value">,pieRecipePartII</append>
+	
 </config>

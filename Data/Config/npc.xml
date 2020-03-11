@@ -37,7 +37,7 @@
 		faction="whiteriver"
 		portrait="npc_jen"
 		greeting_type="nearby"
-		stance="Like" voice_set="trader"
+		stance="Like" voice_set="trader_jen"
 		trader_id="1" dialog_id="trader" />
 		
 	<npc_info

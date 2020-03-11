@@ -20786,7 +20786,7 @@ NOT the TextureNumber.
 
 <!-- WOTW Modded -->
 <block name="poleTop01">
-	<property name="UnlockedBy" value="perkElectricianLightsRecipe"/>
+	<property name="UnlockedBy" value="perkElectricianLightsRecipe,powerpoletopRecipe"/>
 	<property name="Material" value="Mmetal"/>
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
 	<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
@@ -28826,7 +28826,7 @@ NOT the TextureNumber.
 
 <block name="ecoBatterybank">
 	<property name="CustomIcon" value="ecoBatterybank"/>
-	<property name="UnlockedBy" value="perkElectricianBatteryBanks"/>
+	<property name="UnlockedBy" value="perkElectricianBatteryBanks,ecoBatterybankSchematic"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="BatteryBank"/>
 	<property name="Material" value="Mmetal_weak"/>
@@ -28866,7 +28866,7 @@ NOT the TextureNumber.
 
 <block name="hdBatterybank">
 	<property name="CustomIcon" value="hdBatterybank"/>
-	<property name="UnlockedBy" value="perkElectricianBatteryBanks"/>
+	<property name="UnlockedBy" value="perkElectricianBatteryBanks,hdBatterybankSchematic"/>
 	<property name="Class" value="BatteryBank"/>
 	<property name="Material" value="Mmetal_weak"/>
 	<property name="StabilitySupport" value="false"/>
@@ -31101,6 +31101,7 @@ NOT the TextureNumber.
     <property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Furniture.unity3d?StorageChestPrefab"/>
 	<property name="FuelValue" value="72" />
+	<property name="Weight" value="20"/>
     <property name="Place" value="TowardsPlacerInverted" />
 	<property class="RepairItems">
 	  <property name="resourceWood" value="10" />
@@ -31148,6 +31149,7 @@ NOT the TextureNumber.
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Furniture.unity3d?StorageChest2Prefab"/>
 	<property name="Place" value="TowardsPlacerInverted" />
+	<property name="Weight" value="25"/>
 	<property name="LootList" value="178"/>
 	<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
 	<property name="DowngradeBlock" value="StorageChest2Insecure"/>
@@ -31180,6 +31182,7 @@ NOT the TextureNumber.
     <property name="Texture" value="572" />
 	<property name="UseGlobalUV" value="L,L,L,L,L,L"/>
 	<property name="FuelValue" value="300"/>
+	<property name="Weight" value="30"/>
 	<property class="RepairItems">
 	  <property name="resourceWood" value="20" />
 	</property>
@@ -31227,6 +31230,7 @@ NOT the TextureNumber.
     <property name="Texture" value="572" />
 	<property name="UseGlobalUV" value="L,L,L,L,L,L"/>
 	<property name="FuelValue" value="300"/>
+	<property name="Weight" value="40"/>
 	<property class="RepairItems">
 	  <property name="resourceWood" value="20" />
 	</property>
@@ -32297,9 +32301,9 @@ NOT the TextureNumber.
     <property name="IsTerrainDecoration" value="true" />
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="Stacknumber" value="1" />
-	<property name="HeatMapStrength" value="0.25"/>
-	<property name="HeatMapTime" value="1200"/>
-	<property name="HeatMapFrequency" value="25"/>
+	<property name="HeatMapStrength" value="2"/>
+	<property name="HeatMapTime" value="5000"/>
+	<property name="HeatMapFrequency" value="1000"/>
 	<property class="Workstation">
 		<property name="Modules" value="tools,output"/>
 		<property name="CraftingAreaRecipes" value="BlueprintWorkStation"/>
@@ -32328,9 +32332,8 @@ NOT the TextureNumber.
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 	<property name="TakeDelay" value="15"/>
-    <property name="Group" value="Building,Science" />
+    <property name="Group" value="Building,advBuilding" />
 	<property name="EconomicValue" value="1350" />
-	<property name="CraftingSkillGroup" value="craftSkillConstruction"/>
 	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
 </block>
 
@@ -32457,14 +32460,15 @@ NOT the TextureNumber.
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#AmmoBench.unity3d?AmmoBenchPrefab"/>
+	<property name="DisplayType" value="blockMulti"/>
 	<property name="MultiBlockDim" value="2,2,1"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="OnlySimpleRotations" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
-	<property name="HeatMapStrength" value="0.5"/>
-	<property name="HeatMapTime" value="1200"/>
-	<property name="HeatMapFrequency" value="25"/>
+	<property name="HeatMapStrength" value="2"/>
+	<property name="HeatMapTime" value="5000"/>
+	<property name="HeatMapFrequency" value="1000"/>
 	<property name="Stacknumber" value="1"/>
 	<property class="Workstation">
 		<property name="Modules" value="output"/>
@@ -32826,27 +32830,14 @@ NOT the TextureNumber.
 <!-- VENDING MACHINES START -->
 
 <block name="ClassBuilderVendingMachinePOI">
+	<property name="Extends" value="cntVendingMachine"/>
 	<property name="CustomIcon" value="ClassBuilderVendingMachine" />
-	<property name="Group" value="Science"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="DisplayType" value="blockHardenedMulti" />
-	<property name="Material" value="Mmetal_medium"/>
 	<property name="MaxDamage" value="5000"/>
-	<property name="LightOpacity" value="0"/>
-	<property name="StabilitySupport" value="false"/>
-	<property name="Class" value="VendingMachine"/>
-	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Crafting/vending_machine_playerPrefab"/>
-	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="ImposterExchange" value="imposterBlock" param1="143"/>
-	<property name="OnlySimpleRotations" value="true"/>
-	<property name="Place" value="TowardsPlacerInverted"/>
-	<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
-	<property class="RepairItems"> <property name="resourceForgedIron" value="5"/> </property>
 	<property name="TraderID" value="15"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<property name="Buff" value="buffShocked"/>
 	<drop event="Destroy" name="ClassBuilderVendingMachine" count="0"/>
 	<property name="TakeDelay" value="10"/>
 	<property name="DescriptionKey" value="ClassVendingMachinePOIDesc" />
@@ -32854,26 +32845,14 @@ NOT the TextureNumber.
 </block>
 
 <block name="ClassBuilderVendingMachine">
+	<property name="Extends" value="cntVendingMachine"/>
 	<property name="CustomIcon" value="ClassBuilderVendingMachine" />
-	<property name="Group" value="Science"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="DisplayType" value="blockHardenedMulti" />
-	<property name="Material" value="Mmetal_medium"/>
 	<property name="MaxDamage" value="5000"/>
-	<property name="LightOpacity" value="0"/>
-	<property name="StabilitySupport" value="false"/>
-	<property name="Class" value="VendingMachine"/>
-	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Crafting/vending_machine_playerPrefab"/>
-	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="ImposterExchange" value="imposterBlock" param1="143"/>
-	<property name="OnlySimpleRotations" value="true"/>
-	<property name="Place" value="TowardsPlacerInverted"/>
-	<property class="RepairItems"> <property name="resourceForgedIron" value="5"/> </property>
 	<property name="TraderID" value="6"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<property name="Buff" value="buffShocked"/>
 	<drop event="Destroy" name="ClassBuilderVendingMachine" count="0"/>
 	<property name="TakeDelay" value="10"/>
 	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
@@ -32881,26 +32860,14 @@ NOT the TextureNumber.
 </block>
 
 <block name="ClassSurvivalistVendingMachinePOI">
+	<property name="Extends" value="cntVendingMachine"/>
 	<property name="CustomIcon" value="ClassSurvivalistVendingMachine" />
-	<property name="Group" value="Science"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="DisplayType" value="blockHardenedMulti" />
-	<property name="Material" value="Mmetal_medium"/>
 	<property name="MaxDamage" value="5000"/>
-	<property name="LightOpacity" value="0"/>
-	<property name="StabilitySupport" value="false"/>
-	<property name="Class" value="VendingMachine"/>
-	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Crafting/vending_machine_playerPrefab"/>
-	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="ImposterExchange" value="imposterBlock" param1="143"/>
-	<property name="OnlySimpleRotations" value="true"/>
-	<property name="Place" value="TowardsPlacerInverted"/>
-	<property class="RepairItems"> <property name="resourceForgedIron" value="5"/> </property>
 	<property name="TraderID" value="16"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<property name="Buff" value="buffShocked"/>
 	<drop event="Destroy" name="ClassSurvivalistVendingMachinePOI" count="0"/>
 	<property name="TakeDelay" value="10"/>
 	<property name="DescriptionKey" value="ClassVendingMachinePOIDesc" />
@@ -32908,26 +32875,14 @@ NOT the TextureNumber.
 </block>
 
 <block name="ClassSurvivalistVendingMachine">
+	<property name="Extends" value="cntVendingMachine"/>
 	<property name="CustomIcon" value="ClassSurvivalistVendingMachine" />
-	<property name="Group" value="Science"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="DisplayType" value="blockHardenedMulti" />
-	<property name="Material" value="Mmetal_medium"/>
 	<property name="MaxDamage" value="5000"/>
-	<property name="LightOpacity" value="0"/>
-	<property name="StabilitySupport" value="false"/>
-	<property name="Class" value="VendingMachine"/>
-	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Crafting/vending_machine_playerPrefab"/>
-	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="ImposterExchange" value="imposterBlock" param1="143"/>
-	<property name="OnlySimpleRotations" value="true"/>
-	<property name="Place" value="TowardsPlacerInverted"/>
-	<property class="RepairItems"> <property name="resourceForgedIron" value="5"/> </property>
 	<property name="TraderID" value="7"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<property name="Buff" value="buffShocked"/>
 	<drop event="Destroy" name="ClassSurvivalistVendingMachine" count="0"/>
 	<property name="TakeDelay" value="10"/>
 	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
@@ -32935,26 +32890,14 @@ NOT the TextureNumber.
 </block>
 
 <block name="ClassScholarVendingMachinePOI">
+	<property name="Extends" value="cntVendingMachine"/>
 	<property name="CustomIcon" value="ClassScholarVendingMachine" />
-	<property name="Group" value="Science"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="DisplayType" value="blockHardenedMulti" />
-	<property name="Material" value="Mmetal_medium"/>
 	<property name="MaxDamage" value="5000"/>
-	<property name="LightOpacity" value="0"/>
-	<property name="StabilitySupport" value="false"/>
-	<property name="Class" value="VendingMachine"/>
-	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Crafting/vending_machine_playerPrefab"/>
-	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="ImposterExchange" value="imposterBlock" param1="143"/>
-	<property name="OnlySimpleRotations" value="true"/>
-	<property name="Place" value="TowardsPlacerInverted"/>
-	<property class="RepairItems"> <property name="resourceForgedIron" value="5"/> </property>
 	<property name="TraderID" value="17"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<property name="Buff" value="buffShocked"/>
 	<drop event="Destroy" name="ClassScholarVendingMachinePOI" count="0"/>
 	<property name="TakeDelay" value="10"/>
 	<property name="DescriptionKey" value="ClassVendingMachinePOIDesc" />
@@ -32962,26 +32905,14 @@ NOT the TextureNumber.
 </block>
 
 <block name="ClassScholarVendingMachine">
+	<property name="Extends" value="cntVendingMachine"/>
 	<property name="CustomIcon" value="ClassScholarVendingMachine" />
-	<property name="Group" value="Science"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="DisplayType" value="blockHardenedMulti" />
-	<property name="Material" value="Mmetal_medium"/>
 	<property name="MaxDamage" value="5000"/>
-	<property name="LightOpacity" value="0"/>
-	<property name="StabilitySupport" value="false"/>
-	<property name="Class" value="VendingMachine"/>
-	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Crafting/vending_machine_playerPrefab"/>
-	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="ImposterExchange" value="imposterBlock" param1="143"/>
-	<property name="OnlySimpleRotations" value="true"/>
-	<property name="Place" value="TowardsPlacerInverted"/>
-	<property class="RepairItems"> <property name="resourceForgedIron" value="5"/> </property>
 	<property name="TraderID" value="8"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<property name="Buff" value="buffShocked"/>
 	<drop event="Destroy" name="ClassScholarVendingMachine" count="0"/>
 	<property name="TakeDelay" value="10"/>
 	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
@@ -32989,26 +32920,14 @@ NOT the TextureNumber.
 </block>
 
 <block name="ClassMarksmanVendingMachinePOI">
+	<property name="Extends" value="cntVendingMachine"/>
 	<property name="CustomIcon" value="ClassMarksmanVendingMachine" />
-	<property name="Group" value="Science"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="DisplayType" value="blockHardenedMulti" />
-	<property name="Material" value="Mmetal_medium"/>
 	<property name="MaxDamage" value="5000"/>
-	<property name="LightOpacity" value="0"/>
-	<property name="StabilitySupport" value="false"/>
-	<property name="Class" value="VendingMachine"/>
-	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Crafting/vending_machine_playerPrefab"/>
-	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="ImposterExchange" value="imposterBlock" param1="143"/>
-	<property name="OnlySimpleRotations" value="true"/>
-	<property name="Place" value="TowardsPlacerInverted"/>
-	<property class="RepairItems"> <property name="resourceForgedIron" value="5"/> </property>
 	<property name="TraderID" value="18"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<property name="Buff" value="buffShocked"/>
 	<drop event="Destroy" name="ClassMarksmanVendingMachinePOI" count="0"/>
 	<property name="TakeDelay" value="10"/>
 	<property name="DescriptionKey" value="ClassVendingMachinePOIDesc" />
@@ -33016,26 +32935,14 @@ NOT the TextureNumber.
 </block>
 
 <block name="ClassMarksmanVendingMachine">
+	<property name="Extends" value="cntVendingMachine"/>
 	<property name="CustomIcon" value="ClassMarksmanVendingMachine" />
-	<property name="Group" value="Science"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="DisplayType" value="blockHardenedMulti" />
-	<property name="Material" value="Mmetal_medium"/>
 	<property name="MaxDamage" value="5000"/>
-	<property name="LightOpacity" value="0"/>
-	<property name="StabilitySupport" value="false"/>
-	<property name="Class" value="VendingMachine"/>
-	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Crafting/vending_machine_playerPrefab"/>
-	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="ImposterExchange" value="imposterBlock" param1="143"/>
-	<property name="OnlySimpleRotations" value="true"/>
-	<property name="Place" value="TowardsPlacerInverted"/>
-	<property class="RepairItems"> <property name="resourceForgedIron" value="5"/> </property>
 	<property name="TraderID" value="9"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<property name="Buff" value="buffShocked"/>
 	<drop event="Destroy" name="ClassMarksmanVendingMachine" count="0"/>
 	<property name="TakeDelay" value="10"/>
 	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
@@ -33043,26 +32950,14 @@ NOT the TextureNumber.
 </block>
 
 <block name="ClassTradesmanVendingMachinePOI">
+	<property name="Extends" value="cntVendingMachine"/>
 	<property name="CustomIcon" value="ClassTradesmanVendingMachine" />
-	<property name="Group" value="Science"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="DisplayType" value="blockHardenedMulti" />
-	<property name="Material" value="Mmetal_medium"/>
 	<property name="MaxDamage" value="5000"/>
-	<property name="LightOpacity" value="0"/>
-	<property name="StabilitySupport" value="false"/>
-	<property name="Class" value="VendingMachine"/>
-	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Crafting/vending_machine_playerPrefab"/>
-	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="ImposterExchange" value="imposterBlock" param1="143"/>
-	<property name="OnlySimpleRotations" value="true"/>
-	<property name="Place" value="TowardsPlacerInverted"/>
-	<property class="RepairItems"> <property name="resourceForgedIron" value="5"/> </property>
 	<property name="TraderID" value="19"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<property name="Buff" value="buffShocked"/>
 	<drop event="Destroy" name="ClassTradesmanVendingMachinePOI" count="0"/>
 	<property name="TakeDelay" value="10"/>
 	<property name="DescriptionKey" value="ClassVendingMachinePOIDesc" />
@@ -33070,26 +32965,14 @@ NOT the TextureNumber.
 </block>
 
 <block name="ClassTradesmanVendingMachine">
+	<property name="Extends" value="cntVendingMachine"/>
 	<property name="CustomIcon" value="ClassTradesmanVendingMachine" />
-	<property name="Group" value="Science"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="DisplayType" value="blockHardenedMulti" />
-	<property name="Material" value="Mmetal_medium"/>
 	<property name="MaxDamage" value="5000"/>
-	<property name="LightOpacity" value="0"/>
-	<property name="StabilitySupport" value="false"/>
-	<property name="Class" value="VendingMachine"/>
-	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Crafting/vending_machine_playerPrefab"/>
-	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="ImposterExchange" value="imposterBlock" param1="143"/>
-	<property name="OnlySimpleRotations" value="true"/>
-	<property name="Place" value="TowardsPlacerInverted"/>
-	<property class="RepairItems"> <property name="resourceForgedIron" value="5"/> </property>
 	<property name="TraderID" value="10"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<property name="Buff" value="buffShocked"/>
 	<drop event="Destroy" name="ClassTradesmanVendingMachine" count="0"/>
 	<property name="TakeDelay" value="10"/>
 	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
@@ -33097,26 +32980,14 @@ NOT the TextureNumber.
 </block>
 
 <block name="ClassProtectionVendingMachinePOI">
+	<property name="Extends" value="cntVendingMachine"/>
 	<property name="CustomIcon" value="ClassProtectionVendingMachine" />
-	<property name="Group" value="Science"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="DisplayType" value="blockHardenedMulti" />
-	<property name="Material" value="Mmetal_medium"/>
 	<property name="MaxDamage" value="5000"/>
-	<property name="LightOpacity" value="0"/>
-	<property name="StabilitySupport" value="false"/>
-	<property name="Class" value="VendingMachine"/>
-	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Crafting/vending_machine_playerPrefab"/>
-	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="ImposterExchange" value="imposterBlock" param1="143"/>
-	<property name="OnlySimpleRotations" value="true"/>
-	<property name="Place" value="TowardsPlacerInverted"/>
-	<property class="RepairItems"> <property name="resourceForgedIron" value="5"/> </property>
 	<property name="TraderID" value="21"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<property name="Buff" value="buffShocked"/>
 	<drop event="Destroy" name="ClassProtectionVendingMachinePOI" count="0"/>
 	<property name="TakeDelay" value="10"/>
 	<property name="DescriptionKey" value="ClassVendingMachinePOIDesc" />
@@ -33124,26 +32995,14 @@ NOT the TextureNumber.
 </block>
 
 <block name="ClassProtectionVendingMachine">
+	<property name="Extends" value="cntVendingMachine"/>
 	<property name="CustomIcon" value="ClassProtectionVendingMachine" />
-	<property name="Group" value="Science"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="DisplayType" value="blockHardenedMulti" />
-	<property name="Material" value="Mmetal_medium"/>
 	<property name="MaxDamage" value="5000"/>
-	<property name="LightOpacity" value="0"/>
-	<property name="StabilitySupport" value="false"/>
-	<property name="Class" value="VendingMachine"/>
-	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Crafting/vending_machine_playerPrefab"/>
-	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="ImposterExchange" value="imposterBlock" param1="143"/>
-	<property name="OnlySimpleRotations" value="true"/>
-	<property name="Place" value="TowardsPlacerInverted"/>
-	<property class="RepairItems"> <property name="resourceForgedIron" value="5"/> </property>
 	<property name="TraderID" value="12"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<property name="Buff" value="buffShocked"/>
 	<drop event="Destroy" name="ClassProtectionVendingMachine" count="0"/>
 	<property name="TakeDelay" value="10"/>
 	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
@@ -33151,26 +33010,14 @@ NOT the TextureNumber.
 </block>
 
 <block name="ClassFighterVendingMachinePOI">
+	<property name="Extends" value="cntVendingMachine"/>
 	<property name="CustomIcon" value="ClassFighterVendingMachine" />
-	<property name="Group" value="Science"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="DisplayType" value="blockHardenedMulti" />
-	<property name="Material" value="Mmetal_medium"/>
 	<property name="MaxDamage" value="5000"/>
-	<property name="LightOpacity" value="0"/>
-	<property name="StabilitySupport" value="false"/>
-	<property name="Class" value="VendingMachine"/>
-	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Crafting/vending_machine_playerPrefab"/>
-	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="ImposterExchange" value="imposterBlock" param1="143"/>
-	<property name="OnlySimpleRotations" value="true"/>
-	<property name="Place" value="TowardsPlacerInverted"/>
-	<property class="RepairItems"> <property name="resourceForgedIron" value="5"/> </property>
 	<property name="TraderID" value="20"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<property name="Buff" value="buffShocked"/>
 	<drop event="Destroy" name="ClassFighterVendingMachinePOI" count="0"/>
 	<property name="TakeDelay" value="10"/>
 	<property name="DescriptionKey" value="ClassVendingMachinePOIDesc" />
@@ -33178,26 +33025,14 @@ NOT the TextureNumber.
 </block>
 
 <block name="ClassFighterVendingMachine">
+	<property name="Extends" value="cntVendingMachine"/>
 	<property name="CustomIcon" value="ClassFighterVendingMachine" />
-	<property name="Group" value="Science"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="DisplayType" value="blockHardenedMulti" />
-	<property name="Material" value="Mmetal_medium"/>
 	<property name="MaxDamage" value="5000"/>
-	<property name="LightOpacity" value="0"/>
-	<property name="StabilitySupport" value="false"/>
-	<property name="Class" value="VendingMachine"/>
-	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Crafting/vending_machine_playerPrefab"/>
-	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="ImposterExchange" value="imposterBlock" param1="143"/>
-	<property name="OnlySimpleRotations" value="true"/>
-	<property name="Place" value="TowardsPlacerInverted"/>
-	<property class="RepairItems"> <property name="resourceForgedIron" value="5"/> </property>
 	<property name="TraderID" value="11"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<property name="Buff" value="buffShocked"/>
 	<drop event="Destroy" name="ClassFighterVendingMachine" count="0"/>
 	<property name="TakeDelay" value="10"/>
 	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
@@ -33205,26 +33040,14 @@ NOT the TextureNumber.
 </block>
 
 <block name="ClassElectricianVendingMachinePOI">
+	<property name="Extends" value="cntVendingMachine"/>
 	<property name="CustomIcon" value="ClassElectricianVendingMachine" />
-	<property name="Group" value="Science"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="DisplayType" value="blockHardenedMulti" />
-	<property name="Material" value="Mmetal_medium"/>
 	<property name="MaxDamage" value="5000"/>
-	<property name="LightOpacity" value="0"/>
-	<property name="StabilitySupport" value="false"/>
-	<property name="Class" value="VendingMachine"/>
-	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Crafting/vending_machine_playerPrefab"/>
-	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="ImposterExchange" value="imposterBlock" param1="143"/>
-	<property name="OnlySimpleRotations" value="true"/>
-	<property name="Place" value="TowardsPlacerInverted"/>
-	<property class="RepairItems"> <property name="resourceForgedIron" value="5"/> </property>
 	<property name="TraderID" value="22"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<property name="Buff" value="buffShocked"/>
 	<drop event="Destroy" name="ClassElectricianVendingMachinePOI" count="0"/>
 	<property name="TakeDelay" value="10"/>
 	<property name="DescriptionKey" value="ClassVendingMachinePOIDesc" />
@@ -33232,26 +33055,14 @@ NOT the TextureNumber.
 </block>
 
 <block name="ClassElectricianVendingMachine">
+	<property name="Extends" value="cntVendingMachine"/>
 	<property name="CustomIcon" value="ClassElectricianVendingMachine" />
-	<property name="Group" value="Science"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="DisplayType" value="blockHardenedMulti" />
-	<property name="Material" value="Mmetal_medium"/>
 	<property name="MaxDamage" value="5000"/>
-	<property name="LightOpacity" value="0"/>
-	<property name="StabilitySupport" value="false"/>
-	<property name="Class" value="VendingMachine"/>
-	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Crafting/vending_machine_playerPrefab"/>
-	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="ImposterExchange" value="imposterBlock" param1="143"/>
-	<property name="OnlySimpleRotations" value="true"/>
-	<property name="Place" value="TowardsPlacerInverted"/>
-	<property class="RepairItems"> <property name="resourceForgedIron" value="5"/> </property>
 	<property name="TraderID" value="13"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<property name="Buff" value="buffShocked"/>
 	<drop event="Destroy" name="ClassElectricianVendingMachine" count="0"/>
 	<property name="TakeDelay" value="10"/>
 	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
@@ -33259,26 +33070,14 @@ NOT the TextureNumber.
 </block>
 
 <block name="ClassCovertVendingMachinePOI">
+	<property name="Extends" value="cntVendingMachine"/>
 	<property name="CustomIcon" value="ClassCovertVendingMachine" />
-	<property name="Group" value="Science"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="DisplayType" value="blockHardenedMulti" />
-	<property name="Material" value="Mmetal_medium"/>
 	<property name="MaxDamage" value="5000"/>
-	<property name="LightOpacity" value="0"/>
-	<property name="StabilitySupport" value="false"/>
-	<property name="Class" value="VendingMachine"/>
-	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Crafting/vending_machine_playerPrefab"/>
-	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="ImposterExchange" value="imposterBlock" param1="143"/>
-	<property name="OnlySimpleRotations" value="true"/>
-	<property name="Place" value="TowardsPlacerInverted"/>
-	<property class="RepairItems"> <property name="resourceForgedIron" value="5"/> </property>
 	<property name="TraderID" value="23"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<property name="Buff" value="buffShocked"/>
 	<drop event="Destroy" name="ClassCovertVendingMachinePOI" count="0"/>
 	<property name="TakeDelay" value="10"/>
 	<property name="DescriptionKey" value="ClassVendingMachinePOIDesc" />
@@ -33286,26 +33085,14 @@ NOT the TextureNumber.
 </block>
 
 <block name="ClassCovertVendingMachine">
+	<property name="Extends" value="cntVendingMachine"/>
 	<property name="CustomIcon" value="ClassCovertVendingMachine" />
-	<property name="Group" value="Science"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="DisplayType" value="blockHardenedMulti" />
-	<property name="Material" value="Mmetal_medium"/>
 	<property name="MaxDamage" value="5000"/>
-	<property name="LightOpacity" value="0"/>
-	<property name="StabilitySupport" value="false"/>
-	<property name="Class" value="VendingMachine"/>
-	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Crafting/vending_machine_playerPrefab"/>
-	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="ImposterExchange" value="imposterBlock" param1="143"/>
-	<property name="OnlySimpleRotations" value="true"/>
-	<property name="Place" value="TowardsPlacerInverted"/>
-	<property class="RepairItems"> <property name="resourceForgedIron" value="5"/> </property>
 	<property name="TraderID" value="14"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<property name="Buff" value="buffShocked"/>
 	<drop event="Destroy" name="ClassCovertVendingMachine" count="0"/>
 	<property name="TakeDelay" value="10"/>
 	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
@@ -33313,26 +33100,14 @@ NOT the TextureNumber.
 </block>
 
 <block name="ClassCookVendingMachinePOI">
+	<property name="Extends" value="cntVendingMachine"/>
 	<property name="CustomIcon" value="ClassCookVendingMachine" />
-	<property name="Group" value="Science"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="DisplayType" value="blockHardenedMulti" />
-	<property name="Material" value="Mmetal_medium"/>
 	<property name="MaxDamage" value="5000"/>
-	<property name="LightOpacity" value="0"/>
-	<property name="StabilitySupport" value="false"/>
-	<property name="Class" value="VendingMachine"/>
-	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Crafting/vending_machine_playerPrefab"/>
-	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="ImposterExchange" value="imposterBlock" param1="143"/>
-	<property name="OnlySimpleRotations" value="true"/>
-	<property name="Place" value="TowardsPlacerInverted"/>
-	<property class="RepairItems"> <property name="resourceForgedIron" value="5"/> </property>
 	<property name="TraderID" value="25"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<property name="Buff" value="buffShocked"/>
 	<drop event="Destroy" name="ClassCookVendingMachinePOI" count="0"/>
 	<property name="TakeDelay" value="10"/>
 	<property name="DescriptionKey" value="ClassVendingMachinePOIDesc" />
@@ -33340,26 +33115,14 @@ NOT the TextureNumber.
 </block>
 
 <block name="ClassCookVendingMachine">
+	<property name="Extends" value="cntVendingMachine"/>
 	<property name="CustomIcon" value="ClassCookVendingMachine" />
-	<property name="Group" value="Science"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="DisplayType" value="blockHardenedMulti" />
-	<property name="Material" value="Mmetal_medium"/>
 	<property name="MaxDamage" value="5000"/>
-	<property name="LightOpacity" value="0"/>
-	<property name="StabilitySupport" value="false"/>
-	<property name="Class" value="VendingMachine"/>
-	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Crafting/vending_machine_playerPrefab"/>
-	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="ImposterExchange" value="imposterBlock" param1="143"/>
-	<property name="OnlySimpleRotations" value="true"/>
-	<property name="Place" value="TowardsPlacerInverted"/>
-	<property class="RepairItems"> <property name="resourceForgedIron" value="5"/> </property>
 	<property name="TraderID" value="24"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<property name="Buff" value="buffShocked"/>
 	<drop event="Destroy" name="ClassCookVendingMachine" count="0"/>
 	<property name="TakeDelay" value="10"/>
 	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
@@ -33367,26 +33130,14 @@ NOT the TextureNumber.
 </block>
 
 <block name="ClassMechanicVendingMachinePOI">
+	<property name="Extends" value="cntVendingMachine"/>
 	<property name="CustomIcon" value="ClassMechanicVendingMachine" />
-	<property name="Group" value="Science"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="DisplayType" value="blockHardenedMulti" />
-	<property name="Material" value="Mmetal_medium"/>
 	<property name="MaxDamage" value="5000"/>
-	<property name="LightOpacity" value="0"/>
-	<property name="StabilitySupport" value="false"/>
-	<property name="Class" value="VendingMachine"/>
-	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Crafting/vending_machine_playerPrefab"/>
-	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="ImposterExchange" value="imposterBlock" param1="143"/>
-	<property name="OnlySimpleRotations" value="true"/>
-	<property name="Place" value="TowardsPlacerInverted"/>
-	<property class="RepairItems"> <property name="resourceForgedIron" value="5"/> </property>
 	<property name="TraderID" value="27"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<property name="Buff" value="buffShocked"/>
 	<drop event="Destroy" name="ClassMechanicVendingMachinePOI" count="0"/>
 	<property name="TakeDelay" value="10"/>
 	<property name="DescriptionKey" value="ClassVendingMachinePOIDesc" />
@@ -33394,26 +33145,14 @@ NOT the TextureNumber.
 </block>
 
 <block name="ClassMechanicVendingMachine">
+	<property name="Extends" value="cntVendingMachine"/>
 	<property name="CustomIcon" value="ClassMechanicVendingMachine" />
-	<property name="Group" value="Science"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="DisplayType" value="blockHardenedMulti" />
-	<property name="Material" value="Mmetal_medium"/>
 	<property name="MaxDamage" value="5000"/>
-	<property name="LightOpacity" value="0"/>
-	<property name="StabilitySupport" value="false"/>
-	<property name="Class" value="VendingMachine"/>
-	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Crafting/vending_machine_playerPrefab"/>
-	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="ImposterExchange" value="imposterBlock" param1="143"/>
-	<property name="OnlySimpleRotations" value="true"/>
-	<property name="Place" value="TowardsPlacerInverted"/>
-	<property class="RepairItems"> <property name="resourceForgedIron" value="5"/> </property>
 	<property name="TraderID" value="26"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="0"/>
-	<property name="Buff" value="buffShocked"/>
 	<drop event="Destroy" name="ClassMechanicVendingMachine" count="0"/>
 	<property name="TakeDelay" value="10"/>
 	<property name="DescriptionKey" value="ClassVendingMachineDesc" />

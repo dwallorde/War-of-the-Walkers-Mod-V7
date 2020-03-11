@@ -2944,13 +2944,12 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="SteelCrossbowSchematic" count="1"/>
 </recipe> -->
 
-<recipe name="blunderbussDoubleBarrel" craft_area="gunSmithingWorkstation" craft_tool="calipers" count="1">
+<recipe name="blunderbussDoubleBarrel" count="1" craft_area="gunSmithingWorkstation" craft_tool="calipers" tags="learnable">
 	<ingredient name="resourceForgedIron" count="32"/>
 	<ingredient name="resourceMetalPipe" count="4"/>
 	<ingredient name="resourceGlue" count="2"/>
 	<ingredient name="resourceDuctTape" count="2"/>
 	<ingredient name="resourceWood" count="8"/>
-	<ingredient name="blunderbussDoubleBarrelSchematic" count="1"/>
 </recipe>
 
 <recipe name="Remington8" count="1" craft_area="gunSmithingWorkstation" craft_tool="toolAndDieSet" tags="learnable">
@@ -3545,7 +3544,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="ForgedTungsten" count="30"/>
 	<ingredient name="Kevlar" count="5"/>
 	<ingredient name="handlefiberglass" count="1"/>
-	<ingredient name="sledgehammerTungstenSchematic" count="1"/>
 </recipe>
 
 <recipe name="scrapIronWrench" count="1" tags="learnable">

@@ -3007,27 +3007,27 @@
 		<!-- For gunBowPrimitive,gunBowWooden,gunBowCompound,gunCrossbowCompound -->
 	</perk>
 	
-	<perk name="craftSkillGunsBlank1" parent="skillGunsAmmoCrafting" name_key="craftSkillGunsBlank1Name" desc_key="craftSkillGunsBlank1Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillGunsBlank1" parent="skillGunsAmmoCrafting" name_key="craftSkillGunsBlank1Name" desc_key="craftSkillGunsBlank1Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
 	
-	<perk name="craftSkillGunsBlank2" parent="skillGunsAmmoCrafting" name_key="craftSkillGunsBlank2Name" desc_key="craftSkillGunsBlank2Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillGunsBlank2" parent="skillGunsAmmoCrafting" name_key="craftSkillGunsBlank2Name" desc_key="craftSkillGunsBlank2Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
 	
-	<perk name="craftSkillGunsBlank3" parent="skillGunsAmmoCrafting" name_key="craftSkillGunsBlank3Name" desc_key="craftSkillGunsBlank3Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillGunsBlank3" parent="skillGunsAmmoCrafting" name_key="craftSkillGunsBlank3Name" desc_key="craftSkillGunsBlank3Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
 	
-	<perk name="craftSkillGunsBlank4" parent="skillGunsAmmoCrafting" name_key="craftSkillGunsBlank4Name" desc_key="craftSkillGunsBlank4Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillGunsBlank4" parent="skillGunsAmmoCrafting" name_key="craftSkillGunsBlank4Name" desc_key="craftSkillGunsBlank4Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
 	
-	<perk name="craftSkillGunsBlank5" parent="skillGunsAmmoCrafting" name_key="craftSkillGunsBlank5Name" desc_key="craftSkillGunsBlank5Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillGunsBlank5" parent="skillGunsAmmoCrafting" name_key="craftSkillGunsBlank5Name" desc_key="craftSkillGunsBlank5Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
@@ -3055,37 +3055,37 @@
 		</effect_group>
 	</perk>
 	
-	<perk name="craftSkillAmmoBlank1" parent="skillAmmoCrafting" name_key="craftSkillAmmoBlank1Name" desc_key="craftSkillAmmoBlank1Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillAmmoBlank1" parent="skillAmmoCrafting" name_key="craftSkillAmmoBlank1Name" desc_key="craftSkillAmmoBlank1Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
 	
-	<perk name="craftSkillAmmoBlank2" parent="skillAmmoCrafting" name_key="craftSkillAmmoBlank2Name" desc_key="craftSkillAmmoBlank2Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillAmmoBlank2" parent="skillAmmoCrafting" name_key="craftSkillAmmoBlank2Name" desc_key="craftSkillAmmoBlank2Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
 	
-	<perk name="craftSkillAmmoBlank3" parent="skillAmmoCrafting" name_key="craftSkillAmmoBlank3Name" desc_key="craftSkillAmmoBlank3Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillAmmoBlank3" parent="skillAmmoCrafting" name_key="craftSkillAmmoBlank3Name" desc_key="craftSkillAmmoBlank3Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
 	
-	<perk name="craftSkillAmmoBlank4" parent="skillAmmoCrafting" name_key="craftSkillAmmoBlank4Name" desc_key="craftSkillAmmoBlank4Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillAmmoBlank4" parent="skillAmmoCrafting" name_key="craftSkillAmmoBlank4Name" desc_key="craftSkillAmmoBlank4Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
 	
-	<perk name="craftSkillAmmoBlank5" parent="skillAmmoCrafting" name_key="craftSkillAmmoBlank5Name" desc_key="craftSkillAmmoBlank5Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillAmmoBlank5" parent="skillAmmoCrafting" name_key="craftSkillAmmoBlank5Name" desc_key="craftSkillAmmoBlank5Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
 	
-	<perk name="craftSkillAmmoBlank6" parent="skillAmmoCrafting" name_key="craftSkillAmmoBlank6Name" desc_key="craftSkillAmmoBlank6Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillAmmoBlank6" parent="skillAmmoCrafting" name_key="craftSkillAmmoBlank6Name" desc_key="craftSkillAmmoBlank6Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
 	
-	<perk name="craftSkillAmmoBlank7" parent="skillAmmoCrafting" name_key="craftSkillAmmoBlank7Name" desc_key="craftSkillAmmoBlank7Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillAmmoBlank7" parent="skillAmmoCrafting" name_key="craftSkillAmmoBlank7Name" desc_key="craftSkillAmmoBlank7Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
@@ -3156,35 +3156,35 @@
 		<!-- For meleeToolKnifeBone,meleeToolKnifeCandy,meleeToolKnifeIron,meleeToolKnifeMachete,SteelMachete,TungstenMachete,GoldTippedMachete,steelHuntingKnife,tungstenHuntingKnife,GoldTippedKnife,cleaver,knifeKitchen,knifeCombat,sword,axeBattle,skullAxeBattle,swordBattle,shivPrisoner -->
 	</perk>
 	
-	<perk name="craftSkillMeleeBlank1" parent="skillMeleeWeaponCrafting" name_key="craftSkillMeleeBlank1Name" desc_key="craftSkillMeleeBlank1Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillMeleeBlank1" parent="skillMeleeWeaponCrafting" name_key="craftSkillMeleeBlank1Name" desc_key="craftSkillMeleeBlank1Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="craftSkillMeleeBlank2" parent="skillMeleeWeaponCrafting" name_key="craftSkillMeleeBlank2Name" desc_key="craftSkillMeleeBlank2Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillMeleeBlank2" parent="skillMeleeWeaponCrafting" name_key="craftSkillMeleeBlank2Name" desc_key="craftSkillMeleeBlank2Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="craftSkillMeleeBlank3" parent="skillMeleeWeaponCrafting" name_key="craftSkillMeleeBlank3Name" desc_key="craftSkillMeleeBlank3Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillMeleeBlank3" parent="skillMeleeWeaponCrafting" name_key="craftSkillMeleeBlank3Name" desc_key="craftSkillMeleeBlank3Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="craftSkillMeleeBlank4" parent="skillMeleeWeaponCrafting" name_key="craftSkillMeleeBlank4Name" desc_key="craftSkillMeleeBlank4Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillMeleeBlank4" parent="skillMeleeWeaponCrafting" name_key="craftSkillMeleeBlank4Name" desc_key="craftSkillMeleeBlank4Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="craftSkillMeleeBlank5" parent="skillMeleeWeaponCrafting" name_key="craftSkillMeleeBlank5Name" desc_key="craftSkillMeleeBlank5Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillMeleeBlank5" parent="skillMeleeWeaponCrafting" name_key="craftSkillMeleeBlank5Name" desc_key="craftSkillMeleeBlank5Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="craftSkillMeleeBlank6" parent="skillMeleeWeaponCrafting" name_key="craftSkillMeleeBlank6Name" desc_key="craftSkillMeleeBlank6Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillMeleeBlank6" parent="skillMeleeWeaponCrafting" name_key="craftSkillMeleeBlank6Name" desc_key="craftSkillMeleeBlank6Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="craftSkillMeleeBlank7" parent="skillMeleeWeaponCrafting" name_key="craftSkillMeleeBlank7Name" desc_key="craftSkillMeleeBlank7Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillMeleeBlank7" parent="skillMeleeWeaponCrafting" name_key="craftSkillMeleeBlank7Name" desc_key="craftSkillMeleeBlank7Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="craftSkillMeleeBlank8" parent="skillMeleeWeaponCrafting" name_key="craftSkillMeleeBlank8Name" desc_key="craftSkillMeleeBlank8Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillMeleeBlank8" parent="skillMeleeWeaponCrafting" name_key="craftSkillMeleeBlank8Name" desc_key="craftSkillMeleeBlank8Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
@@ -3247,31 +3247,31 @@
 		<!-- For armorScrapHelmet,armorScrapChest,armorScrapGloves,armorScrapLegs,armorScrapBoots,armorIronHelmet,armorIronChest,armorIronGloves,armorIronLegs,armorIronBoots,armorSteelHelmet,armorSteelChest,armorSteelGloves,armorSteelLegs,armorSteelBoots,armorMiningHelmet,armorSwatHelmet,armorFootballHelmet,TungstenBoots,TungstenLegArmor,TungstenChestArmor,TungstenHelmet,TungstenGloves,silverBoots,silverPants,silverJacket,silverHat,silverGloves -->
 	</perk>
 	
-	<perk name="craftSkillArmorBlank1" parent="skillArmorCrafting" name_key="craftSkillArmorBlank1Name" desc_key="craftSkillArmorBlank1Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillArmorBlank1" parent="skillArmorCrafting" name_key="craftSkillArmorBlank1Name" desc_key="craftSkillArmorBlank1Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="craftSkillArmorBlank2" parent="skillArmorCrafting" name_key="craftSkillArmorBlank2Name" desc_key="craftSkillArmorBlank2Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillArmorBlank2" parent="skillArmorCrafting" name_key="craftSkillArmorBlank2Name" desc_key="craftSkillArmorBlank2Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="craftSkillArmorBlank3" parent="skillArmorCrafting" name_key="craftSkillArmorBlank3Name" desc_key="craftSkillArmorBlank3Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillArmorBlank3" parent="skillArmorCrafting" name_key="craftSkillArmorBlank3Name" desc_key="craftSkillArmorBlank3Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="craftSkillArmorBlank4" parent="skillArmorCrafting" name_key="craftSkillArmorBlank4Name" desc_key="craftSkillArmorBlank4Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillArmorBlank4" parent="skillArmorCrafting" name_key="craftSkillArmorBlank4Name" desc_key="craftSkillArmorBlank4Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="craftSkillArmorBlank5" parent="skillArmorCrafting" name_key="craftSkillArmorBlank5Name" desc_key="craftSkillArmorBlank5Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillArmorBlank5" parent="skillArmorCrafting" name_key="craftSkillArmorBlank5Name" desc_key="craftSkillArmorBlank5Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="craftSkillArmorBlank6" parent="skillArmorCrafting" name_key="craftSkillArmorBlank6Name" desc_key="craftSkillArmorBlank6Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillArmorBlank6" parent="skillArmorCrafting" name_key="craftSkillArmorBlank6Name" desc_key="craftSkillArmorBlank6Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="craftSkillArmorBlank7" parent="skillArmorCrafting" name_key="craftSkillArmorBlank7Name" desc_key="craftSkillArmorBlank7Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillArmorBlank7" parent="skillArmorCrafting" name_key="craftSkillArmorBlank7Name" desc_key="craftSkillArmorBlank7Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
@@ -3432,23 +3432,23 @@
 		<!-- For meleeToolWrench,meleeToolChainsaw,meleeToolAuger,vehicleMinibikePlaceable,smallEngine,carBattery,scrapIronWrench,HDWrench,tungstenWrench,vehicleBicyclePlaceable,vehicleMotorcyclePlaceable,vehicle4x4TruckPlaceable,vehicleGyrocopterPlaceable,ECOSmallEngine,HDSmallEngine,ECOBattery,HDBattery,ECOMinibikePlaceable,HDMinibikePlaceable,ECOAuger,HDAuger,ECOChainsaw,HDChainsaw,ECO4x4TruckPlaceable,ECOMotorcyclePlaceable,HD4x4TruckPlaceable,HDMotorcyclePlaceable -->
 	</perk>
 	
-	<perk name="craftSkillToolsBlank1" parent="skillToolCrafting" name_key="craftSkillToolsBlank1Name" desc_key="craftSkillToolsBlank1Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillToolsBlank1" parent="skillToolCrafting" name_key="craftSkillToolsBlank1Name" desc_key="craftSkillToolsBlank1Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="craftSkillToolsBlank2" parent="skillToolCrafting" name_key="craftSkillToolsBlank2Name" desc_key="craftSkillToolsBlank2Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillToolsBlank2" parent="skillToolCrafting" name_key="craftSkillToolsBlank2Name" desc_key="craftSkillToolsBlank2Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="craftSkillToolsBlank3" parent="skillToolCrafting" name_key="craftSkillToolsBlank3Name" desc_key="craftSkillToolsBlank3Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillToolsBlank3" parent="skillToolCrafting" name_key="craftSkillToolsBlank3Name" desc_key="craftSkillToolsBlank3Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="craftSkillToolsBlank4" parent="skillToolCrafting" name_key="craftSkillToolsBlank4Name" desc_key="craftSkillToolsBlank4Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillToolsBlank4" parent="skillToolCrafting" name_key="craftSkillToolsBlank4Name" desc_key="craftSkillToolsBlank4Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="craftSkillToolsBlank5" parent="skillToolCrafting" name_key="craftSkillToolsBlank5Name" desc_key="craftSkillToolsBlank5Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="craftSkillToolsBlank5" parent="skillToolCrafting" name_key="craftSkillToolsBlank5Name" desc_key="craftSkillToolsBlank5Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
@@ -3684,23 +3684,23 @@
 		</effect_group>
 	</perk>
 	
-	<perk name="perkBuilderBlank1" parent="perkBuilderClassMaster" name_key="perkBuilderBlank1Name" desc_key="perkBuilderBlank1Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkBuilderBlank1" parent="perkBuilderClassMaster" name_key="perkBuilderBlank1Name" desc_key="perkBuilderBlank1Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkBuilderBlank2" parent="perkBuilderClassMaster" name_key="perkBuilderBlank2Name" desc_key="perkBuilderBlank2Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkBuilderBlank2" parent="perkBuilderClassMaster" name_key="perkBuilderBlank2Name" desc_key="perkBuilderBlank2Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkBuilderBlank3" parent="perkBuilderClassMaster" name_key="perkBuilderBlank3Name" desc_key="perkBuilderBlank3Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkBuilderBlank3" parent="perkBuilderClassMaster" name_key="perkBuilderBlank3Name" desc_key="perkBuilderBlank3Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkBuilderBlank4" parent="perkBuilderClassMaster" name_key="perkBuilderBlank4Name" desc_key="perkBuilderBlank4Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkBuilderBlank4" parent="perkBuilderClassMaster" name_key="perkBuilderBlank4Name" desc_key="perkBuilderBlank4Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkBuilderBlank5" parent="perkBuilderClassMaster" name_key="perkBuilderBlank5Name" desc_key="perkBuilderBlank5Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkBuilderBlank5" parent="perkBuilderClassMaster" name_key="perkBuilderBlank5Name" desc_key="perkBuilderBlank5Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
@@ -3761,27 +3761,27 @@
 		</effect_group>
 	</perk> -->
 	
-	<perk name="perkSurvivalistBlank1" parent="perkSurvivalistClassMaster" name_key="perkSurvivalistBlank1Name" desc_key="perkSurvivalistBlank1Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkSurvivalistBlank1" parent="perkSurvivalistClassMaster" name_key="perkSurvivalistBlank1Name" desc_key="perkSurvivalistBlank1Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkSurvivalistBlank2" parent="perkSurvivalistClassMaster" name_key="perkSurvivalistBlank2Name" desc_key="perkSurvivalistBlank2Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkSurvivalistBlank2" parent="perkSurvivalistClassMaster" name_key="perkSurvivalistBlank2Name" desc_key="perkSurvivalistBlank2Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkSurvivalistBlank3" parent="perkSurvivalistClassMaster" name_key="perkSurvivalistBlank3Name" desc_key="perkSurvivalistBlank3Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkSurvivalistBlank3" parent="perkSurvivalistClassMaster" name_key="perkSurvivalistBlank3Name" desc_key="perkSurvivalistBlank3Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkSurvivalistBlank4" parent="perkSurvivalistClassMaster" name_key="perkSurvivalistBlank4Name" desc_key="perkSurvivalistBlank4Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkSurvivalistBlank4" parent="perkSurvivalistClassMaster" name_key="perkSurvivalistBlank4Name" desc_key="perkSurvivalistBlank4Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkSurvivalistBlank5" parent="perkSurvivalistClassMaster" name_key="perkSurvivalistBlank5Name" desc_key="perkSurvivalistBlank5Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkSurvivalistBlank5" parent="perkSurvivalistClassMaster" name_key="perkSurvivalistBlank5Name" desc_key="perkSurvivalistBlank5Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkSurvivalistBlank6" parent="perkSurvivalistClassMaster" name_key="perkSurvivalistBlank6Name" desc_key="perkSurvivalistBlank6Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkSurvivalistBlank6" parent="perkSurvivalistClassMaster" name_key="perkSurvivalistBlank6Name" desc_key="perkSurvivalistBlank6Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
@@ -3842,27 +3842,27 @@
 		</effect_group>
 	</perk>
 	
-	<perk name="perkScholarBlank1" parent="perkScholarClassMaster" name_key="perkScholarBlank1Name" desc_key="perkScholarBlank1Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkScholarBlank1" parent="perkScholarClassMaster" name_key="perkScholarBlank1Name" desc_key="perkScholarBlank1Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkScholarBlank2" parent="perkScholarClassMaster" name_key="perkScholarBlank2Name" desc_key="perkScholarBlank2Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkScholarBlank2" parent="perkScholarClassMaster" name_key="perkScholarBlank2Name" desc_key="perkScholarBlank2Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkScholarBlank3" parent="perkScholarClassMaster" name_key="perkScholarBlank3Name" desc_key="perkScholarBlank3Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkScholarBlank3" parent="perkScholarClassMaster" name_key="perkScholarBlank3Name" desc_key="perkScholarBlank3Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkScholarBlank4" parent="perkScholarClassMaster" name_key="perkScholarBlank4Name" desc_key="perkScholarBlank4Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkScholarBlank4" parent="perkScholarClassMaster" name_key="perkScholarBlank4Name" desc_key="perkScholarBlank4Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkScholarBlank5" parent="perkScholarClassMaster" name_key="perkScholarBlank5Name" desc_key="perkScholarBlank5Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkScholarBlank5" parent="perkScholarClassMaster" name_key="perkScholarBlank5Name" desc_key="perkScholarBlank5Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkScholarBlank6" parent="perkScholarClassMaster" name_key="perkScholarBlank6Name" desc_key="perkScholarBlank6Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkScholarBlank6" parent="perkScholarClassMaster" name_key="perkScholarBlank6Name" desc_key="perkScholarBlank6Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
@@ -3941,15 +3941,15 @@
 		</effect_group>
 	</perk>
 	
-	<perk name="perkMarksmanBlank1" parent="perkMarksmanClassMaster" name_key="perkMarksmanBlank1Name" desc_key="perkMarksmanBlank1Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkMarksmanBlank1" parent="perkMarksmanClassMaster" name_key="perkMarksmanBlank1Name" desc_key="perkMarksmanBlank1Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkMarksmanBlank2" parent="perkMarksmanClassMaster" name_key="perkMarksmanBlank2Name" desc_key="perkMarksmanBlank2Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkMarksmanBlank2" parent="perkMarksmanClassMaster" name_key="perkMarksmanBlank2Name" desc_key="perkMarksmanBlank2Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkMarksmanBlank3" parent="perkMarksmanClassMaster" name_key="perkMarksmanBlank3Name" desc_key="perkMarksmanBlank3Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkMarksmanBlank3" parent="perkMarksmanClassMaster" name_key="perkMarksmanBlank3Name" desc_key="perkMarksmanBlank3Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
@@ -4017,27 +4017,27 @@
 		</effect_group>
 	</perk>
 	
-	<perk name="perkFighterBlank1" parent="perkFighterClassMaster" name_key="perkFighterBlank1Name" desc_key="perkFighterBlank1Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkFighterBlank1" parent="perkFighterClassMaster" name_key="perkFighterBlank1Name" desc_key="perkFighterBlank1Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkFighterBlank2" parent="perkFighterClassMaster" name_key="perkFighterBlank2Name" desc_key="perkFighterBlank2Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkFighterBlank2" parent="perkFighterClassMaster" name_key="perkFighterBlank2Name" desc_key="perkFighterBlank2Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkFighterBlank3" parent="perkFighterClassMaster" name_key="perkFighterBlank3Name" desc_key="perkFighterBlank3Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkFighterBlank3" parent="perkFighterClassMaster" name_key="perkFighterBlank3Name" desc_key="perkFighterBlank3Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkFighterBlank4" parent="perkFighterClassMaster" name_key="perkFighterBlank4Name" desc_key="perkFighterBlank4Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkFighterBlank4" parent="perkFighterClassMaster" name_key="perkFighterBlank4Name" desc_key="perkFighterBlank4Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkFighterBlank5" parent="perkFighterClassMaster" name_key="perkFighterBlank5Name" desc_key="perkFighterBlank5Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkFighterBlank5" parent="perkFighterClassMaster" name_key="perkFighterBlank5Name" desc_key="perkFighterBlank5Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkFighterBlank6" parent="perkFighterClassMaster" name_key="perkFighterBlank6Name" desc_key="perkFighterBlank6Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkFighterBlank6" parent="perkFighterClassMaster" name_key="perkFighterBlank6Name" desc_key="perkFighterBlank6Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
@@ -4147,15 +4147,15 @@
 		</effect_group>
 	</perk>
 	
-	<perk name="perkTradesmanBlank1" parent="perkTradesmanClassMaster" name_key="perkTradesmanBlank1Name" desc_key="perkTradesmanBlank1Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkTradesmanBlank1" parent="perkTradesmanClassMaster" name_key="perkTradesmanBlank1Name" desc_key="perkTradesmanBlank1Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkTradesmanBlank2" parent="perkTradesmanClassMaster" name_key="perkTradesmanBlank2Name" desc_key="perkTradesmanBlank2Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkTradesmanBlank2" parent="perkTradesmanClassMaster" name_key="perkTradesmanBlank2Name" desc_key="perkTradesmanBlank2Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkTradesmanBlank3" parent="perkTradesmanClassMaster" name_key="perkTradesmanBlank3Name" desc_key="perkTradesmanBlank3Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkTradesmanBlank3" parent="perkTradesmanClassMaster" name_key="perkTradesmanBlank3Name" desc_key="perkTradesmanBlank3Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
@@ -4222,23 +4222,23 @@
 		</effect_group>
 	</perk>
 	
-	<perk name="perkProtectionBlank1" parent="perkProtectionClassMaster" name_key="perkProtectionBlank1Name" desc_key="perkProtectionBlank1Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkProtectionBlank1" parent="perkProtectionClassMaster" name_key="perkProtectionBlank1Name" desc_key="perkProtectionBlank1Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkProtectionBlank2" parent="perkProtectionClassMaster" name_key="perkProtectionBlank2Name" desc_key="perkProtectionBlank2Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkProtectionBlank2" parent="perkProtectionClassMaster" name_key="perkProtectionBlank2Name" desc_key="perkProtectionBlank2Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkProtectionBlank3" parent="perkProtectionClassMaster" name_key="perkProtectionBlank3Name" desc_key="perkProtectionBlank3Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkProtectionBlank3" parent="perkProtectionClassMaster" name_key="perkProtectionBlank3Name" desc_key="perkProtectionBlank3Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkProtectionBlank4" parent="perkProtectionClassMaster" name_key="perkProtectionBlank4Name" desc_key="perkProtectionBlank4Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkProtectionBlank4" parent="perkProtectionClassMaster" name_key="perkProtectionBlank4Name" desc_key="perkProtectionBlank4Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkProtectionBlank5" parent="perkProtectionClassMaster" name_key="perkProtectionBlank5Name" desc_key="perkProtectionBlank5Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkProtectionBlank5" parent="perkProtectionClassMaster" name_key="perkProtectionBlank5Name" desc_key="perkProtectionBlank5Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
@@ -4335,23 +4335,23 @@
 		</effect_group>
 	</perk>
 	
-	<perk name="perkElectricianBlank1" parent="perkElectricianClassMaster" name_key="perkElectricianBlank1Name" desc_key="perkElectricianBlank1Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkElectricianBlank1" parent="perkElectricianClassMaster" name_key="perkElectricianBlank1Name" desc_key="perkElectricianBlank1Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkElectricianBlank2" parent="perkElectricianClassMaster" name_key="perkElectricianBlank2Name" desc_key="perkElectricianBlank2Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkElectricianBlank2" parent="perkElectricianClassMaster" name_key="perkElectricianBlank2Name" desc_key="perkElectricianBlank2Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkElectricianBlank3" parent="perkElectricianClassMaster" name_key="perkElectricianBlank3Name" desc_key="perkElectricianBlank3Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkElectricianBlank3" parent="perkElectricianClassMaster" name_key="perkElectricianBlank3Name" desc_key="perkElectricianBlank3Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkElectricianBlank4" parent="perkElectricianClassMaster" name_key="perkElectricianBlank4Name" desc_key="perkElectricianBlank4Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkElectricianBlank4" parent="perkElectricianClassMaster" name_key="perkElectricianBlank4Name" desc_key="perkElectricianBlank4Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkElectricianBlank5" parent="perkElectricianClassMaster" name_key="perkElectricianBlank5Name" desc_key="perkElectricianBlank5Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkElectricianBlank5" parent="perkElectricianClassMaster" name_key="perkElectricianBlank5Name" desc_key="perkElectricianBlank5Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
@@ -4405,27 +4405,27 @@
 		</effect_group>
 	</perk> -->
 	
-	<perk name="perkCovertBlank1" parent="perkCovertClassMaster" name_key="perkCovertBlank1Name" desc_key="perkCovertBlank1Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkCovertBlank1" parent="perkCovertClassMaster" name_key="perkCovertBlank1Name" desc_key="perkCovertBlank1Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkCovertBlank2" parent="perkCovertClassMaster" name_key="perkCovertBlank2Name" desc_key="perkCovertBlank2Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkCovertBlank2" parent="perkCovertClassMaster" name_key="perkCovertBlank2Name" desc_key="perkCovertBlank2Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkCovertBlank3" parent="perkCovertClassMaster" name_key="perkCovertBlank3Name" desc_key="perkCovertBlank3Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkCovertBlank3" parent="perkCovertClassMaster" name_key="perkCovertBlank3Name" desc_key="perkCovertBlank3Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkCovertBlank4" parent="perkCovertClassMaster" name_key="perkCovertBlank4Name" desc_key="perkCovertBlank4Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkCovertBlank4" parent="perkCovertClassMaster" name_key="perkCovertBlank4Name" desc_key="perkCovertBlank4Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkCovertBlank5" parent="perkCovertClassMaster" name_key="perkCovertBlank5Name" desc_key="perkCovertBlank5Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkCovertBlank5" parent="perkCovertClassMaster" name_key="perkCovertBlank5Name" desc_key="perkCovertBlank5Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkCovertBlank6" parent="perkCovertClassMaster" name_key="perkCovertBlank6Name" desc_key="perkCovertBlank6Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkCovertBlank6" parent="perkCovertClassMaster" name_key="perkCovertBlank6Name" desc_key="perkCovertBlank6Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
@@ -4594,26 +4594,26 @@
 		</effect_group>
 	</perk>
 	
-	<perk name="perkCookBlank1" parent="perkCookClassMaster" name_key="perkCookBlank1Name" desc_key="perkCookBlank1Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkCookBlank1" parent="perkCookClassMaster" name_key="perkCookBlank1Name" desc_key="perkCookBlank1Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
 	
 	<!-- Mechanic Class Start -->
 	
-	<perk name="perkBlank1" parent="attClassPerks3" name_key="perkBlank1Name" desc_key="perkBlank1Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkBlank1" parent="attClassPerks3" name_key="perkBlank1Name" desc_key="perkBlank1Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkBlank2" parent="attClassPerks3" name_key="perkBlank2Name" desc_key="perkBlank2Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkBlank2" parent="attClassPerks3" name_key="perkBlank2Name" desc_key="perkBlank2Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkBlank3" parent="attClassPerks3" name_key="perkBlank3Name" desc_key="perkBlank3Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkBlank3" parent="attClassPerks3" name_key="perkBlank3Name" desc_key="perkBlank3Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkBlank4" parent="attClassPerks3" name_key="perkBlank4Name" desc_key="perkBlank4Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkBlank4" parent="attClassPerks3" name_key="perkBlank4Name" desc_key="perkBlank4Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
@@ -4750,11 +4750,11 @@
 		</effect_group>
 	</perk>
 	
-	<perk name="perkMechanicBlank1" parent="perkMechanicClassMaster" name_key="perkMechanicBlank1Name" desc_key="perkMechanicBlank1Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkMechanicBlank1" parent="perkMechanicClassMaster" name_key="perkMechanicBlank1Name" desc_key="perkMechanicBlank1Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="perkMechanicBlank2" parent="perkMechanicClassMaster" name_key="perkMechanicBlank2Name" desc_key="perkMechanicBlank2Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="perkMechanicBlank2" parent="perkMechanicClassMaster" name_key="perkMechanicBlank2Name" desc_key="perkMechanicBlank2Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
@@ -4939,11 +4939,11 @@
 		</effect_group>
 	</perk>
 	
-	<perk name="recipeWorkstationsBlank1" parent="skillRecipeWorkstations" name_key="recipeWorkstationsBlank1Name" desc_key="recipeWorkstationsBlank1Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="recipeWorkstationsBlank1" parent="skillRecipeWorkstations" name_key="recipeWorkstationsBlank1Name" desc_key="recipeWorkstationsBlank1Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="recipeWorkstationsBlank2" parent="skillRecipeWorkstations" name_key="recipeWorkstationsBlank2Name" desc_key="recipeWorkstationsBlank2Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="recipeWorkstationsBlank2" parent="skillRecipeWorkstations" name_key="recipeWorkstationsBlank2Name" desc_key="recipeWorkstationsBlank2Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
@@ -5081,11 +5081,11 @@
 		</effect_group>
 	</perk>
 	
-	<perk name="recipeWeaponsBlank1" parent="skillRecipeWeapons" name_key="recipeWeaponsBlank1Name" desc_key="recipeWeaponsBlank1Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="recipeWeaponsBlank1" parent="skillRecipeWeapons" name_key="recipeWeaponsBlank1Name" desc_key="recipeWeaponsBlank1Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="recipeWeaponsBlank2" parent="skillRecipeWeapons" name_key="recipeWeaponsBlank2Name" desc_key="recipeWeaponsBlank2Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="recipeWeaponsBlank2" parent="skillRecipeWeapons" name_key="recipeWeaponsBlank2Name" desc_key="recipeWeaponsBlank2Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
@@ -5249,42 +5249,42 @@
 		</effect_group>
 	</perk>
 	
-	<perk name="recipeArmorBlank1" parent="skillRecipeArmor" name_key="recipeArmorBlank1Name" desc_key="recipeArmorBlank1Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="recipeArmorBlank1" parent="skillRecipeArmor" name_key="recipeArmorBlank1Name" desc_key="recipeArmorBlank1Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="recipeArmorBlank2" parent="skillRecipeArmor" name_key="recipeArmorBlank2Name" desc_key="recipeArmorBlank2Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="recipeArmorBlank2" parent="skillRecipeArmor" name_key="recipeArmorBlank2Name" desc_key="recipeArmorBlank2Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="recipeArmorBlank3" parent="skillRecipeArmor" name_key="recipeArmorBlank3Name" desc_key="recipeArmorBlank3Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="recipeArmorBlank3" parent="skillRecipeArmor" name_key="recipeArmorBlank3Name" desc_key="recipeArmorBlank3Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="recipeArmorBlank4" parent="skillRecipeArmor" name_key="recipeArmorBlank4Name" desc_key="recipeArmorBlank4Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="recipeArmorBlank4" parent="skillRecipeArmor" name_key="recipeArmorBlank4Name" desc_key="recipeArmorBlank4Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="recipeArmorBlank5" parent="skillRecipeArmor" name_key="recipeArmorBlank5Name" desc_key="recipeArmorBlank5Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="recipeArmorBlank5" parent="skillRecipeArmor" name_key="recipeArmorBlank5Name" desc_key="recipeArmorBlank5Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="recipeArmorBlank6" parent="skillRecipeArmor" name_key="recipeArmorBlank6Name" desc_key="recipeArmorBlank6Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="recipeArmorBlank6" parent="skillRecipeArmor" name_key="recipeArmorBlank6Name" desc_key="recipeArmorBlank6Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
 	
 	<!-- Ammo Recipes Start -->
 	
-	<perk name="recipeBlank1" parent="attRecipePerks2" name_key="recipeBlank1Name" desc_key="recipeBlank1Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="recipeBlank1" parent="attRecipePerks2" name_key="recipeBlank1Name" desc_key="recipeBlank1Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="recipeBlank2" parent="attRecipePerks2" name_key="recipeBlank2Name" desc_key="recipeBlank2Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="recipeBlank2" parent="attRecipePerks2" name_key="recipeBlank2Name" desc_key="recipeBlank2Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="recipeBlank3" parent="attRecipePerks2" name_key="recipeBlank3Name" desc_key="recipeBlank3Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="recipeBlank3" parent="attRecipePerks2" name_key="recipeBlank3Name" desc_key="recipeBlank3Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
@@ -5461,11 +5461,11 @@
 		</effect_group>
 	</perk>
 	
-	<perk name="recipeFoodMedicineBlank1" parent="skillRecipeFoodMedicine" name_key="recipeFoodMedicineBlank1Name" desc_key="recipeFoodMedicineBlank1Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="recipeFoodMedicineBlank1" parent="skillRecipeFoodMedicine" name_key="recipeFoodMedicineBlank1Name" desc_key="recipeFoodMedicineBlank1Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
-	<perk name="recipeFoodMedicineBlank2" parent="skillRecipeFoodMedicine" name_key="recipeFoodMedicineBlank2Name" desc_key="recipeFoodMedicineBlank2Desc" icon="ui_game_symbol_x" min_level="0" max_level="0" base_skill_point_cost="0">
+	<perk name="recipeFoodMedicineBlank2" parent="skillRecipeFoodMedicine" name_key="recipeFoodMedicineBlank2Name" desc_key="recipeFoodMedicineBlank2Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
 	</perk>
