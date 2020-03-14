@@ -32016,9 +32016,9 @@ NOT the TextureNumber.
 	<property name="Material" value="Mmetal" />
 	<property name="MaxDamage" value="800" />
 	<property name="Shape" value="ModelEntity" />
-	<!--<property name="Model" value="#KitchenAppliances.unity3d?PlayerOvenPrefab" /> -->
-	<property name="Model" value="#PlayerOven.unity3d?PlayerOvenMasterPrefab" />
-	<property name="MultiBlockDim" value="4,4,1" />
+	<property name="Model" value="#PlayerOven.unity3d?PlayerOvenPrefab" />
+	<!-- <property name="Model" value="#PlayerOven.unity3d?PlayerOvenMasterPrefab" /> -->
+	<property name="MultiBlockDim" value="1,2,1" />
 	<property name="Stacknumber" value="1"/>
 	<property name="StabilitySupport" value="false"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -32132,7 +32132,7 @@ NOT the TextureNumber.
 	<property name="Shape" value="ModelEntity" />
 	<!-- <property name="Model" value="#FoodProcessingTable.unity3d?FoodProcessingTablePrefab" /> -->
 	<property name="Model" value="#FoodPrepTable.unity3d?FoodPrepTable2MasterPrefab" />
-	<property name="MultiBlockDim" value="1,4,5" />
+	<property name="MultiBlockDim" value="1,2,1" />
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property name="OnlySimpleRotations" value="true"/>
@@ -32183,6 +32183,7 @@ NOT the TextureNumber.
 	<property name="MaxDamage" value="800"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#BreweryStation.unity3d?BreweryStationPrefab"/>
+	<property name="ModelOffset" value=".5,.5,0"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="MultiBlockDim" value="2,2,2"/>
 	<property name="Place" value="TowardsPlacerInverted"/>

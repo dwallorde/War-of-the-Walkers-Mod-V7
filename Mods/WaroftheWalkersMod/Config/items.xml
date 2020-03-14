@@ -7934,7 +7934,7 @@
 				<property name="Extends" value="casinoCoin" />
 			    <property name="Material" value="Mlead_scrap" />
 				<property name="Weight" value="1" />
-				<property name="EconomicValue" value="20"/>
+				<property name="EconomicValue" value="5"/>
 				<property name="EconomicBundleSize" value="1"/>
 				<property name="SellableToTrader" value="true"/>
 				<property name="DescriptionKey" value="pennyDesc"/> </item>
@@ -7943,7 +7943,7 @@
 				<property name="Extends" value="casinoCoin" />
 			    <property name="Material" value="Mbrass" />
 				<property name="Weight" value="1" />
-				<property name="EconomicValue" value="20"/>
+				<property name="EconomicValue" value="5"/>
 				<property name="EconomicBundleSize" value="1"/>
 				<property name="SellableToTrader" value="true"/>
 				<property name="DescriptionKey" value="pennyDesc"/> </item>
@@ -7952,7 +7952,7 @@
 				<property name="Extends" value="casinoCoin" />
 			    <property name="Material" value="tungsten" />
 				<property name="Weight" value="20" />
-				<property name="EconomicValue" value="20"/>
+				<property name="EconomicValue" value="5"/>
 				<property name="EconomicBundleSize" value="1"/>
 				<property name="SellableToTrader" value="true"/>
 				<property name="DescriptionKey" value="pennyDesc"/> </item>
@@ -7961,7 +7961,7 @@
 				<property name="Extends" value="casinoCoin" />
 			    <property name="Material" value="copper" />
 				<property name="Weight" value="1" />
-				<property name="EconomicValue" value="20"/>
+				<property name="EconomicValue" value="5"/>
 				<property name="EconomicBundleSize" value="1"/>
 				<property name="SellableToTrader" value="true"/>
 				<property name="DescriptionKey" value="pennyDesc"/> </item>
@@ -7970,7 +7970,7 @@
 				<property name="Extends" value="casinoCoin" />
 			    <property name="Material" value="Mmetal" />
 				<property name="Weight" value="1" />
-				<property name="EconomicValue" value="20"/>
+				<property name="EconomicValue" value="5"/>
 				<property name="EconomicBundleSize" value="1"/>
 				<property name="SellableToTrader" value="true"/>
 				<property name="DescriptionKey" value="pennyDesc"/> </item>
@@ -13800,5 +13800,8 @@
 	<append xpath="/items/item[@name='gunJunkTurret']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun1</append>
 	<setattribute xpath="/items/item[@name='apparelNightvisionGoggles']" name="UnlockedBy">nightvisionGogglesSchematic</setattribute>
 	<append xpath="/items/item[@name='foodBlueberryPie']/property[@name='UnlockedBy']/@value">,pieRecipePartII</append>
+	<setattribute xpath="/items/item[@name='meleeToolFireaxeSteel']" name="Meshfile">#SteelFireaxe.unity3d?SteelFireaxePrefab</setattribute>
+	<setattribute xpath="/items/item[@name='meleeToolFireaxeSteel']" name="CustomIcon">fireaxeSteel</setattribute>
+	<remove xpath="/items/item[@name='meleeToolFireaxeSteel']/property[@name='CustomIconTint']" />
 	
 </config>
