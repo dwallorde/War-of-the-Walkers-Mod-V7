@@ -216,13 +216,13 @@
 	</attribute>
 	
 	<!-- WOTW Tab #3 Class Perks Page 2 -->
-	<attribute name="attClassPerks2" min_level="0" max_level="0" base_skill_point_cost="0" name_key="attClassPerksName" desc_key="attClassPerksDesc" icon="ui_game_symbol_theoutlaw">
+	<attribute name="attClassPerks2" min_level="0" max_level="0" base_skill_point_cost="0" name_key="attClassPerks2Name" desc_key="attClassPerksDesc" icon="ui_game_symbol_theoutlaw">
 		<!-- <level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements> -->
 		<effect_group/>
 	</attribute>
 	
 	<!-- WOTW Tab #4 Class Perks Page 2 -->
-	<attribute name="attClassPerks3" min_level="0" max_level="0" base_skill_point_cost="0" name_key="attClassPerksName" desc_key="attClassPerksDesc" icon="ui_game_symbol_theoutlaw">
+	<attribute name="attClassPerks3" min_level="0" max_level="0" base_skill_point_cost="0" name_key="attClassPerks3Name" desc_key="attClassPerksDesc" icon="ui_game_symbol_theoutlaw">
 		<!-- <level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements> -->
 		<effect_group/>
 	</attribute>

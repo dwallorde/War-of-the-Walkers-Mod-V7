@@ -5,7 +5,7 @@
     <property name="TraderArea" value="False" />
     <property name="ExcludeDistantPOIMesh" value="False" />
     <property name="Zoning" value="Industrial,ResidentialNew,ResidentialOld" />
-    <property name="RotationToFaceNorth" value="1" />
+    <property name="RotationToFaceNorth" value="2" />
     <property name="YOffset" value="-1" />
     <property name="DistantPOIYOffset" value="0" />
     <property name="AllowedTownships" value="city,rural,town,wilderness" />

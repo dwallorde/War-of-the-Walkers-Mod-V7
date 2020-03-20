@@ -1298,6 +1298,7 @@ group desc for stuff like metal siding
 	<property name="SortOrder2" value="0002"/>
 </block>
 
+<!-- WOTW Modded -->
 <block name="steelMaster">
 	<property name="Group" value="Building,advBuilding"/>
 	<property name="DescriptionKey" value="steelBlockGroupDesc"/>
@@ -1315,6 +1316,29 @@ group desc for stuff like metal siding
 		<property name="ItemCount" value="10"/>
 		<property name="UpgradeHitCount" value="4"/>
 	</property>
+	<property name="CustomUpgradeSound" value="place_block_metal"/>
+	<drop event="Harvest" name="resourceScrapIron" count="15" prob="1" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="160"/>
+	<property name="DescriptionKey" value="steelBlockGroupDesc"/>
+	<property name="FilterTags" value="fbuilding,fsteel"/>
+	<property name="SortOrder1" value="40p0"/>
+	<property name="SortOrder2" value="0002"/>
+</block>
+
+<!-- WOTW Modded NEW BLOCK -->
+<block name="steelMasterNoUpgrade">
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="DescriptionKey" value="steelBlockGroupDesc"/>
+	<property name="Material" value="Msteel"/>
+	<!-- <property name="FallDamage" value="1.2"/> Nah, that would be evil, right? -->
+	<property name="DisplayType" value="blockHardened"/>
+	<property name="PassThroughDamage" value="true"/>
+	<property name="Texture" value="355,355,356,356,356,356"/>
+	<!-- <property name="ImposterExchange" value="imposterBlock" param1="112"/> -->
+	<property name="CreativeMode" value="None"/>
+	<property class="RepairItems"> <property name="resourceForgedSteel" value="8"/> </property>
 	<property name="CustomUpgradeSound" value="place_block_metal"/>
 	<drop event="Harvest" name="resourceScrapIron" count="15" prob="1" tag="allHarvest"/>
 	<drop event="Destroy" count="0"/>
@@ -3459,9 +3483,10 @@ group desc for stuff like metal siding
 	<property class="UpgradeBlock"> <property name="ToBlock" value="steelCNRRoundTop"/> </property>
 </block>
 
+<!-- WOTW Modded -->
 <!-- To Do Tungsten Version -->
 <block name="steelCNRRound">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Path" value="solid"/>
 	<property name="Model" value="corner_round1m"/>
@@ -3845,7 +3870,7 @@ group desc for stuff like metal siding
 
 <!-- To Do Tungsten Version -->
 <block name="steelWedgeIncline">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge60_incline"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property name="SortOrder2" value="0440"/> <!-- SortShape -->
@@ -4032,7 +4057,7 @@ group desc for stuff like metal siding
 
 <!-- To Do Tungsten Version -->
 <block name="steelWedgeTipCNRFullTop">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge60_corner"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property name="SortOrder2" value="0310"/> <!-- SortShape -->
@@ -4683,7 +4708,7 @@ group desc for stuff like metal siding
 
 <!-- To Do Tungsten Version -->
 <block name="steelWedgeTipCNRFullBottom">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge60_tip_corner"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property name="SortOrder2" value="0300"/> <!-- SortShape -->
@@ -4931,7 +4956,7 @@ group desc for stuff like metal siding
 
 <!-- To Do Tungsten Version -->
 <block name="steelWedgeCNRInsideBottom">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge60_inside_corner"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property name="SortOrder2" value="0340"/> <!-- SortShape -->
@@ -5395,7 +5420,7 @@ group desc for stuff like metal siding
 
 <!-- To Do Tungsten Version -->
 <block name="steelWedgeCNRInsideTop">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Path" value="solid"/>
 	<property name="Model" value="wedge60_inside_corner_2"/> <property name="Place" value="TowardsPlacerInverted"/>
@@ -5798,7 +5823,7 @@ group desc for stuff like metal siding
 
 <!-- To Do Tungsten Version -->
 <block name="steelArrowSlitHalf">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="LightOpacity" value="6"/>
 	<property name="Model" value="arrow_slit_half"/> <property name="Place" value="TowardsPlacerInverted"/>
@@ -5973,7 +5998,7 @@ group desc for stuff like metal siding
 
 <!-- To Do Tungsten Version -->
 <block name="steelCNRRampFiller">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Path" value="solid"/>
 	<property name="Model" value="ramp_corner_filler"/> <property name="Place" value="TowardsPlacerInverted"/>
@@ -6077,7 +6102,7 @@ group desc for stuff like metal siding
 
 <!-- To Do Tungsten Version -->
 <block name="steelGableInvertedSteep">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="gable_inverted_steep"/>
 	<property name="SortOrder2" value="0420"/> <!-- SortShape -->
@@ -6433,7 +6458,7 @@ group desc for stuff like metal siding
 
 <!-- To Do Tungsten Version -->
 <block name="steelStairs25CornerCNR">
-	<property name="Extends" value="steelMaster" param1="UpgradeBlock"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="stairs_filled_corner"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property name="SortOrder2" value="0560"/> <!-- SortShape -->
@@ -6545,7 +6570,7 @@ group desc for stuff like metal siding
 
 <!-- To Do Tungsten Version -->
 <block name="steelQuarterCNR">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="quarter_inside_corner"/>
 	<property name="SortOrder2" value="0080"/> <!-- SortShape -->
@@ -6756,6 +6781,7 @@ group desc for stuff like metal siding
 	<property class="UpgradeBlock"> <property name="ToBlock" value="steelArch"/> </property>
 </block>
 
+<!-- WOTW Modded -->
 <block name="steelArch">
 	<property name="Extends" value="steelMaster"/>
 	<property name="Shape" value="New"/>
@@ -6786,7 +6812,7 @@ group desc for stuff like metal siding
 
 <!-- To Do Tungsten Version -->
 <block name="steelWedgeStairs">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Path" value="solid"/>
 	<property name="Model" value="wedge_stairs"/> <property name="Place" value="TowardsPlacerInverted"/>
@@ -7024,7 +7050,7 @@ group desc for stuff like metal siding
 
 <!-- To Do Tungsten Version -->
 <block name="steelWedgeCNRInsideSteepTop">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge_inside_corner_base"/>
 	<property name="SortOrder2" value="0370"/> <!-- SortShape -->
@@ -7455,7 +7481,7 @@ group desc for stuff like metal siding
 
 <!-- To Do Tungsten Version -->
 <block name="steelWedgeTipStairs">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge_tip_stairs"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property name="SortOrder2" value="0570"/> <!-- SortShape -->
@@ -7552,9 +7578,10 @@ group desc for stuff like metal siding
 	<property name="DowngradeBlock" value="scrapIronHalf"/>
 </block>
 
+<!-- WOTW Modded -->
 <!-- To Do Tungsten Version -->
 <block name="steelStairs25">
-	<property name="Extends" value="steelMaster" param1="UpgradeBlock"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="StairsFilledVerticalUV"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property name="SortOrder2" value="0530"/> <!-- SortShape -->
@@ -7566,6 +7593,7 @@ group desc for stuff like metal siding
 	<!-- <property class="UpgradeBlock"> <property name="ToBlock" value="tungstenStairs25"/> </property> -->
 </block>
 
+<!-- WOTW Modded -->
 <block name="steelRamp">
 	<property name="Extends" value="steelMaster"/>
 	<property name="Shape" value="New"/>
@@ -7683,9 +7711,10 @@ group desc for stuff like metal siding
 	<drop event="Fall" count="0" prob="0"/>
 </block>
 
+<!-- WOTW Modded -->
 <!-- To Do Tungsten Version -->
 <block name="steelWedgeCNRSteepTop">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge60_tip_corner_top"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
@@ -7829,9 +7858,10 @@ group desc for stuff like metal siding
 	<property name="DescriptionKey" value="shapeQuarterTeeSCtrGroupDesc"/>
 </block>
 
+<!-- WOTW Modded -->
 <!-- To Do Tungsten Version -->
 <block name="steelQuarterTeeSCtr">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="quarter_t_centered"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property name="SortOrder2" value="0110"/> <!-- SortShape -->
@@ -7909,6 +7939,7 @@ group desc for stuff like metal siding
 	<property name="DowngradeBlock" value="woodWedgeCNRSteepBase"/>
 </block>
 
+<!-- WOTW Modded -->
 <block name="steelCNRInside">
 	<property name="Extends" value="steelMaster"/>
 	<property name="Shape" value="New"/>
@@ -7984,6 +8015,7 @@ group desc for stuff like metal siding
 	<property name="UpgradeRated.ToBlock" value="concreteWedgeCNRSteepBase"/>
 </block>
 
+<!-- WOTW Modded -->
 <block name="steelCTRPlate">
 	<property name="Extends" value="steelMaster"/>
 	<property name="Shape" value="New"/>
@@ -8073,6 +8105,7 @@ group desc for stuff like metal siding
 	<drop event="Fall" count="0" prob="0"/>
 </block>
 
+<!-- WOTW Modded -->
 <block name="steelPole">
 	<property name="Extends" value="steelMaster"/>
 	<property name="Shape" value="New"/>
@@ -8178,9 +8211,10 @@ group desc for stuff like metal siding
 	<property name="Model" value="Curb_Corner"/>
 </block>
 
+<!-- WOTW Modded -->
 <!-- To Do Tungsten Version -->
 <block name="steelWedgeCNRSteepBase">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge60_tip_corner_base"/>
 	<property name="SortOrder2" value="0320"/> <!-- SortShape -->
@@ -8361,9 +8395,10 @@ group desc for stuff like metal siding
 	<property name="UseGlobalUV" value="Global"/>
 </block>
 
+<!-- WOTW Modded -->
 <!-- To Do Tungsten Version -->
 <block name="steelQuarterSCtr">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="quarter_centered_wall"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
@@ -8479,9 +8514,10 @@ group desc for stuff like metal siding
 	<property class="UpgradeBlock"> <property name="ToBlock" value="steelPillar100Cap"/> </property>
 </block>
 
+<!-- WOTW Modded -->
 <!-- To Do Tungsten Version -->
 <block name="steelPillar100Cap">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="Pole1m_cap"/>
 	<property name="Texture" value="356"/>
@@ -8511,9 +8547,10 @@ group desc for stuff like metal siding
 	<property name="DescriptionKey" value="shapeQuarterCNR3WayGroupDesc"/>
 </block>
 
+<!-- WOTW Modded -->
 <!-- To Do Tungsten Version -->
 <block name="steelQuarterCNR3Way">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="quarter_inside_corner_3way"/>
 	<property name="SortOrder2" value="0090"/> <!-- SortShape -->
@@ -8810,9 +8847,10 @@ group desc for stuff like metal siding
 	<drop event="Fall" count="0" prob="0"/>
 </block>
 
+<!-- WOTW Modded -->
 <!-- To Do Tungsten Version -->
 <block name="steelWedgeCNRInsideSteepBase">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Path" value="solid"/>
 	<property name="Model" value="wedge_inside_corner_top"/>
@@ -8862,6 +8900,7 @@ group desc for stuff like metal siding
 	<drop event="Fall" count="0" prob="0"/>
 </block>
 
+<!-- WOTW Modded -->
 <block name="steelCTRpole">
 	<property name="Extends" value="steelMaster"/>
 	<property name="Shape" value="New"/>
@@ -9018,9 +9057,10 @@ group desc for stuff like metal siding
 	<drop event="Fall" count="0" prob="0"/>
 </block>
 
+<!-- WOTW Modded -->
 <!-- To Do Tungsten Version -->
 <block name="steelGableQuarter">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge_tip_quarter"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
@@ -9198,9 +9238,10 @@ group desc for stuff like metal siding
 	<property class="UpgradeBlock"> <property name="ToBlock" value="steelGableInvertedQuarter"/> </property>
 </block>
 
+<!-- WOTW Modded -->
 <!-- To Do Tungsten Version -->
 <block name="steelGableInvertedQuarter">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Path" value="solid"/>
 	<property name="Model" value="gable_inverted_quarter"/>
@@ -9357,9 +9398,10 @@ group desc for stuff like metal siding
 	<property class="UpgradeBlock"> <property name="ToBlock" value="steelGableInvertedHalf"/> </property>
 </block>
 
+<!-- WOTW Modded -->
 <!-- To Do Tungsten Version -->
 <block name="steelGableInvertedHalf">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Path" value="solid"/>
 	<property name="Model" value="gable_inverted_half"/>
@@ -9963,9 +10005,10 @@ group desc for stuff like metal siding
 	<property name="SortOrder2" value="0171"/> <!-- SortShape -->
 </block>
 
+<!-- WOTW Modded -->
 <!-- To Do Tungsten Version -->
 <block name="steelPlateOffset">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="tube_center_straight"/>
 	<property name="Texture" value="356"/>
@@ -10577,8 +10620,10 @@ group desc for stuff like metal siding
 	<property class="UpgradeBlock"> <property name="ToBlock" value="steelCNRRamp"/> </property>
 </block>
 
+<!-- WOTW Modded -->
+<!-- To Do Tungsten Version -->
 <block name="steelWedge">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge60"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property name="SortOrder2" value="0290"/> <!-- SortShape -->
@@ -10648,8 +10693,10 @@ group desc for stuff like metal siding
 	<drop event="Fall" count="0" prob="0"/>
 </block>
 
+<!-- WOTW Modded -->
+<!-- To Do Tungsten Version -->
 <block name="steelCNRRamp">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="LightOpacity" value="6"/>
 	<property name="Model" value="ramp_corner"/>
@@ -10670,8 +10717,10 @@ group desc for stuff like metal siding
 	<drop event="Fall" count="0" prob="0"/>
 </block>
 
+<!-- WOTW Modded -->
+<!-- To Do Tungsten Version -->
 <block name="steelPlate">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="Plate"/>
 	<property name="SortOrder2" value="0150"/> <!-- SortShape -->
@@ -10780,8 +10829,10 @@ group desc for stuff like metal siding
 	<drop event="Fall" count="0" prob="0"/>
 </block>
 
+<!-- WOTW Modded -->
+<!-- To Do Tungsten Version -->
 <block name="steelEighth">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="cube_eighth"/>
@@ -10800,8 +10851,10 @@ group desc for stuff like metal siding
 	<property class="UpgradeBlock"> <property name="ToBlock" value="steelHalf"/> </property>
 </block>
 
+<!-- WOTW Modded -->
+<!-- To Do Tungsten Version -->
 <block name="steelSupport">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Model" value="Branch_legacy"/>
@@ -10812,8 +10865,10 @@ group desc for stuff like metal siding
 	<property name="DowngradeBlock" value="rConcreteSupport"/>
 </block>
 
+<!-- WOTW Modded -->
+<!-- To Do Tungsten Version -->
 <block name="steelHalf">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="cube_half"/>
 	<property name="SortOrder2" value="0060"/> <!-- SortShape -->
@@ -10831,8 +10886,10 @@ group desc for stuff like metal siding
 	<property class="UpgradeBlock"> <property name="ToBlock" value="steelPyramid"/> </property>
 </block>
 
+<!-- WOTW Modded -->
+<!-- To Do Tungsten Version -->
 <block name="steelPyramid">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="pyramid"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
@@ -10916,8 +10973,10 @@ group desc for stuff like metal siding
 	<property class="UpgradeBlock"> <property name="ToBlock" value="steelPillar100"/> </property>
 </block>
 
+<!-- WOTW Modded -->
+<!-- To Do Tungsten Version -->
 <block name="steelPillar100">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Path" value="solid"/>
 	<property name="Model" value="Pole1m"/>
@@ -10928,8 +10987,10 @@ group desc for stuff like metal siding
 	<property name="DowngradeBlock" value="rConcretePillar100"/>
 </block>
 
+<!-- WOTW Modded -->
+<!-- To Do Tungsten Version -->
 <block name="steelQuarter">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Model" value="cube_quarter"/>
@@ -10974,8 +11035,10 @@ group desc for stuff like metal siding
 	<property class="UpgradeBlock"> <property name="ToBlock" value="steelWedgeTip"/> </property>
 </block>
 
+<!-- WOTW Modded -->
+<!-- To Do Tungsten Version -->
 <block name="steelWedgeTip">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge60_tip"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property name="SortOrder2" value="0280"/> <!-- SortShape -->
@@ -11307,8 +11370,10 @@ group desc for stuff like metal siding
 	<property class="UpgradeBlock"> <property name="ToBlock" value="steelCNRInside"/> </property>
 </block>
 
+<!-- WOTW Modded -->
+<!-- To Do Tungsten Version -->
 <block name="steelCNRFull">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="ramp_outside_corner"/>
 	<property name="SortOrder2" value="0210"/> <!-- SortShape -->
@@ -11393,8 +11458,10 @@ group desc for stuff like metal siding
 	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneBlock"/> </property>
 </block>
 
+<!-- WOTW Modded -->
+<!-- To Do Tungsten Version -->
 <block name="steelPillar50">
-	<property name="Extends" value="steelMaster"/>
+	<property name="Extends" value="steelMasterNoUpgrade"/>
 	<property name="Shape" value="New"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Path" value="solid"/>
@@ -29348,7 +29415,7 @@ NOT the TextureNumber.
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Furniture.unity3d?BathtubPrefab"/>
 	<property name="MultiBlockDim" value="1,1,2"/>
-	<property name="ModelOffset" value="0,0.5,0"/>
+	<property name="ModelOffset" value="0,0.5,0.5"/>
 	<property name="OnlySimpleRotations" value="true"/>
 	<property name="LightOpacity" value="1"/>
 	<property name="DescriptionKey" value="DecoBlocksDesc"/>
@@ -29363,6 +29430,7 @@ NOT the TextureNumber.
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Furniture.unity3d?HotTubPrefab"/>
 	<property name="MultiBlockDim" value="2,1,2"/>
+	<property name="ModelOffset" value="0.5,0.5,0.5"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="DescriptionKey" value="DecoBlocksDesc"/>
 	<drop event="Destroy" name="resourceWood" count="10,20"/>
@@ -29376,6 +29444,7 @@ NOT the TextureNumber.
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Furniture.unity3d?GardenBenchPrefab"/>
 	<property name="MultiBlockDim" value="1,1,2"/>
+	<property name="ModelOffset" value="0,0.5,0.5"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="DescriptionKey" value="DecoBlocksDesc"/>
 	<drop event="Destroy" name="resourceWood" count="10,20"/>
@@ -29391,6 +29460,7 @@ NOT the TextureNumber.
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Furniture.unity3d?Wardrobe1Prefab"/>
 	<property name="MultiBlockDim" value="1,1,2"/>
+	<property name="ModelOffset" value="0,0.5,0.5"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="DescriptionKey" value="DecoBlocksDesc"/>
 	<drop event="Destroy" name="resourceWood" count="10,20"/>
@@ -29404,6 +29474,7 @@ NOT the TextureNumber.
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Furniture.unity3d?DrinkMenuPosterPrefab"/>
 	<property name="MultiBlockDim" value="1,1,2"/>
+	<property name="ModelOffset" value="0,0.5,0.5"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="DescriptionKey" value="DecoBlocksDesc"/>
 	<drop event="Destroy" name="resourcePaper" count="5,10"/>
@@ -29443,6 +29514,7 @@ NOT the TextureNumber.
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Furniture.unity3d?WallUnitPrefab"/>
 	<property name="MultiBlockDim" value="1,3,2"/>
+	<property name="ModelOffset" value="0,0.5,0.5"/>
 	<drop event="Destroy" name="resourceWood" count="10,15"/>
 	<property name="DescriptionKey" value="DecoBlocksDesc"/>
 	<property name="EconomicValue" value="10"/>
@@ -29476,6 +29548,7 @@ NOT the TextureNumber.
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Furniture.unity3d?CoffeeTablePrefab"/>
 	<property name="MultiBlockDim" value="1,1,2"/>
+	<property name="ModelOffset" value="0,0.5,0.5"/>
 	<drop event="Destroy" name="resourceWood" count="10,15"/>
 	<property name="DescriptionKey" value="DecoBlocksDesc"/>
 	<property name="EconomicValue" value="250"/>
@@ -29578,6 +29651,7 @@ NOT the TextureNumber.
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Furniture.unity3d?EntertainmentStand2Prefab"/>
 	<property name="MultiBlockDim" value="1,1,2"/>
+	<property name="ModelOffset" value="0,0.5,0.5"/>
 	<drop event="Destroy" name="resourceWood" count="20,25"/>
 	<property name="DescriptionKey" value="DecoBlocksDesc"/>
 	<property name="EconomicValue" value="250"/>
@@ -29590,6 +29664,7 @@ NOT the TextureNumber.
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Furniture.unity3d?DiningTablePrefab"/>
 	<property name="MultiBlockDim" value="2,1,3"/>
+	<property name="ModelOffset" value="0.5,0.5,0"/>
 	<drop event="Destroy" name="resourceWood" count="10,15"/>
 	<drop event="Destroy" name="resourceBrokenGlass" count="15,25"/>
 	<property name="DescriptionKey" value="DecoBlocksDesc"/>
@@ -29643,6 +29718,7 @@ NOT the TextureNumber.
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Furniture.unity3d?DresserPrefab"/>
 	<property name="MultiBlockDim" value="2,1,1" />
+	<property name="ModelOffset" value="0.5,0.5,0"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="DescriptionKey" value="DecoBlocksDesc"/>
 	<property name="LootList" value="180"/>
@@ -29669,6 +29745,7 @@ NOT the TextureNumber.
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Furniture.unity3d?LatticeFencePrefab"/>
 	<property name="MultiBlockDim" value="4,2,1" />
+	<property name="ModelOffset" value="0.5,0.5,0"/>
 	<property name="DescriptionKey" value="DecoBlocksDesc"/>
 	<drop event="Destroy" name="resourceWood" count="10,20"/>
 </block>
@@ -29690,6 +29767,7 @@ NOT the TextureNumber.
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Furniture.unity3d?LatticeFence2Prefab"/>
 	<property name="MultiBlockDim" value="2,2,1" />
+	<property name="ModelOffset" value="0.5,0.5,0"/>
 	<drop event="Destroy" name="resourceWood" count="10,20"/>
 </block>
 
@@ -29699,7 +29777,8 @@ NOT the TextureNumber.
 	<property name="MaxDamage" value="300"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Furniture.unity3d?LumberBundlePrefab"/>
-	<property name="MultiBlockDim" value="4,1,2"/>
+	<property name="MultiBlockDim" value="2,1,3"/>
+	<property name="ModelOffset" value="-0.5,0.5,-1"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="DescriptionKey" value="DecoBlocksDesc"/>
 	<drop event="Harvest" name="resourceWood" count="100" tag="salvageHarvest"/>
@@ -29714,6 +29793,7 @@ NOT the TextureNumber.
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Furniture.unity3d?PalletStackPrefab"/>
 	<property name="MultiBlockDim" value="2,1,2"/>
+	<property name="ModelOffset" value="0.5,0.5,0.5"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="DescriptionKey" value="DecoBlocksDesc"/>
 	<drop event="Harvest" name="resourceWood" count="100" tag="salvageHarvest"/>
@@ -29839,7 +29919,7 @@ NOT the TextureNumber.
 </block> -->
 
 <block name="classBlock">
-	<property name="CustomIcon" value="steelMaster" />
+	<property name="CustomIcon" value="steelMasterNoUpgrade" />
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Material" value="classBlock" />
 	<property name="Texture" value="355,356,267,267,267,267" />
@@ -32183,7 +32263,7 @@ NOT the TextureNumber.
 	<property name="MaxDamage" value="800"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#BreweryStation.unity3d?BreweryStationPrefab"/>
-	<property name="ModelOffset" value=".5,.5,0"/>
+	<property name="ModelOffset" value="0.5,0.5,0.5"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="MultiBlockDim" value="2,2,2"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
@@ -32244,6 +32324,7 @@ NOT the TextureNumber.
 	<property name="OnlySimpleRotations" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="MultiBlockDim" value="2,2,1"/>
+	<property name="ModelOffset" value="0.5,0.5,0"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="Stacknumber" value="1" />
 	<property name="HeatMapStrength" value="1.5"/>
@@ -32297,6 +32378,7 @@ NOT the TextureNumber.
     <property name="Shape" value="ModelEntity" />
 	<property name="Model" value="#BlueprintWorkstation.unity3d?BlueprintWorkstationPrefab" />
 	<property name="MultiBlockDim" value="1,2,2" />
+	<property name="ModelOffset" value="0,0.5,0.5"/>
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property name="OnlySimpleRotations" value="true"/>
     <property name="IsTerrainDecoration" value="true" />
@@ -32351,6 +32433,7 @@ NOT the TextureNumber.
 	<property name="Path" value="solid"/>
 	<property name="Model" value="#AdvancedForge.unity3d?AdvancedForgePrefab"/>
 	<property name="MultiBlockDim" value="4,3,2" />
+	<property name="ModelOffset" value="0.5,0.5,0.5"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="OnlySimpleRotations" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
@@ -32409,6 +32492,7 @@ NOT the TextureNumber.
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Fabricator.unity3d?FabricatorPrefab"/>
 	<property name="MultiBlockDim" value="2,2,1"/>
+	<property name="ModelOffset" value="0.5,0.5,0"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="OnlySimpleRotations" value="true"/>
@@ -32463,6 +32547,7 @@ NOT the TextureNumber.
 	<property name="Model" value="#AmmoBench.unity3d?AmmoBenchPrefab"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="MultiBlockDim" value="2,2,1"/>
+	<property name="ModelOffset" value="0.5,0.5,0"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="OnlySimpleRotations" value="true"/>
@@ -32516,6 +32601,7 @@ NOT the TextureNumber.
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#MechanicBench.unity3d?MechanicBenchPrefab"/>
 	<property name="MultiBlockDim" value="2,2,1"/>
+	<property name="ModelOffset" value="0.5,0.5,0"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="OnlySimpleRotations" value="true"/>
@@ -32625,6 +32711,7 @@ NOT the TextureNumber.
 	<property name="Shape" value="ModelEntity" />
 	<property name="Model" value="#ArmorSmithingStation.unity3d?ArmorSmithingStationPrefab" />
 	<property name="MultiBlockDim" value="1,2,2" />
+	<property name="ModelOffset" value="0,0.5,0.5"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property name="OnlySimpleRotations" value="true"/>
@@ -32679,6 +32766,7 @@ NOT the TextureNumber.
 	<property name="Shape" value="ModelEntity" />
 	<property name="Model" value="#AdvancedToolWorkbench.unity3d?AdvancedToolWorkbenchPrefab" />
 	<property name="MultiBlockDim" value="2,2,1" />
+	<property name="ModelOffset" value="0.5,0.5,0"/>
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property name="Stacknumber" value="1" />
 	<property name="HeatMapStrength" value="0.5"/>
@@ -32727,6 +32815,7 @@ NOT the TextureNumber.
 	<property name="Shape" value="ModelEntity" />
 	<property name="Model" value="#BuildersWorkbench.unity3d?BuildersWorkbenchPrefab" />
 	<property name="MultiBlockDim" value="1,2,2" />
+	<property name="ModelOffset" value="0,0.5,0.5"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="Place" value="TowardsPlacerInverted" />
 	<property name="OnlySimpleRotations" value="true"/>
@@ -34001,6 +34090,7 @@ NOT the TextureNumber.
 	<property name="Model" value="#Vehicles.unity3d?carECOSedan1Prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="2,2,5"/>
+	<property name="ModelOffset" value="0.5,0.5,0"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="ShowModelOnFall" value="false"/>
 	<property name="PassThroughDamage" value="false"/>
@@ -34092,6 +34182,7 @@ NOT the TextureNumber.
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Vehicles.unity3d?carECOSedan2Prefab"/>
 	<property name="MultiBlockDim" value="2,2,5"/>
+	<property name="ModelOffset" value="0.5,0.5,0"/>
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
 	<drop event="Harvest" name="resourceLeather" count="3,8" prob="0.5" tag="allHarvest"/>
 	<drop event="Harvest" name="resourceScrapIron" count="10,20" tag="allHarvest"/>
@@ -34170,6 +34261,7 @@ NOT the TextureNumber.
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Vehicles.unity3d?carECOSedan3Prefab"/>
 	<property name="MultiBlockDim" value="2,2,5"/>
+	<property name="ModelOffset" value="0.5,0.5,0"/>
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
 	<drop event="Harvest" name="resourceLeather" count="3,8" prob="0.5" tag="allHarvest"/>
 	<drop event="Harvest" name="resourceScrapIron" count="10,20" tag="allHarvest"/>
@@ -34324,6 +34416,7 @@ NOT the TextureNumber.
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Vehicles.unity3d?carMilitaryVehiclePrefab"/>
 	<property name="MultiBlockDim" value="2,2,6"/>
+	<property name="ModelOffset" value="0.5,0.5,0.5"/>
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
 	<drop event="Harvest" name="resourceLeather" count="3,9" prob="0.5" tag="allHarvest"/>
 	<drop event="Harvest" name="resourceScrapIron" count="30,50" tag="allHarvest"/>
@@ -34480,6 +34573,7 @@ NOT the TextureNumber.
 	<property name="Model" value="#Vehicles.unity3d?carPoliceInterceptorPrefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="2,2,5"/>
+	<property name="ModelOffset" value="0.5,0.5,0"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="ShowModelOnFall" value="false"/>
 	<property name="PassThroughDamage" value="false"/>
@@ -34571,6 +34665,7 @@ NOT the TextureNumber.
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Vehicles.unity3d?carPostApocalypticTruckPrefab"/>
 	<property name="MultiBlockDim" value="3,2,6"/>
+	<property name="ModelOffset" value="0,0.5,0.5"/>
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
 	<drop event="Harvest" name="resourceLeather" count="3,9" prob="0.5" tag="allHarvest"/>
 	<drop event="Harvest" name="resourceScrapIron" count="30,50" tag="allHarvest"/>
@@ -34726,6 +34821,7 @@ NOT the TextureNumber.
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Vehicles.unity3d?carTowTruckPrefab"/>
 	<property name="MultiBlockDim" value="2,2,5"/>
+	<property name="ModelOffset" value="0.5,0.5,0"/>
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
 	<drop event="Harvest" name="resourceLeather" count="3,9" prob="0.5" tag="allHarvest"/>
 	<drop event="Harvest" name="resourceScrapIron" count="30,50" tag="allHarvest"/>
@@ -34806,6 +34902,7 @@ NOT the TextureNumber.
 	<property name="Model" value="#Vehicles.unity3d?WreckedTruckPrefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="2,2,5"/>
+	<property name="ModelOffset" value="0.5,0.5,0"/>
 	<property name="ShowModelOnFall" value="false"/>
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
 	<drop event="Harvest" name="resourceLeather" count="3,9" prob="0.5" tag="allHarvest"/>

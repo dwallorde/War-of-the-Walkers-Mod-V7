@@ -1289,7 +1289,7 @@
 						<rect name="categoryHeader" pos="6,-3" size="1044,43">
 
 							<panel name="categoryIcons" depth="1" pos="80,-8" size="410,43" disableautobackground="true">
-								<grid name="categories" pos="-3,-6" size="625,34" rows="1" cols="6" cell_width="75" cell_height="43" repeat_content="false" controller="CategoryList">
+								<grid name="categories" pos="-3,-6" size="625,34" rows="1" cols="8" cell_width="75" cell_height="43" repeat_content="false" controller="CategoryList">
 									<smx_skills_category_icon /> 
 									<smx_skills_category_icon />
 									<smx_skills_category_icon />

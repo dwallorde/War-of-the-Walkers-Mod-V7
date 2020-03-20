@@ -2890,7 +2890,6 @@ The overall plan for loot distribution:
 	<item name="ImmunizationShot"/>
 	<item name="drugAntibiotics"/>
 	<item name="VitaminD"/>
-	<item name="medicalBloodDrawKit"/>
 	<item name="drugSteroids"/>
 	<item name="drugRecog"/>
 	<item name="drugFortBites"/>
@@ -5250,7 +5249,6 @@ treasureTemplate
 <lootcontainer id="195" count="0,2" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="4" loot_quality_template="qualBaseTemplate">
 	<item group="automotive+tools+junk"/>
 	<item group="medicine" prob="0.5" />
-	<item name="medicalBloodDrawKit" count="1,2" prob="0.4" />
 	<item group="ClassFragmentsTradesman" count="1" prob="0.08" />
 </lootcontainer>
 

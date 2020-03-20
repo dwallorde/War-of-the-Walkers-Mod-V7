@@ -493,7 +493,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="0"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="CucumberSalad">
 				<property name="Tags" value="csCooking"/>
@@ -518,7 +518,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="4"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="GreenTeaExtract">
 				<property name="Tags" value="csCooking"/>
@@ -684,7 +684,7 @@
 					</triggered_effect>
 					<display_value name="FoodPoisoningRisk" value=".3" />
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="rawWhiteMeat">
 				<property name="Extends" value="rawRedMeat" />
@@ -693,7 +693,7 @@
 				<property name="CustomIcon" value="rawWhiteMeat"/>
 				<property name="Meshfile" value="Items/Misc/raw_meatPrefab"/>
 				<property name="Material" value="Morganic"/>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="whiteMeatPie">
 				<property name="Tags" value="csCooking"/>
@@ -742,7 +742,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="8"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="strawberryJam">
 				<property name="Tags" value="csCooking"/>
@@ -768,7 +768,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
 				<property name="DropScale" value="4"/>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="strawberryJamSandwich">
 				<property name="Tags" value="csCooking"/>
@@ -794,7 +794,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="2"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="summersalad">
 				<property name="Tags" value="csCooking"/>
@@ -819,7 +819,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="4"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="TunaSandwich">
 				<property name="Tags" value="csCooking"/>
@@ -971,7 +971,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="beerNolsonCanuck">
 				<property name="Tags" value="csCooking"/>
@@ -1000,7 +1000,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="GreenTea">
 				<property name="Tags" value="csCooking"/>
@@ -1063,7 +1063,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="MossyBrew">
 				<property name="Tags" value="csCooking"/>
@@ -1126,7 +1126,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="0"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="beefstock">
 				<property name="Tags" value="csCooking"/>
@@ -1152,7 +1152,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="0"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="potatosoup">
 				<property name="Tags" value="csCooking"/>
@@ -1329,7 +1329,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="0"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="Yeast">
 				<property name="Tags" value="csCooking"/>
@@ -1381,7 +1381,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="5"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables,buffPie"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="FruitPie"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -1405,7 +1405,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="7"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables,buffPie"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="StrawberryPie"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -1479,7 +1479,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="5"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables,buffPie"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="ChocolatePie"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -1503,7 +1503,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="4"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables,buffPie"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="bakedPumpkin"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -1528,7 +1528,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="1"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="BlackberryJam"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -1555,7 +1555,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
 				<property name="DropScale" value="4"/>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="BlueberryJam"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -1582,7 +1582,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
 				<property name="DropScale" value="4"/>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="BlackberryJamSandwich"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -1609,7 +1609,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="2"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="BlueberryJamSandwich"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -1636,7 +1636,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="2"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="Smallmeatpie"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -1660,7 +1660,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="6"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="Turkeydinner"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -1684,7 +1684,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="5"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="Roastbeef"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -1708,7 +1708,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="5"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="wedgesalad"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -1732,7 +1732,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="4"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="largesalad"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -1756,7 +1756,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="4"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="clubsalad"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -1780,7 +1780,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="4"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="Chocolatecoveredstrawberries"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -1807,7 +1807,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
 				<property name="DropScale" value="4"/>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="Chocolatecoveredblueberries"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -1834,7 +1834,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
 				<property name="DropScale" value="4"/>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="Chocolatecoveredblackberries"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -1861,7 +1861,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
 				<property name="DropScale" value="4"/>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="Chocolatecoveredcoffeebeans"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -1888,7 +1888,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
 				<property name="DropScale" value="4"/>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="chocolatecookies"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -1915,7 +1915,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
 				<property name="DropScale" value="4"/>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="chocolatecake"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -1942,7 +1942,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
 				<property name="DropScale" value="4"/>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="mochacoffee"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -2096,7 +2096,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="icedcoffee"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -2127,7 +2127,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="icedmochacoffee"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -2157,7 +2157,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="icedpumpkinspicecoffee"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -2188,7 +2188,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="icedblackberrytea"> <!-- Class Only -->	
 				<property name="Tags" value="csCooking"/>
@@ -2219,7 +2219,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="icedfruittea"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -2250,7 +2250,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 
 		<!-- Alcoholic Drinks -->
@@ -2281,7 +2281,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="strawberrysangria">
 				<property name="Tags" value="csCooking"/>
@@ -2308,7 +2308,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="blackberrysangria">
 				<property name="Tags" value="csCooking"/>
@@ -2335,7 +2335,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="blueberrysangria">
 				<property name="Tags" value="csCooking"/>
@@ -2362,7 +2362,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="fruitsangria">
 				<property name="Tags" value="csCooking"/>
@@ -2389,7 +2389,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="longisland">
 				<property name="Tags" value="csCooking"/>
@@ -2416,7 +2416,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="Melondaiquiri">
 				<property name="Tags" value="csCooking"/>
@@ -2443,7 +2443,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="strawberrydaiquiri">
 				<property name="Tags" value="csCooking"/>
@@ -2470,7 +2470,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="blackberrydaiquiri">
 				<property name="Tags" value="csCooking"/>
@@ -2497,7 +2497,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="blueberrydaiquiri">
 				<property name="Tags" value="csCooking"/>
@@ -2524,7 +2524,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="fruitdaiquiri">
 				<property name="Tags" value="csCooking"/>
@@ -2551,7 +2551,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 
 		<!-- Cooking Tools -->
@@ -2564,7 +2564,7 @@
 				<property name="HoldType" value="21"/>
 				<property name="Stacknumber" value="250"/> <!-- STK loot -->
 				<property name="EconomicValue" value="750"/>
-				<property name="Group" value="Food/Cooking"/> </item>
+				<property name="Group" value="Tools/Traps,Food/Cooking"/> </item>
 			<item name="roastingPan">
 				<property name="CustomIcon" value="roastingPan" />
 				<property name="Meshfile" value="Items/Crafting/cooking_grill"/>
@@ -2572,7 +2572,7 @@
 				<property name="HoldType" value="21"/>
 				<property name="Stacknumber" value="250"/> <!-- STK loot -->
 				<property name="EconomicValue" value="750"/>
-				<property name="Group" value="Food/Cooking"/> </item>
+				<property name="Group" value="Tools/Traps,Food/Cooking"/> </item>
 			<item name="loafPan">
 				<property name="CustomIcon" value="loafPan" />
 				<property name="Meshfile" value="Items/Crafting/cooking_grill"/>
@@ -2580,7 +2580,7 @@
 				<property name="HoldType" value="21"/>
 				<property name="Stacknumber" value="250"/> <!-- STK loot -->
 				<property name="EconomicValue" value="750"/>
-				<property name="Group" value="Food/Cooking"/> </item>
+				<property name="Group" value="Tools/Traps,Food/Cooking"/> </item>
 			<item name="juicer"> <!-- To Do Localization, Loot Only, Remove?? -->
 				<property name="CustomIcon" value="juicer" />
 				<property name="Meshfile" value="Items/Crafting/cooking_grill"/>
@@ -2588,7 +2588,7 @@
 				<property name="HoldType" value="21"/>
 				<property name="Stacknumber" value="250"/> <!-- STK loot -->
 				<property name="EconomicValue" value="750"/>
-				<property name="Group" value="Food/Cooking"/> </item>
+				<property name="Group" value="Tools/Traps,Food/Cooking"/> </item>
 			<item name="meatGrinder"> <!-- To Do Localization, Loot Only, Remove?? -->
 				<property name="CustomIcon" value="meatGrinder" />
 				<property name="Meshfile" value="Items/Crafting/cooking_grill"/>
@@ -2596,7 +2596,7 @@
 				<property name="HoldType" value="21"/>
 				<property name="Stacknumber" value="250"/> <!-- STK loot -->
 				<property name="EconomicValue" value="750"/>
-				<property name="Group" value="Food/Cooking"/> </item>
+				<property name="Group" value="Tools/Traps,Food/Cooking"/> </item>
 			<item name="waterEmptyBarrel">
 				<property name="CustomIcon" value="waterEmptyBarrel"/>
 				<property name="HoldType" value="34"/>
@@ -9598,7 +9598,7 @@
 					<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 					<passive_effect name="ModPowerBonus" operation="base_add" value="350" tags="EconomicValue"/>
 					
-					<passive_effect name="SphereCastRadius" operation="base_set" value="0.1"/>
+					<passive_effect name="SphereCastRadius" operation="base_set" value=".1"/>
 					<passive_effect name="DamageFalloffRange" operation="base_set" value="100"/>
 					<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/> <!-- random effective rng -->
 					<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/> <!-- random EntityDmg -->
@@ -9838,7 +9838,7 @@
 					<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 					<passive_effect name="ModPowerBonus" operation="base_add" value="350" tags="EconomicValue"/>
 					
-					<passive_effect name="SphereCastRadius" operation="base_set" value="0.1"/>
+					<passive_effect name="SphereCastRadius" operation="base_set" value=".1"/>
 					<passive_effect name="DamageFalloffRange" operation="base_set" value="100"/>
 					<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/> <!-- random effective rng -->
 					<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/> <!-- random EntityDmg -->
@@ -13769,6 +13769,10 @@
 					<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
 
 					<passive_effect name="HarvestCount" operation="base_set" value="1" tags="salvageHarvest"/>
+					<passive_effect name="HarvestCount" operation="base_set" value="1" tags="IronHarvest"/>
+					<passive_effect name="HarvestCount" operation="base_set" value="0" tags="SteelHarvest"/>
+					<passive_effect name="HarvestCount" operation="base_set" value="0" tags="TungstenHarvest"/>
+					<passive_effect name="HarvestCount" operation="base_set" value="0" tags="HDDisassemble"/>
 				</effect_group>
 				<effect_group name="Power Attack">
 					<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
@@ -13803,5 +13807,6 @@
 	<setattribute xpath="/items/item[@name='meleeToolFireaxeSteel']" name="Meshfile">#SteelFireaxe.unity3d?SteelFireaxePrefab</setattribute>
 	<setattribute xpath="/items/item[@name='meleeToolFireaxeSteel']" name="CustomIcon">fireaxeSteel</setattribute>
 	<remove xpath="/items/item[@name='meleeToolFireaxeSteel']/property[@name='CustomIconTint']" />
+	<append xpath="/items/item[@name='meleeToolKnifeBone']/property[@name='Group']/@value">,Basics</append>
 	
 </config>

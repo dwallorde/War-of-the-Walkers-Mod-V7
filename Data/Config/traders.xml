@@ -1213,7 +1213,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="resourceMechanicalParts" count="15,80" prob="0.8"/>
 			<item name="resourceElectricParts" count="15,50" prob="0.7"/>
 			<item name="resourceElectricParts" count="10,30" prob="0.6"/>
-			<item name="resourceInsulator" count="20,60" prob="0.6"/>
 			<item name="resourceLockPick" count="1,10"/>
 			<item name="HouseholdChemicals" count="2,6" prob="0.55"/>
 			<item name="Twine" count="10,20"/>
@@ -1995,7 +1994,6 @@ workstations
 			<item name="resourceElectricParts" count="50"/>
 			<item name="resourceElectronicParts" count="50"/>
 			<item name="resourceMechanicalParts" count="50"/>
-			<item name="resourceInsulator" count="10"/>
 			<item name="meleeToolWireTool" count="1"/>
 			<item name="electricwirerelay" count="5"/>
 			<item name="ceilingLight01_player" count="5"/>
@@ -2252,7 +2250,6 @@ workstations
 			<item name="resourceElectricParts" count="50"/>
 			<item name="resourceElectronicParts" count="50"/>
 			<item name="resourceMechanicalParts" count="50"/>
-			<item name="resourceInsulator" count="10"/>
 			<item name="meleeToolWireTool" count="1"/>
 			<item name="electricwirerelay" count="5"/>
 			<item name="ceilingLight01_player" count="5"/>

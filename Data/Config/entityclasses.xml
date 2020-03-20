@@ -6063,7 +6063,7 @@ Kinda sorta works but is buggy and we don't have time for that.
 </entity_class>
 
 <entity_class name="EntityLootContainerBossMechanicJoe">
-	<property name="Mesh" value="#Entities/LootContainers?backpack_droppedPrefab.prefab"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
 	<property name="ModelType" value="Custom"/>
 	<property name="Prefab" value="Backpack"/>
 	<property name="Class" value="EntityLootContainer"/>
@@ -6075,7 +6075,7 @@ Kinda sorta works but is buggy and we don't have time for that.
 </entity_class>
 
 <entity_class name="EntityLootContainerBossNurseAnne">
-	<property name="Mesh" value="#Entities/LootContainers?backpack_droppedPrefab.prefab"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
 	<property name="ModelType" value="Custom"/>
 	<property name="Prefab" value="Backpack"/>
 	<property name="Class" value="EntityLootContainer"/>
@@ -6087,7 +6087,7 @@ Kinda sorta works but is buggy and we don't have time for that.
 </entity_class>
 
 <entity_class name="EntityLootContainerBossBuilderBob">
-	<property name="Mesh" value="#Entities/LootContainers?backpack_droppedPrefab.prefab"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
 	<property name="ModelType" value="Custom"/>
 	<property name="Prefab" value="Backpack"/>
 	<property name="Class" value="EntityLootContainer"/>
@@ -6099,7 +6099,7 @@ Kinda sorta works but is buggy and we don't have time for that.
 </entity_class>
 
 <entity_class name="EntityLootContainerBossHousewifeMarianne">
-	<property name="Mesh" value="#Entities/LootContainers?backpack_droppedPrefab.prefab"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
 	<property name="ModelType" value="Custom"/>
 	<property name="Prefab" value="Backpack"/>
 	<property name="Class" value="EntityLootContainer"/>
@@ -6111,7 +6111,7 @@ Kinda sorta works but is buggy and we don't have time for that.
 </entity_class>
 
 <entity_class name="EntityLootContainerBossInvestigatorHenry">
-	<property name="Mesh" value="#Entities/LootContainers?backpack_droppedPrefab.prefab"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
 	<property name="ModelType" value="Custom"/>
 	<property name="Prefab" value="Backpack"/>
 	<property name="Class" value="EntityLootContainer"/>
@@ -6123,7 +6123,7 @@ Kinda sorta works but is buggy and we don't have time for that.
 </entity_class>
 
 <entity_class name="EntityLootContainerBossThugBilly">
-	<property name="Mesh" value="#Entities/LootContainers?backpack_droppedPrefab.prefab"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
 	<property name="ModelType" value="Custom"/>
 	<property name="Prefab" value="Backpack"/>
 	<property name="Class" value="EntityLootContainer"/>
@@ -6135,7 +6135,7 @@ Kinda sorta works but is buggy and we don't have time for that.
 </entity_class>
 
 <entity_class name="EntityLootContainerBossMasterLeroy">
-	<property name="Mesh" value="#Entities/LootContainers?backpack_droppedPrefab.prefab"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
 	<property name="ModelType" value="Custom"/>
 	<property name="Prefab" value="Backpack"/>
 	<property name="Class" value="EntityLootContainer"/>
@@ -6147,7 +6147,7 @@ Kinda sorta works but is buggy and we don't have time for that.
 </entity_class>
 
 <entity_class name="EntityLootContainerBossAccountantZoe">
-	<property name="Mesh" value="#Entities/LootContainers?backpack_droppedPrefab.prefab"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
 	<property name="ModelType" value="Custom"/>
 	<property name="Prefab" value="Backpack"/>
 	<property name="Class" value="EntityLootContainer"/>
@@ -6159,7 +6159,7 @@ Kinda sorta works but is buggy and we don't have time for that.
 </entity_class>
 
 <entity_class name="EntityLootContainerUtilityWorker">
-	<property name="Mesh" value="#Entities/LootContainers?backpack_droppedPrefab.prefab"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
 	<property name="ModelType" value="Custom"/>
 	<property name="Prefab" value="Backpack"/>
 	<property name="Class" value="EntityLootContainer"/>
@@ -6171,7 +6171,7 @@ Kinda sorta works but is buggy and we don't have time for that.
 </entity_class>
 
 <entity_class name="EntityLootContainerFootballPlayer">
-	<property name="Mesh" value="#Entities/LootContainers?backpack_droppedPrefab.prefab"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
 	<property name="ModelType" value="Custom"/>
 	<property name="Prefab" value="Backpack"/>
 	<property name="Class" value="EntityLootContainer"/>
@@ -6183,7 +6183,7 @@ Kinda sorta works but is buggy and we don't have time for that.
 </entity_class>
 
 <entity_class name="EntityLootContainerMilitaryZombie">
-	<property name="Mesh" value="#Entities/LootContainers?backpack_droppedPrefab.prefab"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
 	<property name="ModelType" value="Custom"/>
 	<property name="Prefab" value="Backpack"/>
 	<property name="Class" value="EntityLootContainer"/>
@@ -6195,7 +6195,7 @@ Kinda sorta works but is buggy and we don't have time for that.
 </entity_class>
 
 <entity_class name="EntityLootContainerNurseZombie">
-	<property name="Mesh" value="#Entities/LootContainers?backpack_droppedPrefab.prefab"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
 	<property name="ModelType" value="Custom"/>
 	<property name="Prefab" value="Backpack"/>
 	<property name="Class" value="EntityLootContainer"/>
@@ -6207,7 +6207,7 @@ Kinda sorta works but is buggy and we don't have time for that.
 </entity_class>
 
 <entity_class name="EntityLootContainerHazmatZombie">
-	<property name="Mesh" value="#Entities/LootContainers?backpack_droppedPrefab.prefab"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
 	<property name="ModelType" value="Custom"/>
 	<property name="Prefab" value="Backpack"/>
 	<property name="Class" value="EntityLootContainer"/>
@@ -6219,7 +6219,7 @@ Kinda sorta works but is buggy and we don't have time for that.
 </entity_class>
 
 <entity_class name="EntityLootContainerLumberjackZombie">
-	<property name="Mesh" value="#Entities/LootContainers?backpack_droppedPrefab.prefab"/>
+	<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
 	<property name="ModelType" value="Custom"/>
 	<property name="Prefab" value="Backpack"/>
 	<property name="Class" value="EntityLootContainer"/>
