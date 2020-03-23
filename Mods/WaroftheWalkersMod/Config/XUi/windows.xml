@@ -254,7 +254,7 @@
 	</window>
 	</append>
 	
-	<!-- WOTW Ammo Output -->
+	<!-- WOTW Output -->
 	<append xpath="/windows">
 	<window name="windowOutput2" depth="9" size="470,68" anchor="BottomLeft" panel="Left" cursor_area="true">
 		<rect name="content" depth="9" pos="20,6" size="430,68" disablefallthrough="true" on_press="true">
@@ -508,7 +508,7 @@
 			<smx_mainmenubutton_1 name="btnExit" style="smx_menu_button" caption_key="xuiMenuExit" />
 		</grid>
 		<label name="WOTWeditionInfo" depth="9" pos="60,-470" size="250,33" text="Beta Release Version" font_size="16" color="[menuElementsLBLPri]" font_face="ReferenceFont" crispness="Never" effect="outline" upper_case="true" justify="center" pivot="center" />
-		<label name="WOTWversionInfo" depth="9" pos="60,-490" size="250,33" text="WOTW V7.0.4 Beta" font_size="16" color="[menuElementsLBLSec]" font_face="ReferenceFont" crispness="Never" effect="outline" upper_case="false" justify="center" pivot="center" />
+		<label name="WOTWversionInfo" depth="9" pos="60,-490" size="250,33" text="WOTW V7.0.5 Beta" font_size="16" color="[menuElementsLBLSec]" font_face="ReferenceFont" crispness="Never" effect="outline" upper_case="false" justify="center" pivot="center" />
 	</window>
 
 	<!-- This section needs fixing before being Implented or removed -->

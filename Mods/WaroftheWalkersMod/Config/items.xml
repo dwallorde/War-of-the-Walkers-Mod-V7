@@ -336,7 +336,7 @@
 
 			<item name="ApplePie">
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkCookPies,pieRecipePartII"/>
+				<property name="UnlockedBy" value="perkCookPies,pieRecipePartII,ApplePieRecipe"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="ApplePie" />
 				<property name="Meshfile" value="Items/Food/blueberry_pie" />
@@ -404,7 +404,7 @@
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="Bread">
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkRecipeBread"/>
+				<property name="UnlockedBy" value="perkRecipeBread,BreadRecipe"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="Bread" />
 				<property name="Meshfile" value="Items/Food/cornbread" />
@@ -595,7 +595,7 @@
 				<property name="EconomicValue" value="100" /> </item>
 			<item name="MushroomStew">
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkRecipeMushroomStew"/>
+				<property name="UnlockedBy" value="perkRecipeMushroomStew,MushroomStewRecipe"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="MushroomStew" />
 				<property name="Meshfile" value="Items/Food/venison_stew" />
@@ -1067,7 +1067,7 @@
 				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
 			<item name="MossyBrew">
 				<property name="Tags" value="csCooking"/>
-				<property name="UnlockedBy" value="perkRecipeMossyBrew"/>
+				<property name="UnlockedBy" value="perkRecipeMossyBrew,MossyBrewPieRecipe"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="MossyBrew" />
 				<property name="Meshfile" value="Items/Food/coffeePrefab" />
@@ -2638,7 +2638,7 @@
 
 			<item name="FishingPole">
 				<property name="CustomIcon" value="FishingPole" />
-				<property name="UnlockedBy" value="perkRecipeFishingPole"/>
+				<property name="UnlockedBy" value="perkRecipeFishingPole,FishingBook"/>
 				<property name="Meshfile" value="Items/Misc/sackPrefab" />
 				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
 				<property name="Material" value="Mwood" />
@@ -2650,7 +2650,7 @@
 				<property name="EconomicValue" value="150" /> </item>
 			<item name="FishingPoleBated">
 				<property name="CustomIcon" value="FishingPoleBated" />
-				<property name="UnlockedBy" value="perkRecipeFishingPole"/>
+				<property name="UnlockedBy" value="perkRecipeFishingPole,FishingBook"/>
 				<property name="Meshfile" value="Items/Weapons/Melee/Stick/stick" />
 				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
 				<property name="Material" value="Mwood" />
@@ -2755,7 +2755,7 @@
 				<property name="ActionExp" value="3" /> </item>
 			<item name="FishStew">
 				<property name="CustomIcon" value="FishStew" />
-				<property name="UnlockedBy" value="perkRecipeFishStew"/>
+				<property name="UnlockedBy" value="perkRecipeFishStew,FishStewRecipe"/>
 				<property name="DisplayType" value="food"/>
 				<property name="Meshfile" value="Items/Food/venison_stew" />
 				<property name="Material" value="Morganic" />
@@ -2777,62 +2777,87 @@
 				<property name="ActionSkillGroup" value="craftSkillScience" />
 				<property name="ActionExp" value="3" /> </item>
 
-		<!-- Schematics ***** NEED LOOKING AT ***** -->
-			<!-- To Do Add/Remove? -->
-			<!-- <item name="BreadRecipe">
+		<!-- Schematics -->
+			<item name="BreadRecipe">
 				<property name="CustomIcon" value="BreadRecipe" />
 				<property name="Extends" value="schematicMaster" />
-				<property class="Action0">
-					<property name="Skills_to_gain" value="BreadRecipePerk" />
-				</property>
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="Bread"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Bread" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
 				<property name="EconomicValue" value="250" />
 			</item>
 
 			<item name="FishingBook">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="FishingBook" />
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="FishingPole"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FishingPole" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FishingPoleBated" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
 				<property name="EconomicValue" value="500"/>
-			</item> -->
+			</item>
 
-			<!-- <item name="FishStewRecipe">
+			<item name="FishStewRecipe">
 				<property name="CustomIcon" value="FishStewRecipe" />
 				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-					<property name="Skills_to_gain" value="Fish Stew Recipe" />
-			    </property>
-			</item> -->
+			    <property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="FishStew"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FishStew" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
+			</item>
 
-			<!-- <item name="FireTrapSchematic">
+			<item name="FireTrapSchematic">
 				<property name="CustomIcon" value="FireTrapSchematic" />
 				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-					<property name="Skills_to_gain" value="FireTrapSchematicPerk" />
-			    </property>
+			    <property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="FireTrap"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FireTrap" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
 			</item>
 
 			<item name="SettingTheTrap">
 				<property name="CustomIcon" value="SettingTheTrap" />
 				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-					<property name="Skills_to_gain" value="SettingTheTrapPerk" />
-			    </property>
+			    <property name="Unlocks" value="RabbitTrap(Baited)"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="RabbitTrap(Baited)" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="RabbitTrap(Unbaited)" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
 			</item>
 
-			<item name="TNTBook">
+			<!-- To Do Remove<item name="TNTBook">
 				<property name="CustomIcon" value="TNTBook" />
 				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-					<property name="Skills_to_gain" value="TNTBookPerk" />
-			    </property>
+			    <property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="thrownDynamite"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="thrownDynamite" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
 			</item> -->
-
-			<!-- To Do Remove -->
-			<!-- <item name="ApplePieRecipe">
+			
+			<!-- Class Only -->
+			<item name="ApplePieRecipe">
 			    <property name="CustomIcon" value="ApplePieRecipe" />
 				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-			    </property>
-			</item> -->
+			    <property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="ApplePie"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="ApplePie" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
+			</item>
 
 			<!-- Class Only -->
 			<item name="AppleJuiceRecipe">
@@ -2846,7 +2871,7 @@
 				</effect_group>
 			</item>
 
-			<!-- To Do Add/Remove? -->
+			<!-- To Do Remove -->
 			<!-- <item name="RoastedMeatPieRecipe">
 			    <property name="CustomIcon" value="RoastedMeatPieRecipe" />
 				<property name="Extends" value="schematicMaster" />
@@ -2855,44 +2880,28 @@
 			    </property>
 			</item> -->
 
-			<!-- To Do Add/Remove? -->
-			<!-- <item name="MossyBrewPieRecipe">
+			<item name="MossyBrewPieRecipe">
 			    <property name="CustomIcon" value="MossyBrewRecipe" />
 				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-					<property name="Skills_to_gain" value="Mossy Brew Recipe" />
-			    </property>
-			</item> -->
+			    <property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="MossyBrew"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MossyBrew" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
+			</item>
 
-			<!-- To Do Remove -->
-			<!-- <item name="ImmunizationShotRecipe">
-				<property name="CreativeMode" value="Dev"/>
-			    <property name="CustomIcon" value="bloodDrawKit" />
-			    <property name="CustomIconTint" value="d4a00e" />
-				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-			    </property>
-			</item> -->
-
-			<!-- To Do Remove -->
-			<!-- <item name="LegBoosterShotRecipe">
-				<property name="CreativeMode" value="Dev"/>
-			    <property name="CustomIcon" value="bloodDrawKit" />
-			    <property name="CustomIconTint" value="04CCAA" />
-				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-			    </property>
-			</item> -->
-
-			<!-- To Do Add/Remove? -->
-			<!-- <item name="MushroomStewRecipe">
+			<item name="MushroomStewRecipe">
 			    <property name="CustomIcon" value="MushroomStewRecipe" />
 				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-					<property name="Skills_to_gain" value="MushroomStewRecipePerk" />
-			    </property>
-			</item> -->
-
+			    <property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="MushroomStew"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MushroomStew" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
+			</item>
+			
 			<!-- To Do Remove -->
 			<!-- <item name="HouseDoorSchematic">
 				<property name="CreativeMode" value="Dev"/>
@@ -3165,6 +3174,7 @@
 				<property name="CustomIcon" value="TraumaFirstAidBandage" />
 				<property name="EconomicValue" value="200" />
 				<property name="DescriptionKey" value="TraumaFirstAidBandageDesc"/>
+				<property name="Group" value="Science"/>
 				<property name="Stacknumber" value="25"/>
 				<property name="CraftingSkillGroup" value="craftSkillScience"/>
 				<property name="CraftingIngredientExp" value="4"/>
@@ -4347,7 +4357,7 @@
 			<!-- To Do Crafting Skill Group For All Ammo -->
 			<item name="32mmBullet"> <!-- ammo32mmBullet -->
 				<property name="Tags" value="Ammo"/>
-				<property name="UnlockedBy" value="perkAmmo32mmBullet"/>
+				<property name="UnlockedBy" value="perkAmmo32mmBullet,32mmBulletSchematic"/>
 				<property name="CustomIcon" value="32mmBullet" />
 				<property name="Extends" value="ammo9mmBulletBall"/>
 				<effect_group name="Base Effects" tiered="false">
@@ -4365,12 +4375,15 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Remington8" operation="set" value="1"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 				</effect_group> </item>
-			<!-- <item name="32mmBulletSchematic">
+			<item name="32mmBulletSchematic">
 			    <property name="CustomIcon" value="32mmBulletSchematic" />
 				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-					<property name="Skills_to_gain" value="32mm Bullet Crafting" />
-			    </property> </item> -->
+			    <property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="32mmBullet"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="32mmBullet" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item>
 
 			<!-- To Do Pistol Gun Crafting Skill Group for all Pistols -->
 			<item name="DesertEagle"> <!-- gunDesertEagle -->
@@ -4486,7 +4499,7 @@
 				</effect_group> </item>
 			<item name="HollowPointBulletTip"> <!-- resourceHollowPointBulletTip -->
 				<property name="Tags" value="Ammo"/>
-				<property name="UnlockedBy" value="perkAmmoHollowPointAmmunition"/>
+				<property name="UnlockedBy" value="perkAmmoHollowPointAmmunition,HollowPointAmmunitionBook"/>
 			    <property name="CustomIcon" value="HollowPointBulletTip" />
 				<property name="HoldType" value="45" />
 			    <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
@@ -4499,13 +4512,15 @@
 				<!-- <property name="CraftingIngredientTime" value="0.75" />
 				<property name="CraftingIngredientExp" value="1.25" /> --> </item>
 
-			<!-- To Do Add/Remove? 
 			<item name="HollowPointAmmunitionBook">
 			    <property name="CustomIcon" value="HollowPointBulletTipSchematic" />
 				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-					<property name="Skills_to_gain" value="HollowPointAmmunitionBookPerk" />
-			    </property> </item> -->
+			    <property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="HollowPointBulletTip"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HollowPointBulletTip" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item>
 
 			<item name="FAMAS"> <!-- gunFAMAS -->
 			    <property name="CustomIcon" value="FAMAS" />
@@ -4613,7 +4628,7 @@
 			<item name="556mmNATOBullet"> <!-- ammo556mmNATOBullet -->
 			    <property name="CustomIcon" value="556mmNATOBullet" />
 				<property name="Extends" value="ammo9mmBulletBall"/>
-				<property name="UnlockedBy" value="perkAmmo556mmBullet"/>
+				<property name="UnlockedBy" value="perkAmmo556mmBullet,556mmNATOBulletSchematic"/>
 				<property name="Tags" value="Ammo"/>
 				<property name="EconomicValue" value="20"/>
 				<property name="Damage_type" value="Piercing"/>
@@ -4627,7 +4642,7 @@
 			<item name="556mmBullet">  <!-- ammo556mmBullet -->
 			    <property name="CustomIcon" value="556mmBullet" />
 				<property name="Extends" value="ammo9mmBulletBall"/>
-				<property name="UnlockedBy" value="perkAmmo556mmBullet"/>
+				<property name="UnlockedBy" value="perkAmmo556mmBullet,556mmBulletSchematic"/>
 				<property name="Tags" value="Ammo"/>
 				<property name="EconomicValue" value="15"/>
 				<effect_group name="556mmBullet" tiered="false">
@@ -4637,19 +4652,25 @@
 					<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
 				</effect_group> </item>
 
-			<!-- To Do Add/Remove?
 			<item name="556mmBulletSchematic">
 			    <property name="CustomIcon" value="556mmBulletSchematic" />
 				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-					<property name="Skills_to_gain" value="556mm Bullet Crafting" />
-			    </property> </item>
+			    <property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="556mmBullet"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="556mmBullet" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item>
+				
 			<item name="556mmNATOBulletSchematic">
 			    <property name="CustomIcon" value="556mmNATOBulletSchematic" />
 				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-					<property name="Skills_to_gain" value="556mmNATOBulletSchematicPerk" />
-			    </property> </item> -->
+			    <property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="556mmNATOBullet"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="556mmNATOBullet" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item>
 
 			<item name="M25SniperRifle"> <!-- gunM25SniperRifle -->
 			    <property name="CustomIcon" value="M25SniperRifle" />
@@ -4751,7 +4772,7 @@
 			<item name="762mmHollowPointBullet"> <!-- ammo762mmHollowPointBullet -->
 			    <property name="CustomIcon" value="762mmHollowPointBullet" />
 				<property name="Extends" value="ammo9mmBulletBall"/>
-				<property name="UnlockedBy" value="perkAmmo762mmHollowPointBullet"/>
+				<property name="UnlockedBy" value="perkAmmo762mmHollowPointBullet,762mmHollowPointBulletSchematic"/>
 				<property name="Tags" value="Ammo"/>
 				<property name="EconomicValue" value="27"/>
 				<effect_group name="762mmHollowPointBullet" tiered="false">
@@ -4761,13 +4782,15 @@
 					<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
 				</effect_group> </item>
 
-			<!-- To Do Add/Remove? 
 			<item name="762mmHollowPointBulletSchematic">
 			    <property name="CustomIcon" value="762mmHollowPointBulletSchematic" />
 				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-					<property name="Skills_to_gain" value="762mmHollowPointBulletSchematicPerk" />
-			    </property> </item> -->
+			     <property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="762mmHollowPointBullet"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="762mmHollowPointBullet" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item>
 
 			<item name="IncendiaryShotgunSlug"> <!-- ammoIncendiaryShotgunSlug -->
 				<property name="CustomIcon" value="IncendiaryShotgunSlug" />
@@ -4808,7 +4831,7 @@
 			<item name="9mmHollowPointBullet"> <!-- ammo9mmHollowPointBullet -->
 			    <property name="CustomIcon" value="9mmHollowPointBullet" />
 				<property name="Extends" value="ammo9mmBulletBall"/>
-				<property name="UnlockedBy" value="perkAmmo9mmHollowPointBullet"/>
+				<property name="UnlockedBy" value="perkAmmo9mmHollowPointBullet,9mmHollowPointBulletSchematic"/>
 				<property name="Tags" value="ammo"/>
 			    <property name="Stacknumber" value="300" />
 			    <property name="Group" value="Ammo/Weapons" />
@@ -4821,13 +4844,15 @@
 					<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
 				</effect_group> </item>
 
-			<!-- To Do Add/Remove? 
 			<item name="9mmHollowPointBulletSchematic">
 			    <property name="CustomIcon" value="9mmHollowPointBulletSchematic" />
 				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-					<property name="Skills_to_gain" value="9mmHollowPointBulletSchematicPerk" />
-			    </property> </item> -->
+			    <property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="9mmHollowPointBullet"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="9mmHollowPointBullet" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item>
 
 			<item name="BarettaShotgun"> <!-- gunBarettaShotgun -->
 				<property name="CustomIcon" value="BarettaShotgun" />
@@ -4922,7 +4947,7 @@
 					<display_value name="dStatStunEffect" value="4"/>
 				</effect_group> </item>
 
-			<!-- To Do Add/Remove? || Class Only -->
+			<!-- Class Only -->
 			<item name="BarettaShotgunSchematic">
 				<property name="CustomIcon" value="BarettaShotgunSchematic" />
 				<property name="Extends" value="schematicMaster" />
@@ -5333,7 +5358,7 @@
 			<item name="TungstenArrowHead">  <!-- resourceTungstenArrowHead -->
 				<property name="CustomIcon" value="TungstenArrowHead" />
 				<property name="Tags" value="ammo,ranged,perkArchery"/>
-				<property name="UnlockedBy" value="perkAmmoTungstenArrowHead"/>
+				<property name="UnlockedBy" value="perkAmmoTungstenArrowHead,TungstenArrowHeadSchematic"/>
 				<property name="HoldType" value="45"/>
 				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
@@ -5466,39 +5491,15 @@
 					<passive_effect name="ProjectileStickChance" operation="perc_set" value="0" tags="glass"/>
 				</effect_group> </item>
 
-			<!-- To Do Add/Remove?
 			<item name="TungstenArrowHeadSchematic">
 				<property name="CustomIcon" value="TungstenArrowHeadSchematic" />
 				<property name="Extends" value="schematicMaster" />
-				<property class="Action0">
-					<property name="Skills_to_gain" value="TungstenArrowHeadSchematicPerk" />
-				</property> </item>
-			<item name="ExplodingTungstenArrowSchematic">
-				<property name="CustomIcon" value="ExplodingTungstenArrowSchematic" />
-				<property name="Extends" value="schematicMaster" />
-				<property class="Action0">
-					<property name="Skills_to_gain" value="ExplodingTungstenArrowSchematicPerk" />
-				</property> </item>
-			<item name="FlamingTungstenCrossbowBoltSchematic">
-				<property name="CustomIcon" value="FlamingTungstenCrossbowBoltSchematic" />
-				<property name="Extends" value="schematicMaster" />
-				<property class="Action0">
-					<property name="Skills_to_gain" value="FlamingTungstenCrossbowBoltSchematicPerk" />
-				</property> </item> -->
-
-			<!-- To Do Add/Remove? || Class Only
-			<item name="LongbowSchematic">
-				<property name="CustomIcon" value="LongbowSchematic" />
-				<property name="Extends" value="schematicMaster" />
-				<property class="Action0">
-					<property name="Skills_to_gain" value="LongbowSchematicPerk" />
-				</property> </item> -->
-
-			<!-- ITEM IN BASE GAME -->
-			<!-- <item name="SteelCrossbowSchematic">
-				<property name="Extends" value="schematicMaster"/>
-				<property name="CustomIcon" value="SteelCrossbowSchematic" />
-				<property name="EconomicValue" value="500"/> </item> -->
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="TungstenArrowHead"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="TungstenArrowHead" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item>
 
 		<!-- Explosive Items -->
 			<!-- teddyBearGrenade, ***teddyBearGrenadeSchematic -->
@@ -5506,7 +5507,7 @@
 			<item name="teddyBearGrenade">  <!-- thrownTeddyBearGrenade -->
 				<property name="CustomIcon" value="teddyBearGrenade" />
 				<property name="Tags" value="csScience,weapon,perkExplosiveWeapons"/>
-				<property name="UnlockedBy" value="perkRecipeTeddyBearGrenade"/>
+				<property name="UnlockedBy" value="perkRecipeTeddyBearGrenade,teddyBearGrenadeSchematic"/>
 				<property name="DisplayType" value="ammoGrenade"/>
 				<property name="Class" value="ItemClassTimeBomb"/>
 				<property name="HoldType" value="25"/>
@@ -5541,14 +5542,17 @@
 				<effect_group tiered="false">
 					<display_value name="ExRadius" value="6" />
 				</effect_group> </item>
-			<!-- To Do Add/Remove? 
+
 			<item name="teddyBearGrenadeSchematic">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="teddyBearGrenadeSchematic"/>
 				<property name="EconomicValue" value="500"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="teddyBearGrenadeSchematicPerk"/>
-				</property> </item> -->
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="TeddyBearGrenade"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="TeddyBearGrenade" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item>
 
 		<!-- Melee Weapons -->
 			<!-- Steel Machete, TungstenMachete, ClubTungsten, GoldTippedMachete, steelHuntingKnfie, tungstenHuntingKnife, ***tungstenHuntingKnifeSchematic, steelHuntingKnifeSchematic***, GoldTippedKnife, ^^^^^spearWooden, spearSteel^^^^^, spearTungsten, ^^^^^sledgehammerSteel, sledgehammerSteelSchematic^^^^^, sledgehammerTungsten, sledgehammerTungstenSchematic, batBaseBallWooden, batBaseBallSteel, cleaver, knifeKitchen, knifeCombat, sword, axeBattle, hammerBattle, maceBattle, skullAxeBattle, swordBattle, pipeIron, crowbarSteel, crowbarTungsten, shivPrisoner, ***GoldTippedKnifeBook, GoldTippedMacheteSchematic, ClubTungstenSchematic, SteelMacheteSchematic, TungstenMacheteSchematic***  -->
@@ -8107,7 +8111,7 @@
 				<property name="RepairExpMultiplier" value="5.5"/> </item>
 			<item name="ScrapIronAxe">  <!-- meleeToolScrapIronAxe -->
 				<property name="Extends" value="meleeToolStoneAxe" />
-				<property name="CustomIcon" value="ScrapIronAxe" />
+				<property name="CustomIcon" value="ScrapIronAxe1" />
 				<property name="UnlockedBy" value="perkRecipeScrapIronTools"/>
 				<property name="Tags" value="csStoneScrapITools,knife,axe,melee,light,tool,attStrength,perkMiner69r,perkMotherLode,perkTheHuntsman,canHaveCosmetic"/>
 				<property name="DisplayType" value="melee"/>
@@ -8900,7 +8904,7 @@
 				<property name="SoundDestroy" value="wooddestroy1"/>
 				<property name="FuelValue" value="400"/>
 				<property name="EconomicValue" value="500"/>
-				<property name="UnlockedBy" value="perkRecipeSickleSteel"/>
+				<property name="UnlockedBy" value="perkRecipeSickleSteel,sickleSteelSchematic"/>
 				<property name="ShowQuality" value="true"/>
 				<property class="Action0">
 					<property name="Class" value="DynamicMelee"/>
@@ -8960,13 +8964,17 @@
 				</effect_group>
 				<property name="Group" value="Tools/Traps"/>
 				<property name="RepairExpMultiplier" value="5.5"/> </item>
-			<!-- To Do Add/Remove?
+
 			<item name="sickleSteelSchematic">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="sickleSteelSchematic"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="sickleSteelSchematicPerk"/>
-				</property> </item> -->
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="sickleSteel"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="sickleSteel" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item>
+			
 			<item name="stoneHammer">  <!-- meleeToolStoneHammer -->
 				<property name="Extends" value="meleeToolStoneAxe" />
 				<property name="CustomIcon" value="stoneHammer" />
@@ -9114,7 +9122,7 @@
 				<property name="SoundDestroy" value="wooddestroy1"/>
 				<property name="FuelValue" value="300"/>
 				<property name="EconomicValue" value="600"/>
-				<property name="UnlockedBy" value="perkRecipeHammerSteel"/>
+				<property name="UnlockedBy" value="perkRecipeHammerSteel,steelClawHammerSchematic"/>
 				<property name="ShowQuality" value="true"/>
 				<property class="Action0">
 					<property name="Class" value="DynamicMelee"/>
@@ -9164,13 +9172,17 @@
 				</effect_group>
 				<property name="Group" value="Tools/Traps"/>
 				<property name="RepairExpMultiplier" value="5.5"/> </item>
-			<!-- To Do Add/Remove? 
+
 			<item name="steelClawHammerSchematic">
 				<property name="Extends" value="schematicMaster"/>
 				<property name="CustomIcon" value="steelClawHammerSchematic"/>
-				<property class="Action0">
-					<property name="Skills_to_gain" value="steelClawHammerSchematicPerk"/>
-				</property> </item> -->
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="steelClawHammer"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="steelClawHammer" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item>
+				
 			<item name="scrapIronWrench">  <!-- meleeToolScrapIronWrench -->
 				<property name="CustomIcon" value="scrapIronWrench" />
 				<property name="Tags" value="csMechanic,blunt,melee,grunting,light,tool,attPerception,perkSalvageOperations,canHaveCosmetic"/>
@@ -9562,7 +9574,7 @@
 				<property name="Group" value="Tools/Traps"/>
 				<property name="RepairExpMultiplier" value="10.8"/>
 				<property name="EconomicValue" value="6000" />
-				<property name="UnlockedBy" value="perkTradesmanAugers"/>
+				<property name="UnlockedBy" value="perkTradesmanAugers,ECOAugerSchematic"/>
 				<property name="ShowQuality" value="true"/>
 				
 				<property class="Action0">
@@ -9641,7 +9653,7 @@
 				<property name="Group" value="Tools/Traps"/>
 				<property name="RepairExpMultiplier" value="10.8"/>
 				<property name="EconomicValue" value="12000" />
-				<property name="UnlockedBy" value="perkTradesmanAugers"/>
+				<property name="UnlockedBy" value="perkTradesmanAugers,HDAugerSchematic"/>
 				<property name="ShowQuality" value="true"/>
 				
 				<property class="Action0">
@@ -9719,7 +9731,7 @@
 				<property name="Group" value="Tools/Traps"/>
 				<property name="RepairExpMultiplier" value="10.8"/>
 				<property name="EconomicValue" value="6000" />
-				<property name="UnlockedBy" value="perkTradesmanChainsaws"/>
+				<property name="UnlockedBy" value="perkTradesmanChainsaws,ECOChainsawSchematic"/>
 				<property name="ShowQuality" value="true"/>
 				
 				<property class="Action0">
@@ -9802,7 +9814,7 @@
 				<property name="Group" value="Tools/Traps"/>
 				<property name="RepairExpMultiplier" value="10.8"/>
 				<property name="EconomicValue" value="12000" />
-				<property name="UnlockedBy" value="perkTradesmanChainsaws"/>
+				<property name="UnlockedBy" value="perkTradesmanChainsaws,HDChainsawSchematic"/>
 				<property name="ShowQuality" value="true"/>
 				
 				<property class="Action0">
@@ -9871,32 +9883,52 @@
 					<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1"/>
 					<passive_effect name="WeaponHandling" operation="base_set" value="5"/>
 				</effect_group> </item>
-			<!-- To Do Remove 
-			Tungsten Chainsaw
+			
+			<!-- Class Only -->
+			<!-- Tungsten Chainsaw -->
 			<item name="HDChainsawSchematic">
 				<property name="Extends" value="schematicMaster" />
 				<property name="CustomIcon" value="HDChainsawSchematic" />
-				<property class="Action0">
-				</property> </item>
-			Steel Chainsaw
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="HDChainsaw"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDChainsaw" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item>
+			<!-- Class Only -->
+			<!-- Steel Chainsaw -->
 			<item name="ECOChainsawSchematic">
 				<property name="Extends" value="schematicMaster" />
 				<property name="CustomIcon" value="ECOChainsawSchematic" />
-				<property class="Action0">
-				</property> </item> 
-			Tungsten Auger
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="ECOChainsaw"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="ECOChainsaw" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item> 
+			<!-- Class Only -->
+			<!-- Tungsten Auger -->
 			<item name="HDAugerSchematic">
 				<property name="Extends" value="schematicMaster" />
 				<property name="CustomIcon" value="HDAugerSchematic" />
-				<property class="Action0">
-				</property> </item>
-			Steel Auger
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="HDAuger"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDAuger" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item>
+			<!-- Class Only -->
+			<!-- Steel Auger -->
 			<item name="ECOAugerSchematic">
 				<property name="Extends" value="schematicMaster" />
 				<property name="CustomIcon" value="ECOAugerSchematic" />
-				<property class="Action0">
-				</property> </item> -->
-			<!-- To Do Add/Remove? || Class Only -->
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="ECOAuger"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="ECOAuger" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item>
+			<!-- Class Only -->
 			<item name="HDNailgunSchematic">
 				<property name="CustomIcon" value="HDNailgunSchematic" />
 				<property name="Extends" value="schematicNoQualityMaster" />
@@ -9914,6 +9946,7 @@
 				<property name="CustomIcon" value="apparelCoatPufferCoat" />
 				<property name="Tags" value="upperbody,chest,clothing,craftSkillFabricArmor"/>
 				<property name="DisplayType" value="clothing"/>
+				<property name="UnlockedBy" value="TailoringLightCoat"/>
 				<property name="Stacknumber" value="1"/>
 				<property name="Waterproof" value="0.4" />
 				<property name="Material" value="Mcloth" />
@@ -10113,39 +10146,47 @@
 				</property>
 				<property name="DescriptionKey" value="ballCapBGGDesc"/> </item>
 
-			<!-- To Do Add/Remove? 
 			<item name="TailoringPoncho">
 				<property name="CustomIcon" value="TailoringPoncho" />
 				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-					<property name="Skills_to_gain" value="TailoringPonchoPerk" />
-			    </property>
-			    <property name="Group" value="Books" />
+			    <property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="apparelCoatLeatherPoncho"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelCoatLeatherPoncho" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
 				<property name="EconomicValue" value="250" /> </item>
+				
 			<item name="TailoringLeatherDuster">
 				<property name="CustomIcon" value="TailoringLeatherDuster" />
 				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-					<property name="Skills_to_gain" value="TailoringLeatherDusterPerk" />
-			    </property>
-			    <property name="Group" value="Books" />
+			    <property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="apparelCoatLeatherDuster"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelCoatLeatherDuster" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
 				<property name="EconomicValue" value="250" /> </item>
 			<item name="TailoringPufferCoat">
 				<property name="CustomIcon" value="TailoringPufferCoat" />
 				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-					<property name="Skills_to_gain" value="TailoringPufferCoatPerk" />
-			    </property>
-			    <property name="Group" value="Books" />
+			    <property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="apparelCoatPufferCoat"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="apparelCoatPufferCoat" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
 				<property name="EconomicValue" value="250" /> </item>
 			<item name="TailoringLightCoat">
 				<property name="CustomIcon" value="TailoringLightCoat" />
 				<property name="Extends" value="schematicMaster" />
-			    <property class="Action0">
-					<property name="Skills_to_gain" value="TailoringLightCoatPerk" />
-			    </property>
-			    <property name="Group" value="Books" />
-				<property name="EconomicValue" value="250" /> </item> -->
+			    <property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="LightCoat"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="LightCoat" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group>
+				<property name="EconomicValue" value="250" /> </item>
 			<item name="armorKevlarMaster">
 				<property name="CreativeMode" value="None"/>
 				<property name="CustomIcon" value="KevlarBoots"/>
@@ -13366,8 +13407,8 @@
 	
 	
 	<append xpath="/items/item[@name='meleeToolShovelSteel']/property[@name='Tags']/@value">,csSteelTools</append>
-	<setattribute xpath="/items/item[@name='meleeToolFireaxeSteel']" name="UnlockedBy">axe,melee,grunting,medium,tool,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic,csSteelTools</setattribute>
-	<setattribute xpath="/items/item[@name='meleeToolPickaxeSteel']" name="UnlockedBy">melee,grunting,medium,tool,attStrength,perkMiner69r,perkMotherLode,miningTool,canHaveCosmetic,csSteelTools</setattribute>
+	<setattribute xpath="/items/item[@name='meleeToolFireaxeSteel']" name="Tags">axe,melee,grunting,medium,tool,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic,csSteelTools</setattribute>
+	<setattribute xpath="/items/item[@name='meleeToolPickaxeSteel']" name="Tags">melee,grunting,medium,tool,attStrength,perkMiner69r,perkMotherLode,miningTool,canHaveCosmetic,csSteelTools</setattribute>
 	<append xpath="/items/item[@name='meleeToolSledgehammerSteel']/property[@name='Tags']/@value">,csSteelTools</append>
 	
 	<append xpath="/items/item[@name='meleeToolWrench']/property[@name='Tags']/@value">,csMechanic</append>
@@ -13721,7 +13762,7 @@
 				<property name="SoundJammed" value="ItemNeedsRepair"/>
 				<property name="SoundDestroy" value="metaldestroy"/>
 				<property name="EconomicValue" value="350"/>
-				<property name="UnlockedBy" value="perkSalvageOperations,meleeToolWrenchSchematic"/>
+				<property name="UnlockedBy" value="meleeToolWrenchSchematic"/>
 				<property name="ShowQuality" value="true"/>
 				<property class="Action0">
 					<property name="Class" value="DynamicMelee"/>
@@ -13797,10 +13838,10 @@
 	<append xpath="/items/item[@name='gunM60']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun1</append>
 	<append xpath="/items/item[@name='gunRocketLauncher']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun2</append>
 	<append xpath="/items/item[@name='gunBowPrimitive']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun3</append>
-	<append xpath="/items/item[@name='gunBowWooden']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun3</append>
-	<append xpath="/items/item[@name='gunBowCompound']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun3</append>
-	<append xpath="/items/item[@name='gunCrossbowIron']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun3</append>
-	<append xpath="/items/item[@name='gunCrossbowCompound']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun3</append>
+	<append xpath="/items/item[@name='gunBowWooden']/property[@class='Action0']/property[@name='Magazine_items']/@value">,TungstenArrow,unloadgun3</append>
+	<append xpath="/items/item[@name='gunBowCompound']/property[@class='Action0']/property[@name='Magazine_items']/@value">,TungstenArrow,unloadgun3</append>
+	<append xpath="/items/item[@name='gunCrossbowIron']/property[@class='Action0']/property[@name='Magazine_items']/@value">,TungstenCrossbowBolt,unloadgun3</append>
+	<append xpath="/items/item[@name='gunCrossbowCompound']/property[@class='Action0']/property[@name='Magazine_items']/@value">,TungstenCrossbowBolt,unloadgun3</append>
 	<append xpath="/items/item[@name='gunJunkTurret']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun1</append>
 	<setattribute xpath="/items/item[@name='apparelNightvisionGoggles']" name="UnlockedBy">nightvisionGogglesSchematic</setattribute>
 	<append xpath="/items/item[@name='foodBlueberryPie']/property[@name='UnlockedBy']/@value">,pieRecipePartII</append>
@@ -13808,5 +13849,14 @@
 	<setattribute xpath="/items/item[@name='meleeToolFireaxeSteel']" name="CustomIcon">fireaxeSteel</setattribute>
 	<remove xpath="/items/item[@name='meleeToolFireaxeSteel']/property[@name='CustomIconTint']" />
 	<append xpath="/items/item[@name='meleeToolKnifeBone']/property[@name='Group']/@value">,Basics</append>
-	
+	<append xpath="/items/item[@name='meleeToolShovelStone']/property[@name='Group']/@value">,Basics</append>
+	<setattribute xpath="/items/item[@name='armorScrapHelmet']" name="UnlockedBy">perkRecipeArmorScrapIron</setattribute>
+	<setattribute xpath="/items/item[@name='armorScrapChest']" name="UnlockedBy">perkRecipeArmorScrapIron</setattribute>
+	<setattribute xpath="/items/item[@name='armorScrapGloves']" name="UnlockedBy">perkRecipeArmorScrapIron</setattribute>
+	<setattribute xpath="/items/item[@name='armorScrapLegs']" name="UnlockedBy">perkRecipeArmorScrapIron</setattribute>
+	<setattribute xpath="/items/item[@name='armorScrapBoots']" name="UnlockedBy">perkRecipeArmorScrapIron</setattribute>
+	<setattribute xpath="/items/item[@name='apparelCoatLeatherPoncho']" name="UnlockedBy">TailoringPoncho</setattribute>
+	<append xpath="/items/item[@name='apparelCoatLeatherDuster']/property[@name='UnlockedBy']/@value">,TailoringLeatherDuster</append>
+	<append xpath="/items/item[@name='apparelCoatPufferCoat']/property[@name='UnlockedBy']/@value">,TailoringPufferCoat</append>
+
 </config>

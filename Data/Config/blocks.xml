@@ -34979,7 +34979,7 @@ NOT the TextureNumber.
 
 <block name="FireTrap">
 	<property name="CustomIcon" value="FireTrap" />
-	<property name="UnlockedBy" value="perkRecipeFireTrap"/>
+	<property name="UnlockedBy" value="perkRecipeFireTrap,FireTrapSchematic"/>
     <property name="Class" value="Damage" />
     <property name="Damage" value="1" />
 	<property name="Damage_received" value="75" /> 
@@ -35158,6 +35158,7 @@ NOT the TextureNumber.
 
 <block name="RabbitTrap(Unbaited)">
 	<property name="CustomIcon" value="RabbitTrap" />
+	<property name="UnlockedBy" value="SettingTheTrap"/>
     <property name="Material" value="Mmetal" />
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
@@ -35177,6 +35178,7 @@ NOT the TextureNumber.
 <block name="RabbitTrap(Baited)">
 	<property name="Extends" value="cropsGrowingMaster" />
 	<property name="CustomIcon" value="RabbitTrap" />
+	<property name="UnlockedBy" value="SettingTheTrap"/>
     <property name="Material" value="Mwood" />
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />

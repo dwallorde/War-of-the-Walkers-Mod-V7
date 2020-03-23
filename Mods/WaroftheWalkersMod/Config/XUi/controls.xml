@@ -131,4 +131,21 @@
 	</SMX_item_stack_85>
 </append>
 
+<remove xpath="/controls/quest_entry[@name='quest_entry']" />
+
+<append xpath="/controls">
+	<quest_entry>
+		<rect width="450" height="43" controller="QuestEntry" style="press, hover, scroll" enabled_color="[iconColor]" disabled_color="[disabledLabelColor]" row_color="[darkGrey]" hover_color="[mediumGrey]" sound="[recipe_click]" 
+				failed_color="255,0,0,255" complete_color="[disabledLabelColor]" finished_color="0,255,0,255" shared_color="[iconColor]"
+				failed_icon="ui_game_symbol_x" complete_icon="ui_game_symbol_check" finished_icon="ui_game_symbol_check" shared_icon="ui_game_symbol_players" sound_play_on_hover="[default_hover]">
+			<sprite depth="3" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="450" height="49" color="[black]" type="sliced" fillcenter="false" />
+			<sprite depth="1" name="background" pos="-1,1" height="45" width="446" color="{rowstatecolor}" sprite="{rowstatesprite}" type="sliced" />
+			<sprite depth="5" name="Icon" style="icon32px" atlas="ItemIconAtlas" pos="8,-3" foregroundlayer="true" sprite="{questicon}" color="{iconcolor}" />
+			<sprite depth="4" name="Tracking" sprite="ui_game_symbol_compass" style="icon32px" pos="52,-4" foregroundlayer="true" visible="{istracking}"/>
+			<label depth="4" name="Name" pos="102,-8" width="230" height="30" text="{questname}" color="{textstatecolor}" />
+			<label depth="4" name="Distance" pos="340,-8" width="100" height="30" text="{distance}" justify="right" />
+		</rect>
+	</quest_entry>
+</append>
+
 </configs>

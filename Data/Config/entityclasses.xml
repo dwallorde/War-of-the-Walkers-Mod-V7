@@ -5728,7 +5728,7 @@
 	<property name="Tags" value="vehicle"/>
 	<property name="Class" value="EntityMinibike"/>
 	<property name="Parent" value="Cars"/>
-	<property name="Prefab" value="/Entities/Vehicles/minibike_Prefab"/>
+	<property name="Prefab" value="#Entities/Vehicles?minibike_Prefab.prefab"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="SurfaceCategory" value="metal"/>
 	<property name="IgnoreTrigger" value="true"/>
@@ -5749,7 +5749,7 @@
 	<property name="Tags" value="vehicle"/>
 	<property name="Class" value="EntityMinibike"/>
 	<property name="Parent" value="Cars"/>
-	<property name="Prefab" value="/Entities/Vehicles/minibike_Prefab"/>
+	<property name="Prefab" value="#Entities/Vehicles?minibike_Prefab.prefab"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="SurfaceCategory" value="metal"/>
 	<property name="IgnoreTrigger" value="true"/>
@@ -5788,7 +5788,7 @@
 	<property name="Tags" value="vehicle"/>
 	<property name="Class" value="EntityMotorcycle"/>
 	<property name="Parent" value="Cars"/>
-	<property name="Prefab" value="/Entities/Vehicles/motorcycle_Prefab"/>
+	<property name="Prefab" value="#Entities/Vehicles?motorcycle_Prefab.prefab"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="SurfaceCategory" value="metal"/>
 	<property name="IgnoreTrigger" value="true"/>
@@ -5808,7 +5808,7 @@
 	<property name="Tags" value="vehicle"/>
 	<property name="Class" value="EntityMotorcycle"/>
 	<property name="Parent" value="Cars"/>
-	<property name="Prefab" value="/Entities/Vehicles/motorcycle_Prefab"/>
+	<property name="Prefab" value="#Entities/Vehicles?motorcycle_Prefab.prefab"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="SurfaceCategory" value="metal"/>
 	<property name="IgnoreTrigger" value="true"/>
@@ -5848,7 +5848,7 @@
 	<property name="Tags" value="vehicle"/>
 	<property name="Class" value="EntityVJeep"/>
 	<property name="Parent" value="Cars"/>
-	<property name="Prefab" value="/Entities/Vehicles/jeep_Prefab"/>
+	<property name="Prefab" value="#Entities/Vehicles?jeep_Prefab.prefab"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="SurfaceCategory" value="metal"/>
 	<property name="IgnoreTrigger" value="true"/>
@@ -5869,7 +5869,7 @@
 	<property name="Tags" value="vehicle"/>
 	<property name="Class" value="EntityVJeep"/>
 	<property name="Parent" value="Cars"/>
-	<property name="Prefab" value="/Entities/Vehicles/jeep_Prefab"/>
+	<property name="Prefab" value="#Entities/Vehicles?jeep_Prefab.prefab"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="SurfaceCategory" value="metal"/>
 	<property name="IgnoreTrigger" value="true"/>

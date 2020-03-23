@@ -234,7 +234,7 @@
 	</attribute>
 	
 	<!-- WOTW Tab #6 Recipe Perks -->
-	<attribute name="attRecipePerks2" min_level="0" max_level="0" base_skill_point_cost="0" name_key="attRecipePerksName" desc_key="attRecipePerksDesc" icon="ui_game_symbol_RecipePerks">
+	<attribute name="attRecipePerks2" min_level="0" max_level="0" base_skill_point_cost="0" name_key="attRecipePerks2Name" desc_key="attRecipePerksDesc" icon="ui_game_symbol_RecipePerks">
 		<!-- <level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements> -->
 		<effect_group/>
 	</attribute>
@@ -333,7 +333,7 @@
 	<!-- WOTW Tab #1 Crafting Skills -->
 	<perk name="skillGunsAmmoCrafting" parent="attCraftingSkills" name_key="skillGunsAmmoCraftingName" desc_key="skillGunsAmmoCraftingDesc" icon="ui_game_symbol_gunsmithing" min_level="0" max_level="0" base_skill_point_cost="0" cost_multiplier_per_level="1.14"></perk>
 	<perk name="skillAmmoCrafting" parent="attCraftingSkills" name_key="skillAmmoCraftingName" desc_key="skillAmmoCraftingDesc" icon="ui_game_symbol_ammo_crafting" min_level="0" max_level="0" base_skill_point_cost="0" cost_multiplier_per_level="1.14"></perk>
-	<perk name="skillMeleeWeaponCrafting" parent="attCraftingSkills" name_key="skillMeleeWeaponCraftingName" desc_key="skillMeleeWeaponCraftingDesc" icon="ui_game_symbol_bat" min_level="0" max_level="0" base_skill_point_cost="0" cost_multiplier_per_level="1.14"></perk>
+	<perk name="skillMeleeWeaponCrafting" parent="attCraftingSkills" name_key="skillMeleeWeaponCraftingName" desc_key="skillMeleeWeaponCraftingDesc" icon="ui_game_symbol_classFighter" min_level="0" max_level="0" base_skill_point_cost="0" cost_multiplier_per_level="1.14"></perk>
 	<perk name="skillArmorCrafting" parent="attCraftingSkills" name_key="skillArmorCraftingName" desc_key="skillArmorCraftingDesc" icon="ui_game_symbol_armor_iron" min_level="0" max_level="0" base_skill_point_cost="0" cost_multiplier_per_level="1.14"></perk>
 	<perk name="skillToolCrafting" parent="attCraftingSkills" name_key="skillToolCraftingName" desc_key="skillToolCraftingDesc" icon="ui_game_symbol_tool_smithing" min_level="0" max_level="0" base_skill_point_cost="0" cost_multiplier_per_level="1.14"></perk>
 	
@@ -411,9 +411,9 @@
 	<perk name="skillRecipeBuilding" parent="attRecipePerks" name_key="skillRecipeBuildingName" desc_key="skillRecipeBuildingDesc" icon="ui_game_symbol_buildersforgecrafting" min_level="0" max_level="0" base_skill_point_cost="0" cost_multiplier_per_level="1.14"></perk>
 	<perk name="skillRecipeWeapons" parent="attRecipePerks" name_key="skillRecipeWeaponsName" desc_key="skillRecipeWeaponsDesc" icon="ui_game_symbol_weapon_smithing" min_level="0" max_level="0" base_skill_point_cost="0" cost_multiplier_per_level="1.14"></perk>
 	<perk name="skillRecipeArmor" parent="attRecipePerks" name_key="skillRecipeArmorName" desc_key="skillRecipeArmorDesc" icon="ui_game_symbol_armor_iron" min_level="0" max_level="0" base_skill_point_cost="0" cost_multiplier_per_level="1.14"></perk>
-	<perk name="skillRecipeFoodMedicine" parent="attRecipePerks2" name_key="skillRecipeFoodMedicineName" desc_key="skillRecipeFoodMedicineDesc" icon="ui_game_symbol_hunger" min_level="0" max_level="0" base_skill_point_cost="0" cost_multiplier_per_level="1.14"></perk>
 	<perk name="skillRecipeAmmo" parent="attRecipePerks2" name_key="skillRecipeAmmoName" desc_key="skillRecipeAmmoDesc" icon="ui_game_symbol_ammo_crafting" min_level="0" max_level="0" base_skill_point_cost="0" cost_multiplier_per_level="1.14"></perk>
-
+	<perk name="skillRecipeFoodMedicine" parent="attRecipePerks2" name_key="skillRecipeFoodMedicineName" desc_key="skillRecipeFoodMedicineDesc" icon="ui_game_symbol_hunger" min_level="0" max_level="0" base_skill_point_cost="0" cost_multiplier_per_level="1.14"></perk>
+	
 
 <!-- Perception Combat Perks -->
 
@@ -429,7 +429,7 @@
 		<requirement name="ProgressionLevel" progression_name="perkMarksmanClassMaster" operation="GTE" value="1" desc_key="reqMarksmanClass"/></level_requirements>
 		
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkDeadEye"/>
+			<!-- <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkDeadEye"/> -->
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunHuntingRifle"/>
 
 			<!--
@@ -474,7 +474,7 @@
 		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="10" desc_key="reqPerceptionLevel10"/></level_requirements>
 
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkDemolitionsExpert"/>
+			<!-- <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkDemolitionsExpert"/> -->
 
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="thrownAmmoPipeBomb"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1" tags="thrownDynamite"/>
@@ -525,7 +525,7 @@
 				<passive_effect name="ProjectileVelocity" operation="perc_add" level="1,5" value="0.1,.5"/>
 		</effect_group>
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkJavelinMaster"/>
+			<!-- <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkJavelinMaster"/> -->
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeThrownSpearIron"/>
 
 			<effect_description level="1" desc_key="perkJavelinMasterRank1Desc" long_desc_key="perkJavelinMasterRank1LongDesc"/>
@@ -659,8 +659,8 @@
 		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="7" desc_key="reqPerceptionLevel07"/></level_requirements>
 
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkSalvageOperations"/>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeToolWrench"/>
+			<!-- <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkSalvageOperations"/> -->
+			<!-- <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeToolWrench"/> -->
 			<passive_effect name="CraftingTime" operation="perc_add" level="1,5" value="-0.1,-.5" tags="salvageScrap"/>
 		</effect_group>
 		<effect_group>
@@ -687,7 +687,7 @@
 		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="10" desc_key="reqStrengthLevel10"/></level_requirements>
 
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkBoomstick"/>
+			<!-- <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkBoomstick"/> -->
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunDoubleBarrelShotgun"/>
 		</effect_group>
 		<effect_group>
@@ -732,7 +732,7 @@
 		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="10" desc_key="reqStrengthLevel10"/></level_requirements>
 
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkPummelPete"/>
+			<!-- <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkPummelPete"/> -->
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeClubIron"/>
 		</effect_group>
 
@@ -805,7 +805,7 @@
 		<requirement name="ProgressionLevel" progression_name="perkFighterClassMaster" operation="GTE" value="1" desc_key="reqFighterClass"/></level_requirements>
 		
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkSkullCrusher"/>
+			<!-- <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkSkullCrusher"/> -->
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeToolSledgehammerIron"/>
 		</effect_group>
 
@@ -947,7 +947,7 @@
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1"
 				tags="foodBaconAndEggs,sausageAndEggs,foodBoiledMeat,foodGrilledMeat,foodBakedPotato,foodCornBread,foodCornOnTheCob,drinkJarRedTea,drinkJarCoffee,drinkJarGoldenRodTea"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1"
-				tags="foodSteakAndPotato,foodBlueberryPie,foodMeatStew,foodVegetableStew,foodPumpkinPie,foodPumpkinCheesecake,foodPumpkinBread"/>
+				tags="foodSteakAndPotato,foodBlueberryPie,redMeatStew,foodVegetableStew,foodPumpkinPie,foodPumpkinCheesecake,foodPumpkinBread"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1"
 				tags="foodShamChowder,foodHoboStew,foodFishTacos"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1"
@@ -972,8 +972,8 @@
 		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="7" desc_key="reqStrengthLevel07"/></level_requirements>
 
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkMiner69r"/>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeToolClawHammer,meleeToolFireaxeIron,meleeToolPickaxeIron,meleeToolShovelIron"/>
+			<!-- <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkMiner69r"/> -->
+			<!-- <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeToolClawHammer,meleeToolFireaxeIron,meleeToolPickaxeIron,meleeToolShovelIron"/> -->
 		</effect_group>
 
 		<effect_group>
@@ -1082,7 +1082,7 @@
 		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10"/></level_requirements>
 
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkMachineGunner"/>
+			<!-- <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkMachineGunner"/> -->
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunAK47"/>
 		</effect_group>
 		<effect_group>
@@ -1128,7 +1128,7 @@
 		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10"/></level_requirements>
 
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkHeavyArmor"/>
+			<!-- <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkHeavyArmor"/> -->
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="armorIronHelmet,armorIronChest,armorIronGloves,armorIronLegs,armorIronBoots"/>
 
 			<!-- Stamina/mobility are handled in buffStatusCheck02 -->
@@ -1305,7 +1305,7 @@
 		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="10" desc_key="reqAgilityLevel10"/></level_requirements>
 
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkArchery"/>
+			<!-- <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkArchery"/> -->
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunBowWooden,gunCrossbowIron"/>
 		</effect_group>
 
@@ -1343,7 +1343,7 @@
 		<requirement name="ProgressionLevel" progression_name="perkMarksmanClassMaster" operation="GTE" value="1" desc_key="reqMarksmanClass"/></level_requirements>
 		
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkGunslinger"/>
+			<!-- <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkGunslinger"/> -->
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunPistol"/>
 		</effect_group>
 
@@ -1390,7 +1390,7 @@
 		<requirement name="ProgressionLevel" progression_name="perkFighterClassMaster" operation="GTE" value="1" desc_key="reqFighterClass"/></level_requirements>
 		
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkDeepCuts"/>
+			<!-- <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkDeepCuts"/> -->
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeToolKnifeIron"/>
 
 			<effect_description level="1" desc_key="perkDeepCutsRank1Desc" long_desc_key="perkDeepCutsRank1LongDesc"/>
@@ -1587,7 +1587,7 @@
 		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="7" desc_key="reqAgilityLevel07"/></level_requirements>
 		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="10" desc_key="reqAgilityLevel10"/></level_requirements>
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkLightArmor"/>
+			<!-- <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkLightArmor"/> -->
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="armorLeatherHood,armorLeatherChest,armorLeatherGloves,armorLeatherPants,armorLeatherBoots"/>
 
 			<!-- Stamina/mobility are handled in buffStatusCheck02 -->
@@ -5274,8 +5274,6 @@
 		</effect_group>
 	</perk>
 	
-	<!-- Ammo Recipes Start -->
-	
 	<perk name="recipeBlank1" parent="attRecipePerks2" name_key="recipeBlank1Name" desc_key="recipeBlank1Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
 		<effect_group>
 		</effect_group>
@@ -5288,6 +5286,8 @@
 		<effect_group>
 		</effect_group>
 	</perk>
+	
+	<!-- Ammo Recipes Start -->
 	
 	<perk name="perkAmmo32mmBullet" parent="skillRecipeAmmo" max_level="1" name_key="perkAmmo32mmBulletName" desc_key="perkAmmo32mmBulletDesc" icon="ui_game_symbol_32mmbullet">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="ammoCrafting" operation="GTE" value="2" desc_key="reqAmmo2"/></level_requirements>

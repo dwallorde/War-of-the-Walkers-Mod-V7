@@ -771,7 +771,8 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="armorScrapBoots" count="1" tags="perkHeavyArmor">
+<!-- WOTW Modded -->
+<recipe name="armorScrapBoots" count="1" tags="learnable,perkHeavyArmor">
 	<ingredient name="resourceScrapIron" count="50"/>
 	<ingredient name="resourceLeather" count="2"/>
 	<ingredient name="resourceDuctTape" count="1"/>
@@ -780,7 +781,8 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="armorScrapChest" count="1" tags="perkHeavyArmor">
+<!-- WOTW Modded -->
+<recipe name="armorScrapChest" count="1" tags="learnable,perkHeavyArmor">
 	<ingredient name="resourceScrapIron" count="50"/>
 	<ingredient name="resourceLeather" count="2"/>
 	<ingredient name="resourceDuctTape" count="1"/>
@@ -789,7 +791,8 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="armorScrapGloves" count="1" tags="perkHeavyArmor">
+<!-- WOTW Modded -->
+<recipe name="armorScrapGloves" count="1" tags="learnable,perkHeavyArmor">
 	<ingredient name="resourceScrapIron" count="50"/>
 	<ingredient name="resourceLeather" count="2"/>
 	<ingredient name="resourceDuctTape" count="1"/>
@@ -798,7 +801,8 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="armorScrapHelmet" count="1" tags="perkHeavyArmor">
+<!-- WOTW Modded -->
+<recipe name="armorScrapHelmet" count="1" tags="learnable,perkHeavyArmor">
 	<ingredient name="resourceScrapIron" count="50"/>
 	<ingredient name="resourceLeather" count="2"/>
 	<ingredient name="resourceDuctTape" count="1"/>
@@ -807,7 +811,8 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="armorScrapLegs" count="1" tags="perkHeavyArmor">
+<!-- WOTW Modded -->
+<recipe name="armorScrapLegs" count="1" tags="learnable,perkHeavyArmor">
 	<ingredient name="resourceScrapIron" count="50"/>
 	<ingredient name="resourceLeather" count="2"/>
 	<ingredient name="resourceDuctTape" count="1"/>
@@ -888,7 +893,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="Twine" count="1"/>
 </recipe>
 
-<recipe name="LightCoat" count="1">
+<recipe name="LightCoat" count="1" tags="learnable">
 	<ingredient name="resourceLeather" count="20"/>
 	<ingredient name="Twine" count="1"/>
 </recipe>
@@ -1250,9 +1255,9 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceForgedIron" count="3"/>
 </recipe>
 
-<recipe name="cntSecureStorageChest" count="1">
+<!-- To be Removed <recipe name="cntSecureStorageChest" count="1">
 	<ingredient name="resourceWood" count="10"/>
-</recipe>
+</recipe> -->
 
 <recipe name="woodFurnitureBlockVariantHelper" count="1" craft_area="fabricationStation">
 	<ingredient name="resourceNail" count="10"/>
@@ -2782,12 +2787,14 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceWood" count="6"/>
 </recipe>
 
-<recipe name="gunBowPrimitive" count="1" tags="perkArchery">
+<!-- WOTW Modded -->
+<recipe name="gunBowPrimitive" count="1" tags="perkArchery,craftSkillBowWeapons">
 	<ingredient name="resourceWood" count="8"/>
 	<ingredient name="resourceYuccaFibers" count="3"/>
 </recipe>
 
-<recipe name="gunBowWooden" count="1" tags="learnable,perkArchery">
+<!-- WOTW Modded -->
+<recipe name="gunBowWooden" count="1" tags="learnable,perkArchery,craftSkillBowWeapons">
 	<ingredient name="gunBowWoodenParts" count="4"/>
 	<ingredient name="resourceWood" count="20"/>
 	<ingredient name="resourceLeather" count="3"/>
@@ -2798,7 +2805,8 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="gunBowCompound" count="1" craft_area="workbench" tags="learnable,perkArchery">
+<!-- WOTW Modded -->
+<recipe name="gunBowCompound" count="1" craft_area="workbench" tags="learnable,perkArchery,craftSkillBowWeapons">
 	<ingredient name="gunBowWoodenParts" count="5"/>
 	<ingredient name="resourceScrapPolymers" count="25"/>
 	<ingredient name="resourceLeather" count="5"/>
@@ -2809,7 +2817,8 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="gunCrossbowIron" count="1" craft_area="workbench" tags="learnable,perkArchery">
+<!-- WOTW Modded -->
+<recipe name="gunCrossbowIron" count="1" craft_area="workbench" tags="learnable,perkArchery,craftSkillBowWeapons">
 	<ingredient name="gunBowWoodenParts" count="4"/>
 	<ingredient name="resourceForgedIron" count="15"/>
 	<ingredient name="resourceDuctTape" count="3"/>
@@ -2820,7 +2829,8 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="gunCrossbowCompound" count="1" craft_area="workbench" tags="learnable,perkArchery">
+<!-- WOTW Modded -->
+<recipe name="gunCrossbowCompound" count="1" craft_area="workbench" tags="learnable,perkArchery,craftSkillBowWeapons">
 	<ingredient name="gunBowWoodenParts" count="5"/>
 	<ingredient name="resourceForgedSteel" count="15"/>
 	<ingredient name="resourceDuctTape" count="3"/>
@@ -3028,7 +3038,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceWood" count="3"/>
 </recipe>
 
-<recipe name="apparelCoatLeatherPoncho" count="1" >
+<recipe name="apparelCoatLeatherPoncho" count="1" tags="learnable">
 	<ingredient name="resourceLeather" count="20"/>
 </recipe>
 
@@ -3139,7 +3149,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceDuctTape" count="4"/>
 </recipe>
 
-<recipe name="spearTungsten" count="1" craft_area="ToolWorkbench" tags="learnable">
+<recipe name="spearTungsten" count="1" craft_area="ToolWorkbench" tags="learnable,perkJavelinMaster">
 	<ingredient name="ForgedTungsten" count="50"/>
 	<ingredient name="Kevlar" count="5"/>
 </recipe>
@@ -3269,7 +3279,8 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	</effect_group>
 </recipe>
 
-<recipe name="meleeThrownSpearStone" count="1" tags="perkJavelinMaster">
+<!-- WOTW Modded -->
+<recipe name="meleeThrownSpearStone" count="1" tags="learnable,perkJavelinMaster">
 	<ingredient name="resourceRockSmall" count="5"/>
 	<ingredient name="resourceYuccaFibers" count="3"/>
 	<ingredient name="resourceWood" count="3"/>
@@ -4845,12 +4856,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="CopperFragment" count="4"/>
 </recipe>
 
-
-
-<recipe name="scrapHatch_v1" count="1" >
-	<ingredient name="resourceScrapIron" count="40"/>
-</recipe>
-
 <recipe name="scrapIronFrameBlockVariantHelper" count="1" craft_area="buildersWorkbench" craft_tool="rivetGun" tags="learnable,perkAdvancedEngineering">
 	<ingredient name="resourceScrapIron" count="15"/>
 	<effect_group>
@@ -5272,13 +5277,12 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="ammoGasCan" count="10"/>
 </recipe>
 
-<!-- To Do Recipe Perk -->
-<recipe name="RabbitTrap(Baited)" count="1">
+<recipe name="RabbitTrap(Baited)" count="1" tags="learnable">
 	<ingredient name="RabbitTrap(Unbaited)" count="1"/>
 	<ingredient name="foodCropCorn" count="2"/>
 </recipe>
 
-<recipe name="RabbitTrap(Unbaited)" count="1">
+<recipe name="RabbitTrap(Unbaited)" count="1" tags="learnable">
 	<ingredient name="resourceWood" count="50"/>
 	<ingredient name="resourceYuccaFibers" count="20"/>
 	<ingredient name="resourceGlue" count="2"/>
@@ -5343,12 +5347,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 </recipe>
 
 <recipe name="vaultDoor01" count="1" craft_area="workbench" tags="workbenchCrafting">
-	<ingredient name="resourceForgedSteel" count="12"/>
-	<ingredient name="resourceSpring" count="2"/>
-	<ingredient name="resourceMechanicalParts" count="4"/>
-</recipe>
-
-<recipe name="vaultHatch_v1" count="1" craft_area="workbench" tags="workbenchCrafting">
 	<ingredient name="resourceForgedSteel" count="12"/>
 	<ingredient name="resourceSpring" count="2"/>
 	<ingredient name="resourceMechanicalParts" count="4"/>
@@ -5806,10 +5804,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceWood" count="2"/>
 </recipe>
 
-<recipe name="woodHatch1_v1" count="1">
-	<ingredient name="resourceWood" count="6"/>
-</recipe>
-
 <recipe name="woodLogPillar100" count="1">
 	<ingredient name="resourceWood" count="10"/>
 </recipe>
@@ -5859,11 +5853,12 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceWood" count="6"/>
 </recipe>
 
+<!-- WOTW Modded -->
 <recipe name="workbench" count="1" tags="learnable,workbenchCrafting">
 	<ingredient name="resourceForgedIron" count="25"/>
 	<ingredient name="resourceMechanicalParts" count="20"/>
-	<ingredient name="meleeToolWrench" count="1"/>
-	<ingredient name="meleeToolClawHammer" count="1"/>
+	<ingredient name="scrapIronWrench" count="1"/>
+	<ingredient name="scrapIronHammer" count="1"/>
 	<ingredient name="resourceWood" count="50"/>
 </recipe>
 

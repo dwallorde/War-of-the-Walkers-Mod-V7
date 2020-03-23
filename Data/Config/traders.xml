@@ -721,8 +721,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="foodBoiledMeatSchematic"/>
 			<item name="foodCornBreadSchematic"/>
 			<item name="foodCornOnTheCobSchematic"/>
-			<item name="foodGrilledMeatSchematic"/>
-			<item name="foodMeatStewSchematic"/>
 			<item name="foodSteakAndPotatoSchematic"/>
 			<item name="foodVegetableStewSchematic"/>
 			<item name="foodShamChowderSchematic"/>
@@ -750,6 +748,11 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="plantedPotato1Schematic"/>
 			<item name="plantedYucca1Schematic"/>
 			<item name="plantedPumpkin1Schematic"/>
+			<item name="BreadRecipe"/>
+			<item name="FishingBook"/>
+			<item name="FishStewRecipe"/>
+			<item name="MossyBrewPieRecipe"/>
+			<item name="MushroomStewRecipe"/>
 		</trader_item_group>
 
 
@@ -807,6 +810,11 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="meleeToolSledgehammerIronSchematic"/>
 			<item name="ammoGasCanSchematic"/>
 			<item name="resourceOilSchematic"/>
+			<item name="SettingTheTrap"/>
+			<item name="TailoringPoncho"/>
+			<item name="TailoringLeatherDuster"/>
+			<item name="TailoringPufferCoat"/>
+			<item name="TailoringLightCoat"/>
 			<!--<item name="meleeToolHoeIronSchematic"/>-->
 		</trader_item_group>
 
@@ -825,6 +833,7 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="meleeStunBatonSchematic"/>
 			<item name="meleeThrownSpearIronSchematic"/>
 			<item name="meleeKnucklesIronSchematic"/>
+			<item name="556mmBulletSchematic"/>
 		</trader_item_group>
 
 		<trader_item_group name="schematicsVehiclesCommon">
@@ -915,6 +924,16 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="vehicleGyroCopterChassisSchematic"/>
 			<item name="vehicleGyroCopterAccessoriesSchematic"/>
 			<item name="resourceMilitaryFiberSchematic"/>
+			<item name="FireTrapSchematic"/>
+			<item name="32mmBulletSchematic"/>
+			<item name="HollowPointAmmunitionBook"/>
+			<item name="556mmNATOBulletSchematic"/>
+			<item name="762mmHollowPointBulletSchematic"/>
+			<item name="9mmHollowPointBulletSchematic"/>
+			<item name="TungstenArrowHeadSchematic"/>
+			<item name="teddyBearGrenadeSchematic"/>
+			<item name="sickleSteelSchematic"/>
+			<item name="steelClawHammerSchematic"/>
 		</trader_item_group>
 
 		<trader_item_group name="books" count="1">
@@ -1925,6 +1944,10 @@ workstations
 			<item name="meleeToolSledgehammerIronSchematic" count="1" prob="0.15"/>
 			<item name="meleeToolSledgehammerSteelSchematic" count="1" prob="0.1"/>
 			<item name="sledgehammerTungstenSchematic" count="1" prob="0.05"/>
+			<item name="ECOChainsawSchematic" count="1" prob="0.1"/>
+			<item name="HDChainsawSchematic" count="1" prob="0.05"/>
+			<item name="ECOAugerSchematic" count="1" prob="0.1"/>
+			<item name="HDAugerSchematic" count="1" prob="0.05"/>
 			<!-- <item name="MagazineIronToolSmithing" count="1" prob="0.2"/>
 			<item name="MagazineSteelToolSmithing" count="1" prob="0.15"/>
 			<item name="MagazineTungstenToolSmithing" count="1" prob="0.1"/> -->
@@ -2191,6 +2214,10 @@ workstations
 			<item name="meleeToolSledgehammerIronSchematic" count="1" prob="0.15"/>
 			<item name="meleeToolSledgehammerSteelSchematic" count="1" prob="0.1"/>
 			<item name="sledgehammerTungstenSchematic" count="1" prob="0.05"/>
+			<item name="ECOChainsawSchematic" count="1" prob="0.1"/>
+			<item name="HDChainsawSchematic" count="1" prob="0.05"/>
+			<item name="ECOAugerSchematic" count="1" prob="0.1"/>
+			<item name="HDAugerSchematic" count="1" prob="0.05"/>
 			<!-- <item name="MagazineIronToolSmithing" count="1" prob="0.2"/>
 			<item name="MagazineSteelToolSmithing" count="1" prob="0.15"/>
 			<item name="MagazineTungstenToolSmithing" count="1" prob="0.1"/> -->
@@ -2352,6 +2379,7 @@ workstations
 			<item name="soupNaziPartI" count="1" prob="0.1"/>
 			<item name="soupNaziPartII" count="1" prob="0.1"/>
 			<item name="AppleJuiceRecipe" count="1" prob="0.1"/>
+			<item name="ApplePieRecipe" count="1" prob="0.1"/>
 			<item name="classChallenge_pieCrafting" count="1" prob="0.25"/>
 			<item name="classChallenge_soupBasics" count="1" prob="0.25"/>
 			<item name="classChallenge_chickenSoupMaster" count="1" prob="0.25"/>
@@ -2397,12 +2425,13 @@ workstations
 			<item name="soupNaziPartI" count="1" prob="0.1"/>
 			<item name="soupNaziPartII" count="1" prob="0.1"/>
 			<item name="AppleJuiceRecipe" count="1" prob="0.1"/>
+			<item name="ApplePieRecipe" count="1" prob="0.1"/>
 		</trader_items>
 	</trader_info>
 	
 	<!-- To Do Loot -->
 	<!-- Class Vending Machine (Mechanic) -->
-	<trader_info id="26" full_reset="false" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="8" max_inventory="15" min_items_swapped="2" max_items_swapped="4">
+	<trader_info id="26" full_reset="false" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="8" max_inventory="16" min_items_swapped="2" max_items_swapped="4">
 		<trader_items count="8">
 			<item name="resourceForgedIron" count="50,75"/>
 			<item name="resourceForgedSteel" count="40,45"/>
@@ -2430,7 +2459,7 @@ workstations
 	</trader_info>
 	
 	<!-- Class Vending Machine (Mechanic) POI -->
-	<trader_info id="27" full_reset="false" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="5" max_inventory="9" min_items_swapped="1" max_items_swapped="3">
+	<trader_info id="27" full_reset="false" reset_interval="5" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="12" min_items_swapped="1" max_items_swapped="3">
 		<trader_items count="6">
 			<item name="resourceForgedIron" count="50,75"/>
 			<item name="resourceForgedSteel" count="40,45"/>

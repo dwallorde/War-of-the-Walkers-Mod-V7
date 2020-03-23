@@ -2054,6 +2054,7 @@ The overall plan for loot distribution:
 	<item name="meleeToolSledgehammerIronSchematic"/>
 	<item name="ammoGasCanSchematic"/>
 	<item name="resourceOilSchematic"/>
+	<item name="SettingTheTrap"/>
 	<!--<item name="meleeToolHoeIronSchematic"/>-->
 </lootgroup>
 
@@ -2071,6 +2072,9 @@ The overall plan for loot distribution:
 	<item name="workbenchSchematic"/>
 	<item name="chemistryStationSchematic"/>
 	<item name="sledgehammerTungstenSchematic"/>
+	<item name="FireTrapSchematic"/>
+	<item name="sickleSteelSchematic"/>
+	<item name="steelClawHammerSchematic"/>
 </lootgroup>
 
 <lootgroup name="schematicsWeaponsCommon">
@@ -2089,6 +2093,7 @@ The overall plan for loot distribution:
 	<item name="meleeThrownSpearIronSchematic"/>
 	<item name="meleeKnucklesIronSchematic"/>
 	<item name="blunderbussDoubleBarrelSchematic"/>
+	<item name="556mmBulletSchematic"/>
 </lootgroup>
 
 <lootgroup name="schematicsWeaponsRare">
@@ -2107,11 +2112,22 @@ The overall plan for loot distribution:
 	<item name="thrownDynamiteSchematic"/>
 	<item name="meleeToolKnifeMacheteSchematic"/>
 	<item name="meleeThrownSpearSteelSchematic"/>
+	<item name="32mmBulletSchematic"/>
+	<item name="HollowPointAmmunitionBook"/>
+	<item name="556mmNATOBulletSchematic"/>
+	<item name="762mmHollowPointBulletSchematic"/>
+	<item name="9mmHollowPointBulletSchematic"/>
+	<item name="TungstenArrowHeadSchematic"/>
+	<item name="teddyBearGrenadeSchematic"/>
 </lootgroup>
 
 <lootgroup name="schematicsArmorCommon">
 	<item name="armorLeatherSetSchematic"/>
 	<item name="armorIronSetSchematic"/>
+	<item name="TailoringPoncho"/>
+	<item name="TailoringLeatherDuster"/>
+	<item name="TailoringPufferCoat"/>
+	<item name="TailoringLightCoat"/>
 </lootgroup>
 
 <lootgroup name="schematicsArmorRare">
@@ -2150,8 +2166,6 @@ The overall plan for loot distribution:
 	<item name="foodBoiledMeatSchematic"/>
 	<item name="foodCornBreadSchematic"/>
 	<item name="foodCornOnTheCobSchematic"/>
-	<item name="foodGrilledMeatSchematic"/>
-	<item name="foodMeatStewSchematic"/>
 	<item name="foodSteakAndPotatoSchematic"/>
 	<item name="foodVegetableStewSchematic"/>
 	<item name="foodShamChowderSchematic"/>
@@ -2174,6 +2188,11 @@ The overall plan for loot distribution:
 	<item name="plantedPotato1Schematic"/>
 	<item name="plantedYucca1Schematic"/>
 	<item name="plantedPumpkin1Schematic"/>
+	<item name="BreadRecipe"/>
+	<item name="FishingBook"/>
+	<item name="FishStewRecipe"/>
+	<item name="MossyBrewPieRecipe"/>
+	<item name="MushroomStewRecipe"/>
 </lootgroup>
 
 <lootgroup name="rareFoodDrink">
@@ -2317,8 +2336,8 @@ The overall plan for loot distribution:
 <lootgroup name="coldfood">
 	<item name="foodEgg" count="1,2"/>
 	<item name="foodBlueberryPie"/>
-	<item name="foodMeatStew"/>
-	<item name="foodRawMeat" count="5,10"/>
+	<item name="rawRedMeat" count="5,10"/>
+	<item name="rawWhiteMeat" count="5,10"/>
 	<item name="foodRottingFlesh" count="1,2"/>
 	<item name="foodCropCorn"/>
 	<item name="foodCropPotato"/>
@@ -4597,23 +4616,23 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 </lootcontainer>
 
 <!-- vehicleBicycle storage, vehicle storage max is 90 slots, width has worked up to 16+ -->
-<lootcontainer id="76" count="0" size="9,1" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="76" count="0" size="9,3" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="qualBaseTemplate">
 </lootcontainer>
 
 <!-- vehicleMinibike storage -->
-<lootcontainer id="77" count="0" size="9,3" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="77" count="0" size="9,5" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="qualBaseTemplate">
 </lootcontainer>
 
 <!-- vehicleMotorcycle storage -->
-<lootcontainer id="78" count="0" size="9,4" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="78" count="0" size="9,7" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="qualBaseTemplate">
 </lootcontainer>
 
 <!-- vehicle4x4Truck storage -->
-<lootcontainer id="79" count="0" size="9,9" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="79" count="0" size="10,9" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="qualBaseTemplate">
 </lootcontainer>
 
 <!-- vehicleGyrocopter storage -->
-<lootcontainer id="80" count="0" size="9,5" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="80" count="0" size="9,9" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="qualBaseTemplate">
 </lootcontainer>
 
 <!-- vehicleHelicopter storage
