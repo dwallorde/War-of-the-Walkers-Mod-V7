@@ -1119,11 +1119,20 @@ The overall plan for loot distribution:
 	<item name="armorMilitaryVest"/>
 </lootgroup>
 
+<lootgroup name="groupArmorT4_Light">
+	<item name="KevlarGloves"/>
+	<item name="KevlarHelmet" mods="modArmorHelmetLight" mod_chance=".2"/>
+	<item name="KevlarBoots"/>
+	<item name="KevlarLegArmor"/>
+	<item name="KevlarVest"/>
+</lootgroup>
+
 <lootgroup name="groupArmor_Light">
 	<!-- <item group="groupArmorT1_Light" loot_prob_template="T1"/> -->
 	<item group="groupArmorT2_Light" loot_prob_template="T2"/>
 	<item name="armorMilitarySetParts" count="2,5" loot_prob_template="T3PartsWithT2"/>				
 	<item group="groupArmorT3_Light" loot_prob_template="T3"/>
+	<item group="groupArmorT4_Light" loot_prob_template="T4"/>
 </lootgroup>
 <lootgroup name="groupArmor_LightTPlus">
 	<!-- <item group="groupArmorT1_Light" loot_prob_template="T1"/> -->
@@ -1131,6 +1140,7 @@ The overall plan for loot distribution:
 	<item name="armorMilitarySetParts" count="2,5" loot_prob_template="T3PartsWithT2"/>
 	<item group="groupArmorT3_Light" loot_prob_template="T3"/>
 	<item group="groupArmorT3_Light" loot_prob_template="T3"/>
+	<item group="groupArmorT4_Light" loot_prob_template="T4"/>
 </lootgroup>
 
 <lootgroup name="groupArmorT1_Heavy">
@@ -1158,11 +1168,20 @@ The overall plan for loot distribution:
 	<item name="armorSwatHelmet" mods="modArmorHelmetLight" mod_chance=".2" prob=".4"/>
 </lootgroup>
 
+<lootgroup name="groupArmorT4_Heavy">
+	<item name="TungstenBoots"/>
+	<item name="TungstenLegArmor"/>
+	<item name="TungstenChestArmor"/>
+	<item name="TungstenGloves"/>
+	<item name="TungstenHelmet" mods="modArmorHelmetLight" mod_chance=".2"/>
+</lootgroup>
+
 <lootgroup name="groupArmor_Heavy">
 	<!-- <item group="groupArmorT1_Heavy" loot_prob_template="T1"/> -->
 	<item group="groupArmorT2_Heavy" loot_prob_template="T2"/>
 	<item name="armorSteelSetParts" count="2,5" loot_prob_template="T3PartsWithT2"/>
 	<item group="groupArmorT3_Heavy" loot_prob_template="T3"/>
+	<item group="groupArmorT4_Heavy" loot_prob_template="T4"/>
 </lootgroup>
 <lootgroup name="groupArmor_HeavyTPlus">
 	<!-- <item group="groupArmorT1_Heavy" loot_prob_template="T1"/> -->
@@ -1170,6 +1189,7 @@ The overall plan for loot distribution:
 	<item name="armorSteelSetParts" count="2,5" loot_prob_template="T3PartsWithT2"/>
 	<item group="groupArmorT3_Heavy" loot_prob_template="T3"/>
 	<item group="groupArmorT3_Heavy" loot_prob_template="T3"/>
+	<item group="groupArmorT4_Heavy" loot_prob_template="T4"/>
 </lootgroup>
 
 <lootgroup name="groupArmorScaled">
@@ -3488,29 +3508,48 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 	<item name="meleeToolPickaxeIron" loot_prob_template="GradeALoot"/>
 	<item name="meleeToolFireaxeIron" loot_prob_template="GradeALoot"/>
 	<item name="meleeToolShovelIron" loot_prob_template="GradeALoot"/>
-	<item name="meleeToolWrench" loot_prob_template="GradeBLoot"/>
+	<item name="meleeToolWrench" loot_prob_template="GradeALoot"/>
+	<item name="steelClawHammer" loot_prob_template="GradeBLoot"/>
 	<item name="meleeToolPickaxeSteel" loot_prob_template="GradeBLoot"/>
 	<item name="meleeToolFireaxeSteel" loot_prob_template="GradeBLoot"/>
 	<item name="meleeToolShovelSteel" loot_prob_template="GradeBLoot"/>
+	<item name="HDWrench" loot_prob_template="GradeBLoot"/>
+	<item name="PickaxeTungsten" loot_prob_template="GradeCLoot"/>
+	<item name="FireaxeTungsten" loot_prob_template="GradeCLoot"/>
+	<item name="ShovelTungsten" loot_prob_template="GradeCLoot"/>
+	<item name="tungstenWrench" loot_prob_template="GradeCLoot"/>
 	<item name="meleeToolSledgehammerIron" loot_prob_template="GradeALoot"/>
 	<item name="meleeToolSledgehammerSteel" loot_prob_template="GradeBLoot"/>
+	<item name="sledgehammerTungsten" loot_prob_template="GradeCLoot"/>
 	<item name="meleeToolChainsaw" loot_prob_template="GradeCLootLow"/><!-- too little padding so needs an adjusted distribution -->
+	<item name="ECOChainsaw" loot_prob_template="GradeCLootLow"/>
+	<item name="HDChainsaw" loot_prob_template="GradeCLootLow"/>
 	<item name="meleeToolAuger" loot_prob_template="GradeCLootLow"/>
+	<item name="ECOAuger" loot_prob_template="GradeCLootLow"/>
+	<item name="HDAuger" loot_prob_template="GradeCLootLow"/>
 	<item name="gunToolNailgun" loot_prob_template="GradeCLootLow"/>
+	<item name="HDNailgun" loot_prob_template="GradeCLootLow"/>
 </lootgroup>
 
 <lootgroup name="groupQuestMelee" loot_quality_template="questTierFlexibleTemplate">
-	<item name="meleeToolKnifeIron" loot_prob_template="GradeBLoot"/>
+	<item name="meleeToolKnifeIron" loot_prob_template="GradeALoot"/>
+	<item name="steelHuntingKnife" loot_prob_template="GradeBLoot"/>
+	<item name="tungstenHuntingKnife" loot_prob_template="GradeCLoot"/>
+	<item name="GoldTippedKnife" loot_prob_template="GradeCLootLow"/>
 	<item name="cleaver" loot_prob_template="GradeBLoot"/>
-	<item name="meleeToolKnifeMachete" loot_prob_template="GradeCLoot"/>
+	<item name="meleeToolKnifeMachete" loot_prob_template="GradeBLoot"/>
+	<item name="SteelMachete" loot_prob_template="GradeCLoot"/>
+	<item name="TungstenMachete" loot_prob_template="GradeCLootLow"/>
 	<item name="meleeClubIron" loot_prob_template="GradeBLoot"/>
-	<item name="meleeClubBaseballBat" loot_prob_template="GradeCLoot"/>
+	<item name="ClubTungsten" loot_prob_template="GradeCLoot"/>
+	<item name="meleeClubBaseballBat" loot_prob_template="GradeALoot"/>
 	<item name="batBaseballSteel" loot_prob_template="GradeCLoot"/>
 	<item name="meleeToolSledgehammerIron" loot_prob_template="GradeBLoot"/>
 	<item name="meleeToolSledgehammerSteel" loot_prob_template="GradeCLoot"/>
+	<item name="sledgehammerTungsten" loot_prob_template="GradeCLootLow"/>
 	<item name="meleeThrownSpearIron" loot_prob_template="GradeBLoot"/>
 	<item name="meleeThrownSpearSteel" loot_prob_template="GradeCLoot"/>
-	<item name="spearTungsten" loot_prob_template="GradeCLoot"/>
+	<item name="spearTungsten" loot_prob_template="GradeCLootLow"/>
 	<item name="meleeKnucklesIron" loot_prob_template="GradeBLoot"/>
 	<item name="meleeKnucklesSteel" loot_prob_template="GradeCLoot"/>
 	<item name="meleeStunBaton" loot_prob_template="GradeBLoot"/>
@@ -3531,28 +3570,45 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 	<item name="gunM60" loot_prob_template="GradeCLoot"/>
 	<item name="gunRocketLauncher" loot_prob_template="GradeCLoot"/>
 	<item name="gun44Magnum" loot_prob_template="GradeCLoot"/>
+	<item name="blunderbussDoubleBarrel" loot_prob_template="GradeALoot"/>
+	<item name="Remington8" loot_prob_template="GradeBLoot"/>
+	<item name="DesertEagle" loot_prob_template="GradeCLoot"/>
+	<item name="FAMAS" loot_prob_template="GradeCLootLow"/>
+	<item name="M25SniperRifle" loot_prob_template="GradeCLootLow"/>
+	<item name="BarettaShotgun" loot_prob_template="GradeCLoot"/>
 </lootgroup>
 
 <lootgroup name="groupQuestAmmo">
 	<item name="ammo9mmBulletBall" count="200" loot_prob_template="GradeALoot"/>
 	<item name="ammo9mmBulletHP" count="100" loot_prob_template="GradeBLoot"/>
 	<item name="ammo9mmBulletAP" count="100" loot_prob_template="GradeCLoot"/>
+	<item name="9mmHollowPointBullet" count="100" loot_prob_template="GradeCLoot"/>
 
 	<item name="ammo44MagnumBulletBall" count="150" loot_prob_template="GradeALoot"/>
 	<item name="ammo44MagnumBulletHP" count="100" loot_prob_template="GradeBLoot"/>
 	<item name="ammo44MagnumBulletAP" count="100" loot_prob_template="GradeCLoot"/>
+	<item name="44HollowPointMagBullet" count="100" loot_prob_template="GradeCLoot"/>
+	
+	<item name="32mmBullet" count="200" loot_prob_template="GradeBLoot"/>
+	
+	<item name="556mmBullet" count="120" loot_prob_template="GradeCLoot"/>
+	<item name="556mmNATOBullet" count="90" loot_prob_template="GradeCLootLow"/>
 
 	<item name="ammoShotgunShell" count="120" loot_prob_template="GradeALoot"/>
 	<item name="ammoShotgunSlug" count="75" loot_prob_template="GradeCLoot"/>
+	<item name="IncendiaryShotgunSlug" count="75" loot_prob_template="GradeCLootLow"/>
 
 	<item name="ammo762mmBulletBall" count="120" loot_prob_template="GradeALoot"/>
 	<item name="ammo762mmBulletHP" count="90" loot_prob_template="GradeBLoot"/>
 	<item name="ammo762mmBulletAP" count="90" loot_prob_template="GradeCLoot"/>
+	<item name="762mmHollowPointBullet" count="90" loot_prob_template="GradeCLoot"/>
 
 	<item name="ammoArrowFlaming" count="50" loot_prob_template="GradeBLoot"/>
 	<item name="ammoCrossbowBoltFlaming" count="50" loot_prob_template="GradeBLoot"/>
+	<item name="TungstenArrow" count="50" loot_prob_template="GradeCLoot"/>
 	<item name="ammoArrowExploding" count="30" loot_prob_template="GradeCLoot"/>
 	<item name="ammoCrossbowBoltExploding" count="30" loot_prob_template="GradeCLoot"/>
+	<item name="TungstenCrossbowBolt" count="30" loot_prob_template="GradeCLoot"/>
 
 	<item name="ammoRocketFrag" count="7" loot_prob_template="GradeCLoot"/>
 
@@ -3568,22 +3624,30 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 <lootgroup name="groupQuestArmor" loot_quality_template="questTierFlexibleTemplate">
 	<item group="groupArmorT2_Light" loot_prob_template="GradeBLoot"/>
 	<item group="groupArmorT3_Light" loot_prob_template="GradeCLoot"/>
+	<item group="groupArmorT4_Light" loot_prob_template="GradeCLootLow"/>
 	<item group="groupArmorT2_Heavy" loot_prob_template="GradeBLoot"/>
 	<item group="groupArmorT3_Heavy" loot_prob_template="GradeCLoot"/>
+	<item group="groupArmorT4_Heavy" loot_prob_template="GradeCLootLow"/>
 	<item name="armorMiningHelmet" mods="modArmorHelmetLight" mod_chance="1" loot_prob_template="GradeCLoot"/>
 </lootgroup>
 
 <lootgroup name="groupQuestMedical">
 	<item name="drugVitamins" count="2,4" loot_prob_template="GradeALoot"/>
 	<item name="medicalFirstAidBandage" count="4,5" loot_prob_template="GradeALoot"/>
+	<item name="TraumaFirstAidBandage" count="4,5" loot_prob_template="GradeCLoot"/>
 	<item name="medicalFirstAidKit" count="2,3" prob="1.0"/>
+	<item name="TraumaFirstAidKit" count="2,3" loot_prob_template="GradeCLootLow"/>
 	<item name="drugAntibiotics" count="1,3" prob="1.0"/>
+	<item name="ImmunizationShot" count="1,3" loot_prob_template="GradeCLootLow"/>
 	<item name="drugHerbalAntibiotics" count="2,4" loot_prob_template="GradeALoot"/>
 	<item name="drugSteroids" count="3,5" loot_prob_template="GradeCLoot"/>
 	<item name="drugRecog" count="2,4" loot_prob_template="GradeCLoot"/>
 	<item name="drugFortBites" count="2,4" loot_prob_template="GradeCLoot"/>
 	<item name="drugPainkillers" count="4,5" loot_prob_template="GradeCLoot"/>
+	<item name="ExtraStrengthPainkillers" count="4,5" loot_prob_template="GradeCLootLow"/>
 	<item name="toolBeaker" loot_prob_template="GradeBLoot"/>
+	<item name="AdvancedSplint" loot_prob_template="GradeBLoot"/>
+	<item name="LegBoosterShot" loot_prob_template="GradeCLoot"/>
 </lootgroup>
 
 <lootgroup name="groupQuestSchematics">
@@ -3648,7 +3712,7 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 </lootgroup>
 
 <lootgroup name="groupBirdNest" count="1,2">
-	<item name="foodEgg" prob="0.25"/>
+	<item name="foodEgg" count="1,3" prob="0.25"/>
 	<item name="resourceFeather" count="1,5" prob="0.75"/>
 </lootgroup>
 
@@ -3881,6 +3945,7 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 	<item group="seeds" count="1,2"/>
 	<item group="medicine" count="1,2"/>
 	<item group="airdropMedicine" count="1"/>
+	<item group="farmingCookingRecipes" count="1"/>
 </lootgroup>
 
 <lootgroup name="SurvivalDropSmall" count="2,5">
@@ -4236,12 +4301,15 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 
 <!-- Supply Crate General, the normal airdrop -->
 <lootcontainer id="34" count="4" size="8,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
-	<item group="cannedfood" count="3,5" prob="0.2"/>
-	<item group="groupWeaponsScaled" prob="0.2"/>
-	<item group="groupAmmoRegular" count="2" prob="0.2"/>
-	<item group="rareBooks" prob="0.2"/>
-	<item group="airdropMedicine" count="1,4" prob="0.2"/>
-	<item group="groupArmorScaled" prob="0.2"/>
+	<item group="BuildingDrop" count="1" prob="0.4" />
+	<item group="WeaponsDrop" count="1" prob="0.3" />
+	<item group="SurvivalDrop" count="1" prob="0.35" />
+	<item group="PayloadDrop" count="1" prob="0.25" />
+	<item group="ArmorandClothingDrop" count="1" prob="0.3" />
+	<item group="AutomotiveDrop" count="1" prob="0.2" />
+	<item group="SchematicDrop" count="1" prob="0.25" />
+	<item group="MilitaryWeaponsDrop" count="1" prob="0.15" />
+	<item group="ClassFragmentsDropwLoot" count="1" prob="0.185" />
 </lootcontainer>
 
 <!-- tree hollowed stump, place where people stash things, -->
@@ -4777,8 +4845,8 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 </lootcontainer>
 
 <!-- cntBuriedStashChest -->
-<lootcontainer id="102" size="8,9" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
-	<item group="groupBuriedStashChest"/>
+<lootcontainer id="102" count="2,3" size="8,9" destroy_on_close="true" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
+	<item group="SurvivalDrop"/>
 </lootcontainer>
 
 <!-- Loot block with basic equipment for testing prefabs -->
@@ -4909,8 +4977,10 @@ treasureTemplate
 </lootcontainer>
 
 <!-- cntBuriedWeaponChest -->
-<lootcontainer id="122" size="8,9" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="122" count="2,3" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate">
 	<item group="groupBuriedWeaponChest"/>
+	<item group="WeaponsDrop"/>
+	<item group="MilitaryWeaponsDrop" prob="0.2"/>
 </lootcontainer>
 
 <!-- closet hanger, cntModularClosetClosed -->

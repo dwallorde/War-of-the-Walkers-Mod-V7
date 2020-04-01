@@ -131,7 +131,7 @@
 	</SMX_item_stack_85>
 </append>
 
-<remove xpath="/controls/quest_entry[@name='quest_entry']" />
+<remove xpath="/controls/quest_entry" />
 
 <append xpath="/controls">
 	<quest_entry>

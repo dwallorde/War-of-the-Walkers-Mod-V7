@@ -354,10 +354,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="7"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables,buffPie"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
-				<property name="ActionSkillGroup" value="craftSkillScience" />
-				<property name="ActionExp" value="3" />
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" />
 				<property name="EconomicValue" value="75" /> </item>
 			<item name="BaconMushroomSandwich">
 				<property name="Tags" value="csCooking"/>
@@ -378,10 +375,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="0"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
-				<property name="ActionSkillGroup" value="craftSkillScience" />
-				<property name="ActionExp" value="2" /> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" /> </item>
 			<item name="redMeatBoiled">
 				<property name="Extends" value="foodGrilledMeat" />
 				<property name="Tags" value="csCooking"/>
@@ -400,8 +394,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="0"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" /> </item>
 			<item name="Bread">
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkRecipeBread,BreadRecipe"/>
@@ -423,12 +416,9 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="4"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" />
 				<property name="CraftingIngredientExp" value="2" />
 				<property name="CraftingIngredientTime" value="3" />
-				<property name="ActionSkillGroup" value="craftSkillScience" />
-				<property name="ActionExp" value="2" />
 				<property name="EconomicValue" value="75" /> </item>
 			<item name="meatWhiteFried">
 				<property name="Extends" value="foodCharredMeat" />
@@ -448,8 +438,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="0"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" /> </item>
 			<item name="ChickenPotPie">
 				<property name="Extends" value="foodMeatStew" />
 				<property name="Tags" value="csCooking"/>
@@ -469,8 +458,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="0"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables,buffstewWarming"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" /> </item>
 			<item name="chocolate">
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkScholarChocolate"/>
@@ -493,8 +481,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="0"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="CucumberSalad">
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookSalads,saladsRecipe"/>
@@ -518,8 +505,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="4"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="GreenTeaExtract">
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkScholarGreenTeaRecipe"/>
@@ -542,8 +528,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
 				<property name="CraftingIngredientTime" value="15" />
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" />
 				<property name="EconomicValue" value="50" /> </item>
 			<item name="HamSandwich">
 				<property name="Tags" value="csCooking"/>
@@ -564,10 +549,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="0"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
-				<property name="ActionSkillGroup" value="craftSkillScience" />
-				<property name="ActionExp" value="2" /> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" /> </item>
 			<item name="redMeatPie">
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookMeals,meatPiesRecipe"/>
@@ -588,10 +570,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="11"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables,buffMeatPieBoost"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
-				<property name="ActionSkillGroup" value="craftSkillScience" />
-				<property name="ActionExp" value="3" />
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" />
 				<property name="EconomicValue" value="100" /> </item>
 			<item name="MushroomStew">
 				<property name="Tags" value="csCooking"/>
@@ -613,10 +592,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="10"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables,buffstewWarming"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
-				<property name="ActionSkillGroup" value="craftSkillScience" />
-				<property name="ActionExp" value="3" /> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" /> </item>
 			<item name="whiteMeatGrilled">
 				<property name="Extends" value="foodGrilledMeat" />
 				<property name="DisplayType" value="food"/>
@@ -635,8 +611,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="0"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" /> </item>
 			<item name="RabbitonaStick">
 				<property name="Extends" value="foodCharredMeat" />
 				<property name="DisplayType" value="food"/>
@@ -655,8 +630,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="0"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" /> </item>
 			<item name="rawRedMeat">
 				<property name="Tags" value="csCooking"/>
 				<property name="DisplayType" value="food"/>
@@ -684,8 +658,7 @@
 					</triggered_effect>
 					<display_value name="FoodPoisoningRisk" value=".3" />
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="rawWhiteMeat">
 				<property name="Extends" value="rawRedMeat" />
 				<property name="DisplayType" value="food"/>
@@ -715,10 +688,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="30"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables,buffMeatPieBoost"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
-				<property name="ActionSkillGroup" value="craftSkillScience" />
-				<property name="ActionExp" value="2" />
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" />
 				<property name="EconomicValue" value="150" /> </item>
 			<item name="sausageAndEggs">
 				<property name="Tags" value="csCooking"/>
@@ -729,6 +699,7 @@
 				<property name="HoldType" value="31"/>
 				<property name="Material" value="Morganic"/>
 				<property name="Stacknumber" value="50"/> <!-- STK food -->
+				<property name="UnlockedBy" value="perkMasterChef" />
 				<property name="EconomicValue" value="64"/>
 				<property class="Action0">
 					<property name="Class" value="Eat"/>
@@ -742,8 +713,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="8"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="strawberryJam">
 				<property name="Tags" value="csCooking"/>
 				<property name="DisplayType" value="food"/>
@@ -768,8 +738,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
 				<property name="DropScale" value="4"/>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="strawberryJamSandwich">
 				<property name="Tags" value="csCooking"/>
 				<property name="DisplayType" value="food"/>
@@ -794,8 +763,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="2"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="summersalad">
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookSalads,saladsRecipe"/>
@@ -819,8 +787,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="4"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="TunaSandwich">
 				<property name="Tags" value="csCooking"/>
 				<property name="DisplayType" value="food"/>
@@ -840,10 +807,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="2"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
-				<property name="ActionSkillGroup" value="craftSkillScience" />
-				<property name="ActionExp" value="2" /> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" /> </item>
 			<item name="redMeatFried">
 				<property name="Extends" value="foodCharredMeat" />
 				<property name="Tags" value="csCooking"/>
@@ -862,8 +826,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="1"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" /> </item>
 			<item name="redmeatGrilled">
 				<property name="Extends" value="foodGrilledMeat" />
 				<property name="Tags" value="csCooking"/>
@@ -882,13 +845,13 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="1"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" /> </item>
 			<item name="redMeatStew">
 				<property name="Extends" value="foodMeatStew" />
 				<property name="Tags" value="csCooking"/>
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="foodMeatStew" />
+				<property name="UnlockedBy" value="perkMasterChef" />
 				<property name="EconomicValue" value="60" />
 				<property class="Action0">
 					<property name="Class" value="Eat"/>
@@ -902,8 +865,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="10"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables,buffstewWarming"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" /> </item>
 
 		<!-- Drinks -->
 			<!-- AppleJuice, blackberryJuice, beerNolsonCanuck, GreenTea, hotChocolate, MossyBrew,  -->
@@ -936,10 +898,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
-				<property name="ActionSkillGroup" value="craftSkillScience" />
-				<property name="ActionExp" value="3" />
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking" />
 				<property name="EconomicValue" value="75" /> </item>
 			<item name="blackberryJuice">
 				<property name="Tags" value="csCooking"/>
@@ -971,8 +930,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking"/> </item>
 			<item name="beerNolsonCanuck">
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkRecipeBeer"/>
@@ -1000,8 +958,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking"/> </item>
 			<item name="GreenTea">
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkScholarGreenTeaRecipe"/>
@@ -1030,8 +987,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking" />
 				<property name="EconomicValue" value="100" /> </item>
 			<item name="hotChocolate">
 				<property name="Tags" value="csCooking"/>
@@ -1063,8 +1019,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking"/> </item>
 			<item name="MossyBrew">
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkRecipeMossyBrew,MossyBrewPieRecipe"/>
@@ -1093,10 +1048,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
-				<property name="ActionSkillGroup" value="craftSkillScience" />
-				<property name="ActionExp" value="2" />
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking" />
 				<property name="EconomicValue" value="100" /> </item>
 
 		<!-- Soups -->
@@ -1126,8 +1078,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="0"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="beefstock">
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookSoups,soupNaziPartI"/>
@@ -1152,8 +1103,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="0"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="potatosoup">
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookSoups,soupNaziPartI"/>
@@ -1174,10 +1124,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="6"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
-				<property name="ActionSkillGroup" value="craftSkillScience" />
-				<property name="ActionExp" value="3" />
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" />
 				<property name="EconomicValue" value="200" /> </item>
 			<item name="Leeksoup">
 				<property name="Extends" value="potatosoup" />
@@ -1186,10 +1133,7 @@
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="Leeksoup" />
 				<property name="Meshfile" value="Items/Food/venison_stew" />
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
-				<property name="ActionSkillGroup" value="craftSkillScience" />
-				<property name="ActionExp" value="3" />
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" />
 				<property name="EconomicValue" value="200" /> </item>
 			<item name="onionsoup">
 				<property name="Extends" value="potatosoup" />
@@ -1198,10 +1142,7 @@
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="onionsoup" />
 				<property name="Meshfile" value="Items/Food/venison_stew" />
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
-				<property name="ActionSkillGroup" value="craftSkillScience" />
-				<property name="ActionExp" value="3" />
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" />
 				<property name="EconomicValue" value="200" /> </item>
 			<item name="cucumbersoup">
 				<property name="Extends" value="potatosoup" />
@@ -1209,10 +1150,7 @@
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="cucumbersoup" />
 				<property name="Meshfile" value="Items/Food/venison_stew" />
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
-				<property name="ActionSkillGroup" value="craftSkillScience" />
-				<property name="ActionExp" value="3" /> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" /> </item>
 			<item name="chickensoup">
 				<property name="Extends" value="potatosoup" />
 				<property name="UnlockedBy" value="perkCookSoups,soupNaziPartII"/>
@@ -1220,10 +1158,7 @@
 				<property name="DisplayType" value="food"/>
 				<property name="CustomIcon" value="chickensoup" />
 				<property name="Meshfile" value="Items/Food/venison_stew" />
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
-				<property name="ActionSkillGroup" value="craftSkillScience" />
-				<property name="ActionExp" value="3" />
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" />
 				<property name="EconomicValue" value="200" /> </item>
 			<item name="bearsoup">
 				<property name="Tags" value="csCooking"/>
@@ -1245,10 +1180,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="10"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
-				<property name="ActionSkillGroup" value="craftSkillScience" />
-				<property name="ActionExp" value="3" />
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" />
 				<property name="EconomicValue" value="200" /> </item>
 			<item name="eggdropsoup">
 				<property name="Tags" value="csCooking"/>
@@ -1270,10 +1202,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="5"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
-				<property name="ActionSkillGroup" value="craftSkillScience" />
-				<property name="ActionExp" value="3" />
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" />
 				<property name="EconomicValue" value="200" /> </item>
 
 		<!-- Ingredients -->
@@ -1287,8 +1216,7 @@
 				<property name="Material" value="Morganic" />
 				<property name="HoldType" value="21" />
 				<property name="Stacknumber" value="250" />
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" />
 				<property name="CraftingIngredientExp" value="2" />
 				<property name="CraftingIngredientTime" value="10" />
 				<property name="EconomicValue" value="50" /> </item>
@@ -1300,8 +1228,7 @@
 				<property name="Material" value="Morganic" />
 				<property name="HoldType" value="21" />
 				<property name="Stacknumber" value="500" />
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" />
 				<property name="CraftingIngredientExp" value="2" />
 				<property name="CraftingIngredientTime" value="4" />
 				<property name="EconomicValue" value="25" /> </item>
@@ -1329,8 +1256,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="0"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="Yeast">
 				<property name="Tags" value="csCooking"/>
 				<property name="CustomIcon" value="Yeast" />
@@ -1351,7 +1277,6 @@
 				<property name="HoldType" value="21" />
 				<property name="Stacknumber" value="500" />
 				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillScience" />
 				<property name="CraftingIngredientExp" value="3" />
 				<property name="CraftingIngredientTime" value="5" />
 				<property name="EconomicValue" value="50" /> </item>
@@ -1381,8 +1306,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="5"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables,buffPie"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="FruitPie"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookPies,pieRecipePartI"/>
@@ -1405,8 +1329,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="7"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables,buffPie"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="StrawberryPie"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookPies,pieRecipePartI"/>
@@ -1427,10 +1350,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="6"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables,buffPie"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
-				<property name="ActionSkillGroup" value="craftSkillScience" />
-				<property name="ActionExp" value="3" />
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" />
 				<property name="EconomicValue" value="150" /> </item>
 			<item name="blackberryPie"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -1452,10 +1372,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="6"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables,buffPie"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
-				<property name="ActionSkillGroup" value="craftSkillScience" />
-				<property name="ActionExp" value="3" />
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" />
 				<property name="EconomicValue" value="150" /> </item>
 			<item name="ChocolatePumpkinPie"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -1479,8 +1396,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="5"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables,buffPie"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="ChocolatePie"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookPies,pieRecipePartII"/>
@@ -1503,8 +1419,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="4"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables,buffPie"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="bakedPumpkin"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookBaking,bakedPumpkinRecipe"/>
@@ -1528,8 +1443,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="1"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="BlackberryJam"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookSnacking"/>
@@ -1555,8 +1469,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
 				<property name="DropScale" value="4"/>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="BlueberryJam"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookSnacking"/>
@@ -1582,8 +1495,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
 				<property name="DropScale" value="4"/>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="BlackberryJamSandwich"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookSnacking"/>
@@ -1609,8 +1521,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="2"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="BlueberryJamSandwich"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookSnacking"/>
@@ -1636,8 +1547,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="2"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="Smallmeatpie"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookMeals,meatPiesRecipe"/>
@@ -1660,8 +1570,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="6"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="Turkeydinner"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookMeals,turkeyDinnerRecipe"/>
@@ -1684,8 +1593,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="5"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="Roastbeef"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookMeals,roastBeefRecipe"/>
@@ -1708,8 +1616,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="5"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="wedgesalad"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookSalads,saladsRecipe"/>
@@ -1732,8 +1639,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="4"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="largesalad"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookSalads,saladsRecipe"/>
@@ -1756,8 +1662,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="4"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="clubsalad"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookSalads,saladsRecipe"/>
@@ -1780,8 +1685,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="4"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="Chocolatecoveredstrawberries"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookSnacking"/>
@@ -1807,8 +1711,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
 				<property name="DropScale" value="4"/>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="Chocolatecoveredblueberries"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookSnacking"/>
@@ -1834,8 +1737,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
 				<property name="DropScale" value="4"/>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="Chocolatecoveredblackberries"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookSnacking"/>
@@ -1861,8 +1763,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
 				<property name="DropScale" value="4"/>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="Chocolatecoveredcoffeebeans"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookSnacking"/>
@@ -1888,8 +1789,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
 				<property name="DropScale" value="4"/>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="chocolatecookies"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookBaking,chocolateCookiesRecipe"/>
@@ -1915,8 +1815,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
 				<property name="DropScale" value="4"/>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="chocolatecake"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookBaking,chocolateCakeRecipe"/>
@@ -1942,8 +1841,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
 				<property name="DropScale" value="4"/>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking"/> </item>
 			<item name="mochacoffee"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookDrinks"/>
@@ -1971,8 +1869,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking" />
 				<property name="EconomicValue" value="100" /> </item>
 			<item name="pumpkinspicecoffee"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -2002,8 +1899,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking" />
 				<property name="EconomicValue" value="100" /> </item>
 			<item name="blackberrytea"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -2033,8 +1929,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking" />
 				<property name="EconomicValue" value="100" /> </item>
 			<item name="fruittea"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -2064,8 +1959,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking" />
 				<property name="EconomicValue" value="100" /> </item>
 			<item name="icetea"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
@@ -2096,8 +1990,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking"/> </item>
 			<item name="icedcoffee"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookDrinks"/>
@@ -2127,8 +2020,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking"/> </item>
 			<item name="icedmochacoffee"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
 				<property name="DisplayType" value="food"/>
@@ -2157,8 +2049,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking"/> </item>
 			<item name="icedpumpkinspicecoffee"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookDrinks"/>
@@ -2188,8 +2079,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking"/> </item>
 			<item name="icedblackberrytea"> <!-- Class Only -->	
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookDrinks"/>
@@ -2219,8 +2109,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking"/> </item>
 			<item name="icedfruittea"> <!-- Class Only -->
 				<property name="Tags" value="csCooking"/>
 				<property name="UnlockedBy" value="perkCookDrinks"/>
@@ -2250,8 +2139,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking"/> </item>
 
 		<!-- Alcoholic Drinks -->
 			<!-- Melonsangria, strawberrysangria, blackberrysangria, blueberrysangria, fruitsangria, longisland, Melondaiquiri, strawberrydaiquiri, blackberrydaiquiri, blueberrydaiquiri, fruitdaiquiri,  -->
@@ -2281,8 +2169,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking"/> </item>
 			<item name="strawberrysangria">
 				<property name="Tags" value="csCooking"/>
 				<property name="CustomIcon" value="strawberrysangria"/>
@@ -2308,8 +2195,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking"/> </item>
 			<item name="blackberrysangria">
 				<property name="Tags" value="csCooking"/>
 				<property name="CustomIcon" value="blackberrysangria"/>
@@ -2335,8 +2221,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking"/> </item>
 			<item name="blueberrysangria">
 				<property name="Tags" value="csCooking"/>
 				<property name="CustomIcon" value="blueberrysangria"/>
@@ -2362,8 +2247,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking"/> </item>
 			<item name="fruitsangria">
 				<property name="Tags" value="csCooking"/>
 				<property name="CustomIcon" value="Fruitsangria"/>
@@ -2389,8 +2273,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking"/> </item>
 			<item name="longisland">
 				<property name="Tags" value="csCooking"/>
 				<property name="CustomIcon" value="longisland"/>
@@ -2416,8 +2299,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking"/> </item>
 			<item name="Melondaiquiri">
 				<property name="Tags" value="csCooking"/>
 				<property name="CustomIcon" value="Melondaiquiri"/>
@@ -2443,8 +2325,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking"/> </item>
 			<item name="strawberrydaiquiri">
 				<property name="Tags" value="csCooking"/>
 				<property name="CustomIcon" value="strawberrydaiquiri"/>
@@ -2470,8 +2351,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking"/> </item>
 			<item name="blackberrydaiquiri">
 				<property name="Tags" value="csCooking"/>
 				<property name="CustomIcon" value="blackberrydaiquiri"/>
@@ -2497,8 +2377,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking"/> </item>
 			<item name="blueberrydaiquiri">
 				<property name="Tags" value="csCooking"/>
 				<property name="CustomIcon" value="blueberrydaiquiri"/>
@@ -2524,8 +2403,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking"/> </item>
 			<item name="fruitdaiquiri">
 				<property name="Tags" value="csCooking"/>
 				<property name="CustomIcon" value="fruitdaiquiri"/>
@@ -2551,8 +2429,7 @@
 					<requirement name="HasBuff" buff="buffIsOnFire"/>
 						<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/> </item>
+				<property name="Group" value="Food/Cooking,CFDrink/Cooking"/> </item>
 
 		<!-- Cooking Tools -->
 			<!-- fryingPan, roastingPan, loafPan, juicer, meatGrinder, wateremptyBarrel, waterFullBarrel -->
@@ -2749,10 +2626,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="5"/>
 					<triggered_effect 	trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
-				<property name="ActionSkillGroup" value="craftSkillScience" />
-				<property name="ActionExp" value="3" /> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" /> </item>
 			<item name="FishStew">
 				<property name="CustomIcon" value="FishStew" />
 				<property name="UnlockedBy" value="perkRecipeFishStew,FishStewRecipe"/>
@@ -2772,10 +2646,7 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="9"/>
 					<triggered_effect 	trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables,buffstewWarming"/>
 				</effect_group>
-				<property name="Group" value="Food/Cooking" />
-				<property name="CraftingSkillGroup" value="craftSkillCooking"/>
-				<property name="ActionSkillGroup" value="craftSkillScience" />
-				<property name="ActionExp" value="3" /> </item>
+				<property name="Group" value="Food/Cooking,CFFood/Cooking" /> </item>
 
 		<!-- Schematics -->
 			<item name="BreadRecipe">
@@ -3007,9 +2878,7 @@
 					<property name="Use_time" value="..."/>
 					<property name="Sound_start" value="player_painkillers"/>
 				</property>
-				<property name="CraftingSkillGroup" value="craftSkillScience" />
-				<property name="ActionSkillGroup" value="Medicine" />
-				<property name="Group" value="Medicine" />
+				<property name="Group" value="Science,CFChemicals,Medical"/>
 				<property name="DescriptionKey" value="vitaminsDesc" />
 				
 				<effect_group tiered="false">
@@ -3038,9 +2907,7 @@
 					<property name="Use_time" value="..."/>
 					<property name="Sound_start" value="player_painkillers"/>
 				</property>
-				<property name="CraftingSkillGroup" value="craftSkillScience" />
-				<property name="ActionSkillGroup" value="Medicine" />
-				<property name="Group" value="Medicine" />
+				<property name="Group" value="Science,CFChemicals,Medical"/>
 				<property name="DescriptionKey" value="vitaminsDesc" />
 				
 				<effect_group tiered="false">
@@ -3069,9 +2936,7 @@
 					<property name="Use_time" value="..."/>
 					<property name="Sound_start" value="player_painkillers"/>
 				</property>
-				<property name="CraftingSkillGroup" value="craftSkillScience" />
-				<property name="ActionSkillGroup" value="Medicine" />
-				<property name="Group" value="Medicine" />
+				<property name="Group" value="Science,CFChemicals,Medical"/>
 				<property name="DescriptionKey" value="vitaminsDesc" />
 				
 				<effect_group tiered="false">
@@ -3392,7 +3257,7 @@
 				<property name="Material" value="Morganic" />
 				<property name="Stacknumber" value="100" />
 				<property name="Weight" value="10" />
-				<property name="Group" value="Resources,Chemicals" />
+				<property name="Group" value="CFChemicals,Resources,Chemicals" />
 				<property name="EconomicValue" value="150" />
 				<property name="CraftingSkillGroup" value="craftSkillScience" /> </item>
 			<item name="Kevlar">
@@ -3410,7 +3275,7 @@
 				<property name="EconomicValue" value="90" />
 				<property name="Group" value="Resources,Clothing" />
 				<property name="CraftingIngredientTime" value="5" />
-				<property name="CraftingSkillGroup" value="craftSkillFabricArmor"/> </item>
+				<property name="CraftingSkillGroup" value="csFabricArmor"/> </item>
 			<item name="rebar">
 				<property name="CustomIcon" value="rebar"/>
 				<property name="UnlockedBy" value="perkAdvancedConstruction"/>
@@ -3505,8 +3370,7 @@
 				<property name="CraftingIngredientExp" value="15" />
 				<property name="CraftingIngredientTime" value="15" />
 				<property name="RepairTime" value="1" />
-				<property name="RepairAmount" value="400" />
-				<property name="CraftingSkillGroup" value="Construction" /> </item>
+				<property name="RepairAmount" value="400" /> </item>
 			<!-- To Do Remove?
 			<item name="Dye">
 				<property name="CustomIcon" value="Dye" />
@@ -3632,7 +3496,7 @@
 				<property name="Stacknumber" value="50"/>
 				<property name="EconomicValue" value="1200"/>
 				<property name="Group" value="Resources,Ammo/Weapons"/>
-				<property name="CraftingSkillGroup" value="craftSkillBladeWeapons"/> </item>
+				<property name="CraftingSkillGroup" value="csBladeWeapons"/> </item>
 			<item name="tungstenMacheteBlade">
 				<property name="CustomIcon" value="tungstenMacheteBlade"/>
 				<property name="HoldType" value="45"/>
@@ -3642,7 +3506,7 @@
 				<property name="Stacknumber" value="50"/>
 				<property name="EconomicValue" value="1800"/>
 				<property name="Group" value="Resources,Ammo/Weapons"/>
-				<property name="CraftingSkillGroup" value="craftSkillBladeWeapons"/> </item>  -->
+				<property name="CraftingSkillGroup" value="csBladeWeapons"/> </item>  -->
 
 			<item name="handlewood">
 				<property name="CustomIcon" value="handlewood" />
@@ -4169,7 +4033,7 @@
 			<!-- To Do Crafting Skill Group for all Rifle Guns -->
 			<item name="blunderbussDoubleBarrel">  <!-- gunBlunderbussDoubleBarrel -->
 				<property name="CustomIcon" value="blunderbussDoubleBarrel"/>
-				<property name="Tags" value="csShotgunGuns,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,flaredBarrel,sideAttachments,smallTopAttachments,stock,attStrength,perkBoomstick,canHaveCosmetic,craftSkillShotgunGuns"/>
+				<property name="Tags" value="csShotgunGuns,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,flaredBarrel,sideAttachments,smallTopAttachments,stock,attStrength,perkBoomstick,canHaveCosmetic,csShotgunGuns"/>
 				<property name="DisplayType" value="rangedShotgun"/>
 				<property name="HoldType" value="39"/>
 				<property name="Meshfile" value="#Other/Items?Weapons/Ranged/blunderbuss/blunderbussPrefab.prefab"/>
@@ -4264,7 +4128,7 @@
 				</effect_group>  </item>
 			<item name="Remington8"> <!-- gunRemington8 -->
 			    <property name="CustomIcon" value="Remington8" />
-				<property name="Tags" value="csRifleGuns,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic,craftSkillRifleGuns"/>
+				<property name="Tags" value="csRifleGuns,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic,csRifleGuns"/>
 			    <property name="DisplayType" value="rangedGun"/>
 				<property name="HoldType" value="30" />
 				<property name="Meshfile" value="#Other/Items?Weapons/Ranged/HuntingRifle/HuntingRiflePrefab.prefab"/>
@@ -4388,7 +4252,7 @@
 			<!-- To Do Pistol Gun Crafting Skill Group for all Pistols -->
 			<item name="DesertEagle"> <!-- gunDesertEagle -->
 			    <property name="CustomIcon" value="DesertEagle" />
-				<property name="Tags" value="csPistolGuns,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,canHaveCosmetic,craftSkillPistolGuns"/>
+				<property name="Tags" value="csPistolGuns,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,canHaveCosmetic,csPistolGuns"/>
 				<property name="DisplayType" value="rangedGun"/>
 				<property name="HoldType" value="1" />
 				<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Pistol/PistolPrefab.prefab"/>
@@ -4524,7 +4388,7 @@
 
 			<item name="FAMAS"> <!-- gunFAMAS -->
 			    <property name="CustomIcon" value="FAMAS" />
-				<property name="Tags" value="csRifleGuns,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attAgility,perkGunslinger,canHaveCosmetic,craftSkillRifleGuns"/>
+				<property name="Tags" value="csRifleGuns,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attAgility,perkGunslinger,canHaveCosmetic,csRifleGuns"/>
 				<property name="DisplayType" value="rangedGun"/>
 				<property name="HoldType" value="6" />
 			    <property name="Meshfile" value="#Other/Items?Weapons/Ranged/MP5/MP5Prefab.prefab"/>
@@ -4674,7 +4538,7 @@
 
 			<item name="M25SniperRifle"> <!-- gunM25SniperRifle -->
 			    <property name="CustomIcon" value="M25SniperRifle" />
-				<property name="Tags" value="csRifleGuns,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,selfLoading,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic,craftSkillRifleGuns"/>
+				<property name="Tags" value="csRifleGuns,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,selfLoading,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic,csRifleGuns"/>
 				<property name="DisplayType" value="rangedGun"/>
 				<property name="HoldType" value="11" />
 			    <property name="Meshfile" value="#Other/Items?Weapons/Ranged/SniperRifle/sniperRiflePrefab.prefab"/>
@@ -4856,7 +4720,7 @@
 
 			<item name="BarettaShotgun"> <!-- gunBarettaShotgun -->
 				<property name="CustomIcon" value="BarettaShotgun" />
-				<property name="Tags" value="csShotgunGuns,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic,craftSkillShotgunGuns"/>
+				<property name="Tags" value="csShotgunGuns,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic,csShotgunGuns"/>
 				<property name="DisplayType" value="rangedShotgun"/>
 				<property name="HoldType" value="5"/>
 				<property name="Meshfile" value="#Other/Items?Weapons/Ranged/SawedOffPumpShotgun/PumpShotgunPrefab.prefab"/>
@@ -4976,7 +4840,7 @@
 				<property name="CrosshairOnAim" value="true"/>
 				<property name="CrosshairUpAfterShot" value="false"/>
 				<property name="ActionSkillGroup" value="Archery"/>
-				<property name="CraftingSkillGroup" value="craftSkillBowWeapons"/>
+				<property name="CraftingSkillGroup" value="csBowWeapons"/>
 				<property name="RepairExpMultiplier" value="5.5"/>
 				<property name="PickupJournalEntry" value="alternateAmmoTip" />
 				
@@ -5138,7 +5002,7 @@
 				<property name="Sound_Sight_Out" value="crossbow_sight_out"/>
 				<property name="Group" value="Ammo/Weapons" />
 				<property name="ActionSkillGroup" value="Archery"/>
-				<property name="CraftingSkillGroup" value="craftSkillBowWeapons"/>
+				<property name="CraftingSkillGroup" value="csBowWeapons"/>
 				<property name="RepairExpMultiplier" value="5.5"/>
 				<property name="PickupJournalEntry" value="alternateAmmoTip" />
 				
@@ -5207,8 +5071,6 @@
 				<property name="Sound_Sight_In" value="crossbow_sight_in"/>
 				<property name="Sound_Sight_Out" value="crossbow_sight_out"/>
 				<property name="Group" value="Ammo/Weapons"/>
-				<property name="ActionSkillGroup" value="Archery"/>
-				<property name="CraftingSkillGroup" value="craftSkillBowWeapons"/>
 				<property name="RepairExpMultiplier" value="5.5"/>
 				<property name="PickupJournalEntry" value="alternateAmmoTip"/>
 				<property class="Action0">
@@ -5366,8 +5228,7 @@
 				<property name="Stacknumber" value="1000" /> <!-- STK resource -->
 				<property name="EconomicValue" value="22"/>
 				<property name="EconomicBundleSize" value="5"/>
-				<property name="Group" value="Resources,Ammo/Weapons" />
-				<property name="CraftingSkillGroup" value="ammoCrafting"/> </item>
+				<property name="Group" value="Resources,Ammo/Weapons" /> </item>
 			<item name="tungstenDart">
 				<property name="CustomIcon" value="tungstenDart" />
 				<property name="Extends" value="ammoArrowIron" param1="HandMeshfile"/>
@@ -5380,6 +5241,7 @@
 				<property name="Stacknumber" value="500"/> <!-- STK ammo -->
 				<property name="EconomicValue" value="75"/>
 				<property name="EconomicBundleSize" value="10"/>
+				<property name="Group" value="Resources,Ammo/Weapons" />
 				<property class="Action1">
 					<property name="Velocity" value="55"/>
 					<property name="Gravity" value="-4"/>
@@ -5559,7 +5421,7 @@
 
 			<item name="SteelMachete">
 				<property name="CustomIcon" value="SteelMachete" />
-				<property name="Tags" value="machete,melee,grunting,medium,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,craftSkillBladeWeapons"/>
+				<property name="Tags" value="machete,melee,grunting,medium,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,csBladeWeapons"/>
 				<property name="DisplayType" value="meleeKnife"/>
 				<property name="HoldType" value="36"/>
 				<property name="Meshfile" value="#Machetes.unity3d?SteelMachetePrefab" />
@@ -5649,7 +5511,7 @@
 				</effect_group> </item>
 			<item name="TungstenMachete">
 				<property name="CustomIcon" value="TungstenMachete" />
-				<property name="Tags" value="machete,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,craftSkillBladeWeapons"/>
+				<property name="Tags" value="machete,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,csBladeWeapons"/>
 				<property name="DisplayType" value="melee"/>
 				<property name="HoldType" value="36"/>
 				<property name="Meshfile" value="#Machetes.unity3d?TungstenMachetePrefab" />
@@ -5740,7 +5602,7 @@
 			<item name="ClubTungsten">
 				<property name="CustomIcon" value="ClubTungsten" />
 				<property name="Extends" value="meleeClubIron" />
-				<property name="Tags" value="blunt,club,melee,grunting,heavy,perkFlurryOfBlows,weapon,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic,craftSkillBluntWeapons"/>
+				<property name="Tags" value="blunt,club,melee,grunting,heavy,perkFlurryOfBlows,weapon,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic,csBluntWeapons"/>
 				<property name="DisplayType" value="melee"/>
 				<property name="Group" value="Ammo/Weapons"/>
 				<property name="Meshfile" value="#TungstenClub.unity3d?TungstenClubPrefab" />
@@ -5831,7 +5693,7 @@
 				</effect_group> </item>
 			<item name="GoldTippedMachete">
 				<property name="CustomIcon" value="GoldTippedMachete" />
-				<property name="Tags" value="machete,melee,grunting,heavy,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,craftSkillBladeWeapons"/>
+				<property name="Tags" value="machete,melee,grunting,heavy,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,csBladeWeapons"/>
 				<property name="DisplayType" value="melee"/>
 				<property name="HoldType" value="36"/>
 				<property name="Meshfile" value="#Machetes.unity3d?GoldTippedMachetePrefab" />
@@ -5922,7 +5784,7 @@
 			<item name="steelHuntingKnife">  <!-- meleeToolSteelHuntingKnife -->
 				<property name="Extends" value="meleeToolKnifeIron" />
 				<property name="CustomIcon" value="steelHuntingKnife" />
-				<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,craftSkillBladeWeapons"/>
+				<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,csBladeWeapons"/>
 				<property name="DisplayType" value="meleeKnife"/>
 				<property name="HoldType" value="36"/>
 				<property name="Meshfile" value="#HuntingKnives.unity3d?SteelHuntingKnifePrefab"/>
@@ -6017,7 +5879,7 @@
 			<item name="tungstenHuntingKnife">  <!-- meleeToolsTungstenHuntingKnife -->
 				<property name="Extends" value="meleeToolKnifeIron" />
 				<property name="CustomIcon" value="tungstenHuntingKnife" />
-				<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,craftSkillBladeWeapons"/>
+				<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,csBladeWeapons"/>
 				<property name="DisplayType" value="meleeKnife"/>
 				<property name="HoldType" value="36"/>
 				<property name="Meshfile" value="#HuntingKnives.unity3d?TungstenHuntingKnifePrefab"/>
@@ -6132,7 +5994,7 @@
 			<item name="GoldTippedKnife">  <!-- meleeToolGoldTippedKnife -->
 				<property name="Extends" value="meleeToolKnifeIron" />
 				<property name="CustomIcon" value="GoldTippedKnife" />
-				<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,craftSkillBladeWeapons"/>
+				<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,csBladeWeapons"/>
 				<property name="DisplayType" value="meleeKnife"/>
 				<property name="HoldType" value="36"/>
 				<property name="Meshfile" value="#HuntingKnives.unity3d?GoldTippedKnifePrefab" />
@@ -6289,7 +6151,7 @@
 				</effect_group>
 				<property name="Group" value="Ammo/Weapons"/>
 				<property name="ActionSkillGroup" value="Blunt Weapons"/>
-				<property name="CraftingSkillGroup" value="craftSkillBluntWeapons"/>
+				<property name="CraftingSkillGroup" value="csBluntWeapons"/>
 				<property name="RepairExpMultiplier" value="5.5"/> </item> -->
 			<!-- <item name="spearSteel">
 				<property name="Tags" value="csBluntWeapons,knife,melee,light,weapon,meleeWeapon,perkDeepCuts,perkTheHuntsman"/>
@@ -6354,10 +6216,10 @@
 				</effect_group>
 				<property name="Group" value="Ammo/Weapons"/>
 				<property name="ActionSkillGroup" value="Blunt Weapons"/>
-				<property name="CraftingSkillGroup" value="craftSkillBluntWeapons"/>
+				<property name="CraftingSkillGroup" value="csBluntWeapons"/>
 				<property name="RepairExpMultiplier" value="5.5"/> </item> -->
 			<item name="spearTungsten">  <!-- meleeToolSpearTungsten -->
-				<property name="Tags" value="melee,grunting,medium,weapon,meleeWeapon,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon,craftSkillBluntWeapons"/>
+				<property name="Tags" value="melee,grunting,medium,weapon,meleeWeapon,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon,csBluntWeapons"/>
 				<property name="DisplayType" value="melee"/>
 				<property name="HoldType" value="18"/>
 				<property name="Meshfile" value="#Spears.unity3d?TungstenSpearPrefab"/>
@@ -6465,7 +6327,7 @@
 				<property name="CritChance" value="0.5"/>
 				<property name="Group" value="Ammo/Weapons,Tools/Traps"/>
 				<property name="ActionSkillGroup" value="Blunt Weapons"/>
-				<property name="CraftingSkillGroup" value="craftSkillBluntWeapons"/>
+				<property name="CraftingSkillGroup" value="csBluntWeapons"/>
 				
 				<property class="Action0">
 					<property name="Class" value="DynamicMelee"/>
@@ -6514,7 +6376,7 @@
 				<!-- To Do Re-add Schematic -->
 			<item name="sledgehammerTungsten">  <!-- meleeToolSledgehammerTungsten -->
 				<property name="CustomIcon" value="sledgehammerTungsten" />
-				<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,meleeWeapon,attStrength,perkSkullCrusher,canHaveCosmetic,craftSkillBluntWeapons"/>
+				<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,meleeWeapon,attStrength,perkSkullCrusher,canHaveCosmetic,csBluntWeapons"/>
 				<property name="DisplayType" value="melee"/>
 				<property name="HoldType" value="33"/>
 				<property name="Meshfile" value="#SledgeHammers.unity3d?TungstenSledgeHammerPrefab"/>
@@ -6622,7 +6484,7 @@
 				<property name="SoundDestroy" value="wooddestroy1"/>
 				<property name="RepairExpMultiplier" value="5.5"/>
 				<property name="ActionSkillGroup" value="Blunt Weapons"/>
-				<property name="CraftingSkillGroup" value="craftSkillBluntWeapons"/>
+				<property name="CraftingSkillGroup" value="csBluntWeapons"/>
 				<property name="EconomicValue" value="150"/>
 				<property name="FuelValue" value="300"/>
 				
@@ -6673,7 +6535,7 @@
 				</effect_group> </item> -->
 			<item name="batBaseballSteel">  <!-- meleeToolBatBaseballSteel -->
 				<property name="CustomIcon" value="batBaseballSteel" />
-				<property name="Tags" value="blunt,club,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic,craftSkillBluntWeapons"/>
+				<property name="Tags" value="blunt,club,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic,csBluntWeapons"/>
 				<property name="DisplayType" value="melee"/>
 				<property name="Group" value="Ammo/Weapons"/>
 				<property name="HoldType" value="32"/>
@@ -6762,7 +6624,7 @@
 			<item name="cleaver">  <!-- meleeToolCleaver -->
 				<property name="Extends" value="meleeToolKnifeIron" />
 				<property name="CustomIcon" value="cleaver" />
-				<property name="Tags" value="machete,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,craftSkillBladeWeapons"/>
+				<property name="Tags" value="machete,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,csBladeWeapons"/>
 				<property name="DisplayType" value="meleeKnife"/>
 				<property name="HoldType" value="32"/>
 				<property name="Meshfile" value="#Cleaver.unity3d?CleaverPrefab"/>
@@ -6853,7 +6715,7 @@
 			<item name="knifeKitchen">  <!-- meleeToolKnifeKitchen, Class Only -->
 				<property name="Extends" value="meleeToolKnifeIron" />
 				<property name="CustomIcon" value="knifeKitchen" />
-				<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,craftSkillBladeWeapons"/>
+				<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,csBladeWeapons"/>
 				<property name="DisplayType" value="meleeKnife"/>
 				<property name="HoldType" value="32"/>
 				<property name="Meshfile" value="#KitchenKnife.unity3d?KitchenKnifePrefab"/>
@@ -6947,7 +6809,7 @@
 			<item name="knifeCombat">  <!-- meleeToolKnifeCombat, Class Only -->
 				<property name="Extends" value="meleeToolKnifeIron" />
 				<property name="CustomIcon" value="knifeCombat" />
-				<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,craftSkillBladeWeapons"/>
+				<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,csBladeWeapons"/>
 				<property name="DisplayType" value="meleeKnife"/>
 				<property name="HoldType" value="32"/>
 				<property name="Meshfile" value="#CombatKnife.unity3d?CombatKnifePrefab"/>
@@ -7040,7 +6902,7 @@
 				<property name="RepairExpMultiplier" value="5.5"/> </item>
 			<item name="sword">  <!-- meleeToolSword, Class Only -->
 				<property name="CustomIcon" value="sword" />
-				<property name="Tags" value="machete,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,craftSkillBladeWeapons"/>
+				<property name="Tags" value="machete,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,csBladeWeapons"/>
 				<property name="DisplayType" value="meleeKnife"/>
 				<property name="HoldType" value="32"/>
 				<property name="Meshfile" value="#Sword.unity3d?SwordPrefab"/>
@@ -7132,7 +6994,7 @@
 				</effect_group> </item>
 			<item name="axeBattle">  <!-- meleeToolAxeBattle -->
 				<property name="CustomIcon" value="axeBattle" />
-				<property name="Tags" value="axe,melee,grunting,medium,weapon,meleeWeapon,attStrength,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,craftSkillBladeWeapons"/>
+				<property name="Tags" value="axe,melee,grunting,medium,weapon,meleeWeapon,attStrength,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,csBladeWeapons"/>
 				<property name="DisplayType" value="meleeKnife"/>
 				<property name="HoldType" value="32"/>
 				<property name="Meshfile" value="#FantasyWeapons.unity3d?BattleAxePrefab"/>
@@ -7208,7 +7070,7 @@
 				</effect_group> </item>
 			<item name="hammerBattle">  <!-- meleeToolHammerBattle -->
 				<property name="CustomIcon" value="hammerBattle" />
-				<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,meleeWeapon,attStrength,perkSkullCrusher,canHaveCosmetic,craftSkillBluntWeapons"/>
+				<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,meleeWeapon,attStrength,perkSkullCrusher,canHaveCosmetic,csBluntWeapons"/>
 				<property name="DisplayType" value="melee"/>
 				<property name="HoldType" value="32"/>
 				<property name="Meshfile" value="#FantasyWeapons.unity3d?BattleHammerPrefab"/>
@@ -7291,7 +7153,7 @@
 				</effect_group> </item>
 			<item name="maceBattle">  <!-- meleeToolMaceBattle -->
 				<property name="CustomIcon" value="maceBattle" />
-				<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,meleeWeapon,attStrength,perkSkullCrusher,canHaveCosmetic,craftSkillBluntWeapons"/>
+				<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,meleeWeapon,attStrength,perkSkullCrusher,canHaveCosmetic,csBluntWeapons"/>
 				<property name="DisplayType" value="melee"/>
 				<property name="HoldType" value="32"/>
 				<property name="Meshfile" value="#FantasyWeapons.unity3d?BattleMacePrefab"/>
@@ -7374,7 +7236,7 @@
 				</effect_group> </item>
 			<item name="skullAxeBattle">  <!-- meleeToolSkullAxeBattle -->
 				<property name="CustomIcon" value="skullAxeBattle" />
-				<property name="Tags" value="axe,melee,grunting,medium,weapon,meleeWeapon,attStrength,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,craftSkillBladeWeapons"/>
+				<property name="Tags" value="axe,melee,grunting,medium,weapon,meleeWeapon,attStrength,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,csBladeWeapons"/>
 				<property name="DisplayType" value="melee"/>
 				<property name="HoldType" value="32"/>
 				<property name="Meshfile" value="#FantasyWeapons.unity3d?BattleSkullAxePrefab"/>
@@ -7447,7 +7309,7 @@
 				</effect_group> </item>
 			<item name="swordBattle">  <!-- meleeToolSwordBattle -->
 				<property name="CustomIcon" value="swordBattle" />
-				<property name="Tags" value="machete,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,craftSkillBladeWeapons"/>
+				<property name="Tags" value="machete,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,csBladeWeapons"/>
 				<property name="DisplayType" value="meleeKnife"/>
 				<property name="HoldType" value="32"/>
 				<property name="Meshfile" value="#FantasyWeapons.unity3d?BattleSwordPrefab"/>
@@ -7537,7 +7399,7 @@
 				</effect_group> </item>
 			<item name="pipeIron">  <!-- meleeToolPipeIron -->
 				<property name="CustomIcon" value="pipeIron" />
-				<property name="Tags" value="blunt,club,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic,craftSkillBluntWeapons"/>
+				<property name="Tags" value="blunt,club,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic,csBluntWeapons"/>
 				<property name="DisplayType" value="melee"/>
 				<property name="Group" value="Ammo/Weapons"/>
 				<property name="HoldType" value="32"/>
@@ -7691,11 +7553,12 @@
 					<passive_effect name="HarvestCount" operation="base_set" value="1" tags="SteelHarvest"/>
 					<passive_effect name="HarvestCount" operation="base_set" value="0.1" tags="TungstenHarvest"/>
 					<passive_effect name="HarvestCount" operation="base_set" value="0.1" tags="HDDisassemble"/>
-				</effect_group> </item>
+				</effect_group>
+				<property name="Group" value="Tools/Traps"/></item>
 			<item name="crowbarTungsten">  <!-- meleeToolCrowbarTungsten -->
 				<property name="Extends" value="crowbarSteel" />
 				<property name="CustomIcon" value="crowbarTungsten" />
-				<property name="Tags" value="csSteelTools,blunt,club,melee,grunting,light,tool,attPerception,perkSalvageOperations,canHaveCosmetic"/>
+				<property name="Tags" value="csTungstenDiamondTools,blunt,club,melee,grunting,light,tool,attPerception,perkSalvageOperations,canHaveCosmetic"/>
 				<property name="DisplayType" value="melee"/>
 				<property name="HoldType" value="29"/>
 				<property name="Meshfile" value="#Crowbars.unity3d?TungstenCrowbarPrefab"/>
@@ -7743,10 +7606,11 @@
 					<passive_effect name="HarvestCount" operation="base_set" value="0.25" tags="SteelHarvest"/>
 					<passive_effect name="HarvestCount" operation="base_set" value="1" tags="TungstenHarvest"/>
 					<passive_effect name="HarvestCount" operation="base_set" value="1" tags="HDDisassemble"/>
-				</effect_group> </item>
+				</effect_group>
+				<property name="Group" value="Tools/Traps"/> </item>
 			<item name="shivPrisoner">
 				<property name="CustomIcon" value="shivPrisoner"/>
-				<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,craftSkillBladeWeapons"/>
+				<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,csBladeWeapons"/>
 				<property name="DisplayType" value="meleeKnife"/>
 				<property name="HoldType" value="36"/>
 				<property name="Meshfile" value="Items/Weapons/Melee/Knives/boneShivPrefab"/>
@@ -8053,6 +7917,7 @@
 				<property name="PickupJournalEntry" value="miningTip"/>
 				<property name="DescriptionKey" value="stonePickaxeDesc"/>
 				<property name="RepairExpMultiplier" value="5.5"/> </item>
+			<!-- To Do Remove -->
 			<item name="stoneHoe">  <!-- meleeToolStoneHoe -->
 				<property name="CustomIcon" value="stoneHoe"/>
 				<property name="Tags" value="csStoneScrapITools,melee,medium,tool,attFortitude,perkLivingOffTheLand,canHaveCosmetic"/>
@@ -8527,6 +8392,7 @@
 					<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.3" tags="secondary"/>
 					<passive_effect name="StaminaLoss" operation="base_add" value="32.2" tags="secondary"/>
 				</effect_group>
+				<property name="Group" value="Tools/Traps"/>
 				<property name="RepairExpMultiplier" value="5.5"/> </item>
 			<item name="PickaxeDiamondTipped">  <!-- meleeToolPickaxeDiamondTipped -->
 				<property name="CustomIcon" value="PickaxeDiamondTipped" />
@@ -9422,7 +9288,7 @@
 			<item name="screwdriver">  <!-- meleeToolScrewdriver -->
 				<property name="Extends" value="meleeToolWrench" />
 				<property name="CustomIcon" value="screwdriver" />
-				<property name="Tags" value="csSteelTools,blunt,melee,grunting,light,tool,attPerception,perkSalvageOperations,canHaveCosmetic"/>
+				<property name="Tags" value="csIronTools,blunt,melee,grunting,light,tool,attPerception,perkSalvageOperations,canHaveCosmetic"/>
 				<property name="DisplayType" value="meleeRepairTool"/>
 				<property name="HoldType" value="29"/>
 				<property name="Meshfile" value="#Screwdriver.unity3d?ScrewdriverPrefab"/>
@@ -9944,7 +9810,7 @@
 
 			<item name="LightCoat">
 				<property name="CustomIcon" value="apparelCoatPufferCoat" />
-				<property name="Tags" value="upperbody,chest,clothing,craftSkillFabricArmor"/>
+				<property name="Tags" value="upperbody,chest,clothing,csFabricArmor"/>
 				<property name="DisplayType" value="clothing"/>
 				<property name="UnlockedBy" value="TailoringLightCoat"/>
 				<property name="Stacknumber" value="1"/>
@@ -9968,8 +9834,6 @@
 				</property>
 				<property name="DescriptionKey" value="LightCoatDesc" />
 				<property name="Group" value="Clothing" />
-				<property name="ActionSkillGroup" value="Clothing/Armor"/>
-				<property name="CraftingSkillGroup" value="craftSkillFabricArmor"/>
 				<effect_group tiered="false">
 					<passive_effect name="ModSlots" operation="base_set" value="1"/>
 					<passive_effect name="HypothermalResist" operation="base_add" value="13"/>
@@ -9978,7 +9842,7 @@
 			<item name="FaceMask">
 				<property name="CustomIcon" value="apparelBandana" />
 				<property name="CustomIconTint" value="FFA500" />
-				<property name="Tags" value="head,clothing,craftSkillFabricArmor"/>
+				<property name="Tags" value="head,clothing,csFabricArmor"/>
 				<property name="DisplayType" value="clothing"/>
 				<property name="Stacknumber" value="1"/>
 				<property name="Material" value="Mcloth" />
@@ -10001,7 +9865,7 @@
 				<property name="DescriptionKey" value="FaceMaskDesc" />
 				<property name="Group" value="Clothing" />
 				<property name="ActionSkillGroup" value="Clothing/Armor" />
-			    <property name="CraftingSkillGroup" value="craftSkillFabricArmor" />
+			    <property name="CraftingSkillGroup" value="csFabricArmor" />
 				<effect_group tiered="false">
 					<passive_effect name="ModSlots" operation="base_set" value="1"/>
 					<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
@@ -10053,7 +9917,7 @@
 			<item name="FlannelPants">
 				<property name="CustomIcon" value="apparelDenimPants" />
 				<property name="CustomIconTint" value="0000FF" />
-				<property name="Tags" value="lowerbody,legs,clothing,craftSkillFabricArmor"/>
+				<property name="Tags" value="lowerbody,legs,clothing,csFabricArmor"/>
 				<property name="DisplayType" value="clothing"/>
 				<property name="Stacknumber" value="1"/>
 				<!-- <property name="Encumbrance" value="0.001" /> -->
@@ -10077,7 +9941,7 @@
 				<property name="DescriptionKey" value="FlannelPantsDesc" />
 				<property name="Group" value="Clothing" />
 				<property name="ActionSkillGroup" value="Clothing/Armor"/>
-				<property name="CraftingSkillGroup" value="craftSkillFabricArmor"/>
+				<property name="CraftingSkillGroup" value="csFabricArmor"/>
 				<effect_group tiered="false">
 					<passive_effect name="ModSlots" operation="base_set" value="1"/>
 					<passive_effect name="HypothermalResist" operation="base_add" value="9"/>
@@ -10108,7 +9972,7 @@
 				<property name="DescriptionKey" value="PrisonerClothingDesc" /> </item>
 			<item name="snuggie">
 				<property name="CustomIcon" value="snuggie" />
-				<property name="Tags" value="upperbody,chest,clothing,craftSkillFabricArmor"/>
+				<property name="Tags" value="upperbody,chest,clothing,csFabricArmor"/>
 				<property name="DisplayType" value="clothing"/>
 				<property name="Stacknumber" value="1"/>
 				<property name="Waterproof" value="0.3"/>
@@ -10132,7 +9996,7 @@
 				</property>
 				<property name="Group" value="Clothing"/>
 				<property name="ActionSkillGroup" value="Clothing/Armor"/>
-				<property name="CraftingSkillGroup" value="craftSkillFabricArmor"/>
+				<property name="CraftingSkillGroup" value="csFabricArmor"/>
 				<effect_group tiered="false">
 					<passive_effect name="ModSlots" operation="base_set" value="1"/>
 					<passive_effect name="HypothermalResist" operation="base_add" value="15"/>
@@ -10200,7 +10064,7 @@
 				<property name="DescriptionKey" value="KevlarArmorDesc"/>
 				<property name="Group" value="Clothing"/>
 				<property name="ActionSkillGroup" value="Clothing/Armor"/>
-				<property name="CraftingSkillGroup" value="craftSkillFabricArmor"/>
+				<property name="CraftingSkillGroup" value="csFabricArmor"/>
 				<property name="RepairExpMultiplier" value="12.8"/>
 				<property name="EconomicValue" value="700"/> </item>
 			<item name="KevlarBoots">
@@ -10208,7 +10072,7 @@
 				<property name="CustomIcon" value="armorMilitaryBoots" />
 			    <property name="CustomIconTint" value="B96D2D" />
 				<property name="UnlockedBy" value="perkProtectionArmorRecipes"/>
-				<property name="Tags" value="lowerbody,feet,armor,armorFeet,lightarmor,craftSkillFabricArmor"/>
+				<property name="Tags" value="lowerbody,feet,armor,armorFeet,lightarmor,csFabricArmor"/>
 				<property name="EquipSlot" value="Feet" />
 				<effect_group>
 					<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
@@ -10235,7 +10099,7 @@
 			    <property name="CustomIcon" value="armorMilitaryGloves" />
 				<property name="CustomIconTint" value="B96D2D" />
 				<property name="UnlockedBy" value="perkProtectionArmorRecipes"/>
-				<property name="Tags" value="upperbody,hands,armor,armorHands,lightarmor,craftSkillFabricArmor"/>
+				<property name="Tags" value="upperbody,hands,armor,armorHands,lightarmor,csFabricArmor"/>
 			    <property name="EquipSlot" value="Hands" />
 				<effect_group>
 					<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
@@ -10261,7 +10125,7 @@
 			    <property name="CustomIcon" value="armorMilitaryLegs" />
 			    <property name="CustomIconTint" value="B96D2D" />
 				<property name="UnlockedBy" value="perkProtectionArmorRecipes"/>
-				<property name="Tags" value="lowerbody,legs,armor,armorLegs,lightarmor,craftSkillFabricArmor"/>
+				<property name="Tags" value="lowerbody,legs,armor,armorLegs,lightarmor,csFabricArmor"/>
 			    <property name="EquipSlot" value="Legs" />
 				<effect_group>
 					<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
@@ -10287,7 +10151,7 @@
 			    <property name="CustomIcon" value="armorMilitaryVest" />
 			    <property name="CustomIconTint" value="B96D2D" />
 				<property name="UnlockedBy" value="perkProtectionArmorRecipes"/>
-				<property name="Tags" value="upperbody,chest,armor,armorChest,lightarmor,craftSkillFabricArmor"/>
+				<property name="Tags" value="upperbody,chest,armor,armorChest,lightarmor,csFabricArmor"/>
 			    <property name="EquipSlot" value="Chest" />
 				<effect_group>
 					<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
@@ -10313,7 +10177,7 @@
 				<property name="CustomIcon" value="armorMilitaryHelmet" />
 			    <property name="CustomIconTint" value="B96D2D" />
 				<property name="UnlockedBy" value="perkProtectionArmorRecipes"/>
-				<property name="Tags" value="head,armor,armorHead,lightarmor,craftSkillFabricArmor"/>
+				<property name="Tags" value="head,armor,armorHead,lightarmor,csFabricArmor"/>
 			    <property name="EquipSlot" value="Head" />
 				<effect_group>
 					<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
@@ -10348,15 +10212,13 @@
 				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 				<property name="DescriptionKey" value="TungstenArmorDesc"/>
 				<property name="Group" value="Clothing"/>
-				<property name="ActionSkillGroup" value="Clothing/Armor"/>
-				<property name="CraftingSkillGroup" value="craftSkillMetalArmor"/>
 				<property name="RepairExpMultiplier" value="10.8"/>
 				<property name="EconomicValue" value="1200"/> </item>
 			<item name="TungstenBoots">
 				<property name="Extends" value="armorTungstenMaster" param1="CustomIcon"/>
 				<property name="CustomIcon" value="armorSteelBoots" />
 				<property name="CustomIconTint" value="469A84" />
-				<property name="Tags" value="lowerbody,feet,armor,armorFeet,heavyarmor,craftSkillMetalArmor"/>
+				<property name="Tags" value="lowerbody,feet,armor,armorFeet,heavyarmor,csMetalArmor"/>
 				<property name="EquipSlot" value="Feet" />
 				<effect_group>
 					<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
@@ -10383,7 +10245,7 @@
 				<property name="Extends" value="armorTungstenMaster" param1="CustomIcon"/>
 				<property name="CustomIcon" value="armorSteelLegs" />
 				<property name="CustomIconTint" value="469A84" />
-				<property name="Tags" value="lowerbody,legs,armor,armorLegs,heavyarmor,craftSkillMetalArmor"/>
+				<property name="Tags" value="lowerbody,legs,armor,armorLegs,heavyarmor,csMetalArmor"/>
 			    <property name="EquipSlot" value="Legs" />
 				<effect_group>
 					<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
@@ -10410,7 +10272,7 @@
 				<property name="Extends" value="armorTungstenMaster" param1="CustomIcon"/>
 				<property name="CustomIcon" value="armorSteelChest" />
 				<property name="CustomIconTint" value="469A84" />
-				<property name="Tags" value="upperbody,chest,armor,armorChest,heavyarmor,craftSkillMetalArmor"/>
+				<property name="Tags" value="upperbody,chest,armor,armorChest,heavyarmor,csMetalArmor"/>
 			    <property name="EquipSlot" value="Chest" />
 				<effect_group>
 					<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
@@ -10437,7 +10299,7 @@
 				<property name="Extends" value="armorTungstenMaster" param1="CustomIcon"/>
 				<property name="CustomIcon" value="armorSteelHelmet" />
 				<property name="CustomIconTint" value="469A84" />
-				<property name="Tags" value="head,armor,armorHead,heavyarmor,craftSkillMetalArmor"/>
+				<property name="Tags" value="head,armor,armorHead,heavyarmor,csMetalArmor"/>
 			    <property name="EquipSlot" value="Head" />
 				<effect_group>
 					<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
@@ -10471,7 +10333,7 @@
 				<property name="Extends" value="armorTungstenMaster" param1="CustomIcon"/>
 				<property name="CustomIcon" value="armorSteelGloves" />
 				<property name="CustomIconTint" value="469A84" />
-				<property name="Tags" value="upperbody,hands,armor,armorHands,heavyarmor,craftSkillMetalArmor"/>
+				<property name="Tags" value="upperbody,hands,armor,armorHands,heavyarmor,csMetalArmor"/>
 			    <property name="EquipSlot" value="Hands" />
 				<effect_group>
 					<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
@@ -10508,7 +10370,7 @@
 				<property name="DescriptionKey" value="silverArmorDesc"/>
 				<property name="Group" value="Clothing"/>
 				<property name="ActionSkillGroup" value="Clothing/Armor"/>
-				<property name="CraftingSkillGroup" value="craftSkillMetalArmor"/>
+				<property name="CraftingSkillGroup" value="csMetalArmor"/>
 				<property name="RepairExpMultiplier" value="10.8"/>
 				<property name="EconomicValue" value="1750"/> </item>
 			<item name="silverBoots">
@@ -10516,7 +10378,7 @@
 				<property name="CustomIcon" value="armorClothBoots"/>
 				<property name="CustomIconTint" value="192,192,192"/>
 				<property name="UnlockedBy" value="perkCovertSilverArmor,silverBootsSchematic"/>
-				<property name="Tags" value="lowerbody,feet,armor,armorFeet,lightarmor,heavyarmor,craftSkillMetalArmor"/>
+				<property name="Tags" value="lowerbody,feet,armor,armorFeet,lightarmor,heavyarmor,csMetalArmor"/>
 				<property name="EquipSlot" value="Feet"/>
 				<effect_group>
 					<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
@@ -10544,7 +10406,7 @@
 				<property name="CustomIcon" value="armorClothPants"/>
 				<property name="CustomIconTint" value="192,192,192"/>
 				<property name="UnlockedBy" value="perkCovertSilverArmor,silverPantsSchematic"/>
-				<property name="Tags" value="lowerbody,legs,armor,armorLegs,lightarmor,heavyarmor,craftSkillMetalArmor"/>
+				<property name="Tags" value="lowerbody,legs,armor,armorLegs,lightarmor,heavyarmor,csMetalArmor"/>
 				<property name="EquipSlot" value="Legs"/>
 				<effect_group>
 					<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
@@ -10572,7 +10434,7 @@
 				<property name="CustomIcon" value="armorClothJacket"/>
 				<property name="CustomIconTint" value="192,192,192"/>
 				<property name="UnlockedBy" value="perkCovertSilverArmor,silverJacketSchematic"/>
-				<property name="Tags" value="upperbody,chest,armor,armorChest,lightarmor,heavyarmor,craftSkillMetalArmor"/>
+				<property name="Tags" value="upperbody,chest,armor,armorChest,lightarmor,heavyarmor,csMetalArmor"/>
 				<property name="EquipSlot" value="Chest"/>
 				<effect_group>
 					<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
@@ -10600,7 +10462,7 @@
 				<property name="CustomIcon" value="armorClothHat"/>
 				<property name="CustomIconTint" value="192,192,192"/>
 				<property name="UnlockedBy" value="perkCovertSilverArmor,silverHatSchematic"/>
-				<property name="Tags" value="head,armor,armorHead,lightarmor,heavyarmor,craftSkillMetalArmor"/>
+				<property name="Tags" value="head,armor,armorHead,lightarmor,heavyarmor,csMetalArmor"/>
 				<property name="EquipSlot" value="Head"/>
 				<effect_group>
 					<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
@@ -10630,7 +10492,7 @@
 				<property name="CustomIcon" value="armorClothGloves"/>
 				<property name="CustomIconTint" value="192,192,192"/>
 				<property name="UnlockedBy" value="perkCovertSilverArmor,silverGlovesSchematic"/>
-				<property name="Tags" value="upperbody,hands,armor,armorHands,lightarmor,heavyarmor,craftSkillMetalArmor"/>
+				<property name="Tags" value="upperbody,hands,armor,armorHands,lightarmor,heavyarmor,csMetalArmor"/>
 				<property name="EquipSlot" value="Hands"/>
 				<effect_group>
 					<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
@@ -11114,7 +10976,6 @@
 				</property> -->	 </item>
 			<item name="ECOSmallEngine">
 				<property name="CustomIcon" value="ECOSmallEngine" />
-				<property name="Tags" value="csMechanic"/>
 				<property name="UnlockedBy" value="perkMechanicEngines"/>
 				<property name="HoldType" value="45"/>
 				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -11143,7 +11004,6 @@
 				</property> </item>
 			<item name="HDSmallEngine">
 				<property name="CustomIcon" value="HDSmallEngine" />
-				<property name="Tags" value="csMechanic"/>
 				<property name="UnlockedBy" value="perkMechanicEngines"/>
 				<property name="HoldType" value="45"/>
 				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -11235,8 +11095,7 @@
 				<property name="DescriptionKey" value="HDMinibikeWheelsDesc"/>
 				<property name="Material" value="tungsten" />
 				<property name="EconomicValue" value="1100" />
-			 	<property name="Weight" value="100" />
-				<property name="CraftingSkillGroup" value="Mechanic"/> </item>
+			 	<property name="Weight" value="100" /> </item>
 
 			<!-- To Do Remove 
 			<item id="1840" name="TungstenPadlock">
@@ -11255,7 +11114,6 @@
 				<property name="UnlockedBy" value="perkMechanicMinibikes"/>
 				<property name="CustomIcon" value="SteelMinibikeHandlebars" />
 				<property name="DescriptionKey" value="SteelMinibikeHandlebarsDesc"/>
-				<property name="CraftingSkillGroup" value="Mechanic"/>
 				<property name="EconomicValue" value="750" />
 				<property name="Weight" value="100"/> </item>
 			<item name="TungstenMinibikeHandlebars">
@@ -11264,18 +11122,17 @@
 				<property name="CustomIcon" value="TungstenMinibikeHandlebars" />
 				<property name="DescriptionKey" value="TungstenMinibikeHandlebarsDesc"/>
 				<property name="Material" value="tungsten" />
-				<property name="CraftingSkillGroup" value="Mechanic"/>
 				<property name="EconomicValue" value="1250" />
 				<property name="Weight" value="150"/> </item>
 			<item name="ECOMinibikePlaceable">
 				<property name="CustomIcon" value="ECOMinibikePlaceable"/>
 				<property name="UnlockedBy" value="perkMechanicMinibikes"/>
-				<property name="Tags" value="vehicle"/>
+				<property name="Tags" value="vehicle,csMechanic"/>
 				<property name="DescriptionKey" value="vehiclePlaceableGroupDesc"/>
 				<property name="HoldType" value="7"/>
 				<property name="HoldingItemHidden" value="true"/>
-				<property name="Meshfile" value="Entities/Vehicles/minibike_Prefab"/>
-				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Meshfile" value="#Entities/Vehicles?minibike_Prefab.prefab"/>
+				<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 				<property name="Material" value="Mmetal"/>
 				<property name="EconomicValue" value="8000"/>
 				<property name="SellableToTrader" value="true"/>
@@ -11283,18 +11140,20 @@
 					<property name="Class" value="SpawnVehicle"/>
 					<property name="Vehicle" value="ECOMinibike"/>
 				</property>
-				<effect_group name="Base Effects">
-					<passive_effect name="DegradationMax" operation="base_set" value="3000,6000" tier="1,6"/>
+				<effect_group name="ECOMinibikePlaceable" tiered="false">
+					<passive_effect name="ModSlots" operation="base_set" value="4"/>
+					<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+					<passive_effect name="DegradationMax" operation="base_set" value="6000"/>
 				</effect_group>	</item>
 			<item name="HDMinibikePlaceable">
 				<property name="CustomIcon" value="HDMinibikePlaceable"/>
 				<property name="UnlockedBy" value="perkMechanicMinibikes"/>
-				<property name="Tags" value="vehicle"/>
+				<property name="Tags" value="vehicle,csMechanic"/>
 				<property name="DescriptionKey" value="vehiclePlaceableGroupDesc"/>
 				<property name="HoldType" value="7"/>
 				<property name="HoldingItemHidden" value="true"/>
-				<property name="Meshfile" value="Entities/Vehicles/minibike_Prefab"/>
-				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Meshfile" value="#Entities/Vehicles?minibike_Prefab.prefab"/>
+				<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 				<property name="Material" value="Mmetal"/>
 				<property name="EconomicValue" value="10000"/>
 				<property name="SellableToTrader" value="true"/>
@@ -11302,8 +11161,10 @@
 					<property name="Class" value="SpawnVehicle"/>
 					<property name="Vehicle" value="HDMinibike"/>
 				</property>
-				<effect_group name="Base Effects">
-					<passive_effect name="DegradationMax" operation="base_set" value="6000,12000" tier="1,6"/>
+				<effect_group name="HDMinibikePlaceable" tiered="false">
+					<passive_effect name="ModSlots" operation="base_set" value="4"/>
+					<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+					<passive_effect name="DegradationMax" operation="base_set" value="12000"/>
 				</effect_group> </item>
 			<!-- To Do Remove? -->
 			<!-- <item name="SteelHandlebars">
@@ -11371,16 +11232,19 @@
 			<item name="ECOMotorcyclePlaceable">
 				<property name="Extends" value="vehicleMinibikePlaceable"/>
 				<property name="UnlockedBy" value="perkMechanicMotorcycles"/>
+				<property name="Tags" value="vehicle,csMechanic"/>
 				<property name="CustomIcon" value="ECOMotorcyclePlaceable"/>
-
-				<property name="Meshfile" value="Entities/Vehicles/motorcycle_Prefab"/>
+				<property name="Meshfile" value="#Entities/Vehicles?motorcycle_Prefab.prefab"/>
+				<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 				<property name="EconomicValue" value="10000"/>
 				<property class="Action1">
 					<property name="Vehicle" value="ECOMotorcycle"/>
 					<property name="VehicleSize" value="1.3, 1.9, 3"/>
 				</property>
-				<effect_group name="Base Effects">
-					<passive_effect name="DegradationMax" operation="base_set" value="5000,8000" tier="1,6"/>
+				<effect_group name="ECOMotorcyclePlaceable" tiered="false">
+					<passive_effect name="ModSlots" operation="base_set" value="4"/>
+					<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+					<passive_effect name="DegradationMax" operation="base_set" value="8000"/>
 				</effect_group> </item>
 			<item name="tungstenMotorcycleChassis">
 				<property name="Extends" value="vehicleWheels"/>
@@ -11393,16 +11257,18 @@
 			<item name="HDMotorcyclePlaceable">
 				<property name="Extends" value="vehicleMinibikePlaceable"/>
 				<property name="UnlockedBy" value="perkMechanicMotorcycles"/>
+				<property name="Tags" value="vehicle,csMechanic"/>
 				<property name="CustomIcon" value="HDMotorcyclePlaceable"/>
-
-				<property name="Meshfile" value="Entities/Vehicles/motorcycle_Prefab"/>
+				<property name="Meshfile" value="#Entities/Vehicles?motorcycle_Prefab.prefab"/>
 				<property name="EconomicValue" value="14000"/>
 				<property class="Action1">
 					<property name="Vehicle" value="HDMotorcycle"/>
 					<property name="VehicleSize" value="1.3, 1.9, 3"/>
 				</property>
-				<effect_group name="Base Effects">
-					<passive_effect name="DegradationMax" operation="base_set" value="9000,14000" tier="1,6"/>
+				<effect_group name="HDMotorcyclePlaceable" tiered="false">
+					<passive_effect name="ModSlots" operation="base_set" value="4"/>
+					<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+					<passive_effect name="DegradationMax" operation="base_set" value="14000"/>
 				</effect_group> </item>
 			<item name="steel4x4TruckChassis">
 				<property name="Extends" value="vehicleWheels"/>
@@ -11416,15 +11282,16 @@
 				<property name="Extends" value="vehicleMinibikePlaceable"/>
 				<property name="UnlockedBy" value="perkMechanic4X4Trucks"/>
 				<property name="CustomIcon" value="ECO4x4TruckPlaceable"/>
-
-				<property name="Meshfile" value="Entities/Vehicles/jeep_Prefab"/>
+				<property name="Meshfile" value="#Entities/Vehicles?jeep_Prefab.prefab"/>
 				<property name="EconomicValue" value="35000"/>
 				<property class="Action1">
 					<property name="Vehicle" value="ECO4x4Truck"/>
 					<property name="VehicleSize" value="2.5, 2.1, 5"/>
 				</property>
-				<effect_group name="Base Effects">
-					<passive_effect name="DegradationMax" operation="base_set" value="5000,10000" tier="1,6"/>
+				<effect_group name="ECO4x4TruckPlaceable" tiered="false">
+					<passive_effect name="ModSlots" operation="base_set" value="4"/>
+					<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+					<passive_effect name="DegradationMax" operation="base_set" value="10000"/>
 				</effect_group> </item>
 			<item name="tungsten4x4TruckChassis">
 				<property name="Extends" value="vehicleWheels"/>
@@ -11438,15 +11305,16 @@
 				<property name="Extends" value="vehicleMinibikePlaceable"/>
 				<property name="UnlockedBy" value="perkMechanic4X4Trucks"/>
 				<property name="CustomIcon" value="HD4x4TruckPlaceable"/>
-
-				<property name="Meshfile" value="Entities/Vehicles/jeep_Prefab"/>
+				<property name="Meshfile" value="#Entities/Vehicles?jeep_Prefab.prefab"/>
 				<property name="EconomicValue" value="42000"/>
 				<property class="Action1">
 					<property name="Vehicle" value="HD4x4Truck"/>
 					<property name="VehicleSize" value="2.5, 2.1, 5"/>
 				</property>
-				<effect_group name="Base Effects">
-					<passive_effect name="DegradationMax" operation="base_set" value="7000,16000" tier="1,6"/>
+				<effect_group name="HD4x4TruckPlaceable" tiered="false">
+					<passive_effect name="ModSlots" operation="base_set" value="4"/>
+					<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+					<passive_effect name="DegradationMax" operation="base_set" value="16000"/>
 				</effect_group> </item>
 
 		<!-- Class Items -->
@@ -11935,6 +11803,18 @@
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="chickensoup" operation="set" value="1"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="bearsoup" operation="set" value="1"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="eggdropsoup" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				</effect_group> </item>
+				
+				<item name="gunSafesSchematic">
+				<property name="Extends" value="schematicMaster"/>
+				<property name="CustomIcon" value="gunSafesSchematic"/>
+				<property name="CreativeMode" value="Player"/>
+				<property name="Unlocks" value="GunSafe"/>
+				<effect_group tiered="false">
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="GunSafe" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="DeskSafe" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="WallSafe" operation="set" value="1"/>
 					<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 				</effect_group> </item>
 
@@ -13305,118 +13185,119 @@
 				<property name="EconomicValue" value="750"/> </item> -->
 
 	</append>
-	<append xpath="/items/item[@name='gunPistol']/property[@name='Tags']/@value">,craftSkillPistolGuns</append>
-	<append xpath="/items/item[@name='gun44Magnum']/property[@name='Tags']/@value">,craftSkillPistolGuns</append>
+	<append xpath="/items/item[@name='gunPistol']/property[@name='Tags']/@value">,csPistolGuns</append>
+	<append xpath="/items/item[@name='gun44Magnum']/property[@name='Tags']/@value">,csPistolGuns</append>
 	
-	<append xpath="/items/item[@name='gunBlunderbuss']/property[@name='Tags']/@value">,craftSkillShotgunGuns</append>
-	<append xpath="/items/item[@name='gunPumpShotgun']/property[@name='Tags']/@value">,craftSkillShotgunGuns</append>
+	<append xpath="/items/item[@name='gunBlunderbuss']/property[@name='Tags']/@value">,csShotgunGuns</append>
+	<append xpath="/items/item[@name='gunPumpShotgun']/property[@name='Tags']/@value">,csShotgunGuns</append>
+	<append xpath="/items/item[@name='gunDoubleBarrelShotgun']/property[@name='Tags']/@value">,csShotgunGuns</append>
 	
-	<append xpath="/items/item[@name='gunSMG5']/property[@name='Tags']/@value">,craftSkillRifleGuns</append>
-	<append xpath="/items/item[@name='gunHuntingRifle']/property[@name='Tags']/@value">,craftSkillRifleGuns</append>
-	<append xpath="/items/item[@name='gunMR10']/property[@name='Tags']/@value">,craftSkillRifleGuns</append>
-	<append xpath="/items/item[@name='gunAK47']/property[@name='Tags']/@value">,craftSkillRifleGuns</append>
-	<append xpath="/items/item[@name='gunRocketLauncher']/property[@name='Tags']/@value">,craftSkillRifleGuns</append>
-	<append xpath="/items/item[@name='gunJunkTurret']/property[@name='Tags']/@value">,craftSkillRifleGuns</append>
+	<append xpath="/items/item[@name='gunSMG5']/property[@name='Tags']/@value">,csRifleGuns</append>
+	<append xpath="/items/item[@name='gunHuntingRifle']/property[@name='Tags']/@value">,csRifleGuns</append>
+	<append xpath="/items/item[@name='gunMR10']/property[@name='Tags']/@value">,csRifleGuns</append>
+	<append xpath="/items/item[@name='gunAK47']/property[@name='Tags']/@value">,csRifleGuns</append>
+	<append xpath="/items/item[@name='gunRocketLauncher']/property[@name='Tags']/@value">,csRifleGuns</append>
+	<append xpath="/items/item[@name='gunJunkTurret']/property[@name='Tags']/@value">,csRifleGuns</append>
+	<append xpath="/items/item[@name='gunM60']/property[@name='Tags']/@value">,csRifleGuns</append>
 	
-	<append xpath="/items/item[@name='gunBowPrimitive']/property[@name='Tags']/@value">,craftSkillBowWeapons</append>
-	<append xpath="/items/item[@name='gunBowWooden']/property[@name='Tags']/@value">,craftSkillBowWeapons</append>
-	<append xpath="/items/item[@name='gunBowCompound']/property[@name='Tags']/@value">,craftSkillBowWeapons</append>
-	<append xpath="/items/item[@name='gunCrossbowIron']/property[@name='Tags']/@value">,craftSkillBowWeapons</append>
-	<append xpath="/items/item[@name='gunCrossbowCompound']/property[@name='Tags']/@value">,craftSkillBowWeapons</append>
+	<append xpath="/items/item[@name='gunBowPrimitive']/property[@name='Tags']/@value">,csBowWeapons</append>
+	<append xpath="/items/item[@name='gunBowWooden']/property[@name='Tags']/@value">,csBowWeapons</append>
+	<append xpath="/items/item[@name='gunBowCompound']/property[@name='Tags']/@value">,csBowWeapons</append>
+	<append xpath="/items/item[@name='gunCrossbowIron']/property[@name='Tags']/@value">,csBowWeapons</append>
+	<append xpath="/items/item[@name='gunCrossbowCompound']/property[@name='Tags']/@value">,csBowWeapons</append>
 	
-	<append xpath="/items/item[@name='meleeClubWood']/property[@name='Tags']/@value">,craftSkillBluntWeapons</append>
-	<append xpath="/items/item[@name='meleeClubIron']/property[@name='Tags']/@value">,craftSkillBluntWeapons</append>
-	<append xpath="/items/item[@name='meleeThrownSpearStone']/property[@name='Tags']/@value">,craftSkillBluntWeapons</append>
-	<append xpath="/items/item[@name='meleeToolSledgehammerStone']/property[@name='Tags']/@value">,craftSkillBluntWeapons</append>
-	<append xpath="/items/item[@name='meleeToolSledgehammerIron']/property[@name='Tags']/@value">,craftSkillBluntWeapons</append>
-	<append xpath="/items/item[@name='meleeToolSledgehammerSteel']/property[@name='Tags']/@value">,craftSkillBluntWeapons</append>
-	<append xpath="/items/item[@name='meleeClubBaseballBat']/property[@name='Tags']/@value">,craftSkillBluntWeapons</append>
-	<append xpath="/items/item[@name='meleeClubCandy']/property[@name='Tags']/@value">,craftSkillBluntWeapons</append>
+	<append xpath="/items/item[@name='meleeClubWood']/property[@name='Tags']/@value">,csBluntWeapons</append>
+	<append xpath="/items/item[@name='meleeClubIron']/property[@name='Tags']/@value">,csBluntWeapons</append>
+	<append xpath="/items/item[@name='meleeThrownSpearStone']/property[@name='Tags']/@value">,csBluntWeapons</append>
+	<append xpath="/items/item[@name='meleeToolSledgehammerStone']/property[@name='Tags']/@value">,csBluntWeapons</append>
+	<append xpath="/items/item[@name='meleeToolSledgehammerIron']/property[@name='Tags']/@value">,csBluntWeapons</append>
+	<append xpath="/items/item[@name='meleeToolSledgehammerSteel']/property[@name='Tags']/@value">,csBluntWeapons</append>
+	<append xpath="/items/item[@name='meleeClubBaseballBat']/property[@name='Tags']/@value">,csBluntWeapons</append>
+	<append xpath="/items/item[@name='meleeClubCandy']/property[@name='Tags']/@value">,csBluntWeapons</append>
 	
-	<append xpath="/items/item[@name='meleeToolKnifeBone']/property[@name='Tags']/@value">,craftSkillBladeWeapons</append>
-	<append xpath="/items/item[@name='meleeToolKnifeCandy']/property[@name='Tags']/@value">,craftSkillBladeWeapons</append>
-	<append xpath="/items/item[@name='meleeToolKnifeIron']/property[@name='Tags']/@value">,craftSkillBladeWeapons</append>
-	<append xpath="/items/item[@name='meleeToolKnifeMachete']/property[@name='Tags']/@value">,craftSkillBladeWeapons</append>
-	<append xpath="/items/item[@name='meleeClubBaseballBat']/property[@name='Tags']/@value">,craftSkillBladeWeapons</append>
-	<append xpath="/items/item[@name='meleeClubBaseballBat']/property[@name='Tags']/@value">,craftSkillBladeWeapons</append>
+	<append xpath="/items/item[@name='meleeToolKnifeBone']/property[@name='Tags']/@value">,csBladeWeapons</append>
+	<append xpath="/items/item[@name='meleeToolKnifeCandy']/property[@name='Tags']/@value">,csBladeWeapons</append>
+	<append xpath="/items/item[@name='meleeToolKnifeIron']/property[@name='Tags']/@value">,csBladeWeapons</append>
+	<append xpath="/items/item[@name='meleeToolKnifeMachete']/property[@name='Tags']/@value">,csBladeWeapons</append>
+	<append xpath="/items/item[@name='meleeClubBaseballBat']/property[@name='Tags']/@value">,csBladeWeapons</append>
+	<append xpath="/items/item[@name='meleeClubBaseballBat']/property[@name='Tags']/@value">,csBladeWeapons</append>
 	
-	<append xpath="/items/item[@name='armorClothHat']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='armorSantaHat']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='armorClothJacket']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='armorClothGloves']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='armorClothPants']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='armorClothBoots']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='armorLeatherHood']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='armorLeatherChest']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='armorLeatherGloves']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='armorLeatherPants']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='armorLeatherBoots']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='armorMilitaryHelmet']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='armorMilitaryVest']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='armorMilitaryGloves']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='armorMilitaryLegs']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='armorMilitaryBoots']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='apparelPlantFiberPants']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='apparelPlantFiberShirt']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='apparelPlantFiberHood']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='apparelPlantFiberShoes']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='apparelPlantFiberGloves']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='apparelPlantFiberHat']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='apparelHazmatBoots']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='apparelHazmatPants']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='apparelHazmatJacket']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='apparelHazmatGloves']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='apparelHazmatMask']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='apparelCowboyHat']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='apparelBallCap']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='apparelHazmatMask']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
-	<append xpath="/items/item[@name='apparelHazmatMask']/property[@name='Tags']/@value">,craftSkillFabricArmor</append>
+	<append xpath="/items/item[@name='armorClothHat']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='armorSantaHat']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='armorClothJacket']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='armorClothGloves']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='armorClothPants']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='armorClothBoots']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='armorLeatherHood']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='armorLeatherChest']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='armorLeatherGloves']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='armorLeatherPants']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='armorLeatherBoots']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='armorMilitaryHelmet']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='armorMilitaryVest']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='armorMilitaryGloves']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='armorMilitaryLegs']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='armorMilitaryBoots']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='apparelPlantFiberPants']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='apparelPlantFiberShirt']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='apparelPlantFiberHood']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='apparelPlantFiberShoes']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='apparelPlantFiberGloves']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='apparelPlantFiberHat']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='apparelHazmatBoots']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='apparelHazmatPants']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='apparelHazmatJacket']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='apparelHazmatGloves']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='apparelHazmatMask']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='apparelCowboyHat']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='apparelBallCap']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='apparelHazmatMask']/property[@name='Tags']/@value">,csFabricArmor</append>
+	<append xpath="/items/item[@name='apparelHazmatMask']/property[@name='Tags']/@value">,csFabricArmor</append>
 	
-	<append xpath="/items/item[@name='armorScrapHelmet']/property[@name='Tags']/@value">,craftSkillMetalArmor</append>
-	<append xpath="/items/item[@name='armorScrapChest']/property[@name='Tags']/@value">,craftSkillMetalArmor</append>
-	<append xpath="/items/item[@name='armorScrapGloves']/property[@name='Tags']/@value">,craftSkillMetalArmor</append>
-	<append xpath="/items/item[@name='armorScrapLegs']/property[@name='Tags']/@value">,craftSkillMetalArmor</append>
-	<append xpath="/items/item[@name='armorScrapBoots']/property[@name='Tags']/@value">,craftSkillMetalArmor</append>
-	<append xpath="/items/item[@name='armorIronHelmet']/property[@name='Tags']/@value">,craftSkillMetalArmor</append>
-	<append xpath="/items/item[@name='armorIronChest']/property[@name='Tags']/@value">,craftSkillMetalArmor</append>
-	<append xpath="/items/item[@name='armorIronGloves']/property[@name='Tags']/@value">,craftSkillMetalArmor</append>
-	<append xpath="/items/item[@name='armorIronLegs']/property[@name='Tags']/@value">,craftSkillMetalArmor</append>
-	<append xpath="/items/item[@name='armorIronBoots']/property[@name='Tags']/@value">,craftSkillMetalArmor</append>
-	<append xpath="/items/item[@name='armorSteelHelmet']/property[@name='Tags']/@value">,craftSkillMetalArmor</append>
-	<append xpath="/items/item[@name='armorSteelChest']/property[@name='Tags']/@value">,craftSkillMetalArmor</append>
-	<append xpath="/items/item[@name='armorSteelGloves']/property[@name='Tags']/@value">,craftSkillMetalArmor</append>
-	<append xpath="/items/item[@name='armorSteelLegs']/property[@name='Tags']/@value">,craftSkillMetalArmor</append>
-	<append xpath="/items/item[@name='armorSteelBoots']/property[@name='Tags']/@value">,craftSkillMetalArmor</append>
-	<append xpath="/items/item[@name='armorMiningHelmet']/property[@name='Tags']/@value">,craftSkillMetalArmor</append>
-	<append xpath="/items/item[@name='armorSwatHelmet']/property[@name='Tags']/@value">,craftSkillMetalArmor</append>
-	<append xpath="/items/item[@name='armorFootballHelmet']/property[@name='Tags']/@value">,craftSkillMetalArmor</append>
+	<append xpath="/items/item[@name='armorScrapHelmet']/property[@name='Tags']/@value">,csMetalArmor</append>
+	<append xpath="/items/item[@name='armorScrapChest']/property[@name='Tags']/@value">,csMetalArmor</append>
+	<append xpath="/items/item[@name='armorScrapGloves']/property[@name='Tags']/@value">,csMetalArmor</append>
+	<append xpath="/items/item[@name='armorScrapLegs']/property[@name='Tags']/@value">,csMetalArmor</append>
+	<append xpath="/items/item[@name='armorScrapBoots']/property[@name='Tags']/@value">,csMetalArmor</append>
+	<append xpath="/items/item[@name='armorIronHelmet']/property[@name='Tags']/@value">,csMetalArmor</append>
+	<append xpath="/items/item[@name='armorIronChest']/property[@name='Tags']/@value">,csMetalArmor</append>
+	<append xpath="/items/item[@name='armorIronGloves']/property[@name='Tags']/@value">,csMetalArmor</append>
+	<append xpath="/items/item[@name='armorIronLegs']/property[@name='Tags']/@value">,csMetalArmor</append>
+	<append xpath="/items/item[@name='armorIronBoots']/property[@name='Tags']/@value">,csMetalArmor</append>
+	<append xpath="/items/item[@name='armorSteelHelmet']/property[@name='Tags']/@value">,csMetalArmor</append>
+	<append xpath="/items/item[@name='armorSteelChest']/property[@name='Tags']/@value">,csMetalArmor</append>
+	<append xpath="/items/item[@name='armorSteelGloves']/property[@name='Tags']/@value">,csMetalArmor</append>
+	<append xpath="/items/item[@name='armorSteelLegs']/property[@name='Tags']/@value">,csMetalArmor</append>
+	<append xpath="/items/item[@name='armorSteelBoots']/property[@name='Tags']/@value">,csMetalArmor</append>
+	<append xpath="/items/item[@name='armorMiningHelmet']/property[@name='Tags']/@value">,csMetalArmor</append>
 	
 	<append xpath="/items/item[@name='meleeToolStoneAxe']/property[@name='Tags']/@value">,csStoneScrapITools</append>
 	<append xpath="/items/item[@name='meleeToolShovelStone']/property[@name='Tags']/@value">,csStoneScrapITools</append>
-	<append xpath="/items/item[@name='meleeToolSledgehammerStone']/property[@name='Tags']/@value">,csStoneScrapITools</append>
 	
 	<append xpath="/items/item[@name='meleeToolClawHammer']/property[@name='Tags']/@value">,csIronTools</append>
 	<append xpath="/items/item[@name='meleeToolPickaxeIron']/property[@name='Tags']/@value">,csIronTools</append>
 	<append xpath="/items/item[@name='meleeToolShovelIron']/property[@name='Tags']/@value">,csIronTools</append>
-	<append xpath="/items/item[@name='meleeToolSledgehammerIron']/property[@name='Tags']/@value">,csIronTools</append>
+	<append xpath="/items/item[@name='meleeToolSledgehammerIron']/property[@name='Tags']/@value">,csBluntWeapons</append>
 	<append xpath="/items/item[@name='meleeToolFireaxeIron']/property[@name='Tags']/@value">,csIronTools</append>
-	<append xpath="/items/item[@name='meleeToolHoeIron']/property[@name='Tags']/@value">,csIronTools</append>
-	<append xpath="/items/item[@name='meleeToolWireTool']/property[@name='Tags']/@value">,csIronTools</append>
-	<append xpath="/items/item[@name='meleeToolPaintTool']/property[@name='Tags']/@value">,csIronTools</append>
 	<append xpath="/items/item[@name='gunToolNailgun']/property[@name='Tags']/@value">,csIronTools</append>
 	
 	
 	<append xpath="/items/item[@name='meleeToolShovelSteel']/property[@name='Tags']/@value">,csSteelTools</append>
 	<setattribute xpath="/items/item[@name='meleeToolFireaxeSteel']" name="Tags">axe,melee,grunting,medium,tool,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic,csSteelTools</setattribute>
 	<setattribute xpath="/items/item[@name='meleeToolPickaxeSteel']" name="Tags">melee,grunting,medium,tool,attStrength,perkMiner69r,perkMotherLode,miningTool,canHaveCosmetic,csSteelTools</setattribute>
-	<append xpath="/items/item[@name='meleeToolSledgehammerSteel']/property[@name='Tags']/@value">,csSteelTools</append>
+	<append xpath="/items/item[@name='meleeToolSledgehammerSteel']/property[@name='Tags']/@value">,csBluntWeapons</append>
 	
 	<append xpath="/items/item[@name='meleeToolWrench']/property[@name='Tags']/@value">,csMechanic</append>
 	<append xpath="/items/item[@name='meleeToolChainsaw']/property[@name='Tags']/@value">,csMechanic</append>
 	<append xpath="/items/item[@name='meleeToolAuger']/property[@name='Tags']/@value">,csMechanic</append>
+	<setattribute xpath="/items/item[@name='vehicleBicyclePlaceable']" name="Tags">vehicle,csMechanic</setattribute>
 	<append xpath="/items/item[@name='vehicleMinibikePlaceable']/property[@name='Tags']/@value">,csMechanic</append>
-	<append xpath="/items/item[@name='smallEngine']/property[@name='Tags']/@value">,csMechanic</append>
+	<setattribute xpath="/items/item[@name='vehicleMotorcyclePlaceable']" name="Tags">vehicle,csMechanic</setattribute>
+	<setattribute xpath="/items/item[@name='vehicle4x4TruckPlaceable']" name="Tags">vehicle,csMechanic</setattribute>
+	<setattribute xpath="/items/item[@name='vehicleGyrocopterPlaceable']" name="Tags">vehicle,csMechanic</setattribute>
 	<append xpath="/items/item[@name='carBattery']/property[@name='Tags']/@value">,csMechanic</append>
+	<append xpath="/items/item[@name='meleeToolChainsaw']/property[@name='Tags']/@value">,csMechanic</append>
+	<append xpath="/items/item[@name='meleeToolAuger']/property[@name='Tags']/@value">,csMechanic</append>
 	
 	<setattribute xpath="/items/item[@name='drugVitamins']" name="UnlockedBy">perkSurvivalistHealing</setattribute>
 	<append xpath="/items/item[@name='drugHerbalAntibiotics']/property[@name='UnlockedBy']/@value">,perkSurvivalistHealing</append>
@@ -13825,7 +13706,7 @@
 			</item>
 	</insertAfter>
 	<set xpath="/items/item[@name='gunToolNailgun']/property[@class='Action1']/property[@name='Delay']/@value">.4</set>
-	<append xpath="/items/item[@name='gunPistol']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun1</append>
+	<append xpath="/items/item[@name='gunPistol']/property[@class='Action0']/property[@name='Magazine_items']/@value">9mmHollowPointBullet,unloadgun1</append>
 	<append xpath="/items/item[@name='gun44Magnum']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun1</append>
 	<append xpath="/items/item[@name='gunSMG5']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun1</append>
 	<append xpath="/items/item[@name='gunBlunderbuss']/property[@class='Action0']/property[@name='Magazine_items']/@value">,unloadgun1</append>

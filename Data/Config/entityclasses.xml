@@ -4773,7 +4773,7 @@
 	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="7"/>
-	<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="rawRedMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<effect_group name="Base Effects">
@@ -4793,7 +4793,7 @@
 	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
-	<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="rawRedMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 

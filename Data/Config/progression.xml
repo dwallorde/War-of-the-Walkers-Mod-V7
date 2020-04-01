@@ -408,8 +408,8 @@
 	<!-- WOTW Tab #4 Crafting Skills -->
 	<perk name="skillRecipeWorkstations" parent="attRecipePerks" name_key="skillRecipeWorkstationsName" desc_key="skillRecipeWorkstationsDesc" icon="ui_game_symbol_workbench" min_level="0" max_level="0" base_skill_point_cost="0" cost_multiplier_per_level="1.14"></perk>
 	<perk name="skillRecipeTools" parent="attRecipePerks" name_key="skillRecipeToolsName" desc_key="skillRecipeToolsDesc" icon="ui_game_symbol_tool" min_level="0" max_level="0" base_skill_point_cost="0" cost_multiplier_per_level="1.14"></perk>
-	<perk name="skillRecipeBuilding" parent="attRecipePerks" name_key="skillRecipeBuildingName" desc_key="skillRecipeBuildingDesc" icon="ui_game_symbol_buildersforgecrafting" min_level="0" max_level="0" base_skill_point_cost="0" cost_multiplier_per_level="1.14"></perk>
 	<perk name="skillRecipeWeapons" parent="attRecipePerks" name_key="skillRecipeWeaponsName" desc_key="skillRecipeWeaponsDesc" icon="ui_game_symbol_weapon_smithing" min_level="0" max_level="0" base_skill_point_cost="0" cost_multiplier_per_level="1.14"></perk>
+	<perk name="skillRecipeBuilding" parent="attRecipePerks" name_key="skillRecipeBuildingName" desc_key="skillRecipeBuildingDesc" icon="ui_game_symbol_buildersforgecrafting" min_level="0" max_level="0" base_skill_point_cost="0" cost_multiplier_per_level="1.14"></perk>
 	<perk name="skillRecipeArmor" parent="attRecipePerks" name_key="skillRecipeArmorName" desc_key="skillRecipeArmorDesc" icon="ui_game_symbol_armor_iron" min_level="0" max_level="0" base_skill_point_cost="0" cost_multiplier_per_level="1.14"></perk>
 	<perk name="skillRecipeAmmo" parent="attRecipePerks2" name_key="skillRecipeAmmoName" desc_key="skillRecipeAmmoDesc" icon="ui_game_symbol_ammo_crafting" min_level="0" max_level="0" base_skill_point_cost="0" cost_multiplier_per_level="1.14"></perk>
 	<perk name="skillRecipeFoodMedicine" parent="attRecipePerks2" name_key="skillRecipeFoodMedicineName" desc_key="skillRecipeFoodMedicineDesc" icon="ui_game_symbol_hunger" min_level="0" max_level="0" base_skill_point_cost="0" cost_multiplier_per_level="1.14"></perk>
@@ -2909,7 +2909,7 @@
 		</effect_group>
 		
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="craftSkillPistolGuns"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="csPistolGuns"/>
 		</effect_group>
 		<!-- For gunPistol, gun44Magnum and DesertEagle -->
 	</perk>
@@ -2940,9 +2940,9 @@
 		</effect_group>
 		
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="craftSkillShotgunGuns"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="csShotgunGuns"/>
 		</effect_group>
-		<!-- For gunBlunderbuss,blunderbussDoubleBarrel,gunPumpShotgun,BarettaShotgun -->
+		<!-- For gunBlunderbuss,blunderbussDoubleBarrel,gunPumpShotgun,gunDoubleBarrelShotgun,BarettaShotgun -->
 	</perk>
 	
 	<perk name="craftSkillRifleGuns" parent="skillGunsAmmoCrafting" name_key="craftSkillRifleGunsName" desc_key="craftSkillRifleGunsDesc" icon="ui_game_symbol_rifle">
@@ -2971,7 +2971,7 @@
 		</effect_group>
 		
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="craftSkillRifleGuns"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="csRifleGuns"/>
 		</effect_group>
 		<!-- For gunSMG5,gunHuntingRifle,gunMR10,gunAK47,gunRocketLauncher,Remington8,FAMAS,M25SniperRifle -->
 	</perk>
@@ -3002,9 +3002,9 @@
 		</effect_group>
 		
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="craftSkillBowWeapons"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="csBowWeapons"/>
 		</effect_group>
-		<!-- For gunBowPrimitive,gunBowWooden,gunBowCompound,gunCrossbowCompound -->
+		<!-- For gunBowPrimitive,gunBowWooden,gunBowCompound,gunCrossbowIron,gunCrossbowCompound -->
 	</perk>
 	
 	<perk name="craftSkillGunsBlank1" parent="skillGunsAmmoCrafting" name_key="craftSkillGunsBlank1Name" desc_key="craftSkillGunsBlank1Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
@@ -3118,7 +3118,7 @@
 		</effect_group>
 		
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="craftSkillBluntWeapons"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="csBluntWeapons"/>
 		</effect_group>
 		<!-- For meleeClubWood,meleeClubCandy,meleeClubIron,meleeThrownSpearStone,meleeThrownSpearIron,meleeThrownSpearSteel,spearTungsten,meleeToolSledgehammerStone,meleeToolSledgehammerIron,meleeToolSledgehammerSteel,sledgehammerTungsten,meleeClubBaseballBat,batBaseballSteel,hammerBattle,maceBattle,pipeIron,ClubTungsten -->
 	</perk>
@@ -3151,7 +3151,7 @@
 		</effect_group>
 		
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="craftSkillBladeWeapons"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="csBladeWeapons"/>
 		</effect_group>
 		<!-- For meleeToolKnifeBone,meleeToolKnifeCandy,meleeToolKnifeIron,meleeToolKnifeMachete,SteelMachete,TungstenMachete,GoldTippedMachete,steelHuntingKnife,tungstenHuntingKnife,GoldTippedKnife,cleaver,knifeKitchen,knifeCombat,sword,axeBattle,skullAxeBattle,swordBattle,shivPrisoner -->
 	</perk>
@@ -3213,7 +3213,7 @@
 		</effect_group>
 		
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="craftSkillFabricArmor"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="csFabricArmor"/>
 		</effect_group>
 		<!-- For armorClothHat,armorSantaHat,armorClothJacket,armorClothGloves,armorClothPants,armorClothBoots,armorLeatherHood,armorLeatherChest,armorLeatherGloves,armorLeatherPants,armorLeatherBoots,armorMilitaryHelmet,armorMilitaryVest,armorMilitaryGloves,armorMilitaryLegs,armorMilitaryBoots,plantFiberPants,plantFiberShirt,plantFiberHood,plantFiberShoes,plantFiberGloves,plantFiberHat,hazmatBoots,hazmatPants,hazmatShirt,hazmatGloves,hazmatMask,cowboyHat,ballCap,LightCoat,FaceMask,FlannelPants,snuggie,KevlarBoots,KevlarGloves,KevlarLegArmor,KevlarVest,KevlarHelmet -->
 	</perk>
@@ -3242,9 +3242,9 @@
 		</effect_group>
 		
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="craftSkillMetalArmor"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="csMetalArmor"/>
 		</effect_group>
-		<!-- For armorScrapHelmet,armorScrapChest,armorScrapGloves,armorScrapLegs,armorScrapBoots,armorIronHelmet,armorIronChest,armorIronGloves,armorIronLegs,armorIronBoots,armorSteelHelmet,armorSteelChest,armorSteelGloves,armorSteelLegs,armorSteelBoots,armorMiningHelmet,armorSwatHelmet,armorFootballHelmet,TungstenBoots,TungstenLegArmor,TungstenChestArmor,TungstenHelmet,TungstenGloves,silverBoots,silverPants,silverJacket,silverHat,silverGloves -->
+		<!-- For armorScrapHelmet,armorScrapChest,armorScrapGloves,armorScrapLegs,armorScrapBoots,armorIronHelmet,armorIronChest,armorIronGloves,armorIronLegs,armorIronBoots,armorSteelHelmet,armorSteelChest,armorSteelGloves,armorSteelLegs,armorSteelBoots,armorMiningHelmet,TungstenBoots,TungstenLegArmor,TungstenChestArmor,TungstenHelmet,TungstenGloves,silverBoots,silverPants,silverJacket,silverHat,silverGloves -->
 	</perk>
 	
 	<perk name="craftSkillArmorBlank1" parent="skillArmorCrafting" name_key="craftSkillArmorBlank1Name" desc_key="craftSkillArmorBlank1Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
@@ -3303,7 +3303,7 @@
 		<effect_group>
 			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="csStoneScrapITools"/>
 		</effect_group>
-		<!-- For meleeToolStoneAxe,meleeToolShovelStone,meleeToolSledgehammerStone,stonePickaxe,stoneHoe,ScrapIronAxe,ScrapIronPickaxe,ScrapIronShovel,stoneHammer,scrapIronHammer -->
+		<!-- For meleeToolStoneAxe,meleeToolShovelStone,meleeToolSledgehammerStone,stonePickaxe,ScrapIronAxe,ScrapIronPickaxe,ScrapIronShovel,stoneHammer,scrapIronHammer -->
 	</perk>
 	
 	<!-- Iron/Steel -->
@@ -3335,7 +3335,7 @@
 		<effect_group>
 			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="csIronTools,csSteelTools"/>
 		</effect_group>
-		<!-- For meleeToolClawHammer,meleeToolPickaxeIron,meleeToolShovelIron,meleeToolSledgehammerIron,meleeToolFireaxeIron,meleeToolHoeIron,meleeToolWireTool,meleeToolPaintTool,gunToolNailgun,handWeeder,meleeToolShovelSteel,meleeToolFireaxeSteel,meleeToolPickaxeSteel,axeIce,sickleSteel,steelClawHammer,screwdriver,meleeToolShovelSteel,crowbarSteel -->
+		<!-- For meleeToolClawHammer,meleeToolPickaxeIron,meleeToolShovelIron,meleeToolFireaxeIron,gunToolNailgun,handWeeder,meleeToolShovelSteel,meleeToolFireaxeSteel,meleeToolPickaxeSteel,axeIce,sickleSteel,steelClawHammer,screwdriver,crowbarSteel -->
 	</perk>
 	
 	<!-- Do Not Add -->
@@ -3429,7 +3429,7 @@
 		<effect_group>
 			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="csMechanic"/>
 		</effect_group>
-		<!-- For meleeToolWrench,meleeToolChainsaw,meleeToolAuger,vehicleMinibikePlaceable,smallEngine,carBattery,scrapIronWrench,HDWrench,tungstenWrench,vehicleBicyclePlaceable,vehicleMotorcyclePlaceable,vehicle4x4TruckPlaceable,vehicleGyrocopterPlaceable,ECOSmallEngine,HDSmallEngine,ECOBattery,HDBattery,ECOMinibikePlaceable,HDMinibikePlaceable,ECOAuger,HDAuger,ECOChainsaw,HDChainsaw,ECO4x4TruckPlaceable,ECOMotorcyclePlaceable,HD4x4TruckPlaceable,HDMotorcyclePlaceable -->
+		<!-- For meleeToolWrench,meleeToolChainsaw,meleeToolAuger,vehicleMinibikePlaceable,carBattery,scrapIronWrench,HDWrench,tungstenWrench,vehicleBicyclePlaceable,vehicleMotorcyclePlaceable,vehicle4x4TruckPlaceable,vehicleGyrocopterPlaceable,ECOBattery,HDBattery,ECOMinibikePlaceable,HDMinibikePlaceable,ECOAuger,HDAuger,ECOChainsaw,HDChainsaw,ECO4x4TruckPlaceable,ECOMotorcyclePlaceable,HD4x4TruckPlaceable,HDMotorcyclePlaceable -->
 	</perk>
 	
 	<perk name="craftSkillToolsBlank1" parent="skillToolCrafting" name_key="craftSkillToolsBlank1Name" desc_key="craftSkillToolsBlank1Desc" icon="" min_level="0" max_level="0" base_skill_point_cost="0">
@@ -3605,7 +3605,7 @@
 				tags="tungstenBars,tungstenBarsCentered"/>
 			<!-- Tier 5 Tungsten Construction -->
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5"
-				tags="tungstenFrameBlock,tungstenFrameRamp,tungstenFrameCNRInside,tungstenFrameArch,tungstenFrameCNRFull,tungstenFrameCTRPlate,tungstenFrameCTRPole,tungstenFrameHalf,tungstenFramePillar50,tungstenFramePillar100,tungstenFramePlate,tungstenFramePole,tungstenFrameEighth,tungstenFrameQuarter,tungstenFrameCTREighth"/>
+				tags="tungstenFrameBlockVariantHelper,tungstenStairs25CornerCNR,tungstenWedgeStairs,tungstenWedgeTipStairs,tungstenStairs25"/>
 			<effect_description level="1" desc_key="perkAdvancedConstructionRank1Desc"/>
 			<effect_description level="2" desc_key="perkAdvancedConstructionRank2Desc"/>
 			<effect_description level="3" desc_key="perkAdvancedConstructionRank3Desc"/>
@@ -5187,7 +5187,7 @@
 		<effect_group>
 			<!-- Tier 1 Furniture Recipes -->
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1"
-				tags="cntBookcaseFull,cntPillCase,cntCardboardBox,cntWoodDesk01Closed,cntMetalDesk02Closed,cntWallOven,cntCabinetOldSink,cntGraniteSink,cntGreenDrawerSecure,cntWashingMachine,cntTrashCompactor,cntFridgeBottom,cntFridgeTop,cntBeerCooler,cntLockersShortClosed,cntToilet01,cntToilet02,cntToilet03"/>
+				tags="cntBookcaseFull,cntPillCase,cntCardboardBox,cntWoodDesk01Closed,cntMetalDesk02Closed,cntWallOven,cntCabinetOldSink,cntGraniteSink,cntGreenDrawerSecure,cntWashingMachine,cntTrashCompactor,cntFridgeBottom,cntFridgeTop,cntBeerCooler,cntLockersShortClosed,toiletBlockVariantHelper"/>
 			<effect_description level="1" desc_key="perkRecipeFurnishingRank1Desc"/>
 		</effect_group>
 	</perk>
