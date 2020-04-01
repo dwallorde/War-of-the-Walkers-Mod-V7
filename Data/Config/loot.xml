@@ -2075,6 +2075,7 @@ The overall plan for loot distribution:
 	<item name="ammoGasCanSchematic"/>
 	<item name="resourceOilSchematic"/>
 	<item name="SettingTheTrap"/>
+	<item name="gunSafesSchematic"/>
 	<!--<item name="meleeToolHoeIronSchematic"/>-->
 </lootgroup>
 
