@@ -80,6 +80,7 @@
 		<property name="description_key" value="quest_WhiteRiverCitizen1_description" />
 		<property name="icon" value="ui_game_symbol_map_trader" />
 		<property name="category_key" value="quest" />
+		<property name="offer" value="Accepting this quest will automatically locate the nearest trader to your current location." />
 		<property name="difficulty" value="medium" />
 		<property name="shareable" value="false" />
 		
@@ -2326,7 +2327,7 @@
 	<property name="group_name_key" value="BuilderClass" />
 	<property name="description_key" value="classtrainingbuilder1_description" />
 	<property name="icon" value="ui_game_symbol_classbuilder" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingbuilder1_offer" />
 	<property name="difficulty" value="easy" />
@@ -2347,7 +2348,7 @@
 	<property name="group_name_key" value="BuilderClass" />
 	<property name="description_key" value="classtrainingbuilder2_description" />
 	<property name="icon" value="ui_game_symbol_classbuilder" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingbuilder2_offer" />
 	<property name="difficulty" value="easy" />
@@ -2366,7 +2367,7 @@
 	<property name="group_name_key" value="BuilderClass" />
 	<property name="description_key" value="classtrainingbuilder3_description" />
 	<property name="icon" value="ui_game_symbol_classbuilder" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingbuilder3_offer" />
 	<property name="difficulty" value="easy" />
@@ -2387,7 +2388,7 @@
 	<property name="group_name_key" value="BuilderClass" />
 	<property name="description_key" value="classtrainingbuilder4_description" />
 	<property name="icon" value="ui_game_symbol_classbuilder" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingbuilder4_offer" />
 	<property name="difficulty" value="easy" />
@@ -2411,7 +2412,7 @@
 	<property name="group_name_key" value="BuilderClass" />
 	<property name="description_key" value="classtrainingbuilder5_description" />
 	<property name="icon" value="ui_game_symbol_classbuilder" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingbuilder5_offer" />
 	<property name="difficulty" value="easy" />
@@ -2437,7 +2438,7 @@
 	<property name="group_name_key" value="SurvivalistClass" />
 	<property name="description_key" value="classtrainingsurvivalist1_description" />
 	<property name="icon" value="ui_game_symbol_classSurvivalist" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingsurvivalist1_offer" />
 	<property name="difficulty" value="easy" />
@@ -2463,7 +2464,7 @@
 	<property name="group_name_key" value="SurvivalistClass" />
 	<property name="description_key" value="classtrainingsurvivalist2_description" />
 	<property name="icon" value="ui_game_symbol_classSurvivalist" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingsurvivalist2_offer" />
 	<property name="difficulty" value="easy" />
@@ -2489,7 +2490,7 @@
 	<property name="group_name_key" value="SurvivalistClass" />
 	<property name="description_key" value="classtrainingsurvivalist3_description" />
 	<property name="icon" value="ui_game_symbol_classSurvivalist" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingsurvivalist3_offer" />
 	<property name="difficulty" value="easy" />
@@ -2512,7 +2513,7 @@
 	<property name="group_name_key" value="SurvivalistClass" />
 	<property name="description_key" value="classtrainingsurvivalist4_description" />
 	<property name="icon" value="ui_game_symbol_classSurvivalist" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingsurvivalist4_offer" />
 	<property name="difficulty" value="easy" />
@@ -2533,7 +2534,7 @@
 	<property name="group_name_key" value="SurvivalistClass" />
 	<property name="description_key" value="classtrainingsurvivalist5_description" />
 	<property name="icon" value="ui_game_symbol_classSurvivalist" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingsurvivalist5_offer" />
 	<property name="difficulty" value="easy" />
@@ -2559,7 +2560,7 @@
 	<property name="group_name_key" value="ScholarClass" />
 	<property name="description_key" value="classtrainingscholar1_description" />
 	<property name="icon" value="ui_game_symbol_classScholar" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingscholar1_offer" />
 	<property name="difficulty" value="easy" />
@@ -2585,7 +2586,7 @@
 	<property name="group_name_key" value="ScholarClass" />
 	<property name="description_key" value="classtrainingscholar2_description" />
 	<property name="icon" value="ui_game_symbol_classScholar" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingscholar2_offer" />
 	<property name="difficulty" value="easy" />
@@ -2610,7 +2611,7 @@
 	<property name="group_name_key" value="ScholarClass" />
 	<property name="description_key" value="classtrainingscholar3_description" />
 	<property name="icon" value="ui_game_symbol_classScholar" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingscholar3_offer" />
 	<property name="difficulty" value="easy" />
@@ -2635,7 +2636,7 @@
 	<property name="group_name_key" value="ScholarClass" />
 	<property name="description_key" value="classtrainingscholar4_description" />
 	<property name="icon" value="ui_game_symbol_classScholar" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingscholar4_offer" />
 	<property name="difficulty" value="easy" />
@@ -2661,7 +2662,7 @@
 	<property name="group_name_key" value="ScholarClass" />
 	<property name="description_key" value="classtrainingscholar5_description" />
 	<property name="icon" value="ui_game_symbol_classScholar" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingscholar5_offer" />
 	<property name="difficulty" value="easy" />
@@ -2687,7 +2688,7 @@
 	<property name="group_name_key" value="MarksmanClass" />
 	<property name="description_key" value="classtrainingmarksman1_description" />
 	<property name="icon" value="ui_game_symbol_classMarksman" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingmarksman1_offer" />
 	<property name="difficulty" value="easy" />
@@ -2706,7 +2707,7 @@
 	<property name="group_name_key" value="MarksmanClass" />
 	<property name="description_key" value="classtrainingmarksman2_description" />
 	<property name="icon" value="ui_game_symbol_classMarksman" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingmarksman2_offer" />
 	<property name="difficulty" value="easy" />
@@ -2730,7 +2731,7 @@
 	<property name="group_name_key" value="MarksmanClass" />
 	<property name="description_key" value="classtrainingmarksman3_description" />
 	<property name="icon" value="ui_game_symbol_classMarksman" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingmarksman3_offer" />
 	<property name="difficulty" value="easy" />
@@ -2753,7 +2754,7 @@
 	<property name="group_name_key" value="MarksmanClass" />
 	<property name="description_key" value="classtrainingmarksman4_description" />
 	<property name="icon" value="ui_game_symbol_classMarksman" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingmarksman4_offer" />
 	<property name="difficulty" value="easy" />
@@ -2782,7 +2783,7 @@
 	<property name="group_name_key" value="MarksmanClass" />
 	<property name="description_key" value="classtrainingmarksman5_description" />
 	<property name="icon" value="ui_game_symbol_classMarksman" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingmarksman5_offer" />
 	<property name="difficulty" value="easy" />
@@ -2808,7 +2809,7 @@
 	<property name="group_name_key" value="FighterClass" />
 	<property name="description_key" value="classtrainingfighter1_description" />
 	<property name="icon" value="ui_game_symbol_classFighter" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingfighter1_offer" />
 	<property name="difficulty" value="easy" />
@@ -2835,7 +2836,7 @@
 	<property name="group_name_key" value="FighterClass" />
 	<property name="description_key" value="classtrainingfighter2_description" />
 	<property name="icon" value="ui_game_symbol_classFighter" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingfighter2_offer" />
 	<property name="difficulty" value="easy" />
@@ -2864,7 +2865,7 @@
 	<property name="group_name_key" value="FighterClass" />
 	<property name="description_key" value="classtrainingfighter3_description" />
 	<property name="icon" value="ui_game_symbol_classFighter" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingfighter3_offer" />
 	<property name="difficulty" value="easy" />
@@ -2888,7 +2889,7 @@
 	<property name="group_name_key" value="FighterClass" />
 	<property name="description_key" value="classtrainingfighter4_description" />
 	<property name="icon" value="ui_game_symbol_classFighter" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingfighter4_offer" />
 	<property name="difficulty" value="easy" />
@@ -2926,7 +2927,7 @@
 	<property name="group_name_key" value="FighterClass" />
 	<property name="description_key" value="classtrainingfighter5_description" />
 	<property name="icon" value="ui_game_symbol_classFighter" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingfighter5_offer" />
 	<property name="difficulty" value="easy" />
@@ -2952,7 +2953,7 @@
 	<property name="group_name_key" value="TradesmanClass" />
 	<property name="description_key" value="classtrainingtradesman1_description" />
 	<property name="icon" value="ui_game_symbol_classTradesman" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingtradesman1_offer" />
 	<property name="difficulty" value="easy" />
@@ -2977,7 +2978,7 @@
 	<property name="group_name_key" value="TradesmanClass" />
 	<property name="description_key" value="classtrainingtradesman2_description" />
 	<property name="icon" value="ui_game_symbol_classTradesman" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingtradesman2_offer" />
 	<property name="difficulty" value="easy" />
@@ -2998,7 +2999,7 @@
 	<property name="group_name_key" value="TradesmanClass" />
 	<property name="description_key" value="classtrainingtradesman3_description" />
 	<property name="icon" value="ui_game_symbol_classTradesman" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingtradesman3_offer" />
 	<property name="difficulty" value="easy" />
@@ -3023,7 +3024,7 @@
 	<property name="group_name_key" value="TradesmanClass" />
 	<property name="description_key" value="classtrainingtradesman4_description" />
 	<property name="icon" value="ui_game_symbol_classTradesman" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingtradesman4_offer" />
 	<property name="difficulty" value="easy" />
@@ -3046,7 +3047,7 @@
 	<property name="group_name_key" value="TradesmanClass" />
 	<property name="description_key" value="classtrainingtradesman5_description" />
 	<property name="icon" value="ui_game_symbol_classTradesman" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingtradesman5_offer" />
 	<property name="difficulty" value="easy" />
@@ -3072,7 +3073,7 @@
 	<property name="group_name_key" value="ProtectionClass" />
 	<property name="description_key" value="classtrainingprotection1_description" />
 	<property name="icon" value="ui_game_symbol_classProtection" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingprotection1_offer" />
 	<property name="difficulty" value="easy" />
@@ -3098,7 +3099,7 @@
 	<property name="group_name_key" value="ProtectionClass" />
 	<property name="description_key" value="classtrainingprotection2_description" />
 	<property name="icon" value="ui_game_symbol_classProtection" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingprotection2_offer" />
 	<property name="difficulty" value="easy" />
@@ -3121,7 +3122,7 @@
 	<property name="group_name_key" value="ProtectionClass" />
 	<property name="description_key" value="classtrainingprotection3_description" />
 	<property name="icon" value="ui_game_symbol_classProtection" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingprotection3_offer" />
 	<property name="difficulty" value="easy" />
@@ -3147,7 +3148,7 @@
 	<property name="group_name_key" value="ProtectionClass" />
 	<property name="description_key" value="classtrainingprotection4_description" />
 	<property name="icon" value="ui_game_symbol_classProtection" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingprotection4_offer" />
 	<property name="difficulty" value="easy" />
@@ -3171,7 +3172,7 @@
 	<property name="group_name_key" value="ProtectionClass" />
 	<property name="description_key" value="classtrainingprotection5_description" />
 	<property name="icon" value="ui_game_symbol_classProtection" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingprotection5_offer" />
 	<property name="difficulty" value="easy" />
@@ -3197,7 +3198,7 @@
 	<property name="group_name_key" value="ElectricianClass" />
 	<property name="description_key" value="classtrainingelectrician1_description" />
 	<property name="icon" value="ui_game_symbol_classElectrician" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingelectrician1_offer" />
 	<property name="difficulty" value="easy" />
@@ -3219,7 +3220,7 @@
 	<property name="group_name_key" value="ElectricianClass" />
 	<property name="description_key" value="classtrainingelectrician2_description" />
 	<property name="icon" value="ui_game_symbol_classElectrician" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingelectrician2_offer" />
 	<property name="difficulty" value="easy" />
@@ -3240,7 +3241,7 @@
 	<property name="group_name_key" value="ElectricianClass" />
 	<property name="description_key" value="classtrainingelectrician3_description" />
 	<property name="icon" value="ui_game_symbol_classElectrician" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingelectrician3_offer" />
 	<property name="difficulty" value="easy" />
@@ -3262,7 +3263,7 @@
 	<property name="group_name_key" value="ElectricianClass" />
 	<property name="description_key" value="classtrainingelectrician4_description" />
 	<property name="icon" value="ui_game_symbol_classElectrician" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingelectrician4_offer" />
 	<property name="difficulty" value="easy" />
@@ -3284,7 +3285,7 @@
 	<property name="group_name_key" value="ElectricianClass" />
 	<property name="description_key" value="classtrainingelectrician5_description" />
 	<property name="icon" value="ui_game_symbol_classElectrician" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingelectrician5_offer" />
 	<property name="difficulty" value="easy" />
@@ -3310,7 +3311,7 @@
 	<property name="group_name_key" value="CovertClass" />
 	<property name="description_key" value="classtrainingcovert1_description" />
 	<property name="icon" value="ui_game_symbol_classCovert" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingcovert1_offer" />
 	<property name="difficulty" value="easy" />
@@ -3329,7 +3330,7 @@
 	<property name="group_name_key" value="CovertClass" />
 	<property name="description_key" value="classtrainingcovert2_description" />
 	<property name="icon" value="ui_game_symbol_classCovert" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingcovert2_offer" />
 	<property name="difficulty" value="easy" />
@@ -3375,7 +3376,7 @@
 	<property name="group_name_key" value="CovertClass" />
 	<property name="description_key" value="classtrainingcovert3_description" />
 	<property name="icon" value="ui_game_symbol_classCovert" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingcovert3_offer" />
 	<property name="difficulty" value="easy" />
@@ -3408,7 +3409,7 @@
 	<property name="group_name_key" value="CovertClass" />
 	<property name="description_key" value="classtrainingcovert4_description" />
 	<property name="icon" value="ui_game_symbol_classCovert" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingcovert4_offer" />
 	<property name="difficulty" value="easy" />
@@ -3445,7 +3446,7 @@
 	<property name="group_name_key" value="CovertClass" />
 	<property name="description_key" value="classtrainingcovert5_description" />
 	<property name="icon" value="ui_game_symbol_classCovert" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingcovert5_offer" />
 	<property name="difficulty" value="easy" />
@@ -3471,7 +3472,7 @@
 	<property name="group_name_key" value="CookClass" />
 	<property name="description_key" value="classtrainingcook1_description" />
 	<property name="icon" value="ui_game_symbol_classCook" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingcook1_offer" />
 	<property name="difficulty" value="easy" />
@@ -3495,7 +3496,7 @@
 	<property name="group_name_key" value="CookClass" />
 	<property name="description_key" value="classtrainingcook2_description" />
 	<property name="icon" value="ui_game_symbol_classCook" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingcook2_offer" />
 	<property name="difficulty" value="easy" />
@@ -3519,7 +3520,7 @@
 	<property name="group_name_key" value="CookClass" />
 	<property name="description_key" value="classtrainingcook3_description" />
 	<property name="icon" value="ui_game_symbol_classCook" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingcook3_offer" />
 	<property name="difficulty" value="easy" />
@@ -3543,7 +3544,7 @@
 	<property name="group_name_key" value="CookClass" />
 	<property name="description_key" value="classtrainingcook4_description" />
 	<property name="icon" value="ui_game_symbol_classCook" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingcook4_offer" />
 	<property name="difficulty" value="easy" />
@@ -3570,7 +3571,7 @@
 	<property name="group_name_key" value="CookClass" />
 	<property name="description_key" value="classtrainingcook5_description" />
 	<property name="icon" value="ui_game_symbol_classCook" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingcook5_offer" />
 	<property name="difficulty" value="easy" />
@@ -3596,7 +3597,7 @@
 	<property name="group_name_key" value="MechanicClass" />
 	<property name="description_key" value="classtrainingmechanic1_description" />
 	<property name="icon" value="ui_game_symbol_classMechanic" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingmechanic1_offer" />
 	<property name="difficulty" value="easy" />
@@ -3618,7 +3619,7 @@
 	<property name="group_name_key" value="MechanicClass" />
 	<property name="description_key" value="classtrainingmechanic2_description" />
 	<property name="icon" value="ui_game_symbol_classMechanic" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingmechanic2_offer" />
 	<property name="difficulty" value="easy" />
@@ -3640,7 +3641,7 @@
 	<property name="group_name_key" value="MechanicClass" />
 	<property name="description_key" value="classtrainingmechanic3_description" />
 	<property name="icon" value="ui_game_symbol_classMechanic" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingmechanic3_offer" />
 	<property name="difficulty" value="easy" />
@@ -3662,7 +3663,7 @@
 	<property name="group_name_key" value="MechanicClass" />
 	<property name="description_key" value="classtrainingmechanic4_description" />
 	<property name="icon" value="ui_game_symbol_classMechanic" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingmechanic4_offer" />
 	<property name="difficulty" value="easy" />
@@ -3685,7 +3686,7 @@
 	<property name="group_name_key" value="MechanicClass" />
 	<property name="description_key" value="classtrainingmechanic5_description" />
 	<property name="icon" value="ui_game_symbol_classMechanic" />
-	<property name="repeatable" value="false" />
+	<property name="repeatable" value="true" />
 	<property name="category_key" value="Quest" />
 	<property name="offer_key" value="classtrainingmechanic5_offer" />
 	<property name="difficulty" value="easy" />

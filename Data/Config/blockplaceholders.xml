@@ -114,7 +114,7 @@
 		<block name="cntTrashPile08"/>
 		<block name="cntTrashPile09"/>
 		<block name="cntShoppingCart" prob="0.05"/>
-		<block name="cntShoppingCartEmpty" prob="0.5"/>
+		<block name="cntShoppingCartEmpty" prob="0.75"/>
 		<block name="cntBackpack01" prob="0.05"/>
 		<block name="cntBackpack03" prob="0.05"/>
 		<block name="cntDuffle01" prob="0.05"/>
@@ -152,28 +152,13 @@
 		<block name="cntCar03SedanDamage1v06" prob="0.5"/>
 		<block name="cntCar03SedanDamage1v07" prob="0.5"/>
 
-		<block name="cntCar03SedanDamage2v01" prob="1.5"/>
-		<block name="cntCar03SedanDamage2v02" prob="1.5"/>
-		<block name="cntCar03SedanDamage2v03" prob="1.5"/>
-		<block name="cntCar03SedanDamage2v04" prob="1.5"/>
-		<block name="cntCar03SedanDamage2v05" prob="1.5"/>
-		<block name="cntCar03SedanDamage2v06" prob="1.5"/>
-		<block name="cntCar03SedanDamage2v07" prob="1.5"/>
-		<!-- To Do: Add Firetruck? -->
-		<block name="cntBusSchool" prob="0.25"/>
-		<block name="cntBusSchoolShort" prob="0.25"/>
-		<block name="cntBusShuttle" prob="0.25"/>
-		<block name="cntBusCity" prob="0.25"/>
-		<block name="carAmbulance" prob="0.5"/>
-		<block name="carECOSedanBlue" prob="0.5"/>
-		<block name="carECOSedanRed" prob="0.5"/>
-		<block name="carECOSedanTan" prob="0.5"/>
-		<block name="carMilitaryVehicle" prob="0.25"/>
-		<block name="carPoliceInterceptor" prob="0.5"/>
-		<block name="carPostApocalypticTruck" prob="0.25"/>
-		<block name="carSemiTruck" prob="0.25"/>
-		<block name="carTowTruck" prob="0.5"/>
-		<block name="carWreckedTruck" prob="0.5"/>
+		<block name="cntCar03SedanDamage2v01" prob="3"/>
+		<block name="cntCar03SedanDamage2v02" prob="3"/>
+		<block name="cntCar03SedanDamage2v03" prob="3"/>
+		<block name="cntCar03SedanDamage2v04" prob="3"/>
+		<block name="cntCar03SedanDamage2v05" prob="3"/>
+		<block name="cntCar03SedanDamage2v06" prob="3"/>
+		<block name="cntCar03SedanDamage2v07" prob="3"/>
 	</placeholder>
 
 	<placeholder name="carWrecksRandomHelper">
@@ -185,44 +170,6 @@
 		<block name="cntCar03SedanDamage2v06" prob="3"/>
 		<block name="cntCar03SedanDamage2v07" prob="3"/>
 		<block name="cntCar03SedanDamage2v08" prob=".8"/>
-		<block name="carWreckedTruck" prob="0.5"/>
-	</placeholder>
-	
-	<!-- Replace the CustomCarHelper with one of the following -->
-	<placeholder name="CustomCarHelper">
-		<block name="cntCar03SedanDamage1v01" prob="1"/>
-		<block name="cntCar03SedanDamage1v02" prob="1"/>
-		<block name="cntCar03SedanDamage1v03" prob="1"/>
-		<block name="cntCar03SedanDamage1v04" prob="1"/>
-		<block name="cntCar03SedanDamage1v05" prob="1"/>
-		<block name="cntCar03SedanDamage1v06" prob="1"/>
-		<block name="cntCar03SedanDamage0v01" prob="0.5"/>
-		<block name="cntCar03SedanDamage0v02" prob="0.5"/>
-		<block name="cntCar03SedanDamage0v03" prob="0.5"/>
-		<block name="cntCar03SedanDamage0v04" prob="0.5"/>
-		<block name="cntCar03SedanDamage0v05" prob="0.5"/>
-		<block name="cntCar03SedanDamage0v06" prob="0.5"/>
-		<block name="cntCar03SedanDamage2v01" prob="1.5"/>
-		<block name="cntCar03SedanDamage2v02" prob="1.5"/>
-		<block name="cntCar03SedanDamage2v03" prob="1.5"/>
-		<block name="cntCar03SedanDamage2v04" prob="1.5"/>
-		<block name="cntCar03SedanDamage2v05" prob="1.5"/>
-		<block name="cntCar03SedanDamage2v06" prob="1.5"/>
-		<block name="cntCar03SedanDamage2v07" prob="1.5"/>
-		<block name="cntBusSchool" prob="0.25"/>
-		<block name="cntBusSchoolShort" prob="0.25"/>
-		<block name="cntBusShuttle" prob="0.25"/>
-		<block name="cntBusCity" prob="0.25"/>
-		<block name="carAmbulance" prob="0.5"/>
-		<block name="carECOSedanBlue" prob="0.5"/>
-		<block name="carECOSedanRed" prob="0.5"/>
-		<block name="carECOSedanTan" prob="0.5"/>
-		<block name="carMilitaryVehicle" prob="0.25"/>
-		<block name="carPoliceInterceptor" prob="0.5"/>
-		<block name="carPostApocalypticTruck" prob="0.25"/>
-		<block name="carSemiTruck" prob="0.25"/>
-		<block name="carTowTruck" prob="0.5"/>
-		<block name="carWreckedTruck" prob="0.25"/>
 	</placeholder>
 
 	<!-- Replace the lootYard with one of the following -->
@@ -298,33 +245,6 @@
 		<block name="cntFoodPileMedium" prob=".1"/>
 	</placeholder>
 
-		<!-- <block name="cntChest01" prob="1"/> -->
-		<!-- <block name="cntDeskSafe" prob="1"/> -->
-		<!--
-		<block name="cntBackpack01" prob="1"/>
-		<block name="cntBackpack03" prob="1"/>
-		<block name="cntDuffle01" prob="1"/>
-		<block name="cntSportsBag01" prob="1"/>
-		<block name="cntSportsBag02" prob="1"/>
-		-->
-
-
-	<!-- Random stone/resource -->
-	<placeholder name="terrStoneRandomLootHelper">
-		<block name="terrStone" prob="80"/>
-		<block name="terrOreIron" prob="12"/>
-		<block name="terrOreCoal" prob="2.5"/>
-		<block name="terrOrePotassiumNitrate" prob="2.5"/>
-		<block name="terrOreLead" prob="2.5"/>
-		<block name="terrOreOilDeposit" prob="0.8"/>
-		<block name="terrOreSilver" prob="0.5"/>
-		<block name="terrOreGold" prob="0.4"/>
-		<block name="terrOreDiamond" prob="0.3"/>
-		<block name="tungstenOre" prob="0.7"/>
-		<block name="copperOre" prob="0.8"/>
-		<block name="zincOre" prob="0.8"/>
-	</placeholder>
-
 	<!-- stone terrain block tailired to biomes -->
 	<placeholder name="terrStoneHelper">
 		<block name="terrSnowyStone" biome="snow"/>
@@ -386,29 +306,6 @@
 		<block name="terrStone" prob="0.6" biome="burnt_forest"/>
 		<block name="terrStone" prob="0.6" biome="water"/>
 	</placeholder>
-	
-	<placeholder name="terrOreStoneTungstenRandom">
-		<block name="tungstenOre" prob="0.43"/>
-		<block name="terrStone" prob="0.6" biome="snow"/>
-		<block name="terrStone" prob="0.6" biome="pine_forest"/>
-		<block name="terrSandStone" prob="0.6" biome="desert"/>
-		<block name="terrStone" prob="0.6" biome="water"/>
-		<block name="terrStone" prob="0.6" biome="wasteland"/>
-		<block name="terrStone" prob="0.6" biome="burnt_forest"/>
-		<block name="terrStone" prob="0.6" biome="water"/>
-	</placeholder>
-	
-	<placeholder name="terrOreStoneCopperZincRandom">
-		<block name="copperOre" prob="0.43"/>
-		<block name="zincOre" prob="0.43"/>
-		<block name="terrStone" prob="0.6" biome="snow"/>
-		<block name="terrStone" prob="0.6" biome="pine_forest"/>
-		<block name="terrSandStone" prob="0.6" biome="desert"/>
-		<block name="terrStone" prob="0.6" biome="water"/>
-		<block name="terrStone" prob="0.6" biome="wasteland"/>
-		<block name="terrStone" prob="0.6" biome="burnt_forest"/>
-		<block name="terrStone" prob="0.6" biome="water"/>
-	</placeholder>
 
 	<placeholder name="cntToolsAndForgeRandomLootHelper">
 		<block name="cntShippingCrateWorkingStiffs" prob="30"/>
@@ -422,14 +319,8 @@
 		<block name="cntShippingCrateShamway" prob="30"/>
 		<block name="cntShippingCrateShotgunMessiah" prob="30"/>
 		<block name="cntShippingCrateWorkingStiffs" prob="30"/>
-		<block name="cntShippingCrateBrewery" prob="30"/>
-		<block name="cntAutomotiveStoreLoot" prob="30"/>
-		<block name="clothingStoreShippingContainer" prob="30"/>
-		<block name="resourceShippingContainer" prob="30"/>
-		<block name="farmShippingCrate" prob="30"/>
 	</placeholder>
 
-	<!-- To Do: Add Broken Mod Workstation Versions -->
 	<placeholder name="cntWorkstationsRandomLootHelper">
 		<block name="forge" prob="30"/>
 		<block name="workbench" prob="30"/>
@@ -515,15 +406,6 @@
 		<block name="paintingNoah" prob="1"/>
 		<block name="paintingDuke" prob="1"/>
 		<block name="paintingKen" prob="1"/>
-		<block name="paintingLeaf" prob="1"/>
-		<block name="paintingKitten" prob="1"/>
-		<block name="paintingLlama" prob="1"/>
-		<block name="paintingMonaLisa" prob="1"/>
-		<block name="paintingWatermelon" prob="1"/>
-		<block name="paintingMonarch" prob="1"/>
-		<block name="paintingSunset" prob="1"/>
-		<block name="paintingAmericanGothic" prob="1"/>
-		<block name="paintingHorse" prob="1"/>
 	</placeholder>
 
 	<placeholder name="cntPaintingPictureSafeRandomLootHelper">
@@ -533,15 +415,6 @@
 		<block name="hiddenSafePaintingNoah" prob="1"/>
 		<block name="hiddenSafePaintingDuke" prob="1"/>
 		<block name="hiddenSafePaintingKen" prob="1"/>
-		<block name="hiddenSafePaintingLeaf" prob="1"/>
-		<block name="hiddenSafePaintingKitten" prob="1"/>
-		<block name="hiddenSafePaintingLlama" prob="1"/>
-		<block name="hiddenSafePaintingMonaLisa" prob="1"/>
-		<block name="hiddenSafePaintingWatermelon" prob="1"/>
-		<block name="hiddenSafePaintingMonarch" prob="1"/>
-		<block name="hiddenSafePaintingSunset" prob="1"/>
-		<block name="hiddenSafePaintingAmericanGothic" prob="1"/>
-		<block name="hiddenSafePaintingHorse" prob="1"/>
 	</placeholder>
 
 	<placeholder name="cntWallSafeRandomLootHelper">
@@ -947,18 +820,6 @@
 		<block name="treeBrownGrassDiagonal" prob="0.431" biome="water" randomrotation="true"/>
 		<block name="treeBrownGrassDiagonal" prob="0.431" biome="wasteland" randomrotation="true"/>
 		<block name="treeBrownGrassDiagonal" prob="0.431" biome="burnt_forest" randomrotation="true"/>
-	</placeholder>
-	
-	<!-- Replace the supplyCrateRandomLootHelper with one of the following -->
-	<placeholder name="supplyCrateRandomLootHelper">
-		<block name="supplyCrateBuilding" prob="0.6"/>
-		<block name="supplyCrateHealthandArmor" prob="0.6"/>
-		<block name="supplyCrateAmmo" prob="0.5"/>
-		<block name="supplyCrateFoodandDrink" prob="0.75"/>
-		<block name="supplyCrateWeaponsDay5" prob="0.4"/>
-		<block name="supplyCrateWeaponsDay7" prob="0.3"/>
-		<block name="supplyCrateWeaponsDay3" prob="0.5"/>
-		<block name="supplyCrateGeneral" prob="0.8"/>
 	</placeholder>
 
 	<!-- You CAN now use an air block and create random non-blocks.

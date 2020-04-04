@@ -1,0 +1,27 @@
+<config>
+
+<append xpath="/Sounds" >
+<SoundDataNode name="minibike_hornmine"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="4" noise="60" time="2" heat_map_strength="0.2" heat_map_time="90"/>
+	<!-- <AudioClip ClipName="#Mine3.unity3d?Mine1"/> -->
+	<!-- <AudioClip ClipName="#Mine3.unity3d?Mine2"/> -->
+	<AudioClip ClipName="#Mine3.unity3d?Mine3"/>
+	<LocalCrouchVolumeScale name="1.0"/> <CrouchNoiseScale name="1"/> <NoiseScale name="1"/> <MaxVoices name="3"/> <MaxEntities name="6"/> <MaxRepeatRate name="0.01"/> </SoundDataNode>
+
+<SoundDataNode name="minibike_hornquack"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="4" noise="60" time="1" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#QuackHorn.unity3d?cannard"/>
+	<LocalCrouchVolumeScale name="1.0"/> <CrouchNoiseScale name="1"/> <NoiseScale name="1"/> <MaxVoices name="3"/> <MaxEntities name="6"/> <MaxRepeatRate name="0.01"/> </SoundDataNode>
+
+<SoundDataNode name="suv_horn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="4" noise="20" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#HornTruck1.unity3d?General_Lee"/>
+	<LocalCrouchVolumeScale name="1.0"/> <CrouchNoiseScale name="1"/> <NoiseScale name="1"/> <MaxVoices name="3"/> <MaxEntities name="6"/> <MaxRepeatRate name="0.01"/> </SoundDataNode>
+
+<SoundDataNode name="gyro_horn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="4" noise="20" time="7" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#HornGyro.unity3d?Valkyries"/>
+	<LocalCrouchVolumeScale name="1.0"/> <CrouchNoiseScale name="1"/> <NoiseScale name="1"/> <MaxVoices name="3"/> <MaxEntities name="6"/> <MaxRepeatRate name="0.01"/> </SoundDataNode>
+</append>
+
+</config>

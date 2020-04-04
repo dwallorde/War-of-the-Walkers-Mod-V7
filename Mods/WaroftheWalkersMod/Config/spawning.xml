@@ -1,0 +1,84 @@
+<config>
+
+<set xpath="/spawning/biome[@name='city_wasteland']/spawn[@maxcount='1'][@entitygroup='EnemyAnimalsWasteland']/@respawndelay">4</set>
+
+<set xpath="/spawning/biome[@name='wasteland_hub']/spawn[@maxcount='1'][@entitygroup='EnemyAnimalsWasteland']/@respawndelay">4</set>
+
+<set xpath="/spawning/biome[@name='pine_forest']/spawn[@maxcount='1'][@entitygroup='ZombiesAll']/@respawndelay">2</set>
+<set xpath="/spawning/biome[@name='pine_forest']/spawn[@maxcount='1'][@entitygroup='ZombiesNight']/@respawndelay">2</set>
+<set xpath="/spawning/biome[@name='pine_forest']/spawn[@maxcount='1'][@entitygroup='EnemyAnimalsForest']/@respawndelay">5</set>
+<set xpath="/spawning/biome[@name='pine_forest']/spawn[@maxcount='1'][@entitygroup='FriendlyAnimalsForest']/@respawndelay">5</set>
+
+<set xpath="/spawning/biome[@name='desert']/spawn[@maxcount='1'][@entitygroup='ZombiesAll']/@respawndelay">2</set>
+<set xpath="/spawning/biome[@name='desert']/spawn[@maxcount='1'][@entitygroup='ZombiesNight']/@respawndelay">2</set>
+<set xpath="/spawning/biome[@name='desert']/spawn[@maxcount='1'][@entitygroup='EnemyAnimalsDesert']/@respawndelay">5</set>
+<set xpath="/spawning/biome[@name='desert']/spawn[@maxcount='1'][@entitygroup='FriendlyAnimalsDesert']/@respawndelay">5</set>
+
+<set xpath="/spawning/biome[@name='wasteland']/spawn[@respawndelay='1'][@time='Day']/@maxcount">2</set>
+<set xpath="/spawning/biome[@name='wasteland']/spawn[@respawndelay='1'][@time='Day']/@entitygroup">ZombiesWastelandNight</set>
+<set xpath="/spawning/biome[@name='wasteland']/spawn[@respawndelay='1'][@time='Night']/@entitygroup">ZombiesWasteland</set>
+
+<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='ZombiesBurntForest'][@time='Day']/@respawndelay">2</set>
+<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='ZombiesNight'][@time='Night']/@respawndelay">2</set>
+<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='EnemyAnimalsBurntForest'][@time='Any']/@respawndelay">5</set>
+
+<set xpath="/spawning/biome[@name='snow']/spawn[@time='Any'][@entitygroup='SnowZombies']/@respawndelay">2</set>
+<set xpath="/spawning/biome[@name='snow']/spawn[@respawndelay='2'][@time='Night']/@entitygroup">SnowZombiesNight</set>
+<set xpath="/spawning/biome[@name='snow']/spawn[@time='Any'][@entitygroup='EnemyAnimalsSnow']/@respawndelay">5</set>
+<set xpath="/spawning/biome[@name='snow']/spawn[@time='Any'][@entitygroup='FriendlyAnimalsSnow']/@respawndelay">5</set>
+
+<append xpath="/spawning/entityspawner">
+	<!-- Dwalls Automotive Repair LTD Medium Spawns -->
+    <entityspawner name="Dwalls_Automotive_Repair_LTD_Med_Territorial">
+
+      <day value="*">
+     	  <property name="ResetToday"        value="false" />
+
+		    <property name="EntityGroupName"    value="ZombieAutomotiveRepairGroup" />
+		    <property name="Time"               value="Any" />
+
+		    <property name="DelayBetweenSpawns" value="0" />
+		    <!-- in seconds -->
+		    <property name="TotalAlive"         value="6" />
+
+		    <property name="TotalPerWave"       value="6" />
+        <property name="DaysToRespawnIfPlayerLeft" value="5" /> <!-- in game days -->
+
+		    <property name="AttackPlayerAtOnce" value="false" />
+
+		    <property name="Territorial"        value="false" />
+		    <property name="TerritorialRange"   value="40" />
+		  </day>
+    </entityspawner>
+	
+	<!-- High Security Prison Medium Spawns -->
+    <entityspawner name="High_Security_Prison_Med_Territorial">
+
+      <day value="*">
+     	  <property name="ResetToday"        value="false" />
+
+		    <property name="EntityGroupName"    value="ZombieHighSecurityPrisonGroup" />
+		    <property name="Time"               value="Any" />
+
+		    <property name="DelayBetweenSpawns" value="0" />
+		    <!-- in seconds -->
+		    <property name="TotalAlive"         value="8" />
+
+		    <property name="TotalPerWave"       value="6" />
+        <property name="DaysToRespawnIfPlayerLeft" value="5" /> <!-- in game days -->
+
+		    <property name="AttackPlayerAtOnce" value="false" />
+
+		    <property name="Territorial"        value="false" />
+		    <property name="TerritorialRange"   value="40" />
+		  </day>
+    </entityspawner>
+</append>
+
+<set xpath="/spawning/entityspawner[@name='RoamingHordeSpawnDay']/day[@value='5']/property[@name='EntityGroupName']/@value">FatZombieHoardGroup</set>
+<set xpath="/spawning/entityspawner[@name='RoamingHordeSpawnDay']/day[@value='16']/property[@name='EntityGroupName']/@value">FatZombieHoardGroup</set>
+<set xpath="/spawning/entityspawner[@name='RoamingHordeSpawnDay']/day[@value='21']/property[@name='EntityGroupName']/@value">FatZombieHoardGroup</set>
+<set xpath="/spawning/entityspawner[@name='RoamingHordeSpawnDay']/day[@value='23']/property[@name='EntityGroupName']/@value">FatZombieHoardGroup</set>
+<set xpath="/spawning/entityspawner[@name='RoamingHordeSpawnDay']/day[@value='26']/property[@name='EntityGroupName']/@value">FatZombieHoardGroup</set>
+
+</config>

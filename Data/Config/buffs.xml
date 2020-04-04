@@ -494,7 +494,7 @@ List of hacks to be removed:
 
 		<effect_group name="Power Attack Grunt">
 			<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" sound="player#powerattack">
-				<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="0"/>	
+				<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="0"/>
 				<requirement name="!HoldingItemBroken"/>
 				<requirement name="HoldingItemHasTags" tags="grunting"/>
 				<requirement name="!HoldingItemHasTags" tags="thrownWeapon"/>
@@ -1937,7 +1937,7 @@ Kill Streak: Successive kills increase damage bonus by 30%, 40% up to a maximum 
 	</buff>
 
 
-		<buff name="buffInjuryStunned01Shotgun" name_key="buff Injury Stunned 01 Shotgun" hidden="true" icon="ui_game_symbol_stunned" icon_color="255,128,0">
+	<buff name="buffInjuryStunned01Shotgun" name_key="buff Injury Stunned 01 Shotgun" hidden="true" icon="ui_game_symbol_stunned" icon_color="255,128,0">
 		<damage_type value="stun"/>
 		<stack_type value="replace"/>
 		<duration value="3"/>
@@ -2294,48 +2294,6 @@ Kill Streak: Successive kills increase damage bonus by 30%, 40% up to a maximum 
 			</triggered_effect>
 		</effect_group>
 	</buff>
-	<!-- WOTW Mod Start -->
-	
-	<!-- To Do Update Icon and Localisation -->
-	<buff name="buffAdvancedLegSplint" name_key="advancedsplint" description_key="advancedsplintDesc" tooltip_key="advancedsplintTooltip" icon="AdvancedSplintBuffIcon">
-		<damage_type value="sprain"/>
-		<duration value="600"/>
-		<effect_group>
-			<passive_effect name="RunSpeed" operation="perc_subtract" value="0.05, 0" duration="0,600" />
-			<passive_effect name="WalkSpeed" operation="perc_subtract" value="0.05, 0" duration="0,600" />
-			<passive_effect name="CrouchSpeed" operation="perc_subtract" value="0.05, 0" duration="0,600" />
-			<passive_effect name="JumpStrength" operation="perc_subtract" value="0.12, 0" duration="0,600" />
-
-			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" target="self" buff="buffLegBroken"/>
-		</effect_group>
-	</buff>
-	
-	<!-- <buff id="AdvancedSplint" overrides="brokenLeg,sprainedLeg,splint" overrideicon="true" type="speedmodifier"
-		icon="AdvancedSplintBuffIcon" name_key="advancedsplint" description_key="advancedsplintDesc" tooltip_key="advancedsplintTooltip" causes="AdvancedSplint">
-			<modify id="0" stat="speedmodifier" mulValue="1.2"/>
-			<modify id="1" buff="brokenLeg" tickrate="3"/>
-			<modify id="2" buff="sprainedLeg" tickrate="3"/>
-	</buff> -->
-	
-	<!-- To Do Update Icon and Localisation -->
-	<buff name="buffAdvancedArmSplint" name_key="advancedsplint" description_key="advancedsplintDesc" icon="AdvancedSplintBuffIcon">
-		<stack_type value="replace"/>
-		<duration value="600"/>
-		<effect_group>
-			<passive_effect name="AttacksPerMinute" operation="perc_subtract" value="0.05,0" duration="0,600"/>
-			<passive_effect name="RoundsPerMinute" operation="perc_subtract" value="0.05,0" duration="0,600"/>
-			<passive_effect name="StaminaLoss" operation="perc_add" value="0.05,0" duration="0,600" tags="melee,ranged"/>
-
-			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" target="self" buff="buffArmBroken"/>
-		</effect_group>
-	</buff>
-	
-	<!-- <buff id="AdvancedSplint" overrides="brokenLeg,sprainedLeg,splint" overrideicon="true" type="speedmodifier"
-		icon="AdvancedSplintBuffIcon" name_key="advancedsplint" description_key="advancedsplintDesc" tooltip_key="advancedsplintTooltip" causes="AdvancedSplint">
-			<modify id="0" stat="speedmodifier" mulValue="1.2"/>
-			<modify id="1" buff="brokenLeg" tickrate="3"/>
-			<modify id="2" buff="sprainedLeg" tickrate="3"/>
-	</buff> -->
 
 
 
@@ -2782,50 +2740,6 @@ Kill Streak: Successive kills increase damage bonus by 30%, 40% up to a maximum 
 		</effect_group>
 	</buff>
 
-	<!-- WOTW Mod Start -->
-	<buff name="buffFirstAidDeploy" hidden="true"> <!-- remove when blocks proc buffs correctly -->
-		<stack_type value="ignore"/>
-		<duration value=".5"/>
-		<effect_group>
-			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffFirstAidDeployHack"/>
-		</effect_group>
-	</buff>
-	
-	<buff name="buffFirstAidDeployHack" hidden="true"> <!-- rename to "buffBurningEnvironment" when blocks proc buffs correctly -->
-		<stack_type value="replace"/>
-		<duration value="2"/>
-		<effect_group>
-			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="FirstAidDeployCounter" operation="set" value="0"/>
-			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="FirstAidDeployCounter" operation="add" value="1"/>
-			<passive_effect name="WaterChangeOT" operation="base_subtract" value="0.1"/>
-		</effect_group>
-		<effect_group>
-				<requirement name="CVarCompare" cvar="FirstAidDeployCounter" operation="GTE" value="5"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffIsonFirstAid"/>
-			<triggered_effect trigger="onSelfBuffStack" action="AddBuff" buff="buffIsonFirstAid"/>
-				<passive_effect name="HealthChangeOT" operation="base_add" value="1"/>
-		</effect_group>
-	</buff>
-	
-	<buff name="buffIsonFirstAid" name_key="FirstAidDeployBuff" description_key="FirstAidDeployBuffDesc" tooltip_key="FirstAidDeployBuffTooltip" icon="FirstAidRadiusIcon" icon_color="255,0,0" icon_blink="true">
-		<stack_type value="ignore"/>
-		<duration value="0"/>
-		<update_rate value="1"/>
-		<effect_group>
-			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBurningFlamingArrow"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBurningMolotov"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBurningEnvironmentHack"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBurningEnvironment"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBurningElement"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBurning"/>
-		</effect_group>
-	</buff>
-	
-	<!--
-	<buff id="FirstAidDeploy" stack="discard" duration="1" buffif="CTRFirstAidDeploy greater 0" debuffif="CTRFirstAidDeploy less 1" type="healthup"
-	icon="FirstAidRadiusIcon" name_key="FirstAidDeployBuff"  description_key="FirstAidDeployBuffDesc" tooltip_key="FirstAidDeployBuffTooltip">
-	<modify id="0" stat="health" amount="15" rate="1"/>
-	</buff> -->
 
 <!-- ****************** Illness Debuffs: Dysentery, Pneumonia, etc. ****************** -->
 
@@ -4142,43 +4056,6 @@ icon="ui_game_symbol_pack_mule"
 		</effect_group>
 	</buff>
 
-	<!-- WOTW Mod Start -->
-	
-	<buff name="buffDrugExtraStrengthPainKillers" name_key="ExtraStrengthPainKillersBuff" description_key="ExtraStrengthPainKillersBuffDesc" tags="drug" icon="ExtraStrengthPainKillersIcon">
-		<stack_type value="ignore"/>
-		<duration value="360"/>
-		<effect_group>
-			<passive_effect name="HealthLoss" operation="perc_subtract" value="0.3"/>
-			<passive_effect name="WaterChangeOT" operation="base_subtract" value="0.111"/>
-
-			<triggered_effect trigger="onSelfBuffStart" action="ModifyStat" stat="Health" operation="add" value="80"/>
-		</effect_group>
-	</buff>
-	
-	<!-- To Do Remove Tooltip Localization
-	<buff id="ExtraStrengthPainKillers" duration="60" stack="extend" type="healthup"
-	icon="ExtraStrengthPainKillersIcon" name_key="ExtraStrengthPainKillersBuff" description_key="ExtraStrengthPainKillersBuffDesc" tooltip_key="ExtraStrengthPainKillersBuffTooltip" causes="ExtraStrengthPainkillers">
-	<modify id="1" stat="health" amount="1" rate="1"/>
-	</buff> -->
-	
-	<buff name="buffDrugVitamins2" name_key="VitaminsBuff" description_key="VitaminsBuffDesc" tags="drug" icon="VitaminsIcon">
-		<stack_type value="ignore"/>
-		<duration value="14400"/>
-		<effect_group>
-			<passive_effect name="AttributeLevel" operation="base_add" value="1" tags="attStrength,attFortitude,attAgility"/>
-
-			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="buffPerkAbilityUpdate"/>
-			<triggered_effect trigger="onSelfBuffRemove" action="AddBuff" target="self" buff="buffPerkAbilityUpdate"/>
-
-			<passive_effect name="HealthChangeOT" operation="base_add" value="0.5"/>
-			<passive_effect name="StaminaChangeOT" operation="base_add" value="3"/>
-			<passive_effect name="WaterChangeOT" operation="base_subtract" value="0.0722"/>
-		</effect_group>
-	</buff>
-	
-	<!-- To Do Remove Tooltip from Localization
-	<buff id="Vitamins" duration="2400t" stack="discard" 
-	icon="VitaminsIcon" name_key="VitaminsBuff" description_key="VitaminsBuffDesc" tooltip_key="VitaminsBuffTooltip" causes="vitamins"/> -->
 
 
 <!-- ****************** Item Buffs ****************** -->
@@ -4360,20 +4237,20 @@ icon="ui_game_symbol_pack_mule"
 		</effect_group>
 
 		<effect_group>
-		<passive_effect name="EntityDamage" operation="perc_add" value="3">
-			<requirement name="HoldingItemHasTags" tags="perkBrawler"/>
-		</passive_effect>
+			<passive_effect name="EntityDamage" operation="perc_add" value="3">
+				<requirement name="HoldingItemHasTags" tags="perkBrawler"/>
+			</passive_effect>
 
-		<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.5">
-			<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
-		</passive_effect>
-		<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.35">
-			<requirement name="HasBuff" buff="buffHealWaterMax"/>
-		</passive_effect>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.5">
+				<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.35">
+				<requirement name="HasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
 
-		<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="0.3" effect_name="Drunk"/>
-		<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" effect_name="Drunk"/>
-		<passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffInjuryStunned01"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="0.3" effect_name="Drunk"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" effect_name="Drunk"/>
+			<passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffInjuryStunned01"/>
 
 			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffBeerDisplay" operation="set" value="0"/>
 			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffBeerDuration" operation="set" value="0"/>
@@ -4716,235 +4593,6 @@ icon="ui_game_symbol_pack_mule"
 		</effect_group>
 	</buff>
 
-<!-- WOTW Mod Start -->
-
-	<buff name="buffImmunizationShot" name_key="Immunization Shot" description_key="You are immune to infection" icon="ImmunizationShotIcon" tags="drug">
-		<stack_type value="duration"/>
-		<duration value="21600"/>
-		
-		<effect_group name="Cure Infection 0">
-			<requirement name="HasBuff" buff="buffIllInfection0"/>
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="40"/>
-				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffIllInfection0"/>
-		</effect_group>
-
-		<effect_group name="Cure Infection 1">
-			<requirement name="HasBuff" buff="buffIllInfection1"/>
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="30"/>
-				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffIllInfection1"/>
-		</effect_group>
-
-		<effect_group name="Cure Infection 2">
-			<requirement name="HasBuff" buff="buffIllInfection2"/>
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="25"/>
-				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffIllInfection2"/>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="buffIllInfection1"/>
-		</effect_group>
-
-		<effect_group name="Cure Infection 3">
-			<requirement name="HasBuff" buff="buffIllInfection3"/>
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="15"/>
-				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffIllInfection3"/>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="buffIllInfection2"/>
-		</effect_group>
-	</buff>
-	
-	<!-- <buff id="ImmunizationShot" duration="7200t" actions="increment(@wellness, 0.125, 100, 0, 0)" stack="extend"
-	icon="ImmunizationShotIcon" name_key="Immunization Shot" description_key="You are immune to infection" tooltip_key="You are immune to infection"/> -->
-	
-	<buff name="buffHotTeaClass" name_key="HotTeaClassBuff" description_key="HotTeaClassBuffDesc" icon="CoffeeStaminaBoostIcon" tags="drug">
-		<stack_type value="duration"/>
-		<duration value="300"/>
-		<effect_group>
-			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.15">
-				<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
-			</passive_effect>
-			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.05">
-				<requirement name="HasBuff" buff="buffHealWaterMax"/>
-			</passive_effect>
-			<passive_effect name="HypothermalResist" operation="base_add" value="3"/>
-		</effect_group>
-	</buff>
-	
-	<!-- <buff id="HotTeaClassBuff" duration="300" stack="extend" stacklimit="2" type="staminaup"
-	icon="CoffeeStaminaBoostIcon" name_key="HotTeaClassBuff" description_key="HotTeaClassBuffDesc" tooltip_key="HotTeaClassBuffTooltip" causes="blackberrytea,fruittea">
-	<modify id="0" stat="stamina" amount="3" rate="1"/>
-	<modify id="1" stat="wellness" amount="0.05" rate="12"/>
-	<modify id="2" stat="coretemp" modifyValue="10"/>
-	</buff> -->
-	
-	<!-- V6.0 To Do Custom Icon, Localization -->
-	<buff name="buffhotChocolate" name_key="hotChocolateBuff" description_key="hotChocolateBuffDesc" icon="CoffeeStaminaBoostIcon" tags="drug">
-		<stack_type value="duration"/>
-		<duration value="180"/>
-		<effect_group>
-			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.2">
-				<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
-			</passive_effect>
-			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.075">
-				<requirement name="HasBuff" buff="buffHealWaterMax"/>
-			</passive_effect>
-			<passive_effect name="HypothermalResist" operation="base_add" value="4"/>
-		</effect_group>
-	</buff>
-	
-	<!-- <buff id="hotChocolateBuff" duration="180" stack="extend" type="staminaup"
-		icon="CoffeeStaminaBoostIcon" name_key="hotChocolateBuff" description_key="hotChocolateBuffDesc" tooltip_key="hotChocolateBuffTooltip" causes="hotChocolate">
-		<modify id="1" stat="coretemp" modifyValue="10"/>
-	</buff> -->
-	
-	<buff name="buffstewWarming" name_key="stewWarming" description_key="stewWarmingDesc" icon="StewWarmingBuffIcon" tags="drug">
-		<stack_type value="duration"/>
-		<duration value="240"/>
-		<effect_group>
-			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.4">
-				<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
-			</passive_effect>
-			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.2">
-				<requirement name="HasBuff" buff="buffHealWaterMax"/>
-			</passive_effect>
-			<passive_effect name="HypothermalResist" operation="base_add" value="7"/>
-		</effect_group>
-	</buff>
-	
-	<!-- <buff id="stewWarming" duration="180" stack="extend" type="staminaup"
-		icon="StewWarmingBuffIcon" name_key="stewWarming" description_key="stewWarmingDesc" tooltip_key="stewWarmingTooltip" causes="meatStew,vegetableStew">
-		<modify id="1" stat="coretemp" modifyValue="10"/>
-	</buff> -->
-	
-	<buff name="buffPie" name_key="PieBuff" description_key="PieBuffDesc" icon="PieBuffIcon" tags="drug">
-		<stack_type value="duration"/>
-		<duration value="200"/>
-		<effect_group>
-			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.35">
-				<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
-			</passive_effect>
-			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.15">
-				<requirement name="HasBuff" buff="buffHealWaterMax"/>
-			</passive_effect>
-			<passive_effect name="HypothermalResist" operation="base_add" value="6"/>
-		</effect_group>
-	</buff>
-	
-	<!-- <buff id="PieBuff" duration="180" stack="extend" type="staminaup"
-		icon="PieBuffIcon" name_key="PieBuff" description_key="PieBuffDesc" tooltip_key="PieBuffTooltip" causes="ApplePie,blueberryPie">
-			<modify id="1" stat="coretemp" modifyValue="5"/>
-			<modify id="2" stat="stamina" amount="2" rate="1"/>
-	</buff> -->
-	
-	<buff name="buffColdBeer" name_key="ColdBeer" description_key="ColdBeerDesc" icon="coldBeerIcon" tags="drug">
-		<stack_type value="duration"/>
-		<duration value="180"/>
-		<effect_group>
-			<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-		</effect_group>
-	</buff>
-	
-	<!-- <buff id="ColdBeer" duration="180" stack="extend" type="staminaup"
-		icon="coldBeerIcon" name_key="ColdBeer" description_key="ColdBeerDesc" tooltip_key="ColdBeerTooltip" causes="beer">
-			<modify id="1" stat="coretemp" modifyValue="-5"/>
-	</buff> -->
-	
-	<buff name="buffMossyBrewBoost" name_key="MossyBrewBoost" description_key="MossyBrewBoostDesc" icon="MossyBrewIcon" tags="drug">
-		<stack_type value="duration"/>
-		<duration value="60"/>
-		<effect_group>
-			<passive_effect name="StaminaChangeOT" operation="base_add" value="2">
-				<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
-			</passive_effect>
-			<passive_effect name="StaminaChangeOT" operation="base_add" value="1">
-				<requirement name="HasBuff" buff="buffHealWaterMax"/>
-			</passive_effect>
-			<passive_effect name="RunSpeed" operation="perc_add" value="0.2"/>
-			<passive_effect name="WalkSpeed" operation="perc_add" value="0.25"/>
-		</effect_group>
-	</buff>
-	
-	<!-- <buff id="MossyBrewBoost" duration="60" stack="extend" type="staminaup"
-		icon="MossyBrewIcon" name_key="MossyBrewBoost" description_key="MossyBrewBoostDesc" tooltip_key="MossyBrewTooltip" causes="MossyBrew">
-			<modify id="0" stat="stamina" amount="2" rate="1"/>
-			<modify id="1" stat="health" amount=".5" rate="1"/>
-			<modify id="2" stat="speedmodifier" setValue="1.5"/>
-			<modify id="3" stat="water" amount="1" rate="5"/>
-	</buff> -->
-	
-	<buff name="buffMeatPieBoost" name_key="MeatPieBoost" description_key="MeatPieBoostDesc" icon="MeatPieBoostIcon" tags="drug">
-		<stack_type value="duration"/>
-		<duration value="60"/>
-		<effect_group>
-			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.35">
-				<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
-			</passive_effect>
-			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.15">
-				<requirement name="HasBuff" buff="buffHealWaterMax"/>
-			</passive_effect>
-			<passive_effect name="HealthChangeOT" operation="perc_add" value="0.35">
-				<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
-			</passive_effect>
-			<passive_effect name="HealthChangeOT" operation="perc_add" value="0.15">
-				<requirement name="HasBuff" buff="buffHealWaterMax"/>
-			</passive_effect>
-			<passive_effect name="HypothermalResist" operation="base_add" value="4"/>
-			<passive_effect name="HyperthermalResist" operation="base_add" value="4"/>
-		</effect_group>
-	</buff>
-	
-	<!-- <buff id="MeatPieBoost" duration="60" stack="extend" type="staminaup"
-		icon="MeatPieBoostIcon" name_key="MeatPieBoost" description_key="MeatPieBoostDesc" tooltip_key="MeatPieBoostTooltip" causes="MeatPie,RoastedMeatPie">
-			<modify id="0" stat="health" amount=".5" rate="1"/>
-			<modify id="1" stat="food" amount="1" rate="1"/>
-	</buff> -->
-	
-	<buff name="buffGreenTea" name_key="GreenTeaBuff" description_key="GreenTeaBuffDesc" icon="GreenTeaIcon" tags="drug">
-		<stack_type value="duration"/>
-		<duration value="120"/>
-		<effect_group>
-			<passive_effect name="StaminaGain" operation="base_add" value="40">
-				<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
-			</passive_effect>
-			<passive_effect name="StaminaGain" operation="base_add" value="20">
-				<requirement name="HasBuff" buff="buffHealWaterMax"/>
-			</passive_effect>
-			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.1">
-				<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
-			</passive_effect>
-			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.05">
-				<requirement name="HasBuff" buff="buffHealWaterMax"/>
-			</passive_effect>
-			<passive_effect name="HealthChangeOT" operation="perc_add" value="0.1">
-				<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
-			</passive_effect>
-			<passive_effect name="HealthChangeOT" operation="perc_add" value="0.05">
-				<requirement name="HasBuff" buff="buffHealWaterMax"/>
-			</passive_effect>
-			<passive_effect name="HypothermalResist" operation="base_add" value="1"/>
-			<passive_effect name="HyperthermalResist" operation="base_add" value="1"/>
-		</effect_group>
-	</buff>
-	
-	<!-- <buff id="GreenTea" duration="120" stack="extend" type="staminaup"
-		icon="GreenTeaIcon" name_key="GreenTeaBuff"  description_key="GreenTeaBuffDesc" tooltip_key="GreenTeaBuffTooltip" causes="GreenTea">
-			<modify id="0" stat="stamina" amount="1" rate="0.5"/>
-			<modify id="1" stat="coretemp" modifyValue="10"/>
-	</buff> -->
-	
-	<buff name="buffenergypill" name_key="energypillBuff" description_key="energypillBuffDesc" icon="energypillBuff" tags="drug">
-		<stack_type value="duration"/>
-		<duration value="240"/>
-		<effect_group>
-			<passive_effect name="StaminaChangeOT" operation="base_add" value="2">
-				<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
-			</passive_effect>
-			<passive_effect name="StaminaChangeOT" operation="base_add" value="1">
-				<requirement name="HasBuff" buff="buffHealWaterMax"/>
-			</passive_effect>
-		</effect_group>
-	</buff>
-	
-	<!-- <buff id="energypill" duration="240" stack="extend" type="staminaup"
-		icon="energypillBuff" name_key="energypillBuff"  description_key="energypillBuffDesc" tooltip_key="energypillBuffTooltip" causes="energypill">
-			<modify id="0" stat="stamina" amount="2" rate="1"/>
-	</buff> -->
 
 <!-- ****************** Player Action Buffs / Procs ****************** -->
 
@@ -5217,7 +4865,7 @@ icon="ui_game_symbol_pack_mule"
 <!-- ****************** Deprecated Buffs? (Needs review) ****************** -->
 
 	<buff name="buffArrowCriticalBleedout"><duration value=".1"/></buff>
-	
+
 	<buff name="buffToolMsg" name_key="buffToolMsgName" description_key="buffToolMsgDesc" tooltip_key="buffToolMsgTooltip" icon="ui_game_symbol_skull">
 		<duration value="10"/>
 		<effect_group>
@@ -5483,7 +5131,7 @@ Tags can be used to limit passive effects to certain (hit) locations, states, or
 		<passive_effect name="JumpStrength" operation="base_set" value="0.15" tags="running"/>
 
 	Hit location (see below)
-						  
+
 	Item tags:
 		With passives you can not simply check the tags of the weapon you are using.
 		<passive_effect name="RoundsPerMinute" tags="perkGunslinger" operation="perc_add" value="2,2" level="1,5"/>

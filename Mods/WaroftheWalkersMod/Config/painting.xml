@@ -1,0 +1,47 @@
+<config>
+
+<insertAfter xpath="/paints/paint[@id='74']">
+<paint id="76" name="txName_Fridge_stainless_bottom">
+	<property name="TextureId" value="246"/>
+	<property name="Group" value="txGroupDecoration"/>
+	<property name="PaintCost" value="1" />
+	<property name="Hidden" value="true" />
+</paint>
+
+<paint id="75" name="txName_Fridge_stainless">
+	<property name="TextureId" value="246"/>
+	<property name="Group" value="txGroupDecoration"/>
+	<property name="PaintCost" value="1" />
+	<property name="Hidden" value="true" />
+</paint>
+</insertAfter>
+
+<insertAfter xpath="/paints/paint[@id='100']">
+<paint id="103" name="txName_Painting02">
+	<property name="TextureId" value="335"/>
+	<property name="Group" value="txGroupFaux"/>
+	<property name="PaintCost" value="2" />
+</paint>
+
+<paint id="102" name="txName_Painting01_trim">
+	<property name="TextureId" value="335"/>
+	<property name="Group" value="txGroupDecoration"/>
+	<property name="PaintCost" value="1" />
+</paint>
+
+<paint id="101" name="txName_Painting01">
+	<property name="TextureId" value="335"/>
+	<property name="Group" value="txGroupFaux"/>
+	<property name="PaintCost" value="2" />
+</paint>
+</insertAfter>
+
+<insertAfter xpath="/paints/paint[@id='132']">
+<paint id="133" name="txName_Supply_crate"> <!-- shipping crate -->
+	<property name="TextureId" value="422"/>
+	<property name="Group" value="txGroupDecoration"/>
+	<property name="PaintCost" value="1" />
+</paint>
+</insertAfter>
+
+</config>

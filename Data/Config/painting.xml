@@ -490,20 +490,7 @@ Textures we might want for (terrain) imposters
 	<property name="PaintCost" value="1" />
 </paint>
 
-<!-- WOTW Mod -->
-<paint id="75" name="txName_Fridge_stainless">
-	<property name="TextureId" value="246"/>
-	<property name="Group" value="txGroupDecoration"/>
-	<property name="PaintCost" value="1" />
-	<property name="Hidden" value="true" />
-</paint>
-
-<paint id="76" name="txName_Fridge_stainless_bottom">
-	<property name="TextureId" value="246"/>
-	<property name="Group" value="txGroupDecoration"/>
-	<property name="PaintCost" value="1" />
-	<property name="Hidden" value="true" />
-</paint>
+<!-- free -->
 
 <paint id="77" name="txName_Fridge_stainless_side">
 	<property name="TextureId" value="267"/>
@@ -649,25 +636,6 @@ Textures we might want for (terrain) imposters
 	<property name="PaintCost" value="1" />
 </paint>
 
-<!-- WOTW Mod -->
-<paint id="101" name="txName_Painting01">
-	<property name="TextureId" value="335"/>
-	<property name="Group" value="txGroupFaux"/>
-	<property name="PaintCost" value="2" />
-</paint>
-
-<paint id="102" name="txName_Painting01_trim">
-	<property name="TextureId" value="335"/>
-	<property name="Group" value="txGroupDecoration"/>
-	<property name="PaintCost" value="1" />
-</paint>
-
-<!-- WOTW Mod -->
-<paint id="103" name="txName_Painting02">
-	<property name="TextureId" value="335"/>
-	<property name="Group" value="txGroupFaux"/>
-	<property name="PaintCost" value="2" />
-</paint>
 <!-- free -->
 
 <paint id="104" name="txName_trash_compactor">
@@ -845,12 +813,6 @@ Textures we might want for (terrain) imposters
 </paint>
 <!-- 133 free -->
 
-<!-- WOTW Mod -->
-<paint id="133" name="txName_Supply_crate"> <!-- shipping crate -->
-	<property name="TextureId" value="422"/>
-	<property name="Group" value="txGroupDecoration"/>
-	<property name="PaintCost" value="1" />
-</paint>
 <paint id="134" name="txName_Tile_floor6">
 	<property name="TextureId" value="589"/>
 	<property name="Group" value="txGroupWallCovering"/>
