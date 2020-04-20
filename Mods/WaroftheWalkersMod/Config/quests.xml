@@ -2742,6 +2742,7 @@
 			<requirement type="Holding" id="gunPumpShotgun" />
 			<requirement type="Holding" id="BarettaShotgun" />
 			<requirement type="Holding" id="gunBlunderbuss" />
+			<requirement type="Holding" id="gunDoubleBarrelShotgun" />
 		</requirement>
 		<reward type="Exp" value="10000" />
 		<reward type="Quest" id="classtrainingmarksman4" />
