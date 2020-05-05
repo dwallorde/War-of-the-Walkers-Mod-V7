@@ -333,7 +333,7 @@
 
 
 <!--	//SMX // Empty Info Window -->
-
+<!--
 		<remove xpath="/windows/window[@name='emptyInfoPanel']" />
 
 		<append xpath="/windows">
@@ -368,7 +368,7 @@
 			</window>
 		</append>
 
-
+-->
 <!--	// SMX // Item Info Window -->
 
 		<remove xpath="/windows/window[@name='itemInfoPanel']" />
