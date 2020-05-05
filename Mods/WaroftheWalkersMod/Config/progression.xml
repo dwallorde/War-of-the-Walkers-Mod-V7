@@ -288,7 +288,7 @@
 		</effect_group>
 		
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="csPistolGuns"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="csPistolGuns"/>
 		</effect_group>
 		<!-- For gunPistol, gun44Magnum and DesertEagle -->
 	</perk>
@@ -319,7 +319,7 @@
 		</effect_group>
 		
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="csShotgunGuns"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="csShotgunGuns"/>
 		</effect_group>
 		<!-- For gunBlunderbuss,blunderbussDoubleBarrel,gunPumpShotgun,gunDoubleBarrelShotgun,BarettaShotgun -->
 	</perk>
@@ -350,7 +350,7 @@
 		</effect_group>
 		
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="csRifleGuns"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="csRifleGuns"/>
 		</effect_group>
 		<!-- For gunSMG5,gunHuntingRifle,gunMR10,gunAK47,gunRocketLauncher,Remington8,FAMAS,M25SniperRifle -->
 	</perk>
@@ -381,7 +381,7 @@
 		</effect_group>
 		
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="csBowWeapons"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="csBowWeapons"/>
 		</effect_group>
 		<!-- For gunBowPrimitive,gunBowWooden,gunBowCompound,gunCrossbowIron,gunCrossbowCompound -->
 	</perk>
@@ -497,7 +497,7 @@
 		</effect_group>
 		
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="csBluntWeapons"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="csBluntWeapons"/>
 		</effect_group>
 		<!-- For meleeClubWood,meleeClubCandy,meleeClubIron,meleeThrownSpearStone,meleeThrownSpearIron,meleeThrownSpearSteel,spearTungsten,meleeToolSledgehammerStone,meleeToolSledgehammerIron,meleeToolSledgehammerSteel,sledgehammerTungsten,meleeClubBaseballBat,batBaseballSteel,hammerBattle,maceBattle,pipeIron,ClubTungsten -->
 	</perk>
@@ -530,7 +530,7 @@
 		</effect_group>
 		
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="csBladeWeapons"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="csBladeWeapons"/>
 		</effect_group>
 		<!-- For meleeToolKnifeBone,meleeToolKnifeCandy,meleeToolKnifeIron,meleeToolKnifeMachete,SteelMachete,TungstenMachete,GoldTippedMachete,steelHuntingKnife,tungstenHuntingKnife,GoldTippedKnife,cleaver,knifeKitchen,knifeCombat,sword,axeBattle,skullAxeBattle,swordBattle,shivPrisoner -->
 	</perk>
@@ -592,7 +592,7 @@
 		</effect_group>
 		
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="csFabricArmor"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="csFabricArmor"/>
 		</effect_group>
 		<!-- For armorClothHat,armorSantaHat,armorClothJacket,armorClothGloves,armorClothPants,armorClothBoots,armorLeatherHood,armorLeatherChest,armorLeatherGloves,armorLeatherPants,armorLeatherBoots,armorMilitaryHelmet,armorMilitaryVest,armorMilitaryGloves,armorMilitaryLegs,armorMilitaryBoots,plantFiberPants,plantFiberShirt,plantFiberHood,plantFiberShoes,plantFiberGloves,plantFiberHat,hazmatBoots,hazmatPants,hazmatShirt,hazmatGloves,hazmatMask,cowboyHat,ballCap,LightCoat,FaceMask,FlannelPants,snuggie,KevlarBoots,KevlarGloves,KevlarLegArmor,KevlarVest,KevlarHelmet -->
 	</perk>
@@ -621,7 +621,7 @@
 		</effect_group>
 		
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="csMetalArmor"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="csMetalArmor"/>
 		</effect_group>
 		<!-- For armorScrapHelmet,armorScrapChest,armorScrapGloves,armorScrapLegs,armorScrapBoots,armorIronHelmet,armorIronChest,armorIronGloves,armorIronLegs,armorIronBoots,armorSteelHelmet,armorSteelChest,armorSteelGloves,armorSteelLegs,armorSteelBoots,armorMiningHelmet,TungstenBoots,TungstenLegArmor,TungstenChestArmor,TungstenHelmet,TungstenGloves,silverBoots,silverPants,silverJacket,silverHat,silverGloves -->
 	</perk>
@@ -680,7 +680,7 @@
 			<effect_description level="5" desc_key="craftSkillStoneScrapIronToolsRank5Desc"/>
 		</effect_group>
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="csStoneScrapITools"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="csStoneScrapITools"/>
 		</effect_group>
 		<!-- For meleeToolStoneAxe,meleeToolShovelStone,meleeToolSledgehammerStone,stonePickaxe,ScrapIronAxe,ScrapIronPickaxe,ScrapIronShovel,stoneHammer,scrapIronHammer -->
 	</perk>
@@ -712,7 +712,7 @@
 		</effect_group>
 		
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="csIronTools,csSteelTools"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="csIronTools,csSteelTools"/>
 		</effect_group>
 		<!-- For meleeToolClawHammer,meleeToolPickaxeIron,meleeToolShovelIron,meleeToolFireaxeIron,gunToolNailgun,handWeeder,meleeToolShovelSteel,meleeToolFireaxeSteel,meleeToolPickaxeSteel,axeIce,sickleSteel,steelClawHammer,screwdriver,crowbarSteel -->
 	</perk>
@@ -775,7 +775,7 @@
 		</effect_group>
 		
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="csTungstenDiamondTools"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="csTungstenDiamondTools"/>
 		</effect_group>
 		<!-- For PickaxeTungsten,FireaxeTungsten,ShovelTungsten,PickaxeDiamondTipped,FireaxeDiamondTipped,shovelDiamondTipped,HDNailgun,crowbarTungsten -->
 	</perk>
@@ -806,7 +806,7 @@
 		</effect_group>
 		
 		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="csMechanic"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="csMechanic"/>
 		</effect_group>
 		<!-- For meleeToolWrench,meleeToolChainsaw,meleeToolAuger,vehicleMinibikePlaceable,carBattery,scrapIronWrench,HDWrench,tungstenWrench,vehicleBicyclePlaceable,vehicleMotorcyclePlaceable,vehicle4x4TruckPlaceable,vehicleGyrocopterPlaceable,ECOBattery,HDBattery,ECOMinibikePlaceable,HDMinibikePlaceable,ECOAuger,HDAuger,ECOChainsaw,HDChainsaw,ECO4x4TruckPlaceable,ECOMotorcyclePlaceable,HD4x4TruckPlaceable,HDMotorcyclePlaceable -->
 	</perk>
