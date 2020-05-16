@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Servers>
+	<ServerGroup Name="War of the Walkers" Logo="" Description="War of the Walkers">
+			<Server Name="War of the Walkers v7 Beta" Logo="">
+			<Description>The War of the Walkers 7.x - Stable Branch
+			</Description>
+			<Version/>
+			<DownloadMode>Clone</DownloadMode>
+			<ReleaseNotes>https://7daystodie.com/forums/showthread.php?53190-War-of-the-Walkers-Mod-(Overhaul)</ReleaseNotes>
+			<Downloads>
+				<Download>https://github.com/dwallorde/War-of-the-Walkers-Mod-V7/archive/master.zip</Download>
+			</Downloads>
+		</Server>
+		<Server Name="War of the Walkers v7 Exp" Logo="">
+			<Description>The War of the Walkers 7.x - Experimental
+			</Description>
+			<Version/>
+			<DownloadMode>Clone</DownloadMode>
+			<ReleaseNotes>https://7daystodie.com/forums/showthread.php?53190-War-of-the-Walkers-Mod-(Overhaul)</ReleaseNotes>
+			<Downloads>
+				<Download>https://gitlab.com/dwallorde/war-of-the-walkers-mod-v7-exp/-/archive/master/war-of-the-walkers-mod-v7-exp-master.zip</Download>
+			</Downloads>
+		</Server>
+	</ServerGroup>
+</Servers>
