@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Servers>
-	<ServerGroup Name="War of the Walkers" Logo="" Description="War of the Walkers">
-			<Server Name="War of the Walkers v7 Stable" Logo="">
+	<ServerGroup Name="War of the Walkers" Logo="https://gitlab.com/dwallorde/war-of-the-walkers-mod-v7-exp/-/raw/master/Mods/WaroftheWalkersMod/UIAtlases/logo/wotw_logo.png" Description="War of the Walkers">
+			<Server Name="War of the Walkers v7 Stable" Logo="https://gitlab.com/dwallorde/war-of-the-walkers-mod-v7-exp/-/raw/master/Mods/WaroftheWalkersMod/UIAtlases/logo/wotw_logo.png">
 			<Description>The War of the Walkers 7.x - Stable Branch
 			Latest Stable Version of the War of the Walkers Mod.  Release Notes Link will take you to the official discord for the mod.
 			For those who would like to donate here is the link: https://www.paypal.me/dwallorde
